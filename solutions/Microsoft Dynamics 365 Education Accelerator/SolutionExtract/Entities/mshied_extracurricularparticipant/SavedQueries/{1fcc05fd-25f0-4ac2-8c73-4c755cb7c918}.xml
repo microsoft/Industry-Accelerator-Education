@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{1fcc05fd-25f0-4ac2-8c73-4c755cb7c918}</savedqueryid>
+    <layoutxml>
+      <grid name="" jump="mshied_name" select="1" icon="1" preview="1">
+        <row name="mshied_extracurricularparticipant" id="mshied_extracurricularparticipantid">
+          <cell name="mshied_name" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="mshied_contactid" width="100" />
+          <cell name="mshied_extracurricularactivityid" width="100" />
+          <cell name="mshied_startdate" width="100" />
+          <cell name="mshied_enddate" width="100" />
+          <cell name="mshied_state" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>2</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="mshied_extracurricularparticipant">
+          <attribute name="mshied_extracurricularparticipantid" />
+          <attribute name="mshied_name" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="mshied_contactid" />
+          <attribute name="mshied_state" />
+          <attribute name="mshied_startdate" />
+          <attribute name="mshied_extracurricularactivityid" />
+          <attribute name="mshied_enddate" />
+          <order attribute="mshied_name" descending="false" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Extra Curricular Participant Associated View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

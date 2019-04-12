@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{ff4ac277-f974-4c5b-b8de-ce7087ae6b47}</savedqueryid>
+    <layoutxml>
+      <grid name="" jump="mshied_name" select="1" icon="1" preview="1">
+        <row name="mshied_coursehistory" id="mshied_coursehistoryid">
+          <cell name="mshied_name" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="mshied_academicperioddetailsid" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="mshied_courseid" width="100" />
+          <cell name="mshied_coursesectionid" width="100" />
+          <cell name="mshied_registrationstatusid" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="mshied_continuingeducation" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="mshied_creditsattempted" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="mshied_creditsearrned" width="100" />
+          <cell name="mshied_midtermlettergrade" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="mshied_gradepoints" width="100" />
+          <cell name="mshied_lettergrade" width="100" />
+          <cell name="mshied_lastdateofattendance" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>2</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="mshied_coursehistory">
+          <attribute name="mshied_name" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="mshied_registrationstatusid" />
+          <attribute name="mshied_coursesectionid" />
+          <attribute name="mshied_courseid" />
+          <attribute name="mshied_academicperioddetailsid" />
+          <order attribute="mshied_name" descending="false" />
+          <attribute name="mshied_midtermlettergrade" />
+          <attribute name="mshied_lettergrade" />
+          <attribute name="mshied_lastdateofattendance" />
+          <attribute name="mshied_gradepoints" />
+          <attribute name="mshied_creditsearrned" />
+          <attribute name="mshied_creditsattempted" />
+          <attribute name="mshied_continuingeducation" />
+          <attribute name="mshied_coursehistoryid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Course History Associated View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

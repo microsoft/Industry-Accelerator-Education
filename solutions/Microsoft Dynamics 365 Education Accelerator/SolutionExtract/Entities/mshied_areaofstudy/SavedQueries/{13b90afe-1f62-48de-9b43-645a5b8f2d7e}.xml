@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{13b90afe-1f62-48de-9b43-645a5b8f2d7e}</savedqueryid>
+    <layoutxml>
+      <grid name="" jump="mshied_name" select="1" icon="1" preview="1">
+        <row name="mshied_areaofstudy" id="mshied_areaofstudyid">
+          <cell name="mshied_name" width="300" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="mshied_programtypeid" width="100" />
+          <cell name="mshied_requiredcredits" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="mshied_minimumrequiredgpa" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>2</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="mshied_areaofstudy">
+          <attribute name="mshied_name" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="mshied_requiredcredits" />
+          <attribute name="mshied_programtypeid" />
+          <order attribute="mshied_name" descending="false" />
+          <attribute name="mshied_minimumrequiredgpa" />
+          <attribute name="mshied_areaofstudyid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Area of Study Associated View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

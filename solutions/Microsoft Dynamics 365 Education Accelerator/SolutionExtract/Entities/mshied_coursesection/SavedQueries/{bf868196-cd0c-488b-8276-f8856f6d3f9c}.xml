@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{bf868196-cd0c-488b-8276-f8856f6d3f9c}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="mshied_name" select="1" icon="1" preview="1">
+        <row name="result" id="mshied_coursesectionid">
+          <cell name="mshied_name" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="mshied_academicperiodid" width="100" />
+          <cell name="mshied_campusid" width="100" />
+          <cell name="mshied_courseid" width="100" />
+          <cell name="mshied_coursedaytime" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>1</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="mshied_coursesection">
+          <attribute name="mshied_name" />
+          <attribute name="mshied_coursedaytime" />
+          <attribute name="mshied_courseid" />
+          <attribute name="mshied_campusid" />
+          <attribute name="mshied_academicperiodid" />
+          <order attribute="mshied_name" descending="false" />
+          <attribute name="mshied_coursesectionid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.5</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Course Section Advanced Find View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

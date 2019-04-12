@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{94eb2483-d7d5-41ec-af86-9b36d42c7fca}</savedqueryid>
+    <layoutxml>
+      <grid name="" jump="mshied_name" select="1" icon="1" preview="0">
+        <row name="mshied_academicperioddetails" id="mshied_academicperioddetailsid">
+          <cell name="mshied_name" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="mshied_academicperiodid" width="100" />
+          <cell name="mshied_studentid" width="100" />
+          <cell name="mshied_attendancetype" width="100" />
+          <cell name="mshied_educationlevelid" width="100" />
+          <cell name="mshied_programid" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>64</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="mshied_academicperioddetails">
+          <attribute name="mshied_academicperioddetailsid" />
+          <attribute name="mshied_name" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="mshied_studentid" />
+          <attribute name="mshied_programid" />
+          <attribute name="mshied_educationlevelid" />
+          <attribute name="mshied_attendancetype" />
+          <attribute name="mshied_academicperiodid" />
+          <order attribute="mshied_name" descending="false" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Academic Period Detail Lookup View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

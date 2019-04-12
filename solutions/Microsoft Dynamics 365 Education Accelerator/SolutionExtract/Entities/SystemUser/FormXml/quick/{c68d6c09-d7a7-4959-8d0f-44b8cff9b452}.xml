@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform unmodified="1">
+    <formid>{c68d6c09-d7a7-4959-8d0f-44b8cff9b452}</formid>
+    <IntroducedVersion>7.0.0.0</IntroducedVersion>
+    <FormPresentation>0</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab name="hierarchy" verticallayout="true" id="{d640b553-6ac7-423f-aa98-a8e0dcfc3a60}" IsUserDefined="0">
+          <labels>
+            <label description="Hierarchy" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="user tile" showlabel="false" showbar="false" id="{33a0de27-73e6-481a-8ed0-e7bf3aeedd82}" IsUserDefined="0">
+                  <labels>
+                    <label description="Information" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{9be3633a-77a7-4ef3-a21a-411cd4364902}">
+                        <labels>
+                          <label description="Title" languagecode="1033" />
+                        </labels>
+                        <control id="title" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="title" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a2324ce1-becb-447b-97ca-f9b328c9947b}">
+                        <labels>
+                          <label description="Business Unit" languagecode="1033" />
+                        </labels>
+                        <control id="businessunitid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="businessunitid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8b2b1a1c-4b7e-4641-9409-ff820b0c52e9}">
+                        <labels>
+                          <label description="Primary Email" languagecode="1033" />
+                        </labels>
+                        <control id="internalemailaddress" classid="{ADA2203E-B4CD-49be-9DDF-234642B43B52}" datafieldname="internalemailaddress" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a8ab6818-931a-4846-8fef-4d0aabdb55f3}">
+                        <labels>
+                          <label description="Mobile Phone" languagecode="1033" />
+                        </labels>
+                        <control id="mobilephone" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="mobilephone" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{182fa81c-33b2-4052-b176-25c0447382a3}">
+                        <labels>
+                          <label description="Full Name" languagecode="1033" />
+                        </labels>
+                        <control id="fullname" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="fullname" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="User Hierarchy Tile Form" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="This is the user hierarchy definition." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>
