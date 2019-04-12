@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SiteMap>
+  <SiteMap IntroducedVersion="7.0.0.0">
+    <Area Id="SFA" ResourceId="Area_Sales" DescriptionResourceId="Sales_Description" Icon="/_imgs/sales_24x24.gif" ShowGroups="true" IntroducedVersion="7.0.0.0" ordinalvalue="1" solutionaction="Modified" />
+    <Area Id="CS" ResourceId="Area_Service" DescriptionResourceId="Customer_Service_Description" Icon="/_imgs/services_24x24.gif" ShowGroups="true" IntroducedVersion="7.0.0.0" ordinalvalue="3" solutionaction="Modified" />
+    <Area Id="Settings" ResourceId="Area_Settings" ShowGroups="true" Icon="/_imgs/settings_24x24.gif" ToolTipResourseId="Settings_Area_ToolTip" DescriptionResourceId="Settings_Area_Description" IntroducedVersion="7.0.0.0" ordinalvalue="4" solutionaction="Modified" />
+    <Area Id="HLP" ResourceId="Area_Help" ShowGroups="true" Icon="/_imgs/icn_help16.png" DescriptionResourceId="Help_Area_Description" IntroducedVersion="7.0.0.0" ordinalvalue="5" solutionaction="Modified" />
+    <Area Id="HigherEducation" Icon="$webresource:mshied_Graduate" VectorIcon="$webresource:mshied_HigherEducationApp" Description="Higher Education" Title="Higher Education" ShowGroups="true" ordinalvalue="0" solutionaction="Added">
+      <Group Id="General" Description="General" Title="General" IsProfile="false" ordinalvalue="0">
+        <SubArea Entity="account" Id="CollegesandUniversities" Description="Colleges/Universities" Title="Colleges/Universities" AvailableOffline="false" PassParams="false" ordinalvalue="0" />
+        <SubArea Id="Campuses" Url="/_root/homepage.aspx?etn=account&amp;viewid=%7bA90D28C6-94CC-E811-A96B-000D3A1C5716%7d" Description="Campuses" Title="Campuses" AvailableOffline="false" PassParams="false" ordinalvalue="1" />
+        <SubArea Entity="contact" Id="Students" Url="/_root/homepage.aspx?etn=contact&amp;viewid=%7bAE88AF10-95CC-E811-A96B-000D3A1C5716%7d" Description="Students" Title="Students" AvailableOffline="false" PassParams="false" ordinalvalue="2" />
+        <SubArea Entity="contact" Id="DonorsandAlumni" Url="/_root/homepage.aspx?etn=contact&amp;viewid=%7b1CB85C29-95CC-E811-A96B-000D3A1C5716%7d" Description="Donors and Alumni" Title="Donors and Alumni" AvailableOffline="false" PassParams="false" ordinalvalue="3" />
+        <SubArea Entity="contact" Id="Faculty" Url="/_root/homepage.aspx?etn=contact&amp;viewid=%7bBF399CF9-24CE-E811-A967-000D3A1C53E4%7d" Description="Faculty" Title="Faculty" AvailableOffline="false" PassParams="false" ordinalvalue="4" />
+        <SubArea GetStartedPanePath="Dashboards_Web_User_Visor.html" GetStartedPanePathAdmin="Dashboards_Web_Admin_Visor.html" GetStartedPanePathAdminOutlook="Dashboards_Outlook_Admin_Visor.html" GetStartedPanePathOutlook="Dashboards_Outlook_User_Visor.html" Icon="/_imgs/area/18_home.gif" Id="nav_dashboards" Url="/workplace/home_dashboards.aspx" ResourceId="Homepage_Dashboards" DescriptionResourceId="Dashboards_Description" DefaultDashboard="2701de60-8f2a-48a4-8262-4a35ca7441fa" AvailableOffline="false" PassParams="false" ordinalvalue="5" />
+      </Group>
+      <Group Id="StudentDetails" Description="Student Details" Title="Student Details" IsProfile="false" ordinalvalue="1">
+        <SubArea Entity="mshied_extracurricularactivities" Id="ExtraCurricularActivities" Description="Extra Curricular Activities" AvailableOffline="false" PassParams="false" ordinalvalue="0" />
+        <SubArea Entity="mshied_extracurricularparticipant" Id="ExtraCurricularParticipants" Description="Extra Curricular Participants" AvailableOffline="false" PassParams="false" ordinalvalue="1" />
+        <SubArea Entity="mshied_previouseducation" Id="PreviousEducation" Description="Previous Education" AvailableOffline="false" PassParams="false" ordinalvalue="2" />
+        <SubArea Entity="mshied_studentprogramtype" Id="StudentProgramType" Description="Student Program Type" AvailableOffline="false" PassParams="false" ordinalvalue="3" />
+        <SubArea Entity="mshied_studentstatus" Id="StudentStatus" Description="Student Status" AvailableOffline="false" PassParams="false" ordinalvalue="4" />
+        <SubArea Entity="mshied_testscore" Id="TestScore" Description="Test Score" AvailableOffline="false" PassParams="false" ordinalvalue="5" />
+      </Group>
+      <Group Id="CourseDetails" Description="Course Details" Title="Course Details" IsProfile="false" ordinalvalue="2">
+        <SubArea Entity="mshied_course" Id="Course" Description="Course" Title="Course" AvailableOffline="false" PassParams="false" Client="All" ordinalvalue="0" />
+        <SubArea Entity="mshied_coursehistory" Id="CourseHistory" Description="Course History" Title="Course History" AvailableOffline="false" PassParams="false" ordinalvalue="1" />
+        <SubArea Entity="mshied_coursesection" Id="CourseSection" Description="Course Section" Title="Course Section" AvailableOffline="false" PassParams="false" ordinalvalue="2" />
+        <SubArea Entity="mshied_academicperiod" Id="AcademicPeriod" Title="Academic Period" AvailableOffline="false" PassParams="false" ordinalvalue="3" />
+        <SubArea Entity="mshied_academicperioddetails" Id="AcademicPeriodDetail" Description="Academic Period Detail" AvailableOffline="false" PassParams="false" ordinalvalue="4" />
+      </Group>
+      <Group Id="ProgramDetails" Description="Program Details" Title="Program Details" IsProfile="false" ordinalvalue="3">
+        <SubArea Entity="mshied_program" Id="Program" Description="Program" AvailableOffline="false" PassParams="false" ordinalvalue="0" />
+        <SubArea Entity="mshied_programlevel" Id="ProgramLevel" Description="Program Level" AvailableOffline="false" PassParams="false" ordinalvalue="1" />
+        <SubArea Entity="mshied_programversion" Id="ProgramVersion" Description="Program Version" AvailableOffline="false" PassParams="false" ordinalvalue="2" />
+        <SubArea Entity="mshied_programversiondetail" Id="ProgramVersionDetail" Description="Program Version Detail" AvailableOffline="false" PassParams="false" ordinalvalue="3" />
+      </Group>
+      <Group Id="Administration" Description="Administration" Title="Administration" IsProfile="false" ordinalvalue="4">
+        <SubArea Entity="mshied_educationlevel" Id="EducationLevel" Description="Education Level" Title="Education Level" AvailableOffline="false" PassParams="false" ordinalvalue="0" />
+        <SubArea Entity="mshied_registrationstatus" Id="RegistrationStatus" Description="Registration Status" Title="Registration Status" AvailableOffline="false" PassParams="false" ordinalvalue="1" />
+        <SubArea Entity="mshied_testtype" Id="TestType" Description="Test Type" Title="Test Type" AvailableOffline="false" PassParams="false" ordinalvalue="2" />
+        <SubArea Entity="mshied_areaofinterest" Id="AreaofInterest" Description="Area of Interest" AvailableOffline="false" PassParams="false" ordinalvalue="3" />
+        <SubArea Entity="mshied_areaofstudy" Id="AreaofStudy" Description="Area of Study" AvailableOffline="false" PassParams="false" ordinalvalue="4" />
+      </Group>
+    </Area>
+  </SiteMap>
+</SiteMap>

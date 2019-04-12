@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{79922183-1185-4724-bde6-ed30ba813291}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="mshied_name" select="1" icon="1" preview="1">
+        <row name="result" id="mshied_programversionid">
+          <cell name="mshied_name" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="mshied_programid" width="100" />
+          <cell name="mshied_code" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>1</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="mshied_programversion">
+          <attribute name="mshied_programversionid" />
+          <attribute name="mshied_name" />
+          <attribute name="mshied_programid" />
+          <attribute name="mshied_code" />
+          <order attribute="mshied_name" descending="false" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Program Version Advanced Find View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{ed5184a4-49d1-41b1-8f73-3d1a2aa79022}</savedqueryid>
+    <layoutxml>
+      <grid name="" jump="mshied_name" select="1" icon="1" preview="1">
+        <row name="mshied_course" id="mshied_courseid">
+          <cell name="mshied_name" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="mshied_academiclevel" width="100" />
+          <cell name="mshied_coursenumber" width="100" />
+          <cell name="mshied_startdate" width="100" />
+          <cell name="mshied_enddate" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>2</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="mshied_course">
+          <attribute name="mshied_courseid" />
+          <attribute name="mshied_name" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="mshied_startdate" />
+          <attribute name="mshied_enddate" />
+          <attribute name="mshied_coursenumber" />
+          <attribute name="mshied_academiclevel" />
+          <order attribute="mshied_name" descending="false" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Course Associated View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

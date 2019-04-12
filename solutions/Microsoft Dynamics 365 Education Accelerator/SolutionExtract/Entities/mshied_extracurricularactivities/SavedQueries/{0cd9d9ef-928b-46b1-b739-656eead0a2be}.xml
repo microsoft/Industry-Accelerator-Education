@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{0cd9d9ef-928b-46b1-b739-656eead0a2be}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="mshied_name" select="1" icon="1" preview="1">
+        <row name="result" id="mshied_extracurricularactivitiesid">
+          <cell name="mshied_name" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="mshied_primarycontactid" width="100" />
+          <cell name="mshied_primarypurpose" width="100" />
+          <cell name="mshied_schoolid" width="100" />
+          <cell name="mshied_code" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>1</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="mshied_extracurricularactivities">
+          <attribute name="mshied_extracurricularactivitiesid" />
+          <attribute name="mshied_name" />
+          <attribute name="mshied_schoolid" />
+          <attribute name="mshied_primarypurpose" />
+          <attribute name="mshied_primarycontactid" />
+          <attribute name="mshied_code" />
+          <order attribute="mshied_name" descending="false" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Extra Curricular Activity Advanced Find View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

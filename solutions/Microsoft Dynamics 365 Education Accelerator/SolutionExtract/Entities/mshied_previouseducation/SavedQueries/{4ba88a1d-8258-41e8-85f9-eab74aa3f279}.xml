@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{4ba88a1d-8258-41e8-85f9-eab74aa3f279}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="mshied_name" select="1" icon="1" preview="1">
+        <row name="result" id="mshied_previouseducationid">
+          <cell name="mshied_name" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="mshied_studentid" width="100" />
+          <cell name="mshied_educationlevelid" width="100" />
+          <cell name="mshied_major" width="100" />
+          <cell name="mshied_schoolnameid" width="100" />
+          <cell name="mshied_degreeid_" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="mshied_previouseducation">
+          <attribute name="mshied_name" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="1" />
+          </filter>
+          <attribute name="mshied_studentid" />
+          <attribute name="mshied_schoolnameid" />
+          <attribute name="mshied_major" />
+          <attribute name="mshied_educationlevelid" />
+          <order attribute="mshied_name" descending="false" />
+          <attribute name="mshied_degreeid_" />
+          <attribute name="mshied_previouseducationid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Inactive Previous Education" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>
