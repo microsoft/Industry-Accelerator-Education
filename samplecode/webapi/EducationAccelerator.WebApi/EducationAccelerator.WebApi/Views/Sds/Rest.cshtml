@@ -1,0 +1,13 @@
+﻿<!-- Copyright (c) Microsoft Corporation. All rights reserved. Licensed under the MIT license. -->
+<!-- See LICENSE in the project root for license information -->
+
+@{
+    ViewData["Title"] = "REST Sync";
+}
+<h2>@ViewData["Title"]</h2>
+<h3>@ViewData["Message"]</h3>
+
+@if ((string)ViewData["Result"] != "failed")
+{
+    <p>Your REST sync profile has been set up.  You should see school data objects populated on your tenant soon.</p>
+}
