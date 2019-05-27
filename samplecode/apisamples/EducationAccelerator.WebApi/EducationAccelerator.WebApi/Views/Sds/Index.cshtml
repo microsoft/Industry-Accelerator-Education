@@ -1,0 +1,39 @@
+﻿<!-- Copyright (c) Microsoft Corporation. All rights reserved. Licensed under the MIT license. -->
+<!-- See LICENSE in the project root for license information -->
+
+@{
+    ViewData["Title"] = "Sync Via SDS";
+}
+<h2>@ViewData["Title"]</h2>
+
+@if (User.Identity.IsAuthenticated)
+{
+    <div class="row">
+        <div class="col-md-6">
+            <form action="/sds/rest">
+                <div class="form-group">
+                    <label for="resturl">OneRoster endpoint</label>
+                    <input type="text" name="resturl" id="resturl" value="@ViewData["url"]" class="form-control"/>
+                </div>
+                <button type="submit">Sync Via OneRoster REST</button>
+            </form>
+        </div>
+        <div class="col-md-6">
+            <form action="/sds/csv" method="post" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label for="files">SDS CSV Files</label>
+                    <input type="file" name="files" id="files" multiple />
+                </div>
+                <button type="submit">Sync Via SDS CSV</button>
+            </form>
+        </div>
+    </div>
+}
+else
+{
+    <div class="row">
+        <div class="col-md-12">
+            You must sign in with Azure to create SDS Sync Profiles
+        </div>
+    </div>
+}
