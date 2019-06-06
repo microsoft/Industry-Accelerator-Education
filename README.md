@@ -28,7 +28,7 @@ Click "release" tab on the top or click this [link](https://github.com/microsoft
 | Industry Accelerators | Description |
 |-------------|----------------------|
 | [Health Accelerator](https://github.com/Microsoft/Industry-Accelerator-Health) |  Rapidly develop healthcare solutions using FHIR entities such as patient, condition, and care plan. The Microsoft Health Accelerator enables partners and customers to create new use cases and workflows using a FHIR-based data model. Get more details from [Dynamics 365 ISV Success community](https://community.dynamics.com/365/b/dynamics365isvsuccess)|
-| [Higher Education Accelerator](https://github.com/Microsoft/Industry-Accelerator-Education) |  Rapidly build solutions for Higher Education using entities such as student, course, and test scores.  Get more details from [Dynamics 365 ISV Success community](https://community.dynamics.com/365/b/dynamics365isvsuccess)|
+| [Nonprofit Accelerator](https://github.com/Microsoft/Industry-Accelerator-Nonprofit) |  Rapidly develop nonprofit fundraising, grant/award and program/results management solutions.The Microsoft Nonprofit Accelerator enables partners and customers to create new integrated use cases and workflows across the funding to outcomes cycle. Get more details from [Dynamics 365 ISV Success community](https://community.dynamics.com/365/b/dynamics365isvsuccess)
 
 ## Contributing
 
