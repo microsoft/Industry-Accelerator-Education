@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModuleSiteMap>
+  <SiteMapUniqueName>mshied_HigherEd</SiteMapUniqueName>
+  <SiteMap IntroducedVersion="7.0.0.0">
+    <Area Id="NewArea_aa439169" Icon="/WebResources/msdyn_/Images/Area_Default_Icon.png" VectorIcon="$webresource:mshied_HigherEdIconforUI2" ResourceId="SitemapDesigner.NewArea" ShowGroups="false">
+      <Titles>
+        <Title LCID="1033" Title="Higher Education" />
+      </Titles>
+      <Group Id="NewGroup_bef7354c" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="General" />
+        </Titles>
+        <SubArea Id="NewSubArea_f987912b" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="account" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Account" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="NewSubArea_2968e126" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="contact" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Contact" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="NewSubArea_a5012c05" ResourceId="Homepage_Dashboards" DescriptionResourceId="Dashboards_Description" Icon="/_imgs/imagestrips/transparent_spacer.gif" Url="/workplace/home_dashboards.aspx" DefaultDashboard="ee50a18b-3f88-df11-8d93-00155db1891a" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" ToolTipResourseId="Dashboards_ToolTip">
+          <Titles>
+            <Title LCID="1033" Title="Sample Dashboard" />
+          </Titles>
+        </SubArea>
+      </Group>
+      <Group Id="NewGroup_972e538b" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Details" />
+        </Titles>
+        <SubArea Id="NewSubArea_3a70174d" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="mshied_course" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_904a99" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="mshied_program" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_5d1bd007" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="mshied_extracurricularactivities" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_f211b1bd" Icon="/WebResources/msdyn_/Images/Subarea_Default_Icon.png" Entity="mshied_areaofinterest" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_55f9ed49" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="mshied_areaofstudy" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+      </Group>
+    </Area>
+  </SiteMap>
+  <LocalizedNames>
+    <LocalizedName description="Higher Ed" languagecode="1033" />
+  </LocalizedNames>
+</AppModuleSiteMap>
