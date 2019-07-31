@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ImportExportXml version="9.1.0.2251" SolutionPackageVersion="9.1" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ImportExportXml version="9.1.0.6430" SolutionPackageVersion="9.1" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SolutionManifest>
     <UniqueName>Dynamics365HigherEducationAccelerator</UniqueName>
     <LocalizedNames>
@@ -8,8 +8,8 @@
     <Descriptions>
       <Description description="Accelerator for Higher Education customers." languagecode="1033" />
     </Descriptions>
-    <Version>1.0.1.6</Version>
-    <Managed>2</Managed>
+    <Version>1.0.1.7</Version>
+    <Managed>0</Managed>
     <Publisher>
       <UniqueName>dynamics365highereducationaccelerator</UniqueName>
       <LocalizedNames>
@@ -105,7 +105,7 @@
       <RootComponent type="1" schemaName="mshied_studentstatus" behavior="0" />
       <RootComponent type="1" schemaName="mshied_testscore" behavior="0" />
       <RootComponent type="1" schemaName="mshied_testtype" behavior="0" />
-      <RootComponent type="1" schemaName="systemuser" behavior="0" />
+      <RootComponent type="1" schemaName="systemuser" behavior="2" />
       <RootComponent type="9" schemaName="mshied_sourcesystem" behavior="0" />
       <RootComponent type="60" id="{08ca35ed-4d19-4cbb-b751-d685f947280a}" behavior="0" />
       <RootComponent type="60" id="{10a86981-28ce-e811-a967-000d3a1c53e4}" behavior="0" />
@@ -207,149 +207,20 @@
       <RootComponent type="61" schemaName="mshied_TestType16" behavior="0" />
       <RootComponent type="61" schemaName="mshied_TestTypeSVG" behavior="0" />
       <RootComponent type="62" schemaName="mshied_HigherEd" behavior="0" />
-      <RootComponent type="62" behavior="0" />
       <RootComponent type="80" schemaName="mshied_HigherEd" behavior="0" />
     </RootComponents>
     <MissingDependencies>
       <MissingDependency>
-        <Required key="0" type="1" schemaName="msdyn_wallsavedqueryusersettings" displayName="Filter" solution="ActivityFeedsCore (9.0.0.0)" />
-        <Dependent key="1" type="1" schemaName="systemuser" displayName="User" />
+        <Required key="0" type="2" schemaName="territoryid" displayName="Territory" parentSchemaName="systemuser" parentDisplayName="User" solution="msdynce_AppCommon (9.0.4.0066)" />
+        <Dependent key="1" type="60" displayName="Higher Education User Form" parentDisplayName="User" id="{91d14055-12b2-4d18-9e7c-59603e5a2295}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="2" type="1" schemaName="lead" displayName="Lead" solution="msdynce_LeadManagement (9.0.4.0066)" />
-        <Dependent key="3" type="62" />
+        <Required key="2" type="26" schemaName="All Institutions" displayName="All Institutions" parentSchemaName="account" parentDisplayName="Account" solution="msdynce_AppCommon (9.0.4.0066)" id="{65ffaf9a-e8c5-432d-860b-32f841b00d87}" />
+        <Dependent key="2" type="26" schemaName="All Institutions" displayName="All Institutions" parentSchemaName="account" parentDisplayName="Account" id="{65ffaf9a-e8c5-432d-860b-32f841b00d87}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="4" type="1" schemaName="competitor" displayName="Competitor" solution="msdynce_Sales (9.0.4.0076)" />
-        <Dependent key="3" type="62" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="5" type="1" schemaName="opportunitysalesprocess" displayName="Opportunity Sales Process" solution="msdynce_Sales (9.0.4.0076)" />
-        <Dependent key="3" type="62" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="6" type="1" schemaName="contract" displayName="Contract" solution="msdynce_Service (9.0.5.56)" />
-        <Dependent key="3" type="62" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="7" type="1" schemaName="bulkoperation" displayName="Quick Campaign" solution="msdynce_Marketing (9.0.4.37)" />
-        <Dependent key="3" type="62" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="8" type="1" schemaName="invoice" displayName="Invoice" solution="msdynce_Sales (9.0.4.0076)" />
-        <Dependent key="3" type="62" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="9" type="1" schemaName="incident" displayName="Case" solution="msdynce_Service (9.0.5.56)" />
-        <Dependent key="3" type="62" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="10" type="1" schemaName="salesliterature" displayName="Sales Literature" solution="msdynce_Sales (9.0.4.0076)" />
-        <Dependent key="3" type="62" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="11" type="1" schemaName="msdyn_postconfig" displayName="Post Configuration" solution="ActivityFeedsCore (9.0.0.0)" />
-        <Dependent key="3" type="62" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="12" type="1" schemaName="list" displayName="Marketing List" solution="msdynce_Marketing (9.0.4.37)" />
-        <Dependent key="3" type="62" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="13" type="1" schemaName="service" displayName="Service" solution="msdynce_Service (9.0.5.56)" />
-        <Dependent key="3" type="62" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="14" type="1" schemaName="phonetocaseprocess" displayName="Phone To Case Process" solution="msdynce_Service (9.0.5.56)" />
-        <Dependent key="3" type="62" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="15" type="1" schemaName="opportunity" displayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
-        <Dependent key="3" type="62" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="16" type="1" schemaName="msdyn_postruleconfig" displayName="Post Rule Configuration" solution="ActivityFeedsCore (9.0.0.0)" />
-        <Dependent key="3" type="62" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="17" type="1" schemaName="leadtoopportunitysalesprocess" displayName="Lead To Opportunity Sales Process" solution="msdynce_Sales (9.0.4.0076)" />
-        <Dependent key="3" type="62" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="18" type="1" schemaName="quote" displayName="Quote" solution="msdynce_Sales (9.0.4.0076)" />
-        <Dependent key="3" type="62" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="19" type="1" schemaName="msdyn_solutionhistory" displayName="Solution History" solution="SolutionHistoryAPIs (9.1.0.0)" />
-        <Dependent key="3" type="62" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="20" type="1" schemaName="msdyn_upgraderun" displayName="Upgrade Run" solution="SolutionUpgradeInfrastructure (2.6.0.0)" />
-        <Dependent key="3" type="62" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="21" type="1" schemaName="product" displayName="Product" solution="msdynce_ProductManagement (9.0.4.0066)" />
-        <Dependent key="3" type="62" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="22" type="1" schemaName="campaign" displayName="Campaign" solution="msdynce_Marketing (9.0.4.37)" />
-        <Dependent key="3" type="62" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="23" type="1" schemaName="salesorder" displayName="Order" solution="msdynce_Sales (9.0.4.0076)" />
-        <Dependent key="3" type="62" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="24" type="2" schemaName="territoryid" displayName="Territory" parentSchemaName="systemuser" parentDisplayName="User" solution="msdynce_AppCommon (9.0.4.0066)" />
-        <Dependent key="25" type="60" displayName="Information" parentDisplayName="User" id="{c0d7d7dd-afd0-4675-85fe-1cc5a48be6df}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="24" type="2" schemaName="territoryid" displayName="Territory" parentSchemaName="systemuser" parentDisplayName="User" solution="msdynce_AppCommon (9.0.4.0066)" />
-        <Dependent key="26" type="60" displayName="Higher Education User Form" parentDisplayName="User" id="{91d14055-12b2-4d18-9e7c-59603e5a2295}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="27" type="2" schemaName="siteid" displayName="Site" parentSchemaName="systemuser" parentDisplayName="User" solution="msdynce_Service (9.0.5.56)" />
-        <Dependent key="25" type="60" displayName="Information" parentDisplayName="User" id="{c0d7d7dd-afd0-4675-85fe-1cc5a48be6df}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="27" type="2" schemaName="siteid" displayName="Site" parentSchemaName="systemuser" parentDisplayName="User" solution="msdynce_Service (9.0.5.56)" />
-        <Dependent key="26" type="60" displayName="Higher Education User Form" parentDisplayName="User" id="{91d14055-12b2-4d18-9e7c-59603e5a2295}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="28" type="26" schemaName="All Institutions" displayName="All Institutions" parentSchemaName="account" parentDisplayName="Account" solution="msdynce_AppCommon (9.0.4.0066)" id="{65ffaf9a-e8c5-432d-860b-32f841b00d87}" />
-        <Dependent key="28" type="26" schemaName="All Institutions" displayName="All Institutions" parentSchemaName="account" parentDisplayName="Account" id="{65ffaf9a-e8c5-432d-860b-32f841b00d87}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="29" type="61" schemaName="msdyn_/ActivityFeeds.Form.js" displayName="msdyn_/ActivityFeeds.Form.js" solution="ActivityFeedsCore (9.0.0.0)" />
-        <Dependent key="25" type="60" displayName="Information" parentDisplayName="User" id="{c0d7d7dd-afd0-4675-85fe-1cc5a48be6df}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="30" type="61" schemaName="AppCommon/Contact/Contact_main_system_library.js" displayName="AppCommon/Contact/Contact_main_system_library.js" solution="msdynce_AppCommon (9.0.4.0066)" />
-        <Dependent key="31" type="60" displayName="Higher Education Faculty Form" parentDisplayName="Contact" id="{94eb6fcd-3aa2-4b1f-9eea-f23da74df76f}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="32" type="61" schemaName="msdyn_talkingpointsloader.js" displayName="msdyn_talkingpointsloader.js" solution="Icebreakers (9.0.1.7097)" />
-        <Dependent key="31" type="60" displayName="Higher Education Faculty Form" parentDisplayName="Contact" id="{94eb6fcd-3aa2-4b1f-9eea-f23da74df76f}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="32" type="61" schemaName="msdyn_talkingpointsloader.js" displayName="msdyn_talkingpointsloader.js" solution="Icebreakers (9.0.1.7097)" />
-        <Dependent key="33" type="60" displayName="Higher Education Student Form" parentDisplayName="Contact" id="{dc419af9-8994-4f86-91db-8d0169c0ad4e}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="34" type="61" schemaName="msdyn_appmanagementcontrol" displayName="msdyn_appmanagementcontrol" solution="AppModuleWebResources (2.5)" />
-        <Dependent key="3" type="62" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="35" type="61" schemaName="msdyn_/PersonalWall.htm" displayName="msdyn_/PersonalWall.htm" solution="ActivityFeedsCore (9.0.0.0)" />
-        <Dependent key="3" type="62" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="36" type="61" schemaName="msdyn_/RecordWall.htm" displayName="msdyn_/RecordWall.htm" solution="ActivityFeedsCore (9.0.0.0)" />
-        <Dependent key="25" type="60" displayName="Information" parentDisplayName="User" id="{c0d7d7dd-afd0-4675-85fe-1cc5a48be6df}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="37" type="61" schemaName="msdyn_/Images/Wall_16.png" displayName="msdyn_/Images/Wall_16.png" solution="ActivityFeedsCore (9.0.0.0)" />
-        <Dependent key="3" type="62" />
+        <Required key="3" type="61" schemaName="AppCommon/Contact/Contact_main_system_library.js" displayName="AppCommon/Contact/Contact_main_system_library.js" solution="msdynce_AppCommon (9.0.4.0066)" />
+        <Dependent key="4" type="60" displayName="Higher Education Student Form" parentDisplayName="Contact" id="{dc419af9-8994-4f86-91db-8d0169c0ad4e}" />
       </MissingDependency>
     </MissingDependencies>
   </SolutionManifest>

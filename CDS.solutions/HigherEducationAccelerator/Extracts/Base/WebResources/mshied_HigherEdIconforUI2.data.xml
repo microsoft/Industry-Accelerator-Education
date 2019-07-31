@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<WebResource>
+<WebResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <WebResourceId>{6a72fbed-eed2-e811-a967-000d3a1c53e4}</WebResourceId>
   <Name>mshied_HigherEdIconforUI2</Name>
   <DisplayName>HiEd Icon for UI2</DisplayName>

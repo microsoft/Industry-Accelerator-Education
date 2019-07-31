@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<EntityRelationships>
+<EntityRelationships xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <EntityRelationship Name="business_unit_mshied_academicperiod" />
   <EntityRelationship Name="business_unit_mshied_academicperioddetails" />
   <EntityRelationship Name="business_unit_mshied_areaofinterest" />

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<AppModuleSiteMap>
+<AppModuleSiteMap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SiteMapUniqueName>mshied_HigherEd</SiteMapUniqueName>
   <SiteMap IntroducedVersion="7.0.0.0">
     <Area Id="NewArea_aa439169" Icon="/WebResources/msdyn_/Images/Area_Default_Icon.png" VectorIcon="$webresource:mshied_HigherEdIconforUI2" ResourceId="SitemapDesigner.NewArea" ShowGroups="false">
