@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<WebResource>
+<WebResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <WebResourceId>{478b97ed-05c1-e811-a96e-000d3a1c5096}</WebResourceId>
   <Name>mshied_Role16</Name>
   <DisplayName>Role 16</DisplayName>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<WebResource>
+<WebResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <WebResourceId>{299a8214-8fc5-e811-a966-000d3a1c53e4}</WebResourceId>
   <Name>mshied_HigherEducationApp</Name>
   <DisplayName>Higher Education App</DisplayName>

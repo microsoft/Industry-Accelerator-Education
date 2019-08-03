@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<WebResource>
+<WebResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <WebResourceId>{f8f744b5-32cb-e811-a96b-000d3a1c5716}</WebResourceId>
   <Name>mshied_Graduate</Name>
   <DisplayName>Higher Ed Sitemap Icon Large</DisplayName>

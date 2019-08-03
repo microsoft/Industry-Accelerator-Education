@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<visualization>
+<visualization xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <savedqueryvisualizationid>{92ED65A2-26CE-E811-A967-000D3A1C53E4}</savedqueryvisualizationid>
   <datadescription>
     <datadefinition>

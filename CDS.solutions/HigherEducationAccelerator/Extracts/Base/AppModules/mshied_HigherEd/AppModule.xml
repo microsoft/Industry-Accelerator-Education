@@ -5,6 +5,7 @@
   <WebResourceId>8b9ded0b-9bd0-e811-a970-000d3a1c5096</WebResourceId>
   <FormFactor>1</FormFactor>
   <ClientType>4</ClientType>
+  <NavigationType>0</NavigationType>
   <AppModuleComponents>
     <AppModuleComponent type="62" schemaName="mshied_HigherEd" />
     <AppModuleComponent type="1" schemaName="mshied_academicperiod" />

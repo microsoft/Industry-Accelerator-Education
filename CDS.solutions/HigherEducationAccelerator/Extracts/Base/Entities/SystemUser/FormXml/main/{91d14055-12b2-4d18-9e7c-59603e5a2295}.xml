@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<forms>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <systemform>
     <formid>{91d14055-12b2-4d18-9e7c-59603e5a2295}</formid>
     <IntroducedVersion>1.0.0.0</IntroducedVersion>
@@ -196,14 +196,6 @@
                           <label description="Territory" languagecode="1033" />
                         </labels>
                         <control id="territoryid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="territoryid" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell auto="false" showlabel="true" locklevel="0" rowspan="1" colspan="1" id="{80d99dcb-d1e5-482f-b588-ba8524834bd0}" labelid="{6408e32a-34bf-4c76-81ba-d3dba5cf6dc1}">
-                        <labels>
-                          <label description="Site" languagecode="1033" />
-                        </labels>
-                        <control id="siteid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="siteid" disabled="false" />
                       </cell>
                     </row>
                     <row>

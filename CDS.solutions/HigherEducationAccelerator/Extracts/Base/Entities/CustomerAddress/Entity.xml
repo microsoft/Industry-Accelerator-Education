@@ -1,8 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Entity>
+<Entity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name LocalizedName="Address" OriginalName="">CustomerAddress</Name>
   <EntityInfo>
     <entity Name="CustomerAddress">
+      <LocalizedNames>
+        <LocalizedName description="Address" languagecode="1033" />
+      </LocalizedNames>
+      <LocalizedCollectionNames>
+        <LocalizedCollectionName description="Addresses" languagecode="1033" />
+      </LocalizedCollectionNames>
+      <Descriptions>
+        <Description description="Address and shipping information. Used to store additional addresses for an account or contact." languagecode="1033" />
+      </Descriptions>
       <attributes>
         <attribute PhysicalName="mshied_EndDate">
           <Type>datetime</Type>
