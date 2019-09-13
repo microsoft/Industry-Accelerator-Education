@@ -312,7 +312,7 @@
           <AutoNumberFormat></AutoNumberFormat>
           <Format>date</Format>
           <CanChangeDateTimeBehavior>1</CanChangeDateTimeBehavior>
-          <Behavior>1</Behavior>
+          <Behavior>2</Behavior>
           <displaynames>
             <displayname description="Date of Enrollment" languagecode="1033" />
           </displaynames>
@@ -546,7 +546,7 @@
           <AutoNumberFormat></AutoNumberFormat>
           <Format>date</Format>
           <CanChangeDateTimeBehavior>1</CanChangeDateTimeBehavior>
-          <Behavior>1</Behavior>
+          <Behavior>2</Behavior>
           <displaynames>
             <displayname description="Graduation Date" languagecode="1033" />
           </displaynames>
@@ -582,7 +582,7 @@
           <AutoNumberFormat></AutoNumberFormat>
           <Format>date</Format>
           <CanChangeDateTimeBehavior>1</CanChangeDateTimeBehavior>
-          <Behavior>1</Behavior>
+          <Behavior>2</Behavior>
           <displaynames>
             <displayname description="Last Date of Attendance" languagecode="1033" />
           </displaynames>
@@ -1217,6 +1217,7 @@
       <ChangeTrackingEnabled>1</ChangeTrackingEnabled>
       <CanChangeTrackingBeEnabled>1</CanChangeTrackingBeEnabled>
       <IsEnabledForExternalChannels>0</IsEnabledForExternalChannels>
+      <IsSolutionAware>0</IsSolutionAware>
     </entity>
   </EntityInfo>
   <FormXml />

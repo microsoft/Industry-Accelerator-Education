@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ImportExportXml version="9.1.0.6430" SolutionPackageVersion="9.1" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ImportExportXml version="9.1.0.8031" SolutionPackageVersion="9.1" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SolutionManifest>
     <UniqueName>Dynamics365HigherEducationAccelerator</UniqueName>
     <LocalizedNames>
@@ -8,7 +8,7 @@
     <Descriptions>
       <Description description="Accelerator for Higher Education customers." languagecode="1033" />
     </Descriptions>
-    <Version>1.0.1.7</Version>
+    <Version>1.0.1.8</Version>
     <Managed>0</Managed>
     <Publisher>
       <UniqueName>dynamics365highereducationaccelerator</UniqueName>

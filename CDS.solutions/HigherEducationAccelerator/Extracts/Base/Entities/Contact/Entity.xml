@@ -1321,6 +1321,7 @@
       <EntityHelpUrl></EntityHelpUrl>
       <ChangeTrackingEnabled>1</ChangeTrackingEnabled>
       <IsEnabledForExternalChannels>1</IsEnabledForExternalChannels>
+      <IsSolutionAware>0</IsSolutionAware>
       <HasRelatedNotes>True</HasRelatedNotes>
       <HasRelatedFeedback>True</HasRelatedFeedback>
       <HasRelatedActivities>True</HasRelatedActivities>
