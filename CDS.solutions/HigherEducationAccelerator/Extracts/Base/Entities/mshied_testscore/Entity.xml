@@ -634,7 +634,7 @@
           <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
           <IsDataSourceSecret>0</IsDataSourceSecret>
           <AutoNumberFormat></AutoNumberFormat>
-          <MinValue>1</MinValue>
+          <MinValue>0</MinValue>
           <MaxValue>6</MaxValue>
           <Accuracy>1</Accuracy>
           <displaynames>
@@ -1179,7 +1179,7 @@
           <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
           <IsDataSourceSecret>0</IsDataSourceSecret>
           <AutoNumberFormat></AutoNumberFormat>
-          <MinValue>1</MinValue>
+          <MinValue>0</MinValue>
           <MaxValue>9</MaxValue>
           <Accuracy>1</Accuracy>
           <displaynames>
@@ -1361,7 +1361,7 @@
           <AutoNumberFormat></AutoNumberFormat>
           <Format></Format>
           <MinValue>200</MinValue>
-          <MaxValue>600</MaxValue>
+          <MaxValue>800</MaxValue>
           <displaynames>
             <displayname description="SAT - Evidence-Based Reading and Writing Section" languagecode="1033" />
           </displaynames>
@@ -1746,7 +1746,7 @@
           <AutoNumberFormat></AutoNumberFormat>
           <Format></Format>
           <MinValue>0</MinValue>
-          <MaxValue>50</MaxValue>
+          <MaxValue>30</MaxValue>
           <displaynames>
             <displayname description="TOEFL - Listening Section" languagecode="1033" />
           </displaynames>
@@ -1852,7 +1852,7 @@
           <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
           <IsDataSourceSecret>0</IsDataSourceSecret>
           <AutoNumberFormat></AutoNumberFormat>
-          <MinValue>1</MinValue>
+          <MinValue>0</MinValue>
           <MaxValue>120</MaxValue>
           <Accuracy>1</Accuracy>
           <displaynames>
@@ -1890,7 +1890,7 @@
           <AutoNumberFormat></AutoNumberFormat>
           <Format></Format>
           <MinValue>0</MinValue>
-          <MaxValue>50</MaxValue>
+          <MaxValue>30</MaxValue>
           <displaynames>
             <displayname description="TOEFL - Writing Section" languagecode="1033" />
           </displaynames>
@@ -2315,6 +2315,7 @@
       <ChangeTrackingEnabled>1</ChangeTrackingEnabled>
       <CanChangeTrackingBeEnabled>1</CanChangeTrackingBeEnabled>
       <IsEnabledForExternalChannels>0</IsEnabledForExternalChannels>
+      <IsSolutionAware>0</IsSolutionAware>
     </entity>
   </EntityInfo>
   <FormXml />
