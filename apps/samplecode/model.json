@@ -1,0 +1,6800 @@
+{
+    "name": "Higher Education CDM",
+    "description": "CDM model for entities used by the Higher Education Accelerator.",
+    "version": "1.0",
+    "culture": "en-US",
+    "modifiedTime": "2019-10-10T19:13:15.6218038+00:00",
+    "entities": [
+      {
+        "$type": "LocalEntity",
+        "name": "Account",
+        "description": "",
+        "attributes": [
+          {
+            "name": "accountCategoryCode",
+            "dataType": "int64"
+          },
+          {
+            "name": "accountCategoryCode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "accountClassificationCode",
+            "dataType": "int64"
+          },
+          {
+            "name": "accountClassificationCode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "accountId",
+            "dataType": "string"
+          },
+          {
+            "name": "accountNumber",
+            "dataType": "string"
+          },
+          {
+            "name": "accountRatingCode",
+            "dataType": "int64"
+          },
+          {
+            "name": "accountRatingCode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "address1AddressId",
+            "dataType": "string"
+          },
+          {
+            "name": "address1AddressTypeCode",
+            "dataType": "int64"
+          },
+          {
+            "name": "address1AddressTypeCode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "address1City",
+            "dataType": "string"
+          },
+          {
+            "name": "address1Composite",
+            "dataType": "string"
+          },
+          {
+            "name": "address1Country",
+            "dataType": "string"
+          },
+          {
+            "name": "address1County",
+            "dataType": "string"
+          },
+          {
+            "name": "address1Fax",
+            "dataType": "string"
+          },
+          {
+            "name": "address1FreightTermsCode",
+            "dataType": "int64"
+          },
+          {
+            "name": "address1FreightTermsCode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "address1Latitude",
+            "dataType": "double"
+          },
+          {
+            "name": "address1Line1",
+            "dataType": "string"
+          },
+          {
+            "name": "address1Line2",
+            "dataType": "string"
+          },
+          {
+            "name": "address1Line3",
+            "dataType": "string"
+          },
+          {
+            "name": "address1Longitude",
+            "dataType": "double"
+          },
+          {
+            "name": "address1Name",
+            "dataType": "string"
+          },
+          {
+            "name": "address1PostalCode",
+            "dataType": "string"
+          },
+          {
+            "name": "address1PostOfficeBox",
+            "dataType": "string"
+          },
+          {
+            "name": "address1PrimaryContactName",
+            "dataType": "string"
+          },
+          {
+            "name": "address1ShippingMethodCode",
+            "dataType": "int64"
+          },
+          {
+            "name": "address1ShippingMethodCode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "address1StateOrProvince",
+            "dataType": "string"
+          },
+          {
+            "name": "address1Telephone1",
+            "dataType": "string"
+          },
+          {
+            "name": "address1Telephone2",
+            "dataType": "string"
+          },
+          {
+            "name": "address1Telephone3",
+            "dataType": "string"
+          },
+          {
+            "name": "address1UPSZone",
+            "dataType": "string"
+          },
+          {
+            "name": "address1UTCOffset",
+            "dataType": "string"
+          },
+          {
+            "name": "address2AddressId",
+            "dataType": "string"
+          },
+          {
+            "name": "address2AddressTypeCode",
+            "dataType": "int64"
+          },
+          {
+            "name": "address2AddressTypeCode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "address2City",
+            "dataType": "string"
+          },
+          {
+            "name": "address2Composite",
+            "dataType": "string"
+          },
+          {
+            "name": "address2Country",
+            "dataType": "string"
+          },
+          {
+            "name": "address2County",
+            "dataType": "string"
+          },
+          {
+            "name": "address2Fax",
+            "dataType": "string"
+          },
+          {
+            "name": "address2FreightTermsCode",
+            "dataType": "int64"
+          },
+          {
+            "name": "address2FreightTermsCode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "address2Latitude",
+            "dataType": "double"
+          },
+          {
+            "name": "address2Line1",
+            "dataType": "string"
+          },
+          {
+            "name": "address2Line2",
+            "dataType": "string"
+          },
+          {
+            "name": "address2Line3",
+            "dataType": "string"
+          },
+          {
+            "name": "address2Longitude",
+            "dataType": "double"
+          },
+          {
+            "name": "address2Name",
+            "dataType": "string"
+          },
+          {
+            "name": "address2PostalCode",
+            "dataType": "string"
+          },
+          {
+            "name": "address2PostOfficeBox",
+            "dataType": "string"
+          },
+          {
+            "name": "address2PrimaryContactName",
+            "dataType": "string"
+          },
+          {
+            "name": "address2ShippingMethodCode",
+            "dataType": "int64"
+          },
+          {
+            "name": "address2ShippingMethodCode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "address2StateOrProvince",
+            "dataType": "string"
+          },
+          {
+            "name": "address2Telephone1",
+            "dataType": "string"
+          },
+          {
+            "name": "address2Telephone2",
+            "dataType": "string"
+          },
+          {
+            "name": "address2Telephone3",
+            "dataType": "string"
+          },
+          {
+            "name": "address2UPSZone",
+            "dataType": "string"
+          },
+          {
+            "name": "address2UTCOffset",
+            "dataType": "string"
+          },
+          {
+            "name": "aging30",
+            "dataType": "double"
+          },
+          {
+            "name": "aging30Base",
+            "dataType": "double"
+          },
+          {
+            "name": "aging60",
+            "dataType": "double"
+          },
+          {
+            "name": "aging60Base",
+            "dataType": "double"
+          },
+          {
+            "name": "aging90",
+            "dataType": "double"
+          },
+          {
+            "name": "aging90Base",
+            "dataType": "double"
+          },
+          {
+            "name": "businessTypeCode",
+            "dataType": "int64"
+          },
+          {
+            "name": "businessTypeCode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "createdBy",
+            "dataType": "string"
+          },
+          {
+            "name": "createdByExternalParty",
+            "dataType": "string"
+          },
+          {
+            "name": "createdOn",
+            "dataType": "dateTime"
+          },
+          {
+            "name": "createdOnBehalfBy",
+            "dataType": "string"
+          },
+          {
+            "name": "creditLimit",
+            "dataType": "double"
+          },
+          {
+            "name": "creditLimitBase",
+            "dataType": "double"
+          },
+          {
+            "name": "creditOnHold",
+            "dataType": "boolean"
+          },
+          {
+            "name": "customerSizeCode",
+            "dataType": "int64"
+          },
+          {
+            "name": "customerSizeCode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "customerTypeCode",
+            "dataType": "int64"
+          },
+          {
+            "name": "customerTypeCode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "description",
+            "dataType": "string"
+          },
+          {
+            "name": "doNotBulkEMail",
+            "dataType": "boolean"
+          },
+          {
+            "name": "doNotBulkPostalMail",
+            "dataType": "boolean"
+          },
+          {
+            "name": "doNotEMail",
+            "dataType": "boolean"
+          },
+          {
+            "name": "doNotFax",
+            "dataType": "boolean"
+          },
+          {
+            "name": "doNotPhone",
+            "dataType": "boolean"
+          },
+          {
+            "name": "doNotPostalMail",
+            "dataType": "boolean"
+          },
+          {
+            "name": "doNotSendMM",
+            "dataType": "boolean"
+          },
+          {
+            "name": "EMailAddress1",
+            "dataType": "string"
+          },
+          {
+            "name": "EMailAddress2",
+            "dataType": "string"
+          },
+          {
+            "name": "EMailAddress3",
+            "dataType": "string"
+          },
+          {
+            "name": "entityimage_timestamp",
+            "dataType": "int64"
+          },
+          {
+            "name": "entityimage_url",
+            "dataType": "string"
+          },
+          {
+            "name": "entityImageId",
+            "dataType": "string"
+          },
+          {
+            "name": "exchangeRate",
+            "dataType": "double"
+          },
+          {
+            "name": "fax",
+            "dataType": "string"
+          },
+          {
+            "name": "followEmail",
+            "dataType": "boolean"
+          },
+          {
+            "name": "ftpSiteUrl",
+            "dataType": "string"
+          },
+          {
+            "name": "importSequenceNumber",
+            "dataType": "int64"
+          },
+          {
+            "name": "industryCode",
+            "dataType": "int64"
+          },
+          {
+            "name": "industryCode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "lastOnHoldTime",
+            "dataType": "dateTime"
+          },
+          {
+            "name": "lastUsedInCampaign",
+            "dataType": "dateTime"
+          },
+          {
+            "name": "marketCap",
+            "dataType": "double"
+          },
+          {
+            "name": "marketCapBase",
+            "dataType": "double"
+          },
+          {
+            "name": "marketingOnly",
+            "dataType": "boolean"
+          },
+          {
+            "name": "masterId",
+            "dataType": "string"
+          },
+          {
+            "name": "merged",
+            "dataType": "boolean"
+          },
+          {
+            "name": "modifiedBy",
+            "dataType": "string"
+          },
+          {
+            "name": "modifiedByExternalParty",
+            "dataType": "string"
+          },
+          {
+            "name": "modifiedOn",
+            "dataType": "dateTime"
+          },
+          {
+            "name": "modifiedOnBehalfBy",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_accounttype",
+            "dataType": "int64"
+          },
+          {
+            "name": "mshied_accounttype_display",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_externalidentifier",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_externalsourcesystem",
+            "dataType": "int64"
+          },
+          {
+            "name": "mshied_externalsourcesystem_display",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_numberofcontacts",
+            "dataType": "int64"
+          },
+          {
+            "name": "mshied_numberofcontacts_date",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "mshied_numberofcontacts_state",
+            "dataType": "int64"
+          },
+          {
+            "name": "name",
+            "dataType": "string"
+          },
+          {
+            "name": "numberOfEmployees",
+            "dataType": "int64"
+          },
+          {
+            "name": "onHoldTime",
+            "dataType": "int64"
+          },
+          {
+            "name": "overriddenCreatedOn",
+            "dataType": "dateTime"
+          },
+          {
+            "name": "ownerId",
+            "dataType": "string"
+          },
+          {
+            "name": "ownershipCode",
+            "dataType": "int64"
+          },
+          {
+            "name": "ownershipCode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "owningBusinessUnit",
+            "dataType": "string"
+          },
+          {
+            "name": "owningTeam",
+            "dataType": "string"
+          },
+          {
+            "name": "owningUser",
+            "dataType": "string"
+          },
+          {
+            "name": "parentAccountId",
+            "dataType": "string"
+          },
+          {
+            "name": "participatesInWorkflow",
+            "dataType": "boolean"
+          },
+          {
+            "name": "paymentTermsCode",
+            "dataType": "int64"
+          },
+          {
+            "name": "paymentTermsCode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "preferredAppointmentDayCode",
+            "dataType": "int64"
+          },
+          {
+            "name": "preferredAppointmentDayCode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "preferredAppointmentTimeCode",
+            "dataType": "int64"
+          },
+          {
+            "name": "preferredAppointmentTimeCode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "preferredContactMethodCode",
+            "dataType": "int64"
+          },
+          {
+            "name": "preferredContactMethodCode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "preferredSystemUserId",
+            "dataType": "string"
+          },
+          {
+            "name": "primaryContactId",
+            "dataType": "string"
+          },
+          {
+            "name": "primarySatoriId",
+            "dataType": "string"
+          },
+          {
+            "name": "primaryTwitterId",
+            "dataType": "string"
+          },
+          {
+            "name": "processId",
+            "dataType": "string"
+          },
+          {
+            "name": "revenue",
+            "dataType": "double"
+          },
+          {
+            "name": "revenueBase",
+            "dataType": "double"
+          },
+          {
+            "name": "sharesOutstanding",
+            "dataType": "int64"
+          },
+          {
+            "name": "shippingMethodCode",
+            "dataType": "int64"
+          },
+          {
+            "name": "shippingMethodCode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "SIC",
+            "dataType": "string"
+          },
+          {
+            "name": "SLAId",
+            "dataType": "string"
+          },
+          {
+            "name": "SLAInvokedId",
+            "dataType": "string"
+          },
+          {
+            "name": "stageId",
+            "dataType": "string"
+          },
+          {
+            "name": "stateCode",
+            "dataType": "int64"
+          },
+          {
+            "name": "stateCode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "statusCode",
+            "dataType": "int64"
+          },
+          {
+            "name": "statusCode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "stockExchange",
+            "dataType": "string"
+          },
+          {
+            "name": "telephone1",
+            "dataType": "string"
+          },
+          {
+            "name": "telephone2",
+            "dataType": "string"
+          },
+          {
+            "name": "telephone3",
+            "dataType": "string"
+          },
+          {
+            "name": "territoryCode",
+            "dataType": "int64"
+          },
+          {
+            "name": "territoryCode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "tickerSymbol",
+            "dataType": "string"
+          },
+          {
+            "name": "timeSpentByMeOnEmailAndMeetings",
+            "dataType": "string"
+          },
+          {
+            "name": "timeZoneRuleVersionNumber",
+            "dataType": "int64"
+          },
+          {
+            "name": "transactionCurrencyId",
+            "dataType": "string"
+          },
+          {
+            "name": "traversedPath",
+            "dataType": "string"
+          },
+          {
+            "name": "UTCConversionTimeZoneCode",
+            "dataType": "int64"
+          },
+          {
+            "name": "versionNumber",
+            "dataType": "int64"
+          },
+          {
+            "name": "webSiteUrl",
+            "dataType": "string"
+          },
+          {
+            "name": "yomiName",
+            "dataType": "string"
+          },
+          {
+            "name": "defaultPriceLevelId",
+            "dataType": "string"
+          },
+          {
+            "name": "originatingLeadId",
+            "dataType": "string"
+          },
+          {
+            "name": "preferredEquipmentId",
+            "dataType": "string"
+          },
+          {
+            "name": "preferredServiceId",
+            "dataType": "string"
+          },
+          {
+            "name": "territoryId",
+            "dataType": "string"
+          },
+          {
+            "name": "openDeals",
+            "dataType": "int64"
+          },
+          {
+            "name": "openDealsDate",
+            "dataType": "dateTime"
+          },
+          {
+            "name": "openDealsState",
+            "dataType": "int64"
+          },
+          {
+            "name": "openRevenue",
+            "dataType": "double"
+          },
+          {
+            "name": "openRevenueBase",
+            "dataType": "double"
+          },
+          {
+            "name": "openRevenueDate",
+            "dataType": "dateTime"
+          },
+          {
+            "name": "openRevenueState",
+            "dataType": "int64"
+          },
+          {
+            "name": "adxCreatedByIPAddress",
+            "dataType": "string"
+          },
+          {
+            "name": "adxCreatedByUsername",
+            "dataType": "string"
+          },
+          {
+            "name": "adxModifiedByIPAddress",
+            "dataType": "string"
+          },
+          {
+            "name": "adxModifiedByUsername",
+            "dataType": "string"
+          },
+          {
+            "name": "managingPartner",
+            "dataType": "string"
+          },
+          {
+            "name": "hotelGroup",
+            "dataType": "int64"
+          },
+          {
+            "name": "hotelGroup_display",
+            "dataType": "string"
+          },
+          {
+            "name": "rentalCarProvider",
+            "dataType": "int64"
+          },
+          {
+            "name": "rentalCarProvider_display",
+            "dataType": "string"
+          },
+          {
+            "name": "accountType",
+            "dataType": "int64"
+          },
+          {
+            "name": "accountType_display",
+            "dataType": "string"
+          },
+          {
+            "name": "address1PeriodEndDate",
+            "dataType": "dateTime"
+          },
+          {
+            "name": "address1PeriodStartDate",
+            "dataType": "dateTime"
+          },
+          {
+            "name": "address2PeriodEndDate",
+            "dataType": "dateTime"
+          },
+          {
+            "name": "address2PeriodStartDate",
+            "dataType": "dateTime"
+          },
+          {
+            "name": "alias",
+            "dataType": "string"
+          },
+          {
+            "name": "contact1Purpose",
+            "dataType": "string"
+          },
+          {
+            "name": "contact2",
+            "dataType": "string"
+          },
+          {
+            "name": "contact2Purpose",
+            "dataType": "string"
+          },
+          {
+            "name": "telecom1EndDate",
+            "dataType": "dateTime"
+          },
+          {
+            "name": "telecom1Rank",
+            "dataType": "int64"
+          },
+          {
+            "name": "telecom1StartDate",
+            "dataType": "dateTime"
+          },
+          {
+            "name": "telecom1System",
+            "dataType": "int64"
+          },
+          {
+            "name": "telecom1System_display",
+            "dataType": "string"
+          },
+          {
+            "name": "telecom1Use",
+            "dataType": "int64"
+          },
+          {
+            "name": "telecom1Use_display",
+            "dataType": "string"
+          },
+          {
+            "name": "telecom2EndDate",
+            "dataType": "dateTime"
+          },
+          {
+            "name": "telecom2Rank",
+            "dataType": "int64"
+          },
+          {
+            "name": "telecom2StartDate",
+            "dataType": "dateTime"
+          },
+          {
+            "name": "telecom2System",
+            "dataType": "int64"
+          },
+          {
+            "name": "telecom2System_display",
+            "dataType": "string"
+          },
+          {
+            "name": "telecom2Use",
+            "dataType": "int64"
+          },
+          {
+            "name": "telecom2Use_display",
+            "dataType": "string"
+          },
+          {
+            "name": "telecom3EndDate",
+            "dataType": "string"
+          },
+          {
+            "name": "telecom3Rank",
+            "dataType": "int64"
+          },
+          {
+            "name": "telecom3StartDate",
+            "dataType": "dateTime"
+          },
+          {
+            "name": "telecom3System",
+            "dataType": "int64"
+          },
+          {
+            "name": "telecom3System_display",
+            "dataType": "string"
+          },
+          {
+            "name": "telecom3Use",
+            "dataType": "int64"
+          },
+          {
+            "name": "telecom3Use_display",
+            "dataType": "string"
+          }
+        ],
+        "schemas": [
+          "https://raw.githubusercontent.com/Microsoft/CDM/master/schemaDocuments/core/applicationCommon/Account.0.7.cdm.json",
+          "https://raw.githubusercontent.com/Microsoft/CDM/master/schemaDocuments/core/applicationCommon/foundationCommon/Account.0.7.cdm.json",
+          "https://raw.githubusercontent.com/Microsoft/CDM/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/Account.0.7.cdm.json",
+          "https://raw.githubusercontent.com/Microsoft/CDM/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Account.0.7.cdm.json",
+          "https://raw.githubusercontent.com/Microsoft/CDM/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Account.0.7.cdm.json",
+          "https://raw.githubusercontent.com/Microsoft/CDM/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Account.0.7.cdm.json"
+        ]
+      },
+      {
+        "$type": "LocalEntity",
+        "name": "mshied_contact_areaofstudy",
+        "description": "",
+        "attributes": [
+          {
+            "name": "contactid",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_areaofstudyid",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_contact_areaofstudyid",
+            "dataType": "string"
+          },
+          {
+            "name": "versionnumber",
+            "dataType": "int64"
+          }
+        ]
+      },
+      {
+        "$type": "LocalEntity",
+        "name": "Contact",
+        "description": "",
+        "attributes": [
+          {
+            "name": "accountId",
+            "dataType": "string"
+          },
+          {
+            "name": "accountRoleCode",
+            "dataType": "int64"
+          },
+          {
+            "name": "accountRoleCode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "address1AddressId",
+            "dataType": "string"
+          },
+          {
+            "name": "address1AddressTypeCode",
+            "dataType": "int64"
+          },
+          {
+            "name": "address1AddressTypeCode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "address1City",
+            "dataType": "string"
+          },
+          {
+            "name": "address1Composite",
+            "dataType": "string"
+          },
+          {
+            "name": "address1Country",
+            "dataType": "string"
+          },
+          {
+            "name": "address1County",
+            "dataType": "string"
+          },
+          {
+            "name": "address1Fax",
+            "dataType": "string"
+          },
+          {
+            "name": "address1FreightTermsCode",
+            "dataType": "int64"
+          },
+          {
+            "name": "address1FreightTermsCode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "address1Latitude",
+            "dataType": "double"
+          },
+          {
+            "name": "address1Line1",
+            "dataType": "string"
+          },
+          {
+            "name": "address1Line2",
+            "dataType": "string"
+          },
+          {
+            "name": "address1Line3",
+            "dataType": "string"
+          },
+          {
+            "name": "address1Longitude",
+            "dataType": "double"
+          },
+          {
+            "name": "address1Name",
+            "dataType": "string"
+          },
+          {
+            "name": "address1PostalCode",
+            "dataType": "string"
+          },
+          {
+            "name": "address1PostOfficeBox",
+            "dataType": "string"
+          },
+          {
+            "name": "address1PrimaryContactName",
+            "dataType": "string"
+          },
+          {
+            "name": "address1ShippingMethodCode",
+            "dataType": "int64"
+          },
+          {
+            "name": "address1ShippingMethodCode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "address1StateOrProvince",
+            "dataType": "string"
+          },
+          {
+            "name": "address1Telephone1",
+            "dataType": "string"
+          },
+          {
+            "name": "address1Telephone2",
+            "dataType": "string"
+          },
+          {
+            "name": "address1Telephone3",
+            "dataType": "string"
+          },
+          {
+            "name": "address1UPSZone",
+            "dataType": "string"
+          },
+          {
+            "name": "address1UTCOffset",
+            "dataType": "string"
+          },
+          {
+            "name": "address2AddressId",
+            "dataType": "string"
+          },
+          {
+            "name": "address2AddressTypeCode",
+            "dataType": "int64"
+          },
+          {
+            "name": "address2AddressTypeCode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "address2City",
+            "dataType": "string"
+          },
+          {
+            "name": "address2Composite",
+            "dataType": "string"
+          },
+          {
+            "name": "address2Country",
+            "dataType": "string"
+          },
+          {
+            "name": "address2County",
+            "dataType": "string"
+          },
+          {
+            "name": "address2Fax",
+            "dataType": "string"
+          },
+          {
+            "name": "address2FreightTermsCode",
+            "dataType": "int64"
+          },
+          {
+            "name": "address2FreightTermsCode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "address2Latitude",
+            "dataType": "double"
+          },
+          {
+            "name": "address2Line1",
+            "dataType": "string"
+          },
+          {
+            "name": "address2Line2",
+            "dataType": "string"
+          },
+          {
+            "name": "address2Line3",
+            "dataType": "string"
+          },
+          {
+            "name": "address2Longitude",
+            "dataType": "double"
+          },
+          {
+            "name": "address2Name",
+            "dataType": "string"
+          },
+          {
+            "name": "address2PostalCode",
+            "dataType": "string"
+          },
+          {
+            "name": "address2PostOfficeBox",
+            "dataType": "string"
+          },
+          {
+            "name": "address2PrimaryContactName",
+            "dataType": "string"
+          },
+          {
+            "name": "address2ShippingMethodCode",
+            "dataType": "int64"
+          },
+          {
+            "name": "address2ShippingMethodCode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "address2StateOrProvince",
+            "dataType": "string"
+          },
+          {
+            "name": "address2Telephone1",
+            "dataType": "string"
+          },
+          {
+            "name": "address2Telephone2",
+            "dataType": "string"
+          },
+          {
+            "name": "address2Telephone3",
+            "dataType": "string"
+          },
+          {
+            "name": "address2UPSZone",
+            "dataType": "string"
+          },
+          {
+            "name": "address2UTCOffset",
+            "dataType": "string"
+          },
+          {
+            "name": "address3AddressId",
+            "dataType": "string"
+          },
+          {
+            "name": "address3AddressTypeCode",
+            "dataType": "int64"
+          },
+          {
+            "name": "address3AddressTypeCode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "address3City",
+            "dataType": "string"
+          },
+          {
+            "name": "address3Composite",
+            "dataType": "string"
+          },
+          {
+            "name": "address3Country",
+            "dataType": "string"
+          },
+          {
+            "name": "address3County",
+            "dataType": "string"
+          },
+          {
+            "name": "address3Fax",
+            "dataType": "string"
+          },
+          {
+            "name": "address3FreightTermsCode",
+            "dataType": "int64"
+          },
+          {
+            "name": "address3FreightTermsCode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "address3Latitude",
+            "dataType": "double"
+          },
+          {
+            "name": "address3Line1",
+            "dataType": "string"
+          },
+          {
+            "name": "address3Line2",
+            "dataType": "string"
+          },
+          {
+            "name": "address3Line3",
+            "dataType": "string"
+          },
+          {
+            "name": "address3Longitude",
+            "dataType": "double"
+          },
+          {
+            "name": "address3Name",
+            "dataType": "string"
+          },
+          {
+            "name": "address3PostalCode",
+            "dataType": "string"
+          },
+          {
+            "name": "address3PostOfficeBox",
+            "dataType": "string"
+          },
+          {
+            "name": "address3PrimaryContactName",
+            "dataType": "string"
+          },
+          {
+            "name": "address3ShippingMethodCode",
+            "dataType": "int64"
+          },
+          {
+            "name": "address3ShippingMethodCode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "address3StateOrProvince",
+            "dataType": "string"
+          },
+          {
+            "name": "address3Telephone1",
+            "dataType": "string"
+          },
+          {
+            "name": "address3Telephone2",
+            "dataType": "string"
+          },
+          {
+            "name": "address3Telephone3",
+            "dataType": "string"
+          },
+          {
+            "name": "address3UPSZone",
+            "dataType": "string"
+          },
+          {
+            "name": "address3UTCOffset",
+            "dataType": "string"
+          },
+          {
+            "name": "aging30",
+            "dataType": "double"
+          },
+          {
+            "name": "aging30Base",
+            "dataType": "double"
+          },
+          {
+            "name": "aging60",
+            "dataType": "double"
+          },
+          {
+            "name": "aging60Base",
+            "dataType": "double"
+          },
+          {
+            "name": "aging90",
+            "dataType": "double"
+          },
+          {
+            "name": "aging90Base",
+            "dataType": "double"
+          },
+          {
+            "name": "anniversary",
+            "dataType": "dateTime"
+          },
+          {
+            "name": "annualIncome",
+            "dataType": "double"
+          },
+          {
+            "name": "annualIncomeBase",
+            "dataType": "double"
+          },
+          {
+            "name": "assistantName",
+            "dataType": "string"
+          },
+          {
+            "name": "assistantPhone",
+            "dataType": "string"
+          },
+          {
+            "name": "birthDate",
+            "dataType": "dateTime"
+          },
+          {
+            "name": "business2",
+            "dataType": "string"
+          },
+          {
+            "name": "callback",
+            "dataType": "string"
+          },
+          {
+            "name": "childrensNames",
+            "dataType": "string"
+          },
+          {
+            "name": "company",
+            "dataType": "string"
+          },
+          {
+            "name": "contactId",
+            "dataType": "string"
+          },
+          {
+            "name": "createdBy",
+            "dataType": "string"
+          },
+          {
+            "name": "createdByExternalParty",
+            "dataType": "string"
+          },
+          {
+            "name": "createdOn",
+            "dataType": "dateTime"
+          },
+          {
+            "name": "createdOnBehalfBy",
+            "dataType": "string"
+          },
+          {
+            "name": "creditLimit",
+            "dataType": "double"
+          },
+          {
+            "name": "creditLimitBase",
+            "dataType": "double"
+          },
+          {
+            "name": "creditOnHold",
+            "dataType": "boolean"
+          },
+          {
+            "name": "customerSizeCode",
+            "dataType": "int64"
+          },
+          {
+            "name": "customerSizeCode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "customerTypeCode",
+            "dataType": "int64"
+          },
+          {
+            "name": "customerTypeCode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "department",
+            "dataType": "string"
+          },
+          {
+            "name": "description",
+            "dataType": "string"
+          },
+          {
+            "name": "doNotBulkEMail",
+            "dataType": "boolean"
+          },
+          {
+            "name": "doNotBulkPostalMail",
+            "dataType": "boolean"
+          },
+          {
+            "name": "doNotEMail",
+            "dataType": "boolean"
+          },
+          {
+            "name": "doNotFax",
+            "dataType": "boolean"
+          },
+          {
+            "name": "doNotPhone",
+            "dataType": "boolean"
+          },
+          {
+            "name": "doNotPostalMail",
+            "dataType": "boolean"
+          },
+          {
+            "name": "doNotSendMM",
+            "dataType": "boolean"
+          },
+          {
+            "name": "educationCode",
+            "dataType": "int64"
+          },
+          {
+            "name": "educationCode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "EMailAddress1",
+            "dataType": "string"
+          },
+          {
+            "name": "EMailAddress2",
+            "dataType": "string"
+          },
+          {
+            "name": "EMailAddress3",
+            "dataType": "string"
+          },
+          {
+            "name": "employeeId",
+            "dataType": "string"
+          },
+          {
+            "name": "entityimage_timestamp",
+            "dataType": "int64"
+          },
+          {
+            "name": "entityimage_url",
+            "dataType": "string"
+          },
+          {
+            "name": "entityImageId",
+            "dataType": "string"
+          },
+          {
+            "name": "exchangeRate",
+            "dataType": "double"
+          },
+          {
+            "name": "externalUserIdentifier",
+            "dataType": "string"
+          },
+          {
+            "name": "familyStatusCode",
+            "dataType": "int64"
+          },
+          {
+            "name": "familyStatusCode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "fax",
+            "dataType": "string"
+          },
+          {
+            "name": "firstName",
+            "dataType": "string"
+          },
+          {
+            "name": "followEmail",
+            "dataType": "boolean"
+          },
+          {
+            "name": "ftpSiteUrl",
+            "dataType": "string"
+          },
+          {
+            "name": "fullName",
+            "dataType": "string"
+          },
+          {
+            "name": "genderCode",
+            "dataType": "int64"
+          },
+          {
+            "name": "genderCode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "governmentId",
+            "dataType": "string"
+          },
+          {
+            "name": "hasChildrenCode",
+            "dataType": "int64"
+          },
+          {
+            "name": "hasChildrenCode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "home2",
+            "dataType": "string"
+          },
+          {
+            "name": "importSequenceNumber",
+            "dataType": "int64"
+          },
+          {
+            "name": "isBackofficeCustomer",
+            "dataType": "boolean"
+          },
+          {
+            "name": "jobTitle",
+            "dataType": "string"
+          },
+          {
+            "name": "lastName",
+            "dataType": "string"
+          },
+          {
+            "name": "lastOnHoldTime",
+            "dataType": "dateTime"
+          },
+          {
+            "name": "lastUsedInCampaign",
+            "dataType": "dateTime"
+          },
+          {
+            "name": "leadSourceCode",
+            "dataType": "int64"
+          },
+          {
+            "name": "leadSourceCode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "managerName",
+            "dataType": "string"
+          },
+          {
+            "name": "managerPhone",
+            "dataType": "string"
+          },
+          {
+            "name": "marketingOnly",
+            "dataType": "boolean"
+          },
+          {
+            "name": "masterId",
+            "dataType": "string"
+          },
+          {
+            "name": "merged",
+            "dataType": "boolean"
+          },
+          {
+            "name": "middleName",
+            "dataType": "string"
+          },
+          {
+            "name": "mobilePhone",
+            "dataType": "string"
+          },
+          {
+            "name": "modifiedBy",
+            "dataType": "string"
+          },
+          {
+            "name": "modifiedByExternalParty",
+            "dataType": "string"
+          },
+          {
+            "name": "modifiedOn",
+            "dataType": "dateTime"
+          },
+          {
+            "name": "modifiedOnBehalfBy",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_citizenship",
+            "dataType": "int64"
+          },
+          {
+            "name": "mshied_citizenship_display",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_citizenshipstatus",
+            "dataType": "int64"
+          },
+          {
+            "name": "mshied_citizenshipstatus_display",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_contacttype",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_countryofbirth",
+            "dataType": "int64"
+          },
+          {
+            "name": "mshied_countryofbirth_display",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_currentacademicperiodid",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_currentprogramid",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_currentprogramlevelid",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_ethnicgroup",
+            "dataType": "int64"
+          },
+          {
+            "name": "mshied_ethnicgroup_display",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_externalidentifier",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_externalsourcesystem",
+            "dataType": "int64"
+          },
+          {
+            "name": "mshied_externalsourcesystem_display",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_ferpaprivacy",
+            "dataType": "boolean"
+          },
+          {
+            "name": "mshied_firstgeneration",
+            "dataType": "boolean"
+          },
+          {
+            "name": "mshied_hipaaindicator",
+            "dataType": "boolean"
+          },
+          {
+            "name": "mshied_isdeceased",
+            "dataType": "boolean"
+          },
+          {
+            "name": "mshied_lastpermanentresidencecountry",
+            "dataType": "int64"
+          },
+          {
+            "name": "mshied_lastpermanentresidencecountry_display",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_legacy",
+            "dataType": "boolean"
+          },
+          {
+            "name": "mshied_maidenname",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_manualriskscore",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_miltarystatus",
+            "dataType": "int64"
+          },
+          {
+            "name": "mshied_miltarystatus_display",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_nationalidentifier",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_nationality",
+            "dataType": "int64"
+          },
+          {
+            "name": "mshied_nationality_display",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_race",
+            "dataType": "int64"
+          },
+          {
+            "name": "mshied_race_",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_race_display",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_studentstatusid",
+            "dataType": "string"
+          },
+          {
+            "name": "nickName",
+            "dataType": "string"
+          },
+          {
+            "name": "numberOfChildren",
+            "dataType": "int64"
+          },
+          {
+            "name": "onHoldTime",
+            "dataType": "int64"
+          },
+          {
+            "name": "overriddenCreatedOn",
+            "dataType": "dateTime"
+          },
+          {
+            "name": "ownerId",
+            "dataType": "string"
+          },
+          {
+            "name": "owningBusinessUnit",
+            "dataType": "string"
+          },
+          {
+            "name": "owningTeam",
+            "dataType": "string"
+          },
+          {
+            "name": "owningUser",
+            "dataType": "string"
+          },
+          {
+            "name": "pager",
+            "dataType": "string"
+          },
+          {
+            "name": "parentContactId",
+            "dataType": "string"
+          },
+          {
+            "name": "parentCustomerId",
+            "dataType": "string"
+          },
+          {
+            "name": "participatesInWorkflow",
+            "dataType": "boolean"
+          },
+          {
+            "name": "paymentTermsCode",
+            "dataType": "int64"
+          },
+          {
+            "name": "paymentTermsCode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "preferredAppointmentDayCode",
+            "dataType": "int64"
+          },
+          {
+            "name": "preferredAppointmentDayCode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "preferredAppointmentTimeCode",
+            "dataType": "int64"
+          },
+          {
+            "name": "preferredAppointmentTimeCode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "preferredContactMethodCode",
+            "dataType": "int64"
+          },
+          {
+            "name": "preferredContactMethodCode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "preferredSystemUserId",
+            "dataType": "string"
+          },
+          {
+            "name": "processId",
+            "dataType": "string"
+          },
+          {
+            "name": "salutation",
+            "dataType": "string"
+          },
+          {
+            "name": "shippingMethodCode",
+            "dataType": "int64"
+          },
+          {
+            "name": "shippingMethodCode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "SLAId",
+            "dataType": "string"
+          },
+          {
+            "name": "SLAInvokedId",
+            "dataType": "string"
+          },
+          {
+            "name": "spousesName",
+            "dataType": "string"
+          },
+          {
+            "name": "stageId",
+            "dataType": "string"
+          },
+          {
+            "name": "stateCode",
+            "dataType": "int64"
+          },
+          {
+            "name": "stateCode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "statusCode",
+            "dataType": "int64"
+          },
+          {
+            "name": "statusCode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "suffix",
+            "dataType": "string"
+          },
+          {
+            "name": "telephone1",
+            "dataType": "string"
+          },
+          {
+            "name": "telephone2",
+            "dataType": "string"
+          },
+          {
+            "name": "telephone3",
+            "dataType": "string"
+          },
+          {
+            "name": "territoryCode",
+            "dataType": "int64"
+          },
+          {
+            "name": "territoryCode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "timeSpentByMeOnEmailAndMeetings",
+            "dataType": "string"
+          },
+          {
+            "name": "timeZoneRuleVersionNumber",
+            "dataType": "int64"
+          },
+          {
+            "name": "transactionCurrencyId",
+            "dataType": "string"
+          },
+          {
+            "name": "traversedPath",
+            "dataType": "string"
+          },
+          {
+            "name": "UTCConversionTimeZoneCode",
+            "dataType": "int64"
+          },
+          {
+            "name": "versionNumber",
+            "dataType": "int64"
+          },
+          {
+            "name": "webSiteUrl",
+            "dataType": "string"
+          },
+          {
+            "name": "yomiFirstName",
+            "dataType": "string"
+          },
+          {
+            "name": "yomiFullName",
+            "dataType": "string"
+          },
+          {
+            "name": "yomiLastName",
+            "dataType": "string"
+          },
+          {
+            "name": "yomiMiddleName",
+            "dataType": "string"
+          },
+          {
+            "name": "defaultPriceLevelId",
+            "dataType": "string"
+          },
+          {
+            "name": "originatingLeadId",
+            "dataType": "string"
+          },
+          {
+            "name": "preferredEquipmentId",
+            "dataType": "string"
+          },
+          {
+            "name": "preferredServiceId",
+            "dataType": "string"
+          },
+          {
+            "name": "adxCreatedByIPAddress",
+            "dataType": "string"
+          },
+          {
+            "name": "adxCreatedByUsername",
+            "dataType": "string"
+          },
+          {
+            "name": "adxModifiedByIPAddress",
+            "dataType": "string"
+          },
+          {
+            "name": "adxModifiedByUsername",
+            "dataType": "string"
+          },
+          {
+            "name": "adxOrganizationName",
+            "dataType": "string"
+          },
+          {
+            "name": "adxTimeZone",
+            "dataType": "string"
+          },
+          {
+            "name": "managingPartner",
+            "dataType": "string"
+          },
+          {
+            "name": "disableWebTracking",
+            "dataType": "boolean"
+          },
+          {
+            "name": "isMinor",
+            "dataType": "boolean"
+          },
+          {
+            "name": "isMinorWithParentalConsent",
+            "dataType": "boolean"
+          },
+          {
+            "name": "portalTermsAgreementDate",
+            "dataType": "dateTime"
+          },
+          {
+            "name": "preferredLanguage",
+            "dataType": "string"
+          },
+          {
+            "name": "profileAlert",
+            "dataType": "boolean"
+          },
+          {
+            "name": "profileAlertDate",
+            "dataType": "dateTime"
+          },
+          {
+            "name": "profileAlertInstructions",
+            "dataType": "string"
+          },
+          {
+            "name": "adxProfileIsAnonymous",
+            "dataType": "boolean"
+          },
+          {
+            "name": "adxProfileLastActivity",
+            "dataType": "dateTime"
+          },
+          {
+            "name": "profileModifiedOn",
+            "dataType": "dateTime"
+          },
+          {
+            "name": "publicProfileCopy",
+            "dataType": "string"
+          },
+          {
+            "name": "accessFailedCount",
+            "dataType": "int64"
+          },
+          {
+            "name": "emailConfirmed",
+            "dataType": "boolean"
+          },
+          {
+            "name": "lastSuccessfulLogin",
+            "dataType": "dateTime"
+          },
+          {
+            "name": "localLoginDisabled",
+            "dataType": "boolean"
+          },
+          {
+            "name": "lockoutEnabled",
+            "dataType": "boolean"
+          },
+          {
+            "name": "lockoutEndDate",
+            "dataType": "dateTime"
+          },
+          {
+            "name": "loginEnabled",
+            "dataType": "boolean"
+          },
+          {
+            "name": "mobilePhoneConfirmed",
+            "dataType": "boolean"
+          },
+          {
+            "name": "passwordHash",
+            "dataType": "string"
+          },
+          {
+            "name": "securityStamp",
+            "dataType": "string"
+          },
+          {
+            "name": "twoFactorEnabled",
+            "dataType": "boolean"
+          },
+          {
+            "name": "userName",
+            "dataType": "string"
+          },
+          {
+            "name": "originatingEvent",
+            "dataType": "string"
+          },
+          {
+            "name": "sourceCustomerJourney",
+            "dataType": "string"
+          },
+          {
+            "name": "sourceEmail",
+            "dataType": "string"
+          },
+          {
+            "name": "sourceForm",
+            "dataType": "string"
+          },
+          {
+            "name": "sourceLandingPage",
+            "dataType": "string"
+          },
+          {
+            "name": "rememberMe",
+            "dataType": "boolean"
+          },
+          {
+            "name": "insightsPlaceholder",
+            "dataType": "string"
+          },
+          {
+            "name": "portalInvitationCode",
+            "dataType": "string"
+          },
+          {
+            "name": "portalInvitationURL",
+            "dataType": "string"
+          },
+          {
+            "name": "activityStartDate",
+            "dataType": "dateTime"
+          },
+          {
+            "name": "address1PeriodEndDate",
+            "dataType": "dateTime"
+          },
+          {
+            "name": "address1PeriodStartDate",
+            "dataType": "dateTime"
+          },
+          {
+            "name": "address2PeriodEndDate",
+            "dataType": "dateTime"
+          },
+          {
+            "name": "address2PeriodStartDate",
+            "dataType": "dateTime"
+          },
+          {
+            "name": "address3PeriodEndDate",
+            "dataType": "dateTime"
+          },
+          {
+            "name": "address3PeriodStartDate",
+            "dataType": "dateTime"
+          },
+          {
+            "name": "animal",
+            "dataType": "boolean"
+          },
+          {
+            "name": "animalBreed",
+            "dataType": "string"
+          },
+          {
+            "name": "animalGenderStatus",
+            "dataType": "string"
+          },
+          {
+            "name": "animalSpecies",
+            "dataType": "string"
+          },
+          {
+            "name": "communication1Language",
+            "dataType": "string"
+          },
+          {
+            "name": "communication1Preferred",
+            "dataType": "boolean"
+          },
+          {
+            "name": "communication2Language",
+            "dataType": "string"
+          },
+          {
+            "name": "communication2Preferred",
+            "dataType": "boolean"
+          },
+          {
+            "name": "contact1EndDate",
+            "dataType": "dateTime"
+          },
+          {
+            "name": "contact2EndDate",
+            "dataType": "dateTime"
+          },
+          {
+            "name": "contact1",
+            "dataType": "string"
+          },
+          {
+            "name": "contact1Relationship",
+            "dataType": "string"
+          },
+          {
+            "name": "contact1StartDate",
+            "dataType": "dateTime"
+          },
+          {
+            "name": "contact2",
+            "dataType": "string"
+          },
+          {
+            "name": "contact2Relationship",
+            "dataType": "string"
+          },
+          {
+            "name": "contact2StartDate",
+            "dataType": "dateTime"
+          },
+          {
+            "name": "contactType",
+            "dataType": "int64"
+          },
+          {
+            "name": "contactType_display",
+            "dataType": "string"
+          },
+          {
+            "name": "deceasedDate",
+            "dataType": "dateTime"
+          },
+          {
+            "name": "generalPractioner",
+            "dataType": "string"
+          },
+          {
+            "name": "link1",
+            "dataType": "string"
+          },
+          {
+            "name": "link1Type",
+            "dataType": "string"
+          },
+          {
+            "name": "link2",
+            "dataType": "string"
+          },
+          {
+            "name": "link2Type",
+            "dataType": "string"
+          },
+          {
+            "name": "managingOrganization",
+            "dataType": "string"
+          },
+          {
+            "name": "medicalRecordNumber",
+            "dataType": "string"
+          },
+          {
+            "name": "multipleBirth",
+            "dataType": "int64"
+          },
+          {
+            "name": "name1EndDate",
+            "dataType": "dateTime"
+          },
+          {
+            "name": "name1StartDate",
+            "dataType": "dateTime"
+          },
+          {
+            "name": "name1Use",
+            "dataType": "int64"
+          },
+          {
+            "name": "name1Use_display",
+            "dataType": "string"
+          },
+          {
+            "name": "name2",
+            "dataType": "string"
+          },
+          {
+            "name": "name2EndDate",
+            "dataType": "dateTime"
+          },
+          {
+            "name": "name2FamilyName",
+            "dataType": "string"
+          },
+          {
+            "name": "name2GivenName",
+            "dataType": "string"
+          },
+          {
+            "name": "name2Prefix",
+            "dataType": "string"
+          },
+          {
+            "name": "name2StartDate",
+            "dataType": "dateTime"
+          },
+          {
+            "name": "name2Suffix",
+            "dataType": "string"
+          },
+          {
+            "name": "name2Use",
+            "dataType": "int64"
+          },
+          {
+            "name": "name2Use_display",
+            "dataType": "string"
+          },
+          {
+            "name": "name3",
+            "dataType": "string"
+          },
+          {
+            "name": "name3FamilyName",
+            "dataType": "string"
+          },
+          {
+            "name": "name3GivenName",
+            "dataType": "string"
+          },
+          {
+            "name": "name3NameEndDate",
+            "dataType": "dateTime"
+          },
+          {
+            "name": "name3NameStartDate",
+            "dataType": "dateTime"
+          },
+          {
+            "name": "name3Prefix",
+            "dataType": "string"
+          },
+          {
+            "name": "name3Suffix",
+            "dataType": "string"
+          },
+          {
+            "name": "name3Use",
+            "dataType": "int64"
+          },
+          {
+            "name": "name3Use_display",
+            "dataType": "string"
+          },
+          {
+            "name": "qualification1Identifier",
+            "dataType": "string"
+          },
+          {
+            "name": "qualification1Issuer",
+            "dataType": "string"
+          },
+          {
+            "name": "qualification1PeriodEndDate",
+            "dataType": "dateTime"
+          },
+          {
+            "name": "qualification1PeriodStartDate",
+            "dataType": "dateTime"
+          },
+          {
+            "name": "telecom1EndDate",
+            "dataType": "dateTime"
+          },
+          {
+            "name": "telecom1Rank",
+            "dataType": "int64"
+          },
+          {
+            "name": "telecom1StartDate",
+            "dataType": "dateTime"
+          },
+          {
+            "name": "telecom1System",
+            "dataType": "int64"
+          },
+          {
+            "name": "telecom1System_display",
+            "dataType": "string"
+          },
+          {
+            "name": "telecom1Use",
+            "dataType": "int64"
+          },
+          {
+            "name": "telecom1Use_display",
+            "dataType": "string"
+          },
+          {
+            "name": "telecom2EndDate",
+            "dataType": "dateTime"
+          },
+          {
+            "name": "telecom2Rank",
+            "dataType": "int64"
+          },
+          {
+            "name": "telecom2StartDate",
+            "dataType": "dateTime"
+          },
+          {
+            "name": "telecom2System",
+            "dataType": "int64"
+          },
+          {
+            "name": "telecom2System_display",
+            "dataType": "string"
+          },
+          {
+            "name": "telecom2Use",
+            "dataType": "int64"
+          },
+          {
+            "name": "telecom2Use_display",
+            "dataType": "string"
+          },
+          {
+            "name": "telecom3EndDate",
+            "dataType": "dateTime"
+          },
+          {
+            "name": "telecom3Rank",
+            "dataType": "int64"
+          },
+          {
+            "name": "telecom3StartDate",
+            "dataType": "dateTime"
+          },
+          {
+            "name": "telecom3System",
+            "dataType": "int64"
+          },
+          {
+            "name": "telecom3System_display",
+            "dataType": "string"
+          },
+          {
+            "name": "telecom3Use",
+            "dataType": "int64"
+          },
+          {
+            "name": "telecom3Use_display",
+            "dataType": "string"
+          }
+        ],
+        "schemas": [
+          "https://raw.githubusercontent.com/Microsoft/CDM/master/schemaDocuments/core/applicationCommon/Contact.0.7.cdm.json",
+          "https://raw.githubusercontent.com/Microsoft/CDM/master/schemaDocuments/core/applicationCommon/foundationCommon/Contact.0.7.cdm.json",
+          "https://raw.githubusercontent.com/Microsoft/CDM/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/Contact.0.7.cdm.json",
+          "https://raw.githubusercontent.com/Microsoft/CDM/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Contact.0.7.cdm.json",
+          "https://raw.githubusercontent.com/Microsoft/CDM/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/Contact.0.7.cdm.json",
+          "https://raw.githubusercontent.com/Microsoft/CDM/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Contact.0.7.cdm.json"
+        ]
+      },
+      {
+        "$type": "LocalEntity",
+        "name": "CustomerAddress",
+        "description": "",
+        "attributes": [
+          {
+            "name": "addressNumber",
+            "dataType": "int64"
+          },
+          {
+            "name": "addressTypeCode",
+            "dataType": "int64"
+          },
+          {
+            "name": "addressTypeCode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "city",
+            "dataType": "string"
+          },
+          {
+            "name": "composite",
+            "dataType": "string"
+          },
+          {
+            "name": "country",
+            "dataType": "string"
+          },
+          {
+            "name": "county",
+            "dataType": "string"
+          },
+          {
+            "name": "createdBy",
+            "dataType": "string"
+          },
+          {
+            "name": "createdOn",
+            "dataType": "dateTime"
+          },
+          {
+            "name": "createdOnBehalfBy",
+            "dataType": "string"
+          },
+          {
+            "name": "customerAddressId",
+            "dataType": "string"
+          },
+          {
+            "name": "exchangeRate",
+            "dataType": "double"
+          },
+          {
+            "name": "fax",
+            "dataType": "string"
+          },
+          {
+            "name": "freightTermsCode",
+            "dataType": "int64"
+          },
+          {
+            "name": "freightTermsCode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "importSequenceNumber",
+            "dataType": "int64"
+          },
+          {
+            "name": "latitude",
+            "dataType": "double"
+          },
+          {
+            "name": "line1",
+            "dataType": "string"
+          },
+          {
+            "name": "line2",
+            "dataType": "string"
+          },
+          {
+            "name": "line3",
+            "dataType": "string"
+          },
+          {
+            "name": "longitude",
+            "dataType": "double"
+          },
+          {
+            "name": "modifiedBy",
+            "dataType": "string"
+          },
+          {
+            "name": "modifiedOn",
+            "dataType": "dateTime"
+          },
+          {
+            "name": "modifiedOnBehalfBy",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_enddate",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "mshied_externalidentifier",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_externalsourcesystem",
+            "dataType": "int64"
+          },
+          {
+            "name": "mshied_externalsourcesystem_display",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_mailtype",
+            "dataType": "int64"
+          },
+          {
+            "name": "mshied_mailtype_display",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_startdate",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "name",
+            "dataType": "string"
+          },
+          {
+            "name": "objectTypeCode",
+            "dataType": "int64"
+          },
+          {
+            "name": "overriddenCreatedOn",
+            "dataType": "dateTime"
+          },
+          {
+            "name": "ownerId",
+            "dataType": "string"
+          },
+          {
+            "name": "owningBusinessUnit",
+            "dataType": "string"
+          },
+          {
+            "name": "owningUser",
+            "dataType": "string"
+          },
+          {
+            "name": "parentId",
+            "dataType": "string"
+          },
+          {
+            "name": "postalCode",
+            "dataType": "string"
+          },
+          {
+            "name": "postOfficeBox",
+            "dataType": "string"
+          },
+          {
+            "name": "primaryContactName",
+            "dataType": "string"
+          },
+          {
+            "name": "shippingMethodCode",
+            "dataType": "int64"
+          },
+          {
+            "name": "shippingMethodCode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "stateOrProvince",
+            "dataType": "string"
+          },
+          {
+            "name": "telephone1",
+            "dataType": "string"
+          },
+          {
+            "name": "telephone2",
+            "dataType": "string"
+          },
+          {
+            "name": "telephone3",
+            "dataType": "string"
+          },
+          {
+            "name": "timeZoneRuleVersionNumber",
+            "dataType": "int64"
+          },
+          {
+            "name": "transactionCurrencyId",
+            "dataType": "string"
+          },
+          {
+            "name": "UPSZone",
+            "dataType": "string"
+          },
+          {
+            "name": "UTCConversionTimeZoneCode",
+            "dataType": "int64"
+          },
+          {
+            "name": "UTCOffset",
+            "dataType": "string"
+          },
+          {
+            "name": "versionNumber",
+            "dataType": "int64"
+          },
+          {
+            "name": "objectTypeCode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "endDate",
+            "dataType": "dateTime"
+          },
+          {
+            "name": "startDate",
+            "dataType": "dateTime"
+          }
+        ],
+        "schemas": [
+          "https://raw.githubusercontent.com/Microsoft/CDM/master/schemaDocuments/core/applicationCommon/Address.0.7.cdm.json",
+          "https://raw.githubusercontent.com/Microsoft/CDM/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Address.0.7.cdm.json"
+        ]
+      },
+      {
+        "$type": "LocalEntity",
+        "name": "mshied_areaofstudy",
+        "description": "",
+        "attributes": [
+          {
+            "name": "createdby",
+            "dataType": "string"
+          },
+          {
+            "name": "createdon",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "createdonbehalfby",
+            "dataType": "string"
+          },
+          {
+            "name": "importsequencenumber",
+            "dataType": "int64"
+          },
+          {
+            "name": "modifiedby",
+            "dataType": "string"
+          },
+          {
+            "name": "modifiedon",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "modifiedonbehalfby",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_areaofstudyid",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_code",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_externalidentifier",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_externalsourcesystem",
+            "dataType": "int64"
+          },
+          {
+            "name": "mshied_externalsourcesystem_display",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_minimumrequiredgpa",
+            "dataType": "double"
+          },
+          {
+            "name": "mshied_name",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_programtypeid",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_requiredcredits",
+            "dataType": "double"
+          },
+          {
+            "name": "overriddencreatedon",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "ownerid",
+            "dataType": "string"
+          },
+          {
+            "name": "owningbusinessunit",
+            "dataType": "string"
+          },
+          {
+            "name": "owningteam",
+            "dataType": "string"
+          },
+          {
+            "name": "owninguser",
+            "dataType": "string"
+          },
+          {
+            "name": "statecode",
+            "dataType": "int64"
+          },
+          {
+            "name": "statecode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "statuscode",
+            "dataType": "int64"
+          },
+          {
+            "name": "statuscode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "timezoneruleversionnumber",
+            "dataType": "int64"
+          },
+          {
+            "name": "utcconversiontimezonecode",
+            "dataType": "int64"
+          },
+          {
+            "name": "versionnumber",
+            "dataType": "int64"
+          }
+        ]
+      },
+      {
+        "$type": "LocalEntity",
+        "name": "mshied_Accomplishments",
+        "description": "",
+        "attributes": [
+          {
+            "name": "createdby",
+            "dataType": "string"
+          },
+          {
+            "name": "createdon",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "createdonbehalfby",
+            "dataType": "string"
+          },
+          {
+            "name": "importsequencenumber",
+            "dataType": "int64"
+          },
+          {
+            "name": "modifiedby",
+            "dataType": "string"
+          },
+          {
+            "name": "modifiedon",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "modifiedonbehalfby",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_accomplishmentsid",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_accomplishmenttype",
+            "dataType": "int64"
+          },
+          {
+            "name": "mshied_accomplishmenttype_display",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_description",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_name",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_student",
+            "dataType": "string"
+          },
+          {
+            "name": "overriddencreatedon",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "ownerid",
+            "dataType": "string"
+          },
+          {
+            "name": "owningbusinessunit",
+            "dataType": "string"
+          },
+          {
+            "name": "owningteam",
+            "dataType": "string"
+          },
+          {
+            "name": "owninguser",
+            "dataType": "string"
+          },
+          {
+            "name": "statecode",
+            "dataType": "int64"
+          },
+          {
+            "name": "statecode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "statuscode",
+            "dataType": "int64"
+          },
+          {
+            "name": "statuscode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "timezoneruleversionnumber",
+            "dataType": "int64"
+          },
+          {
+            "name": "utcconversiontimezonecode",
+            "dataType": "int64"
+          },
+          {
+            "name": "versionnumber",
+            "dataType": "int64"
+          }
+        ]
+      },
+      {
+        "$type": "LocalEntity",
+        "name": "mshied_contact_areaofinterest",
+        "description": "",
+        "attributes": [
+          {
+            "name": "contactid",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_areaofinterestid",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_contact_areaofinterestid",
+            "dataType": "string"
+          },
+          {
+            "name": "versionnumber",
+            "dataType": "int64"
+          }
+        ]
+      },
+      {
+        "$type": "LocalEntity",
+        "name": "mshied_academicperiod",
+        "description": "",
+        "attributes": [
+          {
+            "name": "createdby",
+            "dataType": "string"
+          },
+          {
+            "name": "createdon",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "createdonbehalfby",
+            "dataType": "string"
+          },
+          {
+            "name": "importsequencenumber",
+            "dataType": "int64"
+          },
+          {
+            "name": "modifiedby",
+            "dataType": "string"
+          },
+          {
+            "name": "modifiedon",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "modifiedonbehalfby",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_academicperiodid",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_code",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_enddate",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "mshied_externalidentifier",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_externalsourcesystem",
+            "dataType": "int64"
+          },
+          {
+            "name": "mshied_externalsourcesystem_display",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_name",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_startdate",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "overriddencreatedon",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "ownerid",
+            "dataType": "string"
+          },
+          {
+            "name": "owningbusinessunit",
+            "dataType": "string"
+          },
+          {
+            "name": "owningteam",
+            "dataType": "string"
+          },
+          {
+            "name": "owninguser",
+            "dataType": "string"
+          },
+          {
+            "name": "statecode",
+            "dataType": "int64"
+          },
+          {
+            "name": "statecode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "statuscode",
+            "dataType": "int64"
+          },
+          {
+            "name": "statuscode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "timezoneruleversionnumber",
+            "dataType": "int64"
+          },
+          {
+            "name": "utcconversiontimezonecode",
+            "dataType": "int64"
+          },
+          {
+            "name": "versionnumber",
+            "dataType": "int64"
+          }
+        ]
+      },
+      {
+        "$type": "LocalEntity",
+        "name": "mshied_coursehistory",
+        "description": "",
+        "attributes": [
+          {
+            "name": "createdby",
+            "dataType": "string"
+          },
+          {
+            "name": "createdon",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "createdonbehalfby",
+            "dataType": "string"
+          },
+          {
+            "name": "importsequencenumber",
+            "dataType": "int64"
+          },
+          {
+            "name": "modifiedby",
+            "dataType": "string"
+          },
+          {
+            "name": "modifiedon",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "modifiedonbehalfby",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_academicperioddetailsid",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_continuingeducation",
+            "dataType": "int64"
+          },
+          {
+            "name": "mshied_continuingeducation_display",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_coursehistoryid",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_courseid",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_coursesectionid",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_creditsattempted",
+            "dataType": "double"
+          },
+          {
+            "name": "mshied_creditsearrned",
+            "dataType": "double"
+          },
+          {
+            "name": "mshied_gradepoints",
+            "dataType": "double"
+          },
+          {
+            "name": "mshied_lastdateofattendance",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "mshied_lettergrade",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_midtermlettergrade",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_midtermnumericgrade",
+            "dataType": "int64"
+          },
+          {
+            "name": "mshied_name",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_registrationstatusid",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_studentid",
+            "dataType": "string"
+          },
+          {
+            "name": "overriddencreatedon",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "ownerid",
+            "dataType": "string"
+          },
+          {
+            "name": "owningbusinessunit",
+            "dataType": "string"
+          },
+          {
+            "name": "owningteam",
+            "dataType": "string"
+          },
+          {
+            "name": "owninguser",
+            "dataType": "string"
+          },
+          {
+            "name": "statecode",
+            "dataType": "int64"
+          },
+          {
+            "name": "statecode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "statuscode",
+            "dataType": "int64"
+          },
+          {
+            "name": "statuscode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "timezoneruleversionnumber",
+            "dataType": "int64"
+          },
+          {
+            "name": "utcconversiontimezonecode",
+            "dataType": "int64"
+          },
+          {
+            "name": "versionnumber",
+            "dataType": "int64"
+          }
+        ]
+      },
+      {
+        "$type": "LocalEntity",
+        "name": "mshied_academicperioddetails",
+        "description": "",
+        "attributes": [
+          {
+            "name": "createdby",
+            "dataType": "string"
+          },
+          {
+            "name": "createdon",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "createdonbehalfby",
+            "dataType": "string"
+          },
+          {
+            "name": "importsequencenumber",
+            "dataType": "int64"
+          },
+          {
+            "name": "modifiedby",
+            "dataType": "string"
+          },
+          {
+            "name": "modifiedon",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "modifiedonbehalfby",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_academicperioddetailsid",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_academicperiodid",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_attendancetype",
+            "dataType": "int64"
+          },
+          {
+            "name": "mshied_attendancetype_display",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_creditload",
+            "dataType": "int64"
+          },
+          {
+            "name": "mshied_educationlevelid",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_employedhoursperweek",
+            "dataType": "int64"
+          },
+          {
+            "name": "mshied_isathlete",
+            "dataType": "boolean"
+          },
+          {
+            "name": "mshied_isemployed",
+            "dataType": "boolean"
+          },
+          {
+            "name": "mshied_isinternationalstudent",
+            "dataType": "boolean"
+          },
+          {
+            "name": "mshied_isironfile",
+            "dataType": "boolean"
+          },
+          {
+            "name": "mshied_istransferstudent",
+            "dataType": "boolean"
+          },
+          {
+            "name": "mshied_majorcreditearned",
+            "dataType": "int64"
+          },
+          {
+            "name": "mshied_majorgpa",
+            "dataType": "double"
+          },
+          {
+            "name": "mshied_midtermdeficiency",
+            "dataType": "boolean"
+          },
+          {
+            "name": "mshied_name",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_programid",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_studentid",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_termcreditsearned",
+            "dataType": "int64"
+          },
+          {
+            "name": "mshied_termgpa",
+            "dataType": "double"
+          },
+          {
+            "name": "overriddencreatedon",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "ownerid",
+            "dataType": "string"
+          },
+          {
+            "name": "owningbusinessunit",
+            "dataType": "string"
+          },
+          {
+            "name": "owningteam",
+            "dataType": "string"
+          },
+          {
+            "name": "owninguser",
+            "dataType": "string"
+          },
+          {
+            "name": "statecode",
+            "dataType": "int64"
+          },
+          {
+            "name": "statecode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "statuscode",
+            "dataType": "int64"
+          },
+          {
+            "name": "statuscode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "timezoneruleversionnumber",
+            "dataType": "int64"
+          },
+          {
+            "name": "utcconversiontimezonecode",
+            "dataType": "int64"
+          },
+          {
+            "name": "versionnumber",
+            "dataType": "int64"
+          }
+        ]
+      },
+      {
+        "$type": "LocalEntity",
+        "name": "mshied_areaofinterest",
+        "description": "",
+        "attributes": [
+          {
+            "name": "createdby",
+            "dataType": "string"
+          },
+          {
+            "name": "createdon",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "createdonbehalfby",
+            "dataType": "string"
+          },
+          {
+            "name": "importsequencenumber",
+            "dataType": "int64"
+          },
+          {
+            "name": "modifiedby",
+            "dataType": "string"
+          },
+          {
+            "name": "modifiedon",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "modifiedonbehalfby",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_areaofinterestid",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_code",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_externalidentifier",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_externalsourcesystem",
+            "dataType": "int64"
+          },
+          {
+            "name": "mshied_externalsourcesystem_display",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_name",
+            "dataType": "string"
+          },
+          {
+            "name": "overriddencreatedon",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "ownerid",
+            "dataType": "string"
+          },
+          {
+            "name": "owningbusinessunit",
+            "dataType": "string"
+          },
+          {
+            "name": "owningteam",
+            "dataType": "string"
+          },
+          {
+            "name": "owninguser",
+            "dataType": "string"
+          },
+          {
+            "name": "statecode",
+            "dataType": "int64"
+          },
+          {
+            "name": "statecode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "statuscode",
+            "dataType": "int64"
+          },
+          {
+            "name": "statuscode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "timezoneruleversionnumber",
+            "dataType": "int64"
+          },
+          {
+            "name": "utcconversiontimezonecode",
+            "dataType": "int64"
+          },
+          {
+            "name": "versionnumber",
+            "dataType": "int64"
+          }
+        ]
+      },
+      {
+        "$type": "LocalEntity",
+        "name": "mshied_course",
+        "description": "",
+        "attributes": [
+          {
+            "name": "createdby",
+            "dataType": "string"
+          },
+          {
+            "name": "createdon",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "createdonbehalfby",
+            "dataType": "string"
+          },
+          {
+            "name": "importsequencenumber",
+            "dataType": "int64"
+          },
+          {
+            "name": "modifiedby",
+            "dataType": "string"
+          },
+          {
+            "name": "modifiedon",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "modifiedonbehalfby",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_academiclevel",
+            "dataType": "int64"
+          },
+          {
+            "name": "mshied_academiclevel_display",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_courseid",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_coursenumber",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_enddate",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "mshied_externalidentifier",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_externalsourcesystem",
+            "dataType": "int64"
+          },
+          {
+            "name": "mshied_externalsourcesystem_display",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_name",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_prerequisites",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_section",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_startdate",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "mshied_subject",
+            "dataType": "string"
+          },
+          {
+            "name": "overriddencreatedon",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "ownerid",
+            "dataType": "string"
+          },
+          {
+            "name": "owningbusinessunit",
+            "dataType": "string"
+          },
+          {
+            "name": "owningteam",
+            "dataType": "string"
+          },
+          {
+            "name": "owninguser",
+            "dataType": "string"
+          },
+          {
+            "name": "statecode",
+            "dataType": "int64"
+          },
+          {
+            "name": "statecode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "statuscode",
+            "dataType": "int64"
+          },
+          {
+            "name": "statuscode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "timezoneruleversionnumber",
+            "dataType": "int64"
+          },
+          {
+            "name": "utcconversiontimezonecode",
+            "dataType": "int64"
+          },
+          {
+            "name": "versionnumber",
+            "dataType": "int64"
+          }
+        ]
+      },
+      {
+        "$type": "LocalEntity",
+        "name": "mshied_coursesection",
+        "description": "",
+        "attributes": [
+          {
+            "name": "createdby",
+            "dataType": "string"
+          },
+          {
+            "name": "createdon",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "createdonbehalfby",
+            "dataType": "string"
+          },
+          {
+            "name": "importsequencenumber",
+            "dataType": "int64"
+          },
+          {
+            "name": "modifiedby",
+            "dataType": "string"
+          },
+          {
+            "name": "modifiedon",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "modifiedonbehalfby",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_academicperiodid",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_campusid",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_coursedaytime",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_courseid",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_coursesectionid",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_instructorid",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_location",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_name",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_prerequisites",
+            "dataType": "string"
+          },
+          {
+            "name": "overriddencreatedon",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "ownerid",
+            "dataType": "string"
+          },
+          {
+            "name": "owningbusinessunit",
+            "dataType": "string"
+          },
+          {
+            "name": "owningteam",
+            "dataType": "string"
+          },
+          {
+            "name": "owninguser",
+            "dataType": "string"
+          },
+          {
+            "name": "statecode",
+            "dataType": "int64"
+          },
+          {
+            "name": "statecode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "statuscode",
+            "dataType": "int64"
+          },
+          {
+            "name": "statuscode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "timezoneruleversionnumber",
+            "dataType": "int64"
+          },
+          {
+            "name": "utcconversiontimezonecode",
+            "dataType": "int64"
+          },
+          {
+            "name": "versionnumber",
+            "dataType": "int64"
+          }
+        ]
+      },
+      {
+        "$type": "LocalEntity",
+        "name": "mshied_educationlevel",
+        "description": "",
+        "attributes": [
+          {
+            "name": "createdby",
+            "dataType": "string"
+          },
+          {
+            "name": "createdon",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "createdonbehalfby",
+            "dataType": "string"
+          },
+          {
+            "name": "importsequencenumber",
+            "dataType": "int64"
+          },
+          {
+            "name": "modifiedby",
+            "dataType": "string"
+          },
+          {
+            "name": "modifiedon",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "modifiedonbehalfby",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_code",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_educationlevelid",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_externalidentifier",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_externalsourcesystem",
+            "dataType": "int64"
+          },
+          {
+            "name": "mshied_externalsourcesystem_display",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_name",
+            "dataType": "string"
+          },
+          {
+            "name": "overriddencreatedon",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "ownerid",
+            "dataType": "string"
+          },
+          {
+            "name": "owningbusinessunit",
+            "dataType": "string"
+          },
+          {
+            "name": "owningteam",
+            "dataType": "string"
+          },
+          {
+            "name": "owninguser",
+            "dataType": "string"
+          },
+          {
+            "name": "statecode",
+            "dataType": "int64"
+          },
+          {
+            "name": "statecode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "statuscode",
+            "dataType": "int64"
+          },
+          {
+            "name": "statuscode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "timezoneruleversionnumber",
+            "dataType": "int64"
+          },
+          {
+            "name": "utcconversiontimezonecode",
+            "dataType": "int64"
+          },
+          {
+            "name": "versionnumber",
+            "dataType": "int64"
+          }
+        ]
+      },
+      {
+        "$type": "LocalEntity",
+        "name": "mshied_extracurricularactivities",
+        "description": "",
+        "attributes": [
+          {
+            "name": "createdby",
+            "dataType": "string"
+          },
+          {
+            "name": "createdon",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "createdonbehalfby",
+            "dataType": "string"
+          },
+          {
+            "name": "importsequencenumber",
+            "dataType": "int64"
+          },
+          {
+            "name": "modifiedby",
+            "dataType": "string"
+          },
+          {
+            "name": "modifiedon",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "modifiedonbehalfby",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_code",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_dateoforganizationformed",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "mshied_description",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_externalidentifier",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_externalsourcesystem",
+            "dataType": "int64"
+          },
+          {
+            "name": "mshied_externalsourcesystem_display",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_extracurricularactivitiesid",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_generalemail",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_name",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_organizationmissionstatement",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_primarycontactid",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_primarypurpose",
+            "dataType": "int64"
+          },
+          {
+            "name": "mshied_primarypurpose_display",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_schoolid",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_website",
+            "dataType": "string"
+          },
+          {
+            "name": "overriddencreatedon",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "ownerid",
+            "dataType": "string"
+          },
+          {
+            "name": "owningbusinessunit",
+            "dataType": "string"
+          },
+          {
+            "name": "owningteam",
+            "dataType": "string"
+          },
+          {
+            "name": "owninguser",
+            "dataType": "string"
+          },
+          {
+            "name": "statecode",
+            "dataType": "int64"
+          },
+          {
+            "name": "statecode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "statuscode",
+            "dataType": "int64"
+          },
+          {
+            "name": "statuscode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "timezoneruleversionnumber",
+            "dataType": "int64"
+          },
+          {
+            "name": "utcconversiontimezonecode",
+            "dataType": "int64"
+          },
+          {
+            "name": "versionnumber",
+            "dataType": "int64"
+          }
+        ]
+      },
+      {
+        "$type": "LocalEntity",
+        "name": "mshied_extracurricularparticipant",
+        "description": "",
+        "attributes": [
+          {
+            "name": "createdby",
+            "dataType": "string"
+          },
+          {
+            "name": "createdon",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "createdonbehalfby",
+            "dataType": "string"
+          },
+          {
+            "name": "importsequencenumber",
+            "dataType": "int64"
+          },
+          {
+            "name": "modifiedby",
+            "dataType": "string"
+          },
+          {
+            "name": "modifiedon",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "modifiedonbehalfby",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_awardsreceived",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_contactid",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_enddate",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "mshied_extracurricularactivityid",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_extracurricularparticipantid",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_name",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_positionsheld",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_source",
+            "dataType": "int64"
+          },
+          {
+            "name": "mshied_source_display",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_startdate",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "mshied_state",
+            "dataType": "int64"
+          },
+          {
+            "name": "mshied_state_display",
+            "dataType": "string"
+          },
+          {
+            "name": "overriddencreatedon",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "ownerid",
+            "dataType": "string"
+          },
+          {
+            "name": "owningbusinessunit",
+            "dataType": "string"
+          },
+          {
+            "name": "owningteam",
+            "dataType": "string"
+          },
+          {
+            "name": "owninguser",
+            "dataType": "string"
+          },
+          {
+            "name": "statecode",
+            "dataType": "int64"
+          },
+          {
+            "name": "statecode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "statuscode",
+            "dataType": "int64"
+          },
+          {
+            "name": "statuscode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "timezoneruleversionnumber",
+            "dataType": "int64"
+          },
+          {
+            "name": "utcconversiontimezonecode",
+            "dataType": "int64"
+          },
+          {
+            "name": "versionnumber",
+            "dataType": "int64"
+          }
+        ]
+      },
+      {
+        "$type": "LocalEntity",
+        "name": "mshied_GrantApplicant",
+        "description": "",
+        "attributes": [
+          {
+            "name": "createdby",
+            "dataType": "string"
+          },
+          {
+            "name": "createdon",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "createdonbehalfby",
+            "dataType": "string"
+          },
+          {
+            "name": "importsequencenumber",
+            "dataType": "int64"
+          },
+          {
+            "name": "modifiedby",
+            "dataType": "string"
+          },
+          {
+            "name": "modifiedon",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "modifiedonbehalfby",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_applicant",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_applicationstatecode",
+            "dataType": "int64"
+          },
+          {
+            "name": "mshied_applicationstatecode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_businesspartner",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_grant",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_grantapplicantid",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_name",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_offeraccepteddate",
+            "dataType": "dateTime"
+          },
+          {
+            "name": "mshied_offerdeadlinedate",
+            "dataType": "dateTime"
+          },
+          {
+            "name": "mshied_offermadedate",
+            "dataType": "dateTime"
+          },
+          {
+            "name": "mshied_qualificationdescription",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_submissiondate",
+            "dataType": "dateTime"
+          },
+          {
+            "name": "overriddencreatedon",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "ownerid",
+            "dataType": "string"
+          },
+          {
+            "name": "owningbusinessunit",
+            "dataType": "string"
+          },
+          {
+            "name": "owningteam",
+            "dataType": "string"
+          },
+          {
+            "name": "owninguser",
+            "dataType": "string"
+          },
+          {
+            "name": "processid",
+            "dataType": "string"
+          },
+          {
+            "name": "stageid",
+            "dataType": "string"
+          },
+          {
+            "name": "statecode",
+            "dataType": "int64"
+          },
+          {
+            "name": "statecode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "statuscode",
+            "dataType": "int64"
+          },
+          {
+            "name": "statuscode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "timezoneruleversionnumber",
+            "dataType": "int64"
+          },
+          {
+            "name": "traversedpath",
+            "dataType": "string"
+          },
+          {
+            "name": "utcconversiontimezonecode",
+            "dataType": "int64"
+          },
+          {
+            "name": "versionnumber",
+            "dataType": "int64"
+          }
+        ]
+      },
+      {
+        "$type": "LocalEntity",
+        "name": "mshied_Grant",
+        "description": "",
+        "attributes": [
+          {
+            "name": "createdby",
+            "dataType": "string"
+          },
+          {
+            "name": "createdon",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "createdonbehalfby",
+            "dataType": "string"
+          },
+          {
+            "name": "exchangerate",
+            "dataType": "double"
+          },
+          {
+            "name": "importsequencenumber",
+            "dataType": "int64"
+          },
+          {
+            "name": "modifiedby",
+            "dataType": "string"
+          },
+          {
+            "name": "modifiedon",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "modifiedonbehalfby",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_amount",
+            "dataType": "double"
+          },
+          {
+            "name": "mshied_amount_base",
+            "dataType": "double"
+          },
+          {
+            "name": "mshied_applicationdeadlinedate",
+            "dataType": "dateTime"
+          },
+          {
+            "name": "mshied_areaofstudy",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_businesspartner",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_businesspartnercontact",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_description",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_grantid",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_name",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_qualifications",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_responsiblefacultycontact",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_validfrom",
+            "dataType": "dateTime"
+          },
+          {
+            "name": "mshied_validto",
+            "dataType": "dateTime"
+          },
+          {
+            "name": "mshied_websiteurl",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_workdescription",
+            "dataType": "string"
+          },
+          {
+            "name": "overriddencreatedon",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "ownerid",
+            "dataType": "string"
+          },
+          {
+            "name": "owningbusinessunit",
+            "dataType": "string"
+          },
+          {
+            "name": "owningteam",
+            "dataType": "string"
+          },
+          {
+            "name": "owninguser",
+            "dataType": "string"
+          },
+          {
+            "name": "statecode",
+            "dataType": "int64"
+          },
+          {
+            "name": "statecode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "statuscode",
+            "dataType": "int64"
+          },
+          {
+            "name": "statuscode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "timezoneruleversionnumber",
+            "dataType": "int64"
+          },
+          {
+            "name": "transactioncurrencyid",
+            "dataType": "string"
+          },
+          {
+            "name": "utcconversiontimezonecode",
+            "dataType": "int64"
+          },
+          {
+            "name": "versionnumber",
+            "dataType": "int64"
+          }
+        ]
+      },
+      {
+        "$type": "LocalEntity",
+        "name": "mshied_InternshipApplicant",
+        "description": "",
+        "attributes": [
+          {
+            "name": "createdby",
+            "dataType": "string"
+          },
+          {
+            "name": "createdon",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "createdonbehalfby",
+            "dataType": "string"
+          },
+          {
+            "name": "importsequencenumber",
+            "dataType": "int64"
+          },
+          {
+            "name": "modifiedby",
+            "dataType": "string"
+          },
+          {
+            "name": "modifiedon",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "modifiedonbehalfby",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_applicant",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_applicationstatecode",
+            "dataType": "int64"
+          },
+          {
+            "name": "mshied_applicationstatecode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_businesspartner",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_internship",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_internshipapplicantid",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_iswillingtorelocate",
+            "dataType": "boolean"
+          },
+          {
+            "name": "mshied_name",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_offeraccepteddate",
+            "dataType": "dateTime"
+          },
+          {
+            "name": "mshied_offerdeadlinedate",
+            "dataType": "dateTime"
+          },
+          {
+            "name": "mshied_offermadedate",
+            "dataType": "dateTime"
+          },
+          {
+            "name": "mshied_qualificationdescription",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_submissiondate",
+            "dataType": "dateTime"
+          },
+          {
+            "name": "overriddencreatedon",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "ownerid",
+            "dataType": "string"
+          },
+          {
+            "name": "owningbusinessunit",
+            "dataType": "string"
+          },
+          {
+            "name": "owningteam",
+            "dataType": "string"
+          },
+          {
+            "name": "owninguser",
+            "dataType": "string"
+          },
+          {
+            "name": "processid",
+            "dataType": "string"
+          },
+          {
+            "name": "stageid",
+            "dataType": "string"
+          },
+          {
+            "name": "statecode",
+            "dataType": "int64"
+          },
+          {
+            "name": "statecode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "statuscode",
+            "dataType": "int64"
+          },
+          {
+            "name": "statuscode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "timezoneruleversionnumber",
+            "dataType": "int64"
+          },
+          {
+            "name": "traversedpath",
+            "dataType": "string"
+          },
+          {
+            "name": "utcconversiontimezonecode",
+            "dataType": "int64"
+          },
+          {
+            "name": "versionnumber",
+            "dataType": "int64"
+          }
+        ]
+      },
+      {
+        "$type": "LocalEntity",
+        "name": "mshied_Internship",
+        "description": "",
+        "attributes": [
+          {
+            "name": "createdby",
+            "dataType": "string"
+          },
+          {
+            "name": "createdon",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "createdonbehalfby",
+            "dataType": "string"
+          },
+          {
+            "name": "importsequencenumber",
+            "dataType": "int64"
+          },
+          {
+            "name": "modifiedby",
+            "dataType": "string"
+          },
+          {
+            "name": "modifiedon",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "modifiedonbehalfby",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_applicationdeadlinedate",
+            "dataType": "dateTime"
+          },
+          {
+            "name": "mshied_businesspartner",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_businesspartnercontact",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_description",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_internshipid",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_ispaid",
+            "dataType": "boolean"
+          },
+          {
+            "name": "mshied_locationdescription",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_posteddate",
+            "dataType": "dateTime"
+          },
+          {
+            "name": "mshied_qualifications",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_title",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_validfrom",
+            "dataType": "dateTime"
+          },
+          {
+            "name": "mshied_validto",
+            "dataType": "dateTime"
+          },
+          {
+            "name": "mshied_websiteurl",
+            "dataType": "string"
+          },
+          {
+            "name": "overriddencreatedon",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "ownerid",
+            "dataType": "string"
+          },
+          {
+            "name": "owningbusinessunit",
+            "dataType": "string"
+          },
+          {
+            "name": "owningteam",
+            "dataType": "string"
+          },
+          {
+            "name": "owninguser",
+            "dataType": "string"
+          },
+          {
+            "name": "statecode",
+            "dataType": "int64"
+          },
+          {
+            "name": "statecode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "statuscode",
+            "dataType": "int64"
+          },
+          {
+            "name": "statuscode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "timezoneruleversionnumber",
+            "dataType": "int64"
+          },
+          {
+            "name": "utcconversiontimezonecode",
+            "dataType": "int64"
+          },
+          {
+            "name": "versionnumber",
+            "dataType": "int64"
+          }
+        ]
+      },
+      {
+        "$type": "LocalEntity",
+        "name": "mshied_previouseducation",
+        "description": "",
+        "attributes": [
+          {
+            "name": "createdby",
+            "dataType": "string"
+          },
+          {
+            "name": "createdon",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "createdonbehalfby",
+            "dataType": "string"
+          },
+          {
+            "name": "importsequencenumber",
+            "dataType": "int64"
+          },
+          {
+            "name": "modifiedby",
+            "dataType": "string"
+          },
+          {
+            "name": "modifiedon",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "modifiedonbehalfby",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_classsize",
+            "dataType": "int64"
+          },
+          {
+            "name": "mshied_dateofenrollment",
+            "dataType": "dateTime"
+          },
+          {
+            "name": "mshied_degreeid",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_degreeid_",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_educationlevelid",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_gpa",
+            "dataType": "double"
+          },
+          {
+            "name": "mshied_graduated",
+            "dataType": "boolean"
+          },
+          {
+            "name": "mshied_graduationdate",
+            "dataType": "dateTime"
+          },
+          {
+            "name": "mshied_lastdateofattendance",
+            "dataType": "dateTime"
+          },
+          {
+            "name": "mshied_major",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_name",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_previouseducationid",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_rank",
+            "dataType": "int64"
+          },
+          {
+            "name": "mshied_schoolnameid",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_studentid",
+            "dataType": "string"
+          },
+          {
+            "name": "overriddencreatedon",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "ownerid",
+            "dataType": "string"
+          },
+          {
+            "name": "owningbusinessunit",
+            "dataType": "string"
+          },
+          {
+            "name": "owningteam",
+            "dataType": "string"
+          },
+          {
+            "name": "owninguser",
+            "dataType": "string"
+          },
+          {
+            "name": "statecode",
+            "dataType": "int64"
+          },
+          {
+            "name": "statecode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "statuscode",
+            "dataType": "int64"
+          },
+          {
+            "name": "statuscode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "timezoneruleversionnumber",
+            "dataType": "int64"
+          },
+          {
+            "name": "utcconversiontimezonecode",
+            "dataType": "int64"
+          },
+          {
+            "name": "versionnumber",
+            "dataType": "int64"
+          }
+        ]
+      },
+      {
+        "$type": "LocalEntity",
+        "name": "mshied_programlevel",
+        "description": "",
+        "attributes": [
+          {
+            "name": "createdby",
+            "dataType": "string"
+          },
+          {
+            "name": "createdon",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "createdonbehalfby",
+            "dataType": "string"
+          },
+          {
+            "name": "importsequencenumber",
+            "dataType": "int64"
+          },
+          {
+            "name": "modifiedby",
+            "dataType": "string"
+          },
+          {
+            "name": "modifiedon",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "modifiedonbehalfby",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_code",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_externalidentifier",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_externalsourcesystem",
+            "dataType": "int64"
+          },
+          {
+            "name": "mshied_externalsourcesystem_display",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_name",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_programlevelid",
+            "dataType": "string"
+          },
+          {
+            "name": "overriddencreatedon",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "ownerid",
+            "dataType": "string"
+          },
+          {
+            "name": "owningbusinessunit",
+            "dataType": "string"
+          },
+          {
+            "name": "owningteam",
+            "dataType": "string"
+          },
+          {
+            "name": "owninguser",
+            "dataType": "string"
+          },
+          {
+            "name": "statecode",
+            "dataType": "int64"
+          },
+          {
+            "name": "statecode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "statuscode",
+            "dataType": "int64"
+          },
+          {
+            "name": "statuscode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "timezoneruleversionnumber",
+            "dataType": "int64"
+          },
+          {
+            "name": "utcconversiontimezonecode",
+            "dataType": "int64"
+          },
+          {
+            "name": "versionnumber",
+            "dataType": "int64"
+          }
+        ]
+      },
+      {
+        "$type": "LocalEntity",
+        "name": "mshied_program",
+        "description": "",
+        "attributes": [
+          {
+            "name": "createdby",
+            "dataType": "string"
+          },
+          {
+            "name": "createdon",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "createdonbehalfby",
+            "dataType": "string"
+          },
+          {
+            "name": "importsequencenumber",
+            "dataType": "int64"
+          },
+          {
+            "name": "modifiedby",
+            "dataType": "string"
+          },
+          {
+            "name": "modifiedon",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "modifiedonbehalfby",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_code",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_externalidentifier",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_externalsourcesystem",
+            "dataType": "int64"
+          },
+          {
+            "name": "mshied_externalsourcesystem_display",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_name",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_programid",
+            "dataType": "string"
+          },
+          {
+            "name": "overriddencreatedon",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "ownerid",
+            "dataType": "string"
+          },
+          {
+            "name": "owningbusinessunit",
+            "dataType": "string"
+          },
+          {
+            "name": "owningteam",
+            "dataType": "string"
+          },
+          {
+            "name": "owninguser",
+            "dataType": "string"
+          },
+          {
+            "name": "statecode",
+            "dataType": "int64"
+          },
+          {
+            "name": "statecode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "statuscode",
+            "dataType": "int64"
+          },
+          {
+            "name": "statuscode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "timezoneruleversionnumber",
+            "dataType": "int64"
+          },
+          {
+            "name": "utcconversiontimezonecode",
+            "dataType": "int64"
+          },
+          {
+            "name": "versionnumber",
+            "dataType": "int64"
+          }
+        ]
+      },
+      {
+        "$type": "LocalEntity",
+        "name": "mshied_programversiondetail",
+        "description": "",
+        "attributes": [
+          {
+            "name": "createdby",
+            "dataType": "string"
+          },
+          {
+            "name": "createdon",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "createdonbehalfby",
+            "dataType": "string"
+          },
+          {
+            "name": "importsequencenumber",
+            "dataType": "int64"
+          },
+          {
+            "name": "modifiedby",
+            "dataType": "string"
+          },
+          {
+            "name": "modifiedon",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "modifiedonbehalfby",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_code",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_expectedgraduationdate",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "mshied_externalidentifier",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_externalsourcesystem",
+            "dataType": "int64"
+          },
+          {
+            "name": "mshied_externalsourcesystem_display",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_midpointdate",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "mshied_mustgraduatebefore",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "mshied_name",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_programversiondetailid",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_programversionid",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_startdate",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "overriddencreatedon",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "ownerid",
+            "dataType": "string"
+          },
+          {
+            "name": "owningbusinessunit",
+            "dataType": "string"
+          },
+          {
+            "name": "owningteam",
+            "dataType": "string"
+          },
+          {
+            "name": "owninguser",
+            "dataType": "string"
+          },
+          {
+            "name": "statecode",
+            "dataType": "int64"
+          },
+          {
+            "name": "statecode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "statuscode",
+            "dataType": "int64"
+          },
+          {
+            "name": "statuscode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "timezoneruleversionnumber",
+            "dataType": "int64"
+          },
+          {
+            "name": "utcconversiontimezonecode",
+            "dataType": "int64"
+          },
+          {
+            "name": "versionnumber",
+            "dataType": "int64"
+          }
+        ]
+      },
+      {
+        "$type": "LocalEntity",
+        "name": "mshied_programversion",
+        "description": "",
+        "attributes": [
+          {
+            "name": "createdby",
+            "dataType": "string"
+          },
+          {
+            "name": "createdon",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "createdonbehalfby",
+            "dataType": "string"
+          },
+          {
+            "name": "importsequencenumber",
+            "dataType": "int64"
+          },
+          {
+            "name": "modifiedby",
+            "dataType": "string"
+          },
+          {
+            "name": "modifiedon",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "modifiedonbehalfby",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_code",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_externalidentifier",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_externalsourcesystem",
+            "dataType": "int64"
+          },
+          {
+            "name": "mshied_externalsourcesystem_display",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_name",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_programid",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_programlevelid",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_programversionid",
+            "dataType": "string"
+          },
+          {
+            "name": "overriddencreatedon",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "ownerid",
+            "dataType": "string"
+          },
+          {
+            "name": "owningbusinessunit",
+            "dataType": "string"
+          },
+          {
+            "name": "owningteam",
+            "dataType": "string"
+          },
+          {
+            "name": "owninguser",
+            "dataType": "string"
+          },
+          {
+            "name": "statecode",
+            "dataType": "int64"
+          },
+          {
+            "name": "statecode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "statuscode",
+            "dataType": "int64"
+          },
+          {
+            "name": "statuscode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "timezoneruleversionnumber",
+            "dataType": "int64"
+          },
+          {
+            "name": "utcconversiontimezonecode",
+            "dataType": "int64"
+          },
+          {
+            "name": "versionnumber",
+            "dataType": "int64"
+          }
+        ]
+      },
+      {
+        "$type": "LocalEntity",
+        "name": "mshied_registrationstatus",
+        "description": "",
+        "attributes": [
+          {
+            "name": "createdby",
+            "dataType": "string"
+          },
+          {
+            "name": "createdon",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "createdonbehalfby",
+            "dataType": "string"
+          },
+          {
+            "name": "importsequencenumber",
+            "dataType": "int64"
+          },
+          {
+            "name": "modifiedby",
+            "dataType": "string"
+          },
+          {
+            "name": "modifiedon",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "modifiedonbehalfby",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_code",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_externalidentifier",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_externalsourcesystem",
+            "dataType": "int64"
+          },
+          {
+            "name": "mshied_externalsourcesystem_display",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_name",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_registrationstatusid",
+            "dataType": "string"
+          },
+          {
+            "name": "overriddencreatedon",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "ownerid",
+            "dataType": "string"
+          },
+          {
+            "name": "owningbusinessunit",
+            "dataType": "string"
+          },
+          {
+            "name": "owningteam",
+            "dataType": "string"
+          },
+          {
+            "name": "owninguser",
+            "dataType": "string"
+          },
+          {
+            "name": "statecode",
+            "dataType": "int64"
+          },
+          {
+            "name": "statecode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "statuscode",
+            "dataType": "int64"
+          },
+          {
+            "name": "statuscode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "timezoneruleversionnumber",
+            "dataType": "int64"
+          },
+          {
+            "name": "utcconversiontimezonecode",
+            "dataType": "int64"
+          },
+          {
+            "name": "versionnumber",
+            "dataType": "int64"
+          }
+        ]
+      },
+      {
+        "$type": "LocalEntity",
+        "name": "mshied_ScholarshipApplicant",
+        "description": "",
+        "attributes": [
+          {
+            "name": "createdby",
+            "dataType": "string"
+          },
+          {
+            "name": "createdon",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "createdonbehalfby",
+            "dataType": "string"
+          },
+          {
+            "name": "importsequencenumber",
+            "dataType": "int64"
+          },
+          {
+            "name": "modifiedby",
+            "dataType": "string"
+          },
+          {
+            "name": "modifiedon",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "modifiedonbehalfby",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_applicant",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_applicationstatecode",
+            "dataType": "int64"
+          },
+          {
+            "name": "mshied_applicationstatecode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_businesspartner",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_name",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_offeraccepteddate",
+            "dataType": "dateTime"
+          },
+          {
+            "name": "mshied_offerdeadlinedate",
+            "dataType": "dateTime"
+          },
+          {
+            "name": "mshied_offermadedate",
+            "dataType": "dateTime"
+          },
+          {
+            "name": "mshied_qualificationdescription",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_scholarship",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_scholarshipapplicantid",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_submissiondate",
+            "dataType": "dateTime"
+          },
+          {
+            "name": "overriddencreatedon",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "ownerid",
+            "dataType": "string"
+          },
+          {
+            "name": "owningbusinessunit",
+            "dataType": "string"
+          },
+          {
+            "name": "owningteam",
+            "dataType": "string"
+          },
+          {
+            "name": "owninguser",
+            "dataType": "string"
+          },
+          {
+            "name": "processid",
+            "dataType": "string"
+          },
+          {
+            "name": "stageid",
+            "dataType": "string"
+          },
+          {
+            "name": "statecode",
+            "dataType": "int64"
+          },
+          {
+            "name": "statecode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "statuscode",
+            "dataType": "int64"
+          },
+          {
+            "name": "statuscode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "timezoneruleversionnumber",
+            "dataType": "int64"
+          },
+          {
+            "name": "traversedpath",
+            "dataType": "string"
+          },
+          {
+            "name": "utcconversiontimezonecode",
+            "dataType": "int64"
+          },
+          {
+            "name": "versionnumber",
+            "dataType": "int64"
+          }
+        ]
+      },
+      {
+        "$type": "LocalEntity",
+        "name": "mshied_Scholarship",
+        "description": "",
+        "attributes": [
+          {
+            "name": "createdby",
+            "dataType": "string"
+          },
+          {
+            "name": "createdon",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "createdonbehalfby",
+            "dataType": "string"
+          },
+          {
+            "name": "exchangerate",
+            "dataType": "double"
+          },
+          {
+            "name": "importsequencenumber",
+            "dataType": "int64"
+          },
+          {
+            "name": "modifiedby",
+            "dataType": "string"
+          },
+          {
+            "name": "modifiedon",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "modifiedonbehalfby",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_academicperiod",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_amount",
+            "dataType": "double"
+          },
+          {
+            "name": "mshied_amount_base",
+            "dataType": "double"
+          },
+          {
+            "name": "mshied_applicationdeadlinedate",
+            "dataType": "dateTime"
+          },
+          {
+            "name": "mshied_businesspartner",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_businesspartnercontact",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_description",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_name",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_posteddate",
+            "dataType": "dateTime"
+          },
+          {
+            "name": "mshied_qualifications",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_scholarshipid",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_type",
+            "dataType": "int64"
+          },
+          {
+            "name": "mshied_type_display",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_websiteurl",
+            "dataType": "string"
+          },
+          {
+            "name": "overriddencreatedon",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "ownerid",
+            "dataType": "string"
+          },
+          {
+            "name": "owningbusinessunit",
+            "dataType": "string"
+          },
+          {
+            "name": "owningteam",
+            "dataType": "string"
+          },
+          {
+            "name": "owninguser",
+            "dataType": "string"
+          },
+          {
+            "name": "statecode",
+            "dataType": "int64"
+          },
+          {
+            "name": "statecode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "statuscode",
+            "dataType": "int64"
+          },
+          {
+            "name": "statuscode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "timezoneruleversionnumber",
+            "dataType": "int64"
+          },
+          {
+            "name": "transactioncurrencyid",
+            "dataType": "string"
+          },
+          {
+            "name": "utcconversiontimezonecode",
+            "dataType": "int64"
+          },
+          {
+            "name": "versionnumber",
+            "dataType": "int64"
+          }
+        ]
+      },
+      {
+        "$type": "LocalEntity",
+        "name": "mshied_studentprogramtype",
+        "description": "",
+        "attributes": [
+          {
+            "name": "createdby",
+            "dataType": "string"
+          },
+          {
+            "name": "createdon",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "createdonbehalfby",
+            "dataType": "string"
+          },
+          {
+            "name": "importsequencenumber",
+            "dataType": "int64"
+          },
+          {
+            "name": "modifiedby",
+            "dataType": "string"
+          },
+          {
+            "name": "modifiedon",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "modifiedonbehalfby",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_name",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_studentprogramtypeid",
+            "dataType": "string"
+          },
+          {
+            "name": "overriddencreatedon",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "ownerid",
+            "dataType": "string"
+          },
+          {
+            "name": "owningbusinessunit",
+            "dataType": "string"
+          },
+          {
+            "name": "owningteam",
+            "dataType": "string"
+          },
+          {
+            "name": "owninguser",
+            "dataType": "string"
+          },
+          {
+            "name": "statecode",
+            "dataType": "int64"
+          },
+          {
+            "name": "statecode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "statuscode",
+            "dataType": "int64"
+          },
+          {
+            "name": "statuscode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "timezoneruleversionnumber",
+            "dataType": "int64"
+          },
+          {
+            "name": "utcconversiontimezonecode",
+            "dataType": "int64"
+          },
+          {
+            "name": "versionnumber",
+            "dataType": "int64"
+          }
+        ]
+      },
+      {
+        "$type": "LocalEntity",
+        "name": "mshied_studentstatus",
+        "description": "",
+        "attributes": [
+          {
+            "name": "createdby",
+            "dataType": "string"
+          },
+          {
+            "name": "createdon",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "createdonbehalfby",
+            "dataType": "string"
+          },
+          {
+            "name": "importsequencenumber",
+            "dataType": "int64"
+          },
+          {
+            "name": "modifiedby",
+            "dataType": "string"
+          },
+          {
+            "name": "modifiedon",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "modifiedonbehalfby",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_code",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_externalidentifier",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_externalsourcesystem",
+            "dataType": "int64"
+          },
+          {
+            "name": "mshied_externalsourcesystem_display",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_name",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_studentstatusid",
+            "dataType": "string"
+          },
+          {
+            "name": "overriddencreatedon",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "ownerid",
+            "dataType": "string"
+          },
+          {
+            "name": "owningbusinessunit",
+            "dataType": "string"
+          },
+          {
+            "name": "owningteam",
+            "dataType": "string"
+          },
+          {
+            "name": "owninguser",
+            "dataType": "string"
+          },
+          {
+            "name": "statecode",
+            "dataType": "int64"
+          },
+          {
+            "name": "statecode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "statuscode",
+            "dataType": "int64"
+          },
+          {
+            "name": "statuscode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "timezoneruleversionnumber",
+            "dataType": "int64"
+          },
+          {
+            "name": "utcconversiontimezonecode",
+            "dataType": "int64"
+          },
+          {
+            "name": "versionnumber",
+            "dataType": "int64"
+          }
+        ]
+      },
+      {
+        "$type": "LocalEntity",
+        "name": "mshied_testscore",
+        "description": "",
+        "attributes": [
+          {
+            "name": "createdby",
+            "dataType": "string"
+          },
+          {
+            "name": "createdon",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "createdonbehalfby",
+            "dataType": "string"
+          },
+          {
+            "name": "importsequencenumber",
+            "dataType": "int64"
+          },
+          {
+            "name": "modifiedby",
+            "dataType": "string"
+          },
+          {
+            "name": "modifiedon",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "modifiedonbehalfby",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_actcomposite",
+            "dataType": "int64"
+          },
+          {
+            "name": "mshied_actela",
+            "dataType": "int64"
+          },
+          {
+            "name": "mshied_actenglish",
+            "dataType": "int64"
+          },
+          {
+            "name": "mshied_actequivalentscore",
+            "dataType": "int64"
+          },
+          {
+            "name": "mshied_actmath",
+            "dataType": "int64"
+          },
+          {
+            "name": "mshied_actreading",
+            "dataType": "int64"
+          },
+          {
+            "name": "mshied_actscience",
+            "dataType": "int64"
+          },
+          {
+            "name": "mshied_actstem",
+            "dataType": "int64"
+          },
+          {
+            "name": "mshied_actwriting",
+            "dataType": "int64"
+          },
+          {
+            "name": "mshied_alevelart",
+            "dataType": "double"
+          },
+          {
+            "name": "mshied_gmatanalyticalwriting",
+            "dataType": "double"
+          },
+          {
+            "name": "mshied_gmatintegratedreasoning",
+            "dataType": "int64"
+          },
+          {
+            "name": "mshied_gmatquantitativereasoning",
+            "dataType": "int64"
+          },
+          {
+            "name": "mshied_gmattotal",
+            "dataType": "int64"
+          },
+          {
+            "name": "mshied_gmatverbalreasoning",
+            "dataType": "int64"
+          },
+          {
+            "name": "mshied_greanalyticalreasoning",
+            "dataType": "double"
+          },
+          {
+            "name": "mshied_grequantitativereasoning",
+            "dataType": "int64"
+          },
+          {
+            "name": "mshied_gretotalscore",
+            "dataType": "int64"
+          },
+          {
+            "name": "mshied_greverbalreasoning",
+            "dataType": "int64"
+          },
+          {
+            "name": "mshied_ieltscefr",
+            "dataType": "int64"
+          },
+          {
+            "name": "mshied_ieltscefr_display",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_ieltslistening",
+            "dataType": "double"
+          },
+          {
+            "name": "mshied_ieltsoverallbandscore",
+            "dataType": "double"
+          },
+          {
+            "name": "mshied_ieltsreading",
+            "dataType": "double"
+          },
+          {
+            "name": "mshied_ieltsspeakingscore",
+            "dataType": "double"
+          },
+          {
+            "name": "mshied_ieltswriting",
+            "dataType": "double"
+          },
+          {
+            "name": "mshied_name",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_satessayanalysis",
+            "dataType": "int64"
+          },
+          {
+            "name": "mshied_satessayreading",
+            "dataType": "int64"
+          },
+          {
+            "name": "mshied_satessaywriting",
+            "dataType": "int64"
+          },
+          {
+            "name": "mshied_satevidencebasedreadingandwritingsection",
+            "dataType": "int64"
+          },
+          {
+            "name": "mshied_satmathsection",
+            "dataType": "int64"
+          },
+          {
+            "name": "mshied_sattotalscore",
+            "dataType": "int64"
+          },
+          {
+            "name": "mshied_studentid",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_testdate",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "mshied_testlocation",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_testscoreid",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_testscorevalue",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_testsource",
+            "dataType": "int64"
+          },
+          {
+            "name": "mshied_testsource_display",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_testtypeid",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_toefllisteningsection",
+            "dataType": "int64"
+          },
+          {
+            "name": "mshied_toeflreadingsection",
+            "dataType": "int64"
+          },
+          {
+            "name": "mshied_toeflspeakingsection",
+            "dataType": "int64"
+          },
+          {
+            "name": "mshied_toefltotalscore",
+            "dataType": "double"
+          },
+          {
+            "name": "mshied_toeflwritingsection",
+            "dataType": "int64"
+          },
+          {
+            "name": "overriddencreatedon",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "ownerid",
+            "dataType": "string"
+          },
+          {
+            "name": "owningbusinessunit",
+            "dataType": "string"
+          },
+          {
+            "name": "owningteam",
+            "dataType": "string"
+          },
+          {
+            "name": "owninguser",
+            "dataType": "string"
+          },
+          {
+            "name": "statecode",
+            "dataType": "int64"
+          },
+          {
+            "name": "statecode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "statuscode",
+            "dataType": "int64"
+          },
+          {
+            "name": "statuscode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "timezoneruleversionnumber",
+            "dataType": "int64"
+          },
+          {
+            "name": "utcconversiontimezonecode",
+            "dataType": "int64"
+          },
+          {
+            "name": "versionnumber",
+            "dataType": "int64"
+          }
+        ]
+      },
+      {
+        "$type": "LocalEntity",
+        "name": "mshied_testtype",
+        "description": "",
+        "attributes": [
+          {
+            "name": "createdby",
+            "dataType": "string"
+          },
+          {
+            "name": "createdon",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "createdonbehalfby",
+            "dataType": "string"
+          },
+          {
+            "name": "importsequencenumber",
+            "dataType": "int64"
+          },
+          {
+            "name": "modifiedby",
+            "dataType": "string"
+          },
+          {
+            "name": "modifiedon",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "modifiedonbehalfby",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_name",
+            "dataType": "string"
+          },
+          {
+            "name": "mshied_testtypeid",
+            "dataType": "string"
+          },
+          {
+            "name": "overriddencreatedon",
+            "dataType": "dateTimeOffset"
+          },
+          {
+            "name": "ownerid",
+            "dataType": "string"
+          },
+          {
+            "name": "owningbusinessunit",
+            "dataType": "string"
+          },
+          {
+            "name": "owningteam",
+            "dataType": "string"
+          },
+          {
+            "name": "owninguser",
+            "dataType": "string"
+          },
+          {
+            "name": "statecode",
+            "dataType": "int64"
+          },
+          {
+            "name": "statecode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "statuscode",
+            "dataType": "int64"
+          },
+          {
+            "name": "statuscode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "timezoneruleversionnumber",
+            "dataType": "int64"
+          },
+          {
+            "name": "utcconversiontimezonecode",
+            "dataType": "int64"
+          },
+          {
+            "name": "versionnumber",
+            "dataType": "int64"
+          }
+        ]
+      },
+      {
+        "$type": "LocalEntity",
+        "name": "SystemUser",
+        "description": "",
+        "attributes": [
+          {
+            "name": "accessMode",
+            "dataType": "int64"
+          },
+          {
+            "name": "accessMode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "address1AddressId",
+            "dataType": "string"
+          },
+          {
+            "name": "address1AddressTypeCode",
+            "dataType": "int64"
+          },
+          {
+            "name": "address1AddressTypeCode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "address1City",
+            "dataType": "string"
+          },
+          {
+            "name": "address1Composite",
+            "dataType": "string"
+          },
+          {
+            "name": "address1Country",
+            "dataType": "string"
+          },
+          {
+            "name": "address1County",
+            "dataType": "string"
+          },
+          {
+            "name": "address1Fax",
+            "dataType": "string"
+          },
+          {
+            "name": "address1Latitude",
+            "dataType": "double"
+          },
+          {
+            "name": "address1Line1",
+            "dataType": "string"
+          },
+          {
+            "name": "address1Line2",
+            "dataType": "string"
+          },
+          {
+            "name": "address1Line3",
+            "dataType": "string"
+          },
+          {
+            "name": "address1Longitude",
+            "dataType": "double"
+          },
+          {
+            "name": "address1Name",
+            "dataType": "string"
+          },
+          {
+            "name": "address1PostalCode",
+            "dataType": "string"
+          },
+          {
+            "name": "address1PostOfficeBox",
+            "dataType": "string"
+          },
+          {
+            "name": "address1ShippingMethodCode",
+            "dataType": "int64"
+          },
+          {
+            "name": "address1ShippingMethodCode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "address1StateOrProvince",
+            "dataType": "string"
+          },
+          {
+            "name": "address1Telephone1",
+            "dataType": "string"
+          },
+          {
+            "name": "address1Telephone2",
+            "dataType": "string"
+          },
+          {
+            "name": "address1Telephone3",
+            "dataType": "string"
+          },
+          {
+            "name": "address1UPSZone",
+            "dataType": "string"
+          },
+          {
+            "name": "address1UTCOffset",
+            "dataType": "string"
+          },
+          {
+            "name": "address2AddressId",
+            "dataType": "string"
+          },
+          {
+            "name": "address2AddressTypeCode",
+            "dataType": "int64"
+          },
+          {
+            "name": "address2AddressTypeCode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "address2City",
+            "dataType": "string"
+          },
+          {
+            "name": "address2Composite",
+            "dataType": "string"
+          },
+          {
+            "name": "address2Country",
+            "dataType": "string"
+          },
+          {
+            "name": "address2County",
+            "dataType": "string"
+          },
+          {
+            "name": "address2Fax",
+            "dataType": "string"
+          },
+          {
+            "name": "address2Latitude",
+            "dataType": "double"
+          },
+          {
+            "name": "address2Line1",
+            "dataType": "string"
+          },
+          {
+            "name": "address2Line2",
+            "dataType": "string"
+          },
+          {
+            "name": "address2Line3",
+            "dataType": "string"
+          },
+          {
+            "name": "address2Longitude",
+            "dataType": "double"
+          },
+          {
+            "name": "address2Name",
+            "dataType": "string"
+          },
+          {
+            "name": "address2PostalCode",
+            "dataType": "string"
+          },
+          {
+            "name": "address2PostOfficeBox",
+            "dataType": "string"
+          },
+          {
+            "name": "address2ShippingMethodCode",
+            "dataType": "int64"
+          },
+          {
+            "name": "address2ShippingMethodCode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "address2StateOrProvince",
+            "dataType": "string"
+          },
+          {
+            "name": "address2Telephone1",
+            "dataType": "string"
+          },
+          {
+            "name": "address2Telephone2",
+            "dataType": "string"
+          },
+          {
+            "name": "address2Telephone3",
+            "dataType": "string"
+          },
+          {
+            "name": "address2UPSZone",
+            "dataType": "string"
+          },
+          {
+            "name": "address2UTCOffset",
+            "dataType": "string"
+          },
+          {
+            "name": "applicationId",
+            "dataType": "string"
+          },
+          {
+            "name": "applicationIdUri",
+            "dataType": "string"
+          },
+          {
+            "name": "azureActiveDirectoryObjectId",
+            "dataType": "string"
+          },
+          {
+            "name": "businessUnitId",
+            "dataType": "string"
+          },
+          {
+            "name": "calendarId",
+            "dataType": "string"
+          },
+          {
+            "name": "CALType",
+            "dataType": "int64"
+          },
+          {
+            "name": "CALType_display",
+            "dataType": "string"
+          },
+          {
+            "name": "createdBy",
+            "dataType": "string"
+          },
+          {
+            "name": "createdOn",
+            "dataType": "dateTime"
+          },
+          {
+            "name": "createdOnBehalfBy",
+            "dataType": "string"
+          },
+          {
+            "name": "defaultFiltersPopulated",
+            "dataType": "boolean"
+          },
+          {
+            "name": "defaultMailbox",
+            "dataType": "string"
+          },
+          {
+            "name": "defaultOdbFolderName",
+            "dataType": "string"
+          },
+          {
+            "name": "disabledReason",
+            "dataType": "string"
+          },
+          {
+            "name": "displayInServiceViews",
+            "dataType": "boolean"
+          },
+          {
+            "name": "domainName",
+            "dataType": "string"
+          },
+          {
+            "name": "emailRouterAccessApproval",
+            "dataType": "int64"
+          },
+          {
+            "name": "emailRouterAccessApproval_display",
+            "dataType": "string"
+          },
+          {
+            "name": "employeeId",
+            "dataType": "string"
+          },
+          {
+            "name": "entityimage_timestamp",
+            "dataType": "int64"
+          },
+          {
+            "name": "entityimage_url",
+            "dataType": "string"
+          },
+          {
+            "name": "entityImageId",
+            "dataType": "string"
+          },
+          {
+            "name": "exchangeRate",
+            "dataType": "double"
+          },
+          {
+            "name": "firstName",
+            "dataType": "string"
+          },
+          {
+            "name": "fullName",
+            "dataType": "string"
+          },
+          {
+            "name": "governmentId",
+            "dataType": "string"
+          },
+          {
+            "name": "homePhone",
+            "dataType": "string"
+          },
+          {
+            "name": "importSequenceNumber",
+            "dataType": "int64"
+          },
+          {
+            "name": "incomingEmailDeliveryMethod",
+            "dataType": "int64"
+          },
+          {
+            "name": "incomingEmailDeliveryMethod_display",
+            "dataType": "string"
+          },
+          {
+            "name": "internalEMailAddress",
+            "dataType": "string"
+          },
+          {
+            "name": "inviteStatusCode",
+            "dataType": "int64"
+          },
+          {
+            "name": "inviteStatusCode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "isDisabled",
+            "dataType": "boolean"
+          },
+          {
+            "name": "isEmailAddressApprovedByO365Admin",
+            "dataType": "boolean"
+          },
+          {
+            "name": "isIntegrationUser",
+            "dataType": "boolean"
+          },
+          {
+            "name": "isLicensed",
+            "dataType": "boolean"
+          },
+          {
+            "name": "isSyncWithDirectory",
+            "dataType": "boolean"
+          },
+          {
+            "name": "jobTitle",
+            "dataType": "string"
+          },
+          {
+            "name": "lastName",
+            "dataType": "string"
+          },
+          {
+            "name": "middleName",
+            "dataType": "string"
+          },
+          {
+            "name": "mobileAlertEMail",
+            "dataType": "string"
+          },
+          {
+            "name": "mobileOfflineProfileId",
+            "dataType": "string"
+          },
+          {
+            "name": "mobilePhone",
+            "dataType": "string"
+          },
+          {
+            "name": "modifiedBy",
+            "dataType": "string"
+          },
+          {
+            "name": "modifiedOn",
+            "dataType": "dateTime"
+          },
+          {
+            "name": "modifiedOnBehalfBy",
+            "dataType": "string"
+          },
+          {
+            "name": "nickName",
+            "dataType": "string"
+          },
+          {
+            "name": "organizationId",
+            "dataType": "string"
+          },
+          {
+            "name": "outgoingEmailDeliveryMethod",
+            "dataType": "int64"
+          },
+          {
+            "name": "outgoingEmailDeliveryMethod_display",
+            "dataType": "string"
+          },
+          {
+            "name": "overriddenCreatedOn",
+            "dataType": "dateTime"
+          },
+          {
+            "name": "parentSystemUserId",
+            "dataType": "string"
+          },
+          {
+            "name": "passportHi",
+            "dataType": "int64"
+          },
+          {
+            "name": "passportLo",
+            "dataType": "int64"
+          },
+          {
+            "name": "personalEMailAddress",
+            "dataType": "string"
+          },
+          {
+            "name": "photoUrl",
+            "dataType": "string"
+          },
+          {
+            "name": "positionId",
+            "dataType": "string"
+          },
+          {
+            "name": "preferredAddressCode",
+            "dataType": "int64"
+          },
+          {
+            "name": "preferredAddressCode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "preferredEmailCode",
+            "dataType": "int64"
+          },
+          {
+            "name": "preferredEmailCode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "preferredPhoneCode",
+            "dataType": "int64"
+          },
+          {
+            "name": "preferredPhoneCode_display",
+            "dataType": "string"
+          },
+          {
+            "name": "processId",
+            "dataType": "string"
+          },
+          {
+            "name": "queueId",
+            "dataType": "string"
+          },
+          {
+            "name": "salutation",
+            "dataType": "string"
+          },
+          {
+            "name": "setupUser",
+            "dataType": "boolean"
+          },
+          {
+            "name": "sharePointEmailAddress",
+            "dataType": "string"
+          },
+          {
+            "name": "skills",
+            "dataType": "string"
+          },
+          {
+            "name": "stageId",
+            "dataType": "string"
+          },
+          {
+            "name": "systemUserId",
+            "dataType": "string"
+          },
+          {
+            "name": "territoryId",
+            "dataType": "string"
+          },
+          {
+            "name": "timeZoneRuleVersionNumber",
+            "dataType": "int64"
+          },
+          {
+            "name": "title",
+            "dataType": "string"
+          },
+          {
+            "name": "transactionCurrencyId",
+            "dataType": "string"
+          },
+          {
+            "name": "traversedPath",
+            "dataType": "string"
+          },
+          {
+            "name": "userLicenseType",
+            "dataType": "int64"
+          },
+          {
+            "name": "UTCConversionTimeZoneCode",
+            "dataType": "int64"
+          },
+          {
+            "name": "versionNumber",
+            "dataType": "int64"
+          },
+          {
+            "name": "windowsLiveID",
+            "dataType": "string"
+          },
+          {
+            "name": "yammerEmailAddress",
+            "dataType": "string"
+          },
+          {
+            "name": "yammerUserId",
+            "dataType": "string"
+          },
+          {
+            "name": "yomiFirstName",
+            "dataType": "string"
+          },
+          {
+            "name": "yomiFullName",
+            "dataType": "string"
+          },
+          {
+            "name": "yomiLastName",
+            "dataType": "string"
+          },
+          {
+            "name": "yomiMiddleName",
+            "dataType": "string"
+          },
+          {
+            "name": "identityId",
+            "dataType": "int64"
+          },
+          {
+            "name": "siteId",
+            "dataType": "string"
+          }
+        ],
+        "schemas": [
+          "https://raw.githubusercontent.com/Microsoft/CDM/master/schemaDocuments/core/applicationCommon/User.0.7.cdm.json",
+          "https://raw.githubusercontent.com/Microsoft/CDM/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/service/User.0.7.cdm.json"
+        ]
+      }
+    ]
+  }

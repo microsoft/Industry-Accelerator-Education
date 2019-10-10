@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{befb0ac7-1eb9-44c9-bdfc-de9718e66b71}</formid>
+    <IntroducedVersion>1.0.3.8</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab name="tab_2" id="{98910670-66bc-aabd-340d-b80177e0c468}" IsUserDefined="0" locklevel="0" showlabel="true">
+          <labels>
+            <label description="Tab" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_2_section_2" showlabel="false" showbar="false" locklevel="0" id="{427e8011-a409-2519-b2c4-23ae758a8842}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="115">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{7f472f27-9162-413a-a567-9e65a77ae63e}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="mshied_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="mshied_name" />
+                      </cell>
+                      <cell id="{2d5e8cac-e194-0527-e681-6e5b9994393e}" showlabel="true" colspan="1" auto="false">
+                        <labels>
+                          <label description="Area of Study" languagecode="1033" />
+                        </labels>
+                        <control id="AreaOfStudy" classid="{5C5600E0-1D6E-4205-A272-BE80DA87FD42}" datafieldname="mshied_grant" disabled="false">
+                          <parameters>
+                            <QuickForms>&lt;QuickFormIds&gt;&lt;QuickFormId entityname="mshied_grant"&gt;cfa000c5-c6ea-e911-a968-000d3a3b9825&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;</QuickForms>
+                            <ControlMode>Edit</ControlMode>
+                            <DisplayAsCustomer360Tile>false</DisplayAsCustomer360Tile>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{873c44d3-68e3-7c52-95d3-73a9ce7dd980}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Application State Code" languagecode="1033" />
+                        </labels>
+                        <control id="mshied_applicationstatecode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="mshied_applicationstatecode" disabled="false" />
+                      </cell>
+                      <cell id="{d8c46209-36be-6433-3931-a59e9ac9a440}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Submission Date" languagecode="1033" />
+                        </labels>
+                        <control id="mshied_submissiondate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="mshied_submissiondate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1e05d62e-5b18-e1b0-dd6a-95c0aa2b0469}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Grant" languagecode="1033" />
+                        </labels>
+                        <control id="mshied_grant" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="mshied_grant" disabled="false" />
+                      </cell>
+                      <cell id="{44113e26-ba86-a19b-6e84-590b8c05976c}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Offer Made Date" languagecode="1033" />
+                        </labels>
+                        <control id="mshied_offermadedate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="mshied_offermadedate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{983a3c22-a634-90bd-4848-448c9ded143c}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Applicant" languagecode="1033" />
+                        </labels>
+                        <control id="mshied_applicant" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="mshied_applicant" disabled="false" />
+                      </cell>
+                      <cell id="{51215453-7115-dc9a-bee6-3ad4e8cc0a4b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Offer Deadline Date" languagecode="1033" />
+                        </labels>
+                        <control id="mshied_offerdeadlinedate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="mshied_offerdeadlinedate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4c322390-3055-c0d2-0257-92a62e016b93}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Business Partner" languagecode="1033" />
+                        </labels>
+                        <control id="mshied_businesspartner" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="mshied_businesspartner" disabled="false" />
+                      </cell>
+                      <cell id="{c64d6351-deba-a423-6e6a-aaa596b85e58}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Offer Accepted Date" languagecode="1033" />
+                        </labels>
+                        <control id="mshied_offeraccepteddate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="mshied_offeraccepteddate" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="tab_2_section_1" showlabel="false" showbar="false" locklevel="0" id="{1ccb18c9-8db7-965a-136d-b403d51e9672}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{47e0e870-c559-ea08-ed15-6c520839cbce}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Qualification Description" languagecode="1033" />
+                        </labels>
+                        <control id="mshied_qualificationdescription" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="mshied_qualificationdescription" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{6e9ca159-56f5-434a-ab81-a3d5df45e6a6}" columns="111">
+        <rows>
+          <row>
+            <cell id="{067ca407-cc73-4334-8d46-cb1a13fb37eb}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{b74cbce2-9828-415b-a527-2cf64ed3fe17}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{b601a919-4534-3023-63b6-80bb7a3cd550}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Owner" languagecode="1033" />
+              </labels>
+              <control id="header_ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

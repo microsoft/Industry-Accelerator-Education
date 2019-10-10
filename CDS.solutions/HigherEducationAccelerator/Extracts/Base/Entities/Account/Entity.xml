@@ -81,6 +81,11 @@
                   <label description="N/A" languagecode="1033" />
                 </labels>
               </option>
+              <option value="494280006">
+                <labels>
+                  <label description="Business Partner" languagecode="1033" />
+                </labels>
+              </option>
             </options>
           </optionset>
           <displaynames>

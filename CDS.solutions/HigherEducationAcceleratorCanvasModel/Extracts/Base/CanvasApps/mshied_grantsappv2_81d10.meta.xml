@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CanvasApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>mshied_grantsappv2_81d10</Name>
+  <AppVersion>2019-10-09T23:45:11Z</AppVersion>
+  <Status>Ready</Status>
+  <CreatedByClientVersion>3.19093.16.0</CreatedByClientVersion>
+  <MinClientVersion>3.19093.16.0</MinClientVersion>
+  <Tags>{"primaryDeviceWidth":"640","primaryDeviceHeight":"1136","sienaVersion":"86bd7ebe-14b9-4ccd-8e42-272e280ba55b","deviceCapabilities":"","supportsPortrait":"true","supportsLandscape":"false","primaryFormFactor":"Phone","publisherVersion":"3.19093.16","minimumRequiredApiVersion":"2.2.0","hasComponent":"false","hasNonOOBComponent":"false"}</Tags>
+  <IsCdsUpgraded>0</IsCdsUpgraded>
+  <GalleryItemId xsi:nil="true"></GalleryItemId>
+  <BackgroundColor>rgba(0, 176, 240, 1)</BackgroundColor>
+  <DisplayName>Grants App v2</DisplayName>
+  <Description xsi:nil="true"></Description>
+  <CommitMessage xsi:nil="true"></CommitMessage>
+  <Publisher xsi:nil="true"></Publisher>
+  <AuthorizationReferences xsi:nil="true"></AuthorizationReferences>
+  <ConnectionReferences>{}</ConnectionReferences>
+  <DatabaseReferences>{"default.cds":{"databaseDetails":{"referenceType":"NotSpecified","environmentName":"default.cds"},"dataSources":{"Area of Studies":{"entitySetName":"mshied_areaofstudies","logicalName":"mshied_areaofstudy"},"Student Program Types":{"entitySetName":"mshied_studentprogramtypes","logicalName":"mshied_studentprogramtype"},"Grants":{"entitySetName":"mshied_grants","logicalName":"mshied_grant"},"Accounts":{"entitySetName":"accounts","logicalName":"account"},"Grant Applicants":{"entitySetName":"mshied_grantapplicants","logicalName":"mshied_grantapplicant"},"Contacts":{"entitySetName":"contacts","logicalName":"contact"},"Tasks":{"entitySetName":"tasks","logicalName":"task"},"Activities":{"entitySetName":"activitypointers","logicalName":"activitypointer"},"Academic Period Details":{"entitySetName":"mshied_academicperioddetailses","logicalName":"mshied_academicperioddetails"}}}}</DatabaseReferences>
+  <BypassConsent>0</BypassConsent>
+  <AdminControlBypassConsent>0</AdminControlBypassConsent>
+  <EmbeddedApp xsi:nil="true"></EmbeddedApp>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <CdsDependencies>{"cdsdependencies":[{"logicalname":"mshied_areaofstudy","componenttype":1},{"logicalname":"mshied_studentprogramtype","componenttype":1},{"logicalname":"mshied_grant","componenttype":1},{"logicalname":"account","componenttype":1},{"logicalname":"mshied_grantapplicant","componenttype":1},{"logicalname":"contact","componenttype":1},{"logicalname":"task","componenttype":1},{"logicalname":"activitypointer","componenttype":1},{"logicalname":"mshied_academicperioddetails","componenttype":1}]}</CdsDependencies>
+  <BackgroundImageUri>/CanvasApps/mshied_grantsappv2_81d10_BackgroundImageUri</BackgroundImageUri>
+  <DocumentUri>/CanvasApps/mshied_grantsappv2_81d10_DocumentUri.msapp</DocumentUri>
+</CanvasApp>
