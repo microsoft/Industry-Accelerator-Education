@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{16be99a2-2c40-4322-9d0d-8f0f86bf91c1}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="mshied_name" select="1" icon="1" preview="1">
+        <row name="result" id="mshied_scholarshipapplicantid">
+          <cell name="mshied_applicationstatecode" width="100" />
+          <cell name="mshied_scholarship" width="200" />
+          <cell name="mshied_submissiondate" width="100" />
+          <cell name="mshied_offermadedate" width="100" />
+          <cell name="mshied_offerdeadlinedate" width="100" />
+          <cell name="mshied_offeraccepteddate" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="mshied_scholarshipapplicant">
+          <attribute name="mshied_scholarshipapplicantid" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="mshied_applicationstatecode" />
+          <attribute name="mshied_scholarship" />
+          <attribute name="mshied_submissiondate" />
+          <attribute name="mshied_offermadedate" />
+          <attribute name="mshied_offerdeadlinedate" />
+          <attribute name="mshied_offeraccepteddate" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.3.8</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Scholarship Applicants" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>
