@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{d0591cf4-956c-435e-9866-21898dc295ae}</savedqueryid>
+    <layoutxml>
+      <grid name="mshied_accomplishmentses" jump="mshied_name" select="1" icon="1" preview="1">
+        <row name="mshied_accomplishments" id="mshied_accomplishmentsid">
+          <cell name="mshied_accomplishmenttype" width="100" />
+          <cell name="mshied_name" width="200" />
+          <cell name="mshied_description" width="300" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>2</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="mshied_accomplishments">
+          <attribute name="mshied_accomplishmentsid" />
+          <attribute name="mshied_name" />
+          <order attribute="mshied_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="mshied_accomplishmenttype" />
+          <attribute name="mshied_description" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.3.8</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Accomplishments Associated View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

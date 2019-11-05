@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.1.0.8833" SolutionPackageVersion="9.1" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SolutionManifest>
+    <UniqueName>Dynamics365HigherEducationAcceleratorCanvasModel</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="Dynamics 365 Higher Education Accelerator Canvas Model Apps" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions />
+    <Version>2.0.2.2</Version>
+    <Managed>0</Managed>
+    <Publisher>
+      <UniqueName>dynamics365highereducationaccelerator</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="Dynamics 365 Higher Education Accelerator" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions>
+        <Description description="Dynamics 365 Higher Education Accelerator" languagecode="1033" />
+      </Descriptions>
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>mshied</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>49428</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="29" id="{e9f358cc-4fe9-e911-a83a-000d3a1d5dcc}" behavior="0" />
+      <RootComponent type="61" schemaName="mshied_/welcomeScreen/hiedhubwelcomepage.html" behavior="0" />
+      <RootComponent type="80" schemaName="mshied_HigherEd" behavior="0" />
+      <RootComponent type="300" schemaName="mshied_grantsappv2_81d10" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="mshied_studentprogramtype" displayName="Student Program Type" solution="Dynamics365HigherEducationAccelerator (2.0.3.7)" />
+        <Dependent key="1" type="300" schemaName="mshied_grantsappv2_81d10" displayName="Grants App v2" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="2" type="1" schemaName="mshied_areaofstudy" displayName="Area of Study" solution="Dynamics365HigherEducationAccelerator (2.0.3.7)" />
+        <Dependent key="1" type="300" schemaName="mshied_grantsappv2_81d10" displayName="Grants App v2" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="3" type="1" schemaName="mshied_grant" displayName="Grant" solution="Dynamics365HigherEducationAccelerator (2.0.3.7)" />
+        <Dependent key="1" type="300" schemaName="mshied_grantsappv2_81d10" displayName="Grants App v2" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="4" type="1" schemaName="mshied_grantapplicant" displayName="Grant Applicant" solution="Dynamics365HigherEducationAccelerator (2.0.3.7)" />
+        <Dependent key="1" type="300" schemaName="mshied_grantsappv2_81d10" displayName="Grants App v2" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="5" type="1" schemaName="mshied_academicperioddetails" displayName="Academic Period Detail" solution="Dynamics365HigherEducationAccelerator (2.0.3.7)" />
+        <Dependent key="1" type="300" schemaName="mshied_grantsappv2_81d10" displayName="Grants App v2" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="6" type="1" schemaName="mshied_coursesection" displayName="Course Section" solution="Dynamics365HigherEducationAccelerator (2.0.3.7)" />
+        <Dependent key="7" type="80" schemaName="mshied_HigherEd" displayName="Higher Ed" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="5" type="1" schemaName="mshied_academicperioddetails" displayName="Academic Period Detail" solution="Dynamics365HigherEducationAccelerator (2.0.3.7)" />
+        <Dependent key="7" type="80" schemaName="mshied_HigherEd" displayName="Higher Ed" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="8" type="1" schemaName="mshied_course" displayName="Course" solution="Dynamics365HigherEducationAccelerator (2.0.3.7)" />
+        <Dependent key="7" type="80" schemaName="mshied_HigherEd" displayName="Higher Ed" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="3" type="1" schemaName="mshied_grant" displayName="Grant" solution="Dynamics365HigherEducationAccelerator (2.0.3.7)" />
+        <Dependent key="7" type="80" schemaName="mshied_HigherEd" displayName="Higher Ed" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="9" type="1" schemaName="mshied_registrationstatus" displayName="Registration Status" solution="Dynamics365HigherEducationAccelerator (2.0.3.7)" />
+        <Dependent key="7" type="80" schemaName="mshied_HigherEd" displayName="Higher Ed" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="10" type="1" schemaName="mshied_scholarshipapplicant" displayName="Scholarship Applicant" solution="Dynamics365HigherEducationAccelerator (2.0.3.7)" />
+        <Dependent key="7" type="80" schemaName="mshied_HigherEd" displayName="Higher Ed" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="11" type="1" schemaName="mshied_programversion" displayName="Program Version" solution="Dynamics365HigherEducationAccelerator (2.0.3.7)" />
+        <Dependent key="7" type="80" schemaName="mshied_HigherEd" displayName="Higher Ed" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="12" type="1" schemaName="mshied_program" displayName="Program" solution="Dynamics365HigherEducationAccelerator (2.0.3.7)" />
+        <Dependent key="7" type="80" schemaName="mshied_HigherEd" displayName="Higher Ed" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="13" type="1" schemaName="mshied_programlevel" displayName="Program Level" solution="Dynamics365HigherEducationAccelerator (2.0.3.7)" />
+        <Dependent key="7" type="80" schemaName="mshied_HigherEd" displayName="Higher Ed" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="14" type="1" schemaName="mshied_internshipapplicant" displayName="Internship Applicant" solution="Dynamics365HigherEducationAccelerator (2.0.3.7)" />
+        <Dependent key="7" type="80" schemaName="mshied_HigherEd" displayName="Higher Ed" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="15" type="1" schemaName="mshied_educationlevel" displayName="Education Level" solution="Dynamics365HigherEducationAccelerator (2.0.3.7)" />
+        <Dependent key="7" type="80" schemaName="mshied_HigherEd" displayName="Higher Ed" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="16" type="1" schemaName="mshied_extracurricularparticipant" displayName="Extra Curricular Participant" solution="Dynamics365HigherEducationAccelerator (2.0.3.7)" />
+        <Dependent key="7" type="80" schemaName="mshied_HigherEd" displayName="Higher Ed" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="17" type="1" schemaName="mshied_internship" displayName="Internship" solution="Dynamics365HigherEducationAccelerator (2.0.3.7)" />
+        <Dependent key="7" type="80" schemaName="mshied_HigherEd" displayName="Higher Ed" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="4" type="1" schemaName="mshied_grantapplicant" displayName="Grant Applicant" solution="Dynamics365HigherEducationAccelerator (2.0.3.7)" />
+        <Dependent key="7" type="80" schemaName="mshied_HigherEd" displayName="Higher Ed" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="18" type="1" schemaName="mshied_coursehistory" displayName="Course History" solution="Dynamics365HigherEducationAccelerator (2.0.3.7)" />
+        <Dependent key="7" type="80" schemaName="mshied_HigherEd" displayName="Higher Ed" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="19" type="1" schemaName="mshied_testtype" displayName="Test Type" solution="Dynamics365HigherEducationAccelerator (2.0.3.7)" />
+        <Dependent key="7" type="80" schemaName="mshied_HigherEd" displayName="Higher Ed" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="mshied_studentprogramtype" displayName="Student Program Type" solution="Dynamics365HigherEducationAccelerator (2.0.3.7)" />
+        <Dependent key="7" type="80" schemaName="mshied_HigherEd" displayName="Higher Ed" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="20" type="1" schemaName="mshied_studentstatus" displayName="Student Status" solution="Dynamics365HigherEducationAccelerator (2.0.3.7)" />
+        <Dependent key="7" type="80" schemaName="mshied_HigherEd" displayName="Higher Ed" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="21" type="1" schemaName="mshied_scholarship" displayName="Scholarship" solution="Dynamics365HigherEducationAccelerator (2.0.3.7)" />
+        <Dependent key="7" type="80" schemaName="mshied_HigherEd" displayName="Higher Ed" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="2" type="1" schemaName="mshied_areaofstudy" displayName="Area of Study" solution="Dynamics365HigherEducationAccelerator (2.0.3.7)" />
+        <Dependent key="7" type="80" schemaName="mshied_HigherEd" displayName="Higher Ed" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="22" type="1" schemaName="mshied_academicperiod" displayName="Academic Period" solution="Dynamics365HigherEducationAccelerator (2.0.3.7)" />
+        <Dependent key="7" type="80" schemaName="mshied_HigherEd" displayName="Higher Ed" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="23" type="1" schemaName="mshied_areaofinterest" displayName="Area of Interest" solution="Dynamics365HigherEducationAccelerator (2.0.3.7)" />
+        <Dependent key="7" type="80" schemaName="mshied_HigherEd" displayName="Higher Ed" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="24" type="1" schemaName="mshied_previouseducation" displayName="Previous Education" solution="Dynamics365HigherEducationAccelerator (2.0.3.7)" />
+        <Dependent key="7" type="80" schemaName="mshied_HigherEd" displayName="Higher Ed" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="25" type="1" schemaName="mshied_testscore" displayName="Test Score" solution="Dynamics365HigherEducationAccelerator (2.0.3.7)" />
+        <Dependent key="7" type="80" schemaName="mshied_HigherEd" displayName="Higher Ed" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="26" type="1" schemaName="mshied_programversiondetail" displayName="Program Version Detail" solution="Dynamics365HigherEducationAccelerator (2.0.3.7)" />
+        <Dependent key="7" type="80" schemaName="mshied_HigherEd" displayName="Higher Ed" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="27" type="1" schemaName="mshied_extracurricularactivities" displayName="Extra Curricular Activity" solution="Dynamics365HigherEducationAccelerator (2.0.3.7)" />
+        <Dependent key="7" type="80" schemaName="mshied_HigherEd" displayName="Higher Ed" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="28" type="60" displayName="Higher Education Address Form" parentDisplayName="Address" solution="Dynamics365HigherEducationAccelerator (2.0.3.7)" id="{ef140875-b7e7-4469-809c-5f4ab700b1d1}" />
+        <Dependent key="7" type="80" schemaName="mshied_HigherEd" displayName="Higher Ed" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="29" type="60" displayName="Higher Education Course Form" parentDisplayName="Course" solution="Dynamics365HigherEducationAccelerator (2.0.3.7)" id="{5833d3bf-c38d-419e-8156-a16fe681abe2}" />
+        <Dependent key="7" type="80" schemaName="mshied_HigherEd" displayName="Higher Ed" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="30" type="60" displayName="Student Information" solution="Dynamics365HigherEducationAccelerator (2.0.3.7)" id="{10a86981-28ce-e811-a967-000d3a1c53e4}" />
+        <Dependent key="7" type="80" schemaName="mshied_HigherEd" displayName="Higher Ed" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="31" type="60" displayName="Higher Education Account Form" parentDisplayName="Account" solution="Dynamics365HigherEducationAccelerator (2.0.3.7)" id="{d3ee6982-e236-4ec4-922a-48105dc85838}" />
+        <Dependent key="7" type="80" schemaName="mshied_HigherEd" displayName="Higher Ed" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="32" type="60" displayName="Higher Education Student Form" parentDisplayName="Contact" solution="Dynamics365HigherEducationAccelerator (2.0.3.7)" id="{dc419af9-8994-4f86-91db-8d0169c0ad4e}" />
+        <Dependent key="7" type="80" schemaName="mshied_HigherEd" displayName="Higher Ed" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="33" type="60" displayName="Higher Education Faculty Form" parentDisplayName="Contact" solution="Dynamics365HigherEducationAccelerator (2.0.3.7)" id="{94eb6fcd-3aa2-4b1f-9eea-f23da74df76f}" />
+        <Dependent key="7" type="80" schemaName="mshied_HigherEd" displayName="Higher Ed" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="34" type="60" displayName="Higher Education Extra Curricular Activity Form" parentDisplayName="Extra Curricular Activity" solution="Dynamics365HigherEducationAccelerator (2.0.3.7)" id="{f2255de0-9cc7-488f-912b-42ee8dd6c167}" />
+        <Dependent key="7" type="80" schemaName="mshied_HigherEd" displayName="Higher Ed" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="35" type="60" displayName="Business Partner Dashboard" solution="Dynamics365HigherEducationAccelerator (2.0.3.7)" id="{ed828b48-04df-e911-a968-000d3a3b9825}" />
+        <Dependent key="7" type="80" schemaName="mshied_HigherEd" displayName="Higher Ed" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="36" type="60" displayName="Higher Education Program Form" parentDisplayName="Program" solution="Dynamics365HigherEducationAccelerator (2.0.3.7)" id="{5600d25a-db90-4213-afec-1d74b5a0c7fe}" />
+        <Dependent key="7" type="80" schemaName="mshied_HigherEd" displayName="Higher Ed" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="37" type="60" displayName="Higher Education Area of Interest Form" parentDisplayName="Area of Interest" solution="Dynamics365HigherEducationAccelerator (2.0.3.7)" id="{78b71c30-ae51-4603-8549-46a7cb655e01}" />
+        <Dependent key="7" type="80" schemaName="mshied_HigherEd" displayName="Higher Ed" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="38" type="62" schemaName="mshied_HigherEd" solution="Dynamics365HigherEducationAccelerator (2.0.3.7)" />
+        <Dependent key="7" type="80" schemaName="mshied_HigherEd" displayName="Higher Ed" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="39" type="61" schemaName="mshied_HigherEdPNGApp" displayName="mshied_HigherEdPNGApp" solution="Dynamics365HigherEducationAccelerator (2.0.3.7)" />
+        <Dependent key="7" type="80" schemaName="mshied_HigherEd" displayName="Higher Ed" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>

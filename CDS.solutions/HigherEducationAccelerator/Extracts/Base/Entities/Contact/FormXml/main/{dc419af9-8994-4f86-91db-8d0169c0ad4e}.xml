@@ -452,6 +452,74 @@
             </column>
           </columns>
         </tab>
+        <tab name="tab_11" id="{e9068526-3517-0938-b766-caa8391336d1}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+          <labels>
+            <label description="Timeline" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_11_section_1" showlabel="false" showbar="false" locklevel="0" id="{ae19a9c3-a7ad-48c9-c93b-c3a86d3e2664}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Timeline" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{a415da76-1632-2dda-45ba-3829e3c181e9}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a92c77ba-17cd-8de9-5987-e90ccd5ac5db}" showlabel="false" rowspan="15" auto="false" colspan="1" locklevel="0">
+                        <labels>
+                          <label description="Note Text" languagecode="1033" />
+                        </labels>
+                        <control id="notescontrol" classid="{06375649-c143-495e-a496-c962e5b4488e}" uniqueid="{453b567e-196e-49cb-d174-d73dacc7d2b2}" disabled="false">
+                          <parameters>
+                            <UClientUniqueName>Timeline</UClientUniqueName>
+                            <UClientModules>Activities</UClientModules>
+                            <UClientDefaultModuleForCreateExperience>Notes</UClientDefaultModuleForCreateExperience>
+                            <UClientShowFilterPane>true</UClientShowFilterPane>
+                            <UClientExpandFilterPane>false</UClientExpandFilterPane>
+                            <UClientOrderBy>descending</UClientOrderBy>
+                            <UClientRecordPerPage>10</UClientRecordPerPage>
+                            <UClientActivities>task</UClientActivities>
+                            <UClientSortActivitiesByValue>scheduledend</UClientSortActivitiesByValue>
+                            <UClientDisplayActivityHeaderUsing>defaultformat</UClientDisplayActivityHeaderUsing>
+                            <UClientCreateActivityUsing>quickcreateform</UClientCreateActivityUsing>
+                            <UClientDisplayActivityUsing>defaultfields</UClientDisplayActivityUsing>
+                            <DefaultTabId>ActivitiesTab</DefaultTabId>
+                            <OrderByActivityWall>descending</OrderByActivityWall>
+                            <SortActivityWall>modifiedon</SortActivityWall>
+                            <EmailConversationView>true</EmailConversationView>
+                            <ShowArticleTab>false</ShowArticleTab>
+                            <SelectDefaultLanguage>00000000-0000-0000-0000-000000000000</SelectDefaultLanguage>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
         <tab name="AcademicPeriodDetails" id="{0c052e37-2d8b-d37e-abb4-248053ae5d5e}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
           <labels>
             <label description="Academic Period Details" languagecode="1033" />
@@ -723,6 +791,202 @@
             </column>
           </columns>
         </tab>
+        <tab name="tab_7" id="{e74ea7cc-eb44-1567-96e1-69bab409a30e}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+          <labels>
+            <label description="Internships" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_7_section_2" showlabel="false" showbar="false" locklevel="0" id="{944c0ca6-222c-891d-e59d-91b19aa6b852}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Internships" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{1e97c235-1451-6909-aca1-7c64317699b5}" showlabel="false" colspan="1" auto="false" rowspan="6">
+                        <labels>
+                          <label description="Internship Applicants (Applicant)" languagecode="1033" />
+                        </labels>
+                        <control id="Internships" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <ViewId>{CB6A805A-5421-495E-AF88-9D79A47F03BF}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>mshied_InternshipApplicant_Applicant_Contact</RelationshipName>
+                            <TargetEntityType>mshied_internshipapplicant</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{CB6A805A-5421-495E-AF88-9D79A47F03BF}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>Grid</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>false</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_8" id="{0bae542d-23bc-8350-0417-045408cd7925}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+          <labels>
+            <label description="Scholarships" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_8_section_1" showlabel="false" showbar="false" locklevel="0" id="{4e3e232e-a4a0-d0da-0388-d19660688576}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Scholarships" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{c6eedc84-5560-02eb-75d1-b71cd697d37d}" showlabel="false" colspan="1" auto="false" rowspan="6">
+                        <labels>
+                          <label description="Scholarship Applicants (Applicant)" languagecode="1033" />
+                        </labels>
+                        <control id="Scholarships" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <ViewId>{16BE99A2-2C40-4322-9D0D-8F0F86BF91C1}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>mshied_ScholarshipApplicant_Applicant_Contact</RelationshipName>
+                            <TargetEntityType>mshied_scholarshipapplicant</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{16BE99A2-2C40-4322-9D0D-8F0F86BF91C1}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>Grid</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>false</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_9" id="{596bab1c-d0e1-0b19-053e-13cd49dad20b}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+          <labels>
+            <label description="Grants" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_9_section_1" showlabel="false" showbar="false" locklevel="0" id="{ae687b43-5122-576e-6a1a-6716b2962d7b}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Grants" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{ec8bb923-b4c8-578c-ea57-a0b706005303}" showlabel="false" colspan="1" auto="false" rowspan="6">
+                        <labels>
+                          <label description="Grant Applicants (Applicant)" languagecode="1033" />
+                        </labels>
+                        <control id="Grants" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <ViewId>{6B72DB1C-BE93-4E3B-8275-531A32E914F8}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>mshied_GrantApplicant_Applicant_Contact</RelationshipName>
+                            <TargetEntityType>mshied_grantapplicant</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{6B72DB1C-BE93-4E3B-8275-531A32E914F8}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>Grid</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>false</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_10" id="{6724401a-269b-bde9-45b7-3b77d7adec07}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+          <labels>
+            <label description="Accomplishments" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_10_section_1" showlabel="false" showbar="false" locklevel="0" id="{b0745dbe-a36e-b72d-2caa-a262c0cd7659}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Accomplishments" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{57528926-7a12-027b-4205-cbac78e7a998}" showlabel="false" colspan="1" auto="false" rowspan="6">
+                        <labels>
+                          <label description="Accomplishments (Student)" languagecode="1033" />
+                        </labels>
+                        <control id="Accomplishments" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <ViewId>{2EDAD430-ED32-4011-BA97-3DC429797030}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>mshied_Accomplishments_Student_Contact</RelationshipName>
+                            <TargetEntityType>mshied_accomplishments</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{2EDAD430-ED32-4011-BA97-3DC429797030}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>Grid</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>false</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
       </tabs>
       <header id="{3ff9aa06-4e43-41ce-afa9-22a038af5c19}" celllabelposition="Top" columns="1" labelwidth="115">
         <rows>
@@ -743,171 +1007,8 @@
           </clientincludes>
         </internalresources>
       </clientresources>
-      <events>
-        <event name="onload" application="true" active="true">
-          <InternalHandlers>
-            <Handler functionName="AppCommon.Contact.Instance.form_onload" libraryName="AppCommon/Contact/Contact_main_system_library.js" handlerUniqueId="4ea24ebd-795d-434e-af94-6812c3867b54" enabled="true" />
-          </InternalHandlers>
-        </event>
-      </events>
       <Navigation>
         <NavBar>
-          <NavBarByRelationshipItem RelationshipName="invoice_customer_contacts" Id="navInvoices" Sequence="10" Area="Info" Show="false">
-            <Privileges>
-              <Privilege Entity="" Privilege="ReadActivity" />
-            </Privileges>
-            <Titles>
-              <Title LCID="1033" Text="Invoice" />
-              <Title LCID="1025" Text="الفاتورة" />
-              <Title LCID="1026" Text="Фактура" />
-              <Title LCID="1027" Text="Factura" />
-              <Title LCID="1029" Text="Faktura" />
-              <Title LCID="1030" Text="Faktura" />
-              <Title LCID="1031" Text="Rechnung" />
-              <Title LCID="1032" Text="Τιμολόγιο" />
-              <Title LCID="3082" Text="Factura" />
-              <Title LCID="1061" Text="Arve" />
-              <Title LCID="1069" Text="Faktura" />
-              <Title LCID="1035" Text="Lasku" />
-              <Title LCID="1036" Text="Facture" />
-              <Title LCID="1110" Text="Factura" />
-              <Title LCID="1037" Text="חשבונית" />
-              <Title LCID="1081" Text="इनवॉइस" />
-              <Title LCID="1050" Text="Faktura" />
-              <Title LCID="1038" Text="Számla" />
-              <Title LCID="1057" Text="Faktur" />
-              <Title LCID="1040" Text="Fattura" />
-              <Title LCID="1041" Text="請求書" />
-              <Title LCID="1087" Text="Есеп-шот" />
-              <Title LCID="1042" Text="송장" />
-              <Title LCID="1063" Text="Sąskaita faktūra" />
-              <Title LCID="1062" Text="Rēķins" />
-              <Title LCID="1086" Text="Invois" />
-              <Title LCID="1044" Text="Faktura" />
-              <Title LCID="1043" Text="Factuur" />
-              <Title LCID="1045" Text="Faktura" />
-              <Title LCID="1046" Text="Fatura" />
-              <Title LCID="2070" Text="Fatura" />
-              <Title LCID="1048" Text="Factură" />
-              <Title LCID="1049" Text="Счет" />
-              <Title LCID="1051" Text="Faktúra" />
-              <Title LCID="1060" Text="Račun" />
-              <Title LCID="10266" Text="Фактура" />
-              <Title LCID="9242" Text="Faktura" />
-              <Title LCID="1053" Text="Faktura" />
-              <Title LCID="1054" Text="ใบแจ้งหนี้" />
-              <Title LCID="1055" Text="Fatura" />
-              <Title LCID="1058" Text="Рахунок" />
-              <Title LCID="1066" Text="Hóa đơn" />
-              <Title LCID="2052" Text="发票" />
-              <Title LCID="3076" Text="發票" />
-              <Title LCID="1028" Text="發票" />
-            </Titles>
-          </NavBarByRelationshipItem>
-          <NavBarByRelationshipItem RelationshipName="order_customer_contacts" Id="navOrders" Sequence="10" Area="Info" Show="false">
-            <Privileges>
-              <Privilege Entity="" Privilege="ReadActivity" />
-            </Privileges>
-            <Titles>
-              <Title LCID="1033" Text="SalesOrder" />
-              <Title LCID="1025" Text="أمر المبيعات" />
-              <Title LCID="1026" Text="SalesOrder" />
-              <Title LCID="1027" Text="Comanda de vendes" />
-              <Title LCID="1029" Text="Prodejní objednávka" />
-              <Title LCID="1030" Text="SalesOrder" />
-              <Title LCID="1031" Text="Vertriebsauftrag" />
-              <Title LCID="1032" Text="SalesOrder" />
-              <Title LCID="3082" Text="Pedido de venta" />
-              <Title LCID="1061" Text="SalesOrder" />
-              <Title LCID="1069" Text="SalesOrder" />
-              <Title LCID="1035" Text="Myyntitilaus" />
-              <Title LCID="1036" Text="Commande client" />
-              <Title LCID="1110" Text="SalesOrder" />
-              <Title LCID="1037" Text="SalesOrder" />
-              <Title LCID="1081" Text="SalesOrder" />
-              <Title LCID="1050" Text="SalesOrder" />
-              <Title LCID="1038" Text="SalesOrder" />
-              <Title LCID="1057" Text="SalesOrder" />
-              <Title LCID="1040" Text="Ordine cliente" />
-              <Title LCID="1041" Text="SalesOrder" />
-              <Title LCID="1087" Text="SalesOrder" />
-              <Title LCID="1042" Text="SalesOrder" />
-              <Title LCID="1063" Text="Pardavimo užsakymas" />
-              <Title LCID="1062" Text="SalesOrder" />
-              <Title LCID="1086" Text="SalesOrder" />
-              <Title LCID="1044" Text="Salgsordre" />
-              <Title LCID="1043" Text="Verkooporder" />
-              <Title LCID="1045" Text="SalesOrder" />
-              <Title LCID="1046" Text="SalesOrder" />
-              <Title LCID="2070" Text="SalesOrder" />
-              <Title LCID="1048" Text="SalesOrder" />
-              <Title LCID="1049" Text="SalesOrder" />
-              <Title LCID="1051" Text="SalesOrder" />
-              <Title LCID="1060" Text="SalesOrder" />
-              <Title LCID="10266" Text="SalesOrder" />
-              <Title LCID="9242" Text="SalesOrder" />
-              <Title LCID="1053" Text="Försäljningsorder" />
-              <Title LCID="1054" Text="ใบสั่งขาย" />
-              <Title LCID="1055" Text="SalesOrder" />
-              <Title LCID="1058" Text="Замовлення на продаж" />
-              <Title LCID="1066" Text="SalesOrder" />
-              <Title LCID="2052" Text="SalesOrder" />
-              <Title LCID="3076" Text="SalesOrder" />
-              <Title LCID="1028" Text="SalesOrder" />
-            </Titles>
-          </NavBarByRelationshipItem>
-          <NavBarByRelationshipItem RelationshipName="quote_customer_contacts" Id="navQuotes" Sequence="10" Area="Info" Show="false">
-            <Privileges>
-              <Privilege Entity="" Privilege="ReadActivity" />
-            </Privileges>
-            <Titles>
-              <Title LCID="1033" Text="Quote" />
-              <Title LCID="1025" Text="عرض الأسعار" />
-              <Title LCID="1026" Text="Оферта" />
-              <Title LCID="1027" Text="Oferta" />
-              <Title LCID="1029" Text="Nabídka" />
-              <Title LCID="1030" Text="Tilbud" />
-              <Title LCID="1031" Text="Angebot" />
-              <Title LCID="1032" Text="Προσφορά" />
-              <Title LCID="3082" Text="Oferta" />
-              <Title LCID="1061" Text="Hinnapakkumine" />
-              <Title LCID="1069" Text="Eskaintza" />
-              <Title LCID="1035" Text="Tarjous" />
-              <Title LCID="1036" Text="Devis" />
-              <Title LCID="1110" Text="Oferta" />
-              <Title LCID="1037" Text="הצעת מחיר" />
-              <Title LCID="1081" Text="कोट" />
-              <Title LCID="1050" Text="Ponuda" />
-              <Title LCID="1038" Text="Árajánlat" />
-              <Title LCID="1057" Text="Kuotasi" />
-              <Title LCID="1040" Text="Offerta" />
-              <Title LCID="1041" Text="見積もり" />
-              <Title LCID="1087" Text="Баға ұсыну" />
-              <Title LCID="1042" Text="견적" />
-              <Title LCID="1063" Text="Pasiūlymas" />
-              <Title LCID="1062" Text="Piedāvājums" />
-              <Title LCID="1086" Text="Sebut Harga" />
-              <Title LCID="1044" Text="Tilbud" />
-              <Title LCID="1043" Text="Prijsopgave" />
-              <Title LCID="1045" Text="Oferta" />
-              <Title LCID="1046" Text="Cotação" />
-              <Title LCID="2070" Text="Proposta" />
-              <Title LCID="1048" Text="Ofertă" />
-              <Title LCID="1049" Text="Предложение с расценками" />
-              <Title LCID="1051" Text="Cenová ponuka" />
-              <Title LCID="1060" Text="Ponudba" />
-              <Title LCID="10266" Text="Понуда" />
-              <Title LCID="9242" Text="Ponuda" />
-              <Title LCID="1053" Text="Offert" />
-              <Title LCID="1054" Text="ใบเสนอราคา" />
-              <Title LCID="1055" Text="Teklif" />
-              <Title LCID="1058" Text="Цінова пропозиція" />
-              <Title LCID="1066" Text="Báo giá" />
-              <Title LCID="2052" Text="报价单" />
-              <Title LCID="3076" Text="報價" />
-              <Title LCID="1028" Text="報價" />
-            </Titles>
-          </NavBarByRelationshipItem>
           <NavBarByRelationshipItem RelationshipName="Contact_CustomerAddress" Id="navAddresses" Sequence="10" Area="Info" Show="false">
             <Privileges>
               <Privilege Entity="" Privilege="ReadActivity" />
@@ -1412,6 +1513,13 @@
         </NavBarAreas>
       </Navigation>
       <controlDescriptions />
+      <events>
+        <event name="onload" application="true" active="true">
+          <InternalHandlers>
+            <Handler functionName="AppCommon.Contact.Instance.form_onload" libraryName="AppCommon/Contact/Contact_main_system_library.js" handlerUniqueId="4ea24ebd-795d-434e-af94-6812c3867b54" enabled="true" />
+          </InternalHandlers>
+        </event>
+      </events>
       <DisplayConditions FallbackForm="true" Order="4">
         <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
         <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
