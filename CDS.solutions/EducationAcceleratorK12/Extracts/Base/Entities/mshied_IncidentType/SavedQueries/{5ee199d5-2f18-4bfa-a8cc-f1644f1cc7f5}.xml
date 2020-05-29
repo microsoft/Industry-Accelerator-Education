@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{5ee199d5-2f18-4bfa-a8cc-f1644f1cc7f5}</savedqueryid>
+    <layoutxml>
+      <grid name="mshied_incidenttypes" jump="mshied_name" select="1" icon="1" preview="0">
+        <row name="mshied_incidenttype" id="mshied_incidenttypeid">
+          <cell name="mshied_name" width="300" />
+          <cell name="mshied_incidentcategory" width="100" />
+          <cell name="mshied_incidentdescription" width="100" disableSorting="1" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>64</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="mshied_incidenttype">
+          <attribute name="mshied_incidenttypeid" />
+          <attribute name="mshied_name" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <order attribute="mshied_name" descending="false" />
+          <attribute name="mshied_incidentdescription" />
+          <attribute name="mshied_incidentcategory" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Incident Type Lookup View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

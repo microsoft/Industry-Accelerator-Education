@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{c64cf34e-8464-ea11-a811-000d3a579c6c}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="mshied_name" select="1" icon="1" preview="1">
+        <row name="result" id="mshied_extracurricularparticipantid">
+          <cell name="mshied_contactid" width="100" />
+          <cell name="mshied_startdate" width="100" />
+          <cell name="mshied_enddate" width="100" />
+          <cell name="mshied_state" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="mshied_extracurricularparticipant">
+          <order attribute="mshied_contactid" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="mshied_state" />
+          <attribute name="mshied_startdate" />
+          <attribute name="mshied_enddate" />
+          <attribute name="mshied_contactid" />
+          <attribute name="mshied_extracurricularparticipantid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Extra Curricular Participants K12 EC page" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

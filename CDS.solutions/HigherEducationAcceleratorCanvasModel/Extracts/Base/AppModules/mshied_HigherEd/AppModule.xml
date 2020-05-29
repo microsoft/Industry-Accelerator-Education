@@ -3,6 +3,7 @@
   <UniqueName>mshied_HigherEd</UniqueName>
   <IntroducedVersion>1.0.0.0</IntroducedVersion>
   <WebResourceId>8b9ded0b-9bd0-e811-a970-000d3a1c5096</WebResourceId>
+  <OptimizedFor></OptimizedFor>
   <WelcomePageId>0c051fc5-b2e3-e911-a839-000d3a1d5203</WelcomePageId>
   <FormFactor>1</FormFactor>
   <ClientType>4</ClientType>
@@ -10,6 +11,7 @@
   <AppModuleComponents>
     <AppModuleComponent type="62" schemaName="mshied_HigherEd" />
     <AppModuleComponent type="60" id="{ed828b48-04df-e911-a968-000d3a3b9825}" />
+    <AppModuleComponent type="60" id="{3014578f-4606-ea11-a811-000d3a8c9f8b}" />
     <AppModuleComponent type="60" id="{10a86981-28ce-e811-a967-000d3a1c53e4}" />
     <AppModuleComponent type="1" schemaName="mshied_academicperiod" />
     <AppModuleComponent type="1" schemaName="mshied_academicperioddetails" />

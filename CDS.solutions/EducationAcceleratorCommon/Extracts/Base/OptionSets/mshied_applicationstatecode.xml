@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="mshied_applicationstatecode" localizedName="Application State Code" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.3.8</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <displaynames>
+    <displayname description="Application State Code" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="" languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="494280000">
+      <labels>
+        <label description="Submitted" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="494280001">
+      <labels>
+        <label description="Under Review" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="494280002">
+      <labels>
+        <label description="Offer Pending" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="494280003">
+      <labels>
+        <label description="Accepted" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="494280004">
+      <labels>
+        <label description="Rejected" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="494280005">
+      <labels>
+        <label description="Rescinded" languagecode="1033" />
+      </labels>
+    </option>
+  </options>
+</optionset>

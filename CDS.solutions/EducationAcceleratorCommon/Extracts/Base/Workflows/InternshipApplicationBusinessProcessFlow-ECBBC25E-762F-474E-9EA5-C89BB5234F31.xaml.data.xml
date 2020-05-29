@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{ecbbc25e-762f-474e-9ea5-c89bb5234f31}" Name="Internship Application Business Process Flow" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <XamlFileName>/Workflows/InternshipApplicationBusinessProcessFlow-ECBBC25E-762F-474E-9EA5-C89BB5234F31.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>4</Category>
+  <Mode>0</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>1</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <processorder>100</processorder>
+  <processroleassignment>&lt;DisplayConditions&gt;&lt;Role Id="{627090ff-40a3-4053-8790-584edc5be201}" /&gt;&lt;Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" /&gt;&lt;/DisplayConditions&gt;</processroleassignment>
+  <RunAs>1</RunAs>
+  <UniqueName>mshied_internshipapplicationflow</UniqueName>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>2.0.3.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <BusinessProcessType>0</BusinessProcessType>
+  <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
+  <ProcessTriggerScope>1</ProcessTriggerScope>
+  <PrimaryEntity>mshied_InternshipApplicant</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="Internship Application Business Process Flow" />
+  </LocalizedNames>
+  <labels>
+    <steplabels id="{bec82eeb-a0f3-4f9b-8b6e-9cbd77d59333}">
+      <label languagecode="1033" description="Submitted" />
+    </steplabels>
+    <steplabels id="{d0d219f7-040f-4d2f-a277-68167a08696c}">
+      <label languagecode="1033" description="Application State Code" />
+    </steplabels>
+    <steplabels id="{111e7a22-d8a8-4278-a208-5f0ec80660ae}">
+      <label languagecode="1033" description="Under Review" />
+    </steplabels>
+    <steplabels id="{cebb2d8d-a0fc-4b2c-b5bb-a91394c8480a}">
+      <label languagecode="1033" description="Application State Code" />
+    </steplabels>
+    <steplabels id="{332d12c6-140b-4b67-9d67-be9cefa109bb}">
+      <label languagecode="1033" description="Offer Pending" />
+    </steplabels>
+    <steplabels id="{93e081bd-a74e-47a2-a70b-edd3b71d9f35}">
+      <label languagecode="1033" description="Application State Code" />
+    </steplabels>
+    <steplabels id="{32120c6a-1bac-4037-bc88-dbc11bf0ee6b}">
+      <label languagecode="1033" description="Final Decision" />
+    </steplabels>
+    <steplabels id="{4881ade8-d46c-4f3d-8e26-5000695c2d8a}">
+      <label languagecode="1033" description="Application State Code" />
+    </steplabels>
+  </labels>
+</Workflow>

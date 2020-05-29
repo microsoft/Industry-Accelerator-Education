@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{24d7f0de-fd90-4a0b-9fa5-44b0e62228ce}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{22c51774-b8f6-4f8f-8a3a-d50efe3e7e8c}" name="StageStep3" locklevel="0" expanded="true" visible="false">
+          <labels>
+            <label description="" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{5995cafd-5eb3-4678-98af-048e34dd7433}" name="StageStep3_section1">
+                  <labels>
+                    <label description="" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{583897db-2649-40a9-b631-5b5ef73969da}" showlabel="true" visible="true">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_mshied_scholarshipapplicant_mshied_scholarshipapplicationbusinessprocessflow:mshied_applicationstatecode" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="mshied_applicationstatecode" relationship="bpf_mshied_scholarshipapplicant_mshied_scholarshipapplicationbusinessprocessflow" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{65581b71-7209-4776-a196-4949ed5c0e65}" name="StageStep7" locklevel="0" expanded="true" visible="false">
+          <labels>
+            <label description="" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{f468fb1f-fcbb-4615-9452-d09eb14a67ed}" name="StageStep7_section1">
+                  <labels>
+                    <label description="" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{7e23366d-2550-4246-ace9-088a9a28f0a2}" showlabel="true" visible="true">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_mshied_scholarshipapplicant_mshied_scholarshipapplicationbusinessprocessflow:mshied_applicationstatecode" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="mshied_applicationstatecode" relationship="bpf_mshied_scholarshipapplicant_mshied_scholarshipapplicationbusinessprocessflow" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{389f3d0a-cbfb-4f11-bf37-fd9ee35e9f10}" name="StageStep12" locklevel="0" expanded="true" visible="false">
+          <labels>
+            <label description="" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{380378e1-f25e-4664-9aaf-69ef1341e94f}" name="StageStep12_section1">
+                  <labels>
+                    <label description="" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{d1864b60-8ba9-4dda-9cc1-8d8aaf9fbfe9}" showlabel="true" visible="true">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_mshied_scholarshipapplicant_mshied_scholarshipapplicationbusinessprocessflow:mshied_applicationstatecode" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="mshied_applicationstatecode" relationship="bpf_mshied_scholarshipapplicant_mshied_scholarshipapplicationbusinessprocessflow" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{0e0e2a89-fb2e-43d5-8e37-4e5b7f1bebdf}" name="StageStep17" locklevel="0" expanded="true" visible="false">
+          <labels>
+            <label description="" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{b9ec455a-a14b-494a-b0d6-59a28bc94975}" name="StageStep17_section1">
+                  <labels>
+                    <label description="" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{da850cc8-36e7-4a08-b8c5-9b8aed320f21}" showlabel="true" visible="true">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_mshied_scholarshipapplicant_mshied_scholarshipapplicationbusinessprocessflow:mshied_applicationstatecode" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="mshied_applicationstatecode" relationship="bpf_mshied_scholarshipapplicant_mshied_scholarshipapplicationbusinessprocessflow" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

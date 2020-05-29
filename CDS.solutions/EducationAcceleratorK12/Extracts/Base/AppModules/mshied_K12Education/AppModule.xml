@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModule>
+  <UniqueName>mshied_K12Education</UniqueName>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <WebResourceId>5bce800b-4699-ea11-a811-000d3a17769f</WebResourceId>
+  <OptimizedFor></OptimizedFor>
+  <FormFactor>1</FormFactor>
+  <ClientType>4</ClientType>
+  <NavigationType>0</NavigationType>
+  <AppModuleComponents>
+    <AppModuleComponent type="62" schemaName="mshied_K12Education" />
+    <AppModuleComponent type="1" schemaName="mshied_academicperiod" />
+    <AppModuleComponent type="1" schemaName="account" />
+    <AppModuleComponent type="1" schemaName="mshied_assessment" />
+    <AppModuleComponent type="1" schemaName="mshied_assessmentdelivery" />
+    <AppModuleComponent type="1" schemaName="mshied_assessmentitem" />
+    <AppModuleComponent type="1" schemaName="mshied_attendance" />
+    <AppModuleComponent type="1" schemaName="mshied_behaviorincident" />
+    <AppModuleComponent type="1" schemaName="contact" />
+    <AppModuleComponent type="1" schemaName="mshied_course" />
+    <AppModuleComponent type="1" schemaName="mshied_coursesection" />
+    <AppModuleComponent type="1" schemaName="mshied_educationcontent" />
+    <AppModuleComponent type="1" schemaName="mshied_gradingperiod" />
+    <AppModuleComponent type="60" id="{8db4cac0-2da2-403a-a4d8-1e20b2e28b00}" />
+    <AppModuleComponent type="1" schemaName="mshied_incidentaction" />
+    <AppModuleComponent type="1" schemaName="mshied_incidenttype" />
+    <AppModuleComponent type="1" schemaName="mshied_intervention" />
+    <AppModuleComponent type="1" schemaName="mshied_interventionparticipant" />
+    <AppModuleComponent type="1" schemaName="mshied_learningstandard" />
+    <AppModuleComponent type="1" schemaName="mshied_learningstandardcriteria" />
+    <AppModuleComponent type="1" schemaName="mshied_studentassessmentitemresponse" />
+    <AppModuleComponent type="1" schemaName="mshied_testscore" />
+    <AppModuleComponent type="1" schemaName="mshied_testtype" />
+  </AppModuleComponents>
+  <AppModuleRoleMaps>
+    <Role id="{627090ff-40a3-4053-8790-584edc5be201}" />
+    <Role id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+  </AppModuleRoleMaps>
+  <LocalizedNames>
+    <LocalizedName description="K12 Education" languagecode="1033" />
+  </LocalizedNames>
+</AppModule>

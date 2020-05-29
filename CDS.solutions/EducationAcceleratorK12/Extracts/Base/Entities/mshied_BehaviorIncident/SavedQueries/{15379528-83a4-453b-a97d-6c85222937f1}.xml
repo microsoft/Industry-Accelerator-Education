@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{15379528-83a4-453b-a97d-6c85222937f1}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="mshied_name" select="1" icon="1" preview="1">
+        <row name="result" id="mshied_behaviorincidentid">
+          <cell name="mshied_name" width="300" />
+          <cell name="mshied_academicperiodid" width="100" />
+          <cell name="mshied_incidentdate" width="100" />
+          <cell name="mshied_incidentlocation" width="100" />
+          <cell name="mshied_incidentnotes" width="100" disableSorting="1" />
+          <cell name="mshied_organizationid" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="mshied_behaviorincident">
+          <attribute name="mshied_name" />
+          <order attribute="mshied_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="mshied_organizationid" />
+          <attribute name="mshied_incidentnotes" />
+          <attribute name="mshied_incidentlocation" />
+          <attribute name="mshied_incidentdate" />
+          <attribute name="mshied_academicperiodid" />
+          <attribute name="mshied_behaviorincidentid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Behavior Incidents" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

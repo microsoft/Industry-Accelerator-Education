@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{58cc27ef-5d95-454f-a059-e0fb216714ad}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="mshied_name" select="1" icon="1" preview="1">
+        <row name="result" id="mshied_assessmentitemid">
+          <cell name="mshied_name" width="300" />
+          <cell name="mshied_language" width="100" />
+          <cell name="mshied_learningstandardid" width="100" />
+          <cell name="mshied_maximumrawscore" width="100" />
+          <cell name="mshied_question" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="mshied_assessmentitem">
+          <attribute name="mshied_name" />
+          <order attribute="mshied_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="mshied_question" />
+          <attribute name="mshied_maximumrawscore" />
+          <attribute name="mshied_learningstandardid" />
+          <attribute name="mshied_language" />
+          <attribute name="mshied_assessmentitemid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Assessment Items" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>
