@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.1.0.17162" SolutionPackageVersion="9.1" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SolutionManifest>
+    <UniqueName>EducationAcceleratorCommon</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="Education Accelerator Common" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions />
+    <Version>3.0.0.0</Version>
+    <Managed>0</Managed>
+    <Publisher>
+      <UniqueName>educationacceleratorcommon</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="Dynamics 365 Education" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions>
+        <Description description="Education Accelerator Common" languagecode="1033" />
+      </Descriptions>
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>mshied</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>49428</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="account" behavior="2" />
+      <RootComponent type="1" schemaName="contact" behavior="2" />
+      <RootComponent type="1" schemaName="customeraddress" behavior="2" />
+      <RootComponent type="1" schemaName="mshied_academicperiod" behavior="0" />
+      <RootComponent type="1" schemaName="mshied_academicperioddetails" behavior="0" />
+      <RootComponent type="1" schemaName="mshied_accomplishments" behavior="0" />
+      <RootComponent type="1" schemaName="mshied_areaofinterest" behavior="0" />
+      <RootComponent type="1" schemaName="mshied_areaofstudy" behavior="0" />
+      <RootComponent type="1" schemaName="mshied_course" behavior="0" />
+      <RootComponent type="1" schemaName="mshied_coursehistory" behavior="0" />
+      <RootComponent type="1" schemaName="mshied_coursesection" behavior="0" />
+      <RootComponent type="1" schemaName="mshied_educationlevel" behavior="0" />
+      <RootComponent type="1" schemaName="mshied_extracurricularactivities" behavior="0" />
+      <RootComponent type="1" schemaName="mshied_extracurricularparticipant" behavior="0" />
+      <RootComponent type="1" schemaName="mshied_internship" behavior="0" />
+      <RootComponent type="1" schemaName="mshied_internshipapplicant" behavior="0" />
+      <RootComponent type="1" schemaName="mshied_internshipapplicationflow" behavior="0" />
+      <RootComponent type="1" schemaName="mshied_previouseducation" behavior="0" />
+      <RootComponent type="1" schemaName="mshied_program" behavior="0" />
+      <RootComponent type="1" schemaName="mshied_programlevel" behavior="0" />
+      <RootComponent type="1" schemaName="mshied_registrationstatus" behavior="0" />
+      <RootComponent type="1" schemaName="mshied_scholarship" behavior="0" />
+      <RootComponent type="1" schemaName="mshied_scholarshipapplicant" behavior="0" />
+      <RootComponent type="1" schemaName="mshied_scholarshipapplicationbusinessprocessflow" behavior="0" />
+      <RootComponent type="1" schemaName="mshied_studentprogramtype" behavior="0" />
+      <RootComponent type="1" schemaName="mshied_studentstatus" behavior="0" />
+      <RootComponent type="1" schemaName="mshied_testscore" behavior="0" />
+      <RootComponent type="1" schemaName="mshied_testtype" behavior="0" />
+      <RootComponent type="1" schemaName="systemuser" behavior="2" />
+      <RootComponent type="1" schemaName="task" behavior="2" />
+      <RootComponent type="9" schemaName="mshied_accomplishmenttype" behavior="0" />
+      <RootComponent type="9" schemaName="mshied_applicationstatecode" behavior="0" />
+      <RootComponent type="9" schemaName="mshied_extensionstatus" behavior="0" />
+      <RootComponent type="9" schemaName="mshied_scholarshiptype" behavior="0" />
+      <RootComponent type="9" schemaName="mshied_sourcesystem" behavior="0" />
+      <RootComponent type="29" id="{040c650b-719b-43f1-905a-1dc6697de33b}" behavior="0" />
+      <RootComponent type="29" id="{15526afb-b34f-45dd-a606-82c6d798835a}" behavior="0" />
+      <RootComponent type="29" id="{1ceab136-3925-4394-86c6-0783f967ca42}" behavior="0" />
+      <RootComponent type="29" id="{8ae827c1-47c0-49c5-a694-779710c67e2f}" behavior="0" />
+      <RootComponent type="29" id="{a1cb9b6c-4db8-4c5c-8879-5901e7006115}" behavior="0" />
+      <RootComponent type="29" id="{a6dbf0e1-0b0e-4359-b5bd-7b4dd340c90b}" behavior="0" />
+      <RootComponent type="29" id="{ecbbc25e-762f-474e-9ea5-c89bb5234f31}" behavior="0" />
+      <RootComponent type="60" id="{10a86981-28ce-e811-a967-000d3a1c53e4}" behavior="0" />
+      <RootComponent type="60" id="{805b59a2-acdf-e911-a960-000d3a3b9b3d}" behavior="0" />
+      <RootComponent type="60" id="{91d14055-12b2-4d18-9e7c-59603e5a2295}" behavior="0" />
+      <RootComponent type="60" id="{94eb6fcd-3aa2-4b1f-9eea-f23da74df76f}" />
+      <RootComponent type="60" id="{d3ee6982-e236-4ec4-922a-48105dc85838}" />
+      <RootComponent type="60" id="{dc419af9-8994-4f86-91db-8d0169c0ad4e}" />
+      <RootComponent type="60" id="{ed828b48-04df-e911-a968-000d3a3b9825}" behavior="0" />
+      <RootComponent type="60" id="{ef140875-b7e7-4469-809c-5f4ab700b1d1}" behavior="0" />
+      <RootComponent type="61" schemaName="mshied_AcademicPeriod" behavior="0" />
+      <RootComponent type="61" schemaName="mshied_AcademicPeriod16" behavior="0" />
+      <RootComponent type="61" schemaName="mshied_academicperiodstatus" behavior="0" />
+      <RootComponent type="61" schemaName="mshied_AcademicPeriodStatus16" behavior="0" />
+      <RootComponent type="61" schemaName="mshied_AcademicPeriodStatusSVG" behavior="0" />
+      <RootComponent type="61" schemaName="mshied_AcademicPeriodSVG" behavior="0" />
+      <RootComponent type="61" schemaName="mshied_Address" behavior="0" />
+      <RootComponent type="61" schemaName="mshied_Address16" behavior="0" />
+      <RootComponent type="61" schemaName="mshied_AddressSVG" behavior="0" />
+      <RootComponent type="61" schemaName="mshied_AreaofInterest" behavior="0" />
+      <RootComponent type="61" schemaName="mshied_AreaofInterest16" behavior="0" />
+      <RootComponent type="61" schemaName="mshied_AreaofInterestSVG" behavior="0" />
+      <RootComponent type="61" schemaName="mshied_AreaofStudy" behavior="0" />
+      <RootComponent type="61" schemaName="mshied_AreaofStudy16" behavior="0" />
+      <RootComponent type="61" schemaName="mshied_AreaofStudySVG" behavior="0" />
+      <RootComponent type="61" schemaName="mshied_Course" behavior="0" />
+      <RootComponent type="61" schemaName="mshied_Course16" behavior="0" />
+      <RootComponent type="61" schemaName="mshied_CourseHistory" behavior="0" />
+      <RootComponent type="61" schemaName="mshied_CourseHistory16" behavior="0" />
+      <RootComponent type="61" schemaName="mshied_CourseHistorySVG" behavior="0" />
+      <RootComponent type="61" schemaName="mshied_CourseSVG" behavior="0" />
+      <RootComponent type="61" schemaName="mshied_EducationLevel" behavior="0" />
+      <RootComponent type="61" schemaName="mshied_EducationLevel16" behavior="0" />
+      <RootComponent type="61" schemaName="mshied_EducationLevelSVG" behavior="0" />
+      <RootComponent type="61" schemaName="mshied_ExtraCurricular" behavior="0" />
+      <RootComponent type="61" schemaName="mshied_ExtraCurricular16" behavior="0" />
+      <RootComponent type="61" schemaName="mshied_ExtraCurricularSVG" behavior="0" />
+      <RootComponent type="61" schemaName="mshied_Graduate" behavior="0" />
+      <RootComponent type="61" schemaName="mshied_HigherEdIconforUI2" behavior="0" />
+      <RootComponent type="61" schemaName="mshied_HigherEdPNGApp" behavior="0" />
+      <RootComponent type="61" schemaName="mshied_HigherEducationApp" behavior="0" />
+      <RootComponent type="61" schemaName="mshied_Internship16" behavior="0" />
+      <RootComponent type="61" schemaName="mshied_Internship32" behavior="0" />
+      <RootComponent type="61" schemaName="mshied_InternshipSVG" behavior="0" />
+      <RootComponent type="61" schemaName="mshied_PreviousEducation" behavior="0" />
+      <RootComponent type="61" schemaName="mshied_PreviousEducation16" behavior="0" />
+      <RootComponent type="61" schemaName="mshied_PreviousEducationSVG" behavior="0" />
+      <RootComponent type="61" schemaName="mshied_Program" behavior="0" />
+      <RootComponent type="61" schemaName="mshied_Program16" behavior="0" />
+      <RootComponent type="61" schemaName="mshied_ProgramLevel" behavior="0" />
+      <RootComponent type="61" schemaName="mshied_ProgramLevel16" behavior="0" />
+      <RootComponent type="61" schemaName="mshied_ProgramLevelSVG" behavior="0" />
+      <RootComponent type="61" schemaName="mshied_ProgramSVG" behavior="0" />
+      <RootComponent type="61" schemaName="mshied_RegistrationStatus" behavior="0" />
+      <RootComponent type="61" schemaName="mshied_RegistrationStatus16" behavior="0" />
+      <RootComponent type="61" schemaName="mshied_RegistrationStatusSVG" behavior="0" />
+      <RootComponent type="61" schemaName="mshied_Role" behavior="0" />
+      <RootComponent type="61" schemaName="mshied_Role16" behavior="0" />
+      <RootComponent type="61" schemaName="mshied_RoleSVG" behavior="0" />
+      <RootComponent type="61" schemaName="mshied_Scholarship16" behavior="0" />
+      <RootComponent type="61" schemaName="mshied_Scholarship32" behavior="0" />
+      <RootComponent type="61" schemaName="mshied_ScholarshipSVG" behavior="0" />
+      <RootComponent type="61" schemaName="mshied_SchoolStatus" behavior="0" />
+      <RootComponent type="61" schemaName="mshied_SchoolStatus16" behavior="0" />
+      <RootComponent type="61" schemaName="mshied_SchoolStatusSVG" behavior="0" />
+      <RootComponent type="61" schemaName="mshied_StaffCourse" behavior="0" />
+      <RootComponent type="61" schemaName="mshied_StaffCourse16" behavior="0" />
+      <RootComponent type="61" schemaName="mshied_StaffCourseSVG" behavior="0" />
+      <RootComponent type="61" schemaName="mshied_StudentCategory" behavior="0" />
+      <RootComponent type="61" schemaName="mshied_StudentCategory16" behavior="0" />
+      <RootComponent type="61" schemaName="mshied_StudentCategorySVG" behavior="0" />
+      <RootComponent type="61" schemaName="mshied_StudentExtraCurricular" behavior="0" />
+      <RootComponent type="61" schemaName="mshied_StudentExtraCurricular16" behavior="0" />
+      <RootComponent type="61" schemaName="mshied_StudentExtraCurricularSVG" behavior="0" />
+      <RootComponent type="61" schemaName="mshied_StudentProgramType" behavior="0" />
+      <RootComponent type="61" schemaName="mshied_StudentProgramType16" behavior="0" />
+      <RootComponent type="61" schemaName="mshied_StudentProgramTypeSVG" behavior="0" />
+      <RootComponent type="61" schemaName="mshied_TestScore" behavior="0" />
+      <RootComponent type="61" schemaName="mshied_TestScore16" behavior="0" />
+      <RootComponent type="61" schemaName="mshied_TestScoreSVG" behavior="0" />
+      <RootComponent type="61" schemaName="mshied_TestType" behavior="0" />
+      <RootComponent type="61" schemaName="mshied_TestType16" behavior="0" />
+      <RootComponent type="61" schemaName="mshied_TestTypeSVG" behavior="0" />
+      <RootComponent type="62" schemaName="mshied_HigherEd" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required key="0" type="2" schemaName="territoryid" displayName="Territory" parentSchemaName="systemuser" parentDisplayName="User" solution="msdynce_AppCommon (9.0.4.0066)" />
+        <Dependent key="1" type="60" displayName="Higher Education User Form" parentDisplayName="User" id="{91d14055-12b2-4d18-9e7c-59603e5a2295}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="2" type="26" schemaName="All Institutions" displayName="All Institutions" parentSchemaName="account" parentDisplayName="Account" solution="msdynce_AppCommon (9.0.4.0066)" id="{65ffaf9a-e8c5-432d-860b-32f841b00d87}" />
+        <Dependent key="2" type="26" schemaName="All Institutions" displayName="All Institutions" parentSchemaName="account" parentDisplayName="Account" id="{65ffaf9a-e8c5-432d-860b-32f841b00d87}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="3" type="61" schemaName="AppCommon/Contact/Contact_main_system_library.js" displayName="AppCommon/Contact/Contact_main_system_library.js" solution="msdynce_AppCommon (9.0.4.0066)" />
+        <Dependent key="4" type="60" displayName="Higher Education Faculty Form" parentDisplayName="Contact" id="{94eb6fcd-3aa2-4b1f-9eea-f23da74df76f}" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>

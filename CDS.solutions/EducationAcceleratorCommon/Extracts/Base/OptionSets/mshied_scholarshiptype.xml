@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="mshied_scholarshiptype" localizedName="Scholarship Type" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.3.8</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <displaynames>
+    <displayname description="Scholarship Type" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="" languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="494280000">
+      <labels>
+        <label description="Academic" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="494280001">
+      <labels>
+        <label description="Community Service" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="494280002">
+      <labels>
+        <label description="Corporate" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="494280003">
+      <labels>
+        <label description="Disability" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="494280004">
+      <labels>
+        <label description="Military" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="494280005">
+      <labels>
+        <label description="Minority" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="494280006">
+      <labels>
+        <label description="Study Abroad" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="494280007">
+      <labels>
+        <label description="Other" languagecode="1033" />
+      </labels>
+    </option>
+  </options>
+</optionset>

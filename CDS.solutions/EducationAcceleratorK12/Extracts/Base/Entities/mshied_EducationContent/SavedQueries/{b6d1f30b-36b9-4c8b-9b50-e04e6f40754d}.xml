@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{b6d1f30b-36b9-4c8b-9b50-e04e6f40754d}</savedqueryid>
+    <layoutxml>
+      <grid name="mshied_educationcontents" jump="mshied_name" select="1" icon="1" preview="0">
+        <row name="mshied_educationcontent" id="mshied_educationcontentid">
+          <cell name="mshied_name" width="300" />
+          <cell name="mshied_author" width="100" />
+          <cell name="mshied_cost" width="100" />
+          <cell name="mshied_cost_base" width="100" />
+          <cell name="mshied_publicationdate" width="100" />
+          <cell name="mshied_publisher" width="100" />
+          <cell name="mshied_shortdescription" width="100" disableSorting="1" />
+          <cell name="mshied_timerequired" width="100" />
+          <cell name="mshied_version" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>64</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="mshied_educationcontent">
+          <attribute name="mshied_educationcontentid" />
+          <attribute name="mshied_name" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <order attribute="mshied_name" descending="false" />
+          <attribute name="mshied_version" />
+          <attribute name="mshied_timerequired" />
+          <attribute name="mshied_shortdescription" />
+          <attribute name="mshied_publisher" />
+          <attribute name="mshied_publicationdate" />
+          <attribute name="mshied_cost_base" />
+          <attribute name="mshied_cost" />
+          <attribute name="mshied_author" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Education Content Lookup View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

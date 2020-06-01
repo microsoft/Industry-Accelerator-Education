@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CanvasApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>mshied_attendanceappk12_ac52b</Name>
+  <AppVersion>2020-05-27T23:42:18Z</AppVersion>
+  <Status>Ready</Status>
+  <CreatedByClientVersion>3.20051.17.0</CreatedByClientVersion>
+  <MinClientVersion>3.20051.17.0</MinClientVersion>
+  <Tags>{"primaryDeviceWidth":"1366","primaryDeviceHeight":"768","sienaVersion":"1afd27b1-9591-4efb-89d5-1117816518dd","deviceCapabilities":"","supportsPortrait":"false","supportsLandscape":"true","primaryFormFactor":"Tablet","publisherVersion":"3.20051.17","minimumRequiredApiVersion":"2.2.0","hasComponent":"true","hasUnlockedComponent":"true","isUnifiedRootApp":"false"}</Tags>
+  <IsCdsUpgraded>0</IsCdsUpgraded>
+  <GalleryItemId xsi:nil="true"></GalleryItemId>
+  <BackgroundColor>rgba(0, 176, 240, 1)</BackgroundColor>
+  <DisplayName>K12 Attendance App</DisplayName>
+  <Description xsi:nil="true"></Description>
+  <CommitMessage xsi:nil="true"></CommitMessage>
+  <Publisher xsi:nil="true"></Publisher>
+  <AuthorizationReferences xsi:nil="true"></AuthorizationReferences>
+  <ConnectionReferences>{"976a04a4-a1fe-46a3-a785-fc46dadd4755":{"id":"/providers/microsoft.powerapps/apis/shared_office365users","displayName":"Office 365 Users","iconUri":"https://connectoricons-prod.azureedge.net/office365users/icon_1.0.1335.1964.png","dataSources":["Office365Users"],"dependencies":[],"dependents":[],"parameterHints":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard"},"1d3f992f-2d4e-454d-b4db-ccf408207c6f":{"id":"/providers/microsoft.powerapps/apis/shared_office365","displayName":"Office 365 Outlook","iconUri":"https://connectoricons-prod.azureedge.net/office365/icon_1.0.1344.1994.png","dataSources":["Office365Outlook"],"dependencies":[],"dependents":[],"parameterHints":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard"},"b8a578a9-de68-4811-bae0-2115c141b59e":{"id":"/providers/microsoft.powerapps/apis/shared_logicflows","displayName":"Logic flows","iconUri":"https://resourcestackdeploy.blob.core.windows.net/scripts/13276078.png","dataSources":["ExportCSV"],"dependencies":["c3541186-d958-489e-aa69-c91d6ad13a86"],"dependents":[],"parameterHints":{"workflowName":{"value":"bbfc07ff-b07a-4b5c-b0db-fb9e777db9db"},"c3541186-d958-489e-aa69-c91d6ad13a86":{"value":"shared_onedriveforbusiness"}},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard"},"c3541186-d958-489e-aa69-c91d6ad13a86":{"id":"/providers/microsoft.powerapps/apis/shared_onedriveforbusiness","displayName":"OneDrive for Business","iconUri":"https://connectoricons-prod.azureedge.net/onedriveforbusiness/icon_1.0.1341.1987.png","dataSources":[],"dependencies":[],"dependents":["b8a578a9-de68-4811-bae0-2115c141b59e"],"parameterHints":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard"}}</ConnectionReferences>
+  <DatabaseReferences>{"default.cds":{"databaseDetails":{"referenceType":"Environmental","environmentName":"default.cds"},"dataSources":{"Contacts":{"entitySetName":"contacts","logicalName":"contact"},"Courses":{"entitySetName":"mshied_courses","logicalName":"mshied_course"},"Flow Sessions":{"entitySetName":"flowsessions","logicalName":"flowsession"},"Course Section":{"entitySetName":"mshied_coursesections","logicalName":"mshied_coursesection"},"Users":{"entitySetName":"systemusers","logicalName":"systemuser"},"Test Scores":{"entitySetName":"mshied_testscores","logicalName":"mshied_testscore"},"Attendances":{"entitySetName":"mshied_attendances","logicalName":"mshied_attendance"},"Teams":{"entitySetName":"teams","logicalName":"team"},"Academic Periods":{"entitySetName":"mshied_academicperiods","logicalName":"mshied_academicperiod"},"Accounts":{"entitySetName":"accounts","logicalName":"account"}}}}</DatabaseReferences>
+  <BypassConsent>0</BypassConsent>
+  <AdminControlBypassConsent>0</AdminControlBypassConsent>
+  <EmbeddedApp xsi:nil="true"></EmbeddedApp>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <CdsDependencies>{"cdsdependencies":[{"logicalname":"contact","componenttype":1},{"logicalname":"mshied_course","componenttype":1},{"logicalname":"flowsession","componenttype":1},{"logicalname":"mshied_coursesection","componenttype":1},{"logicalname":"systemuser","componenttype":1},{"logicalname":"mshied_testscore","componenttype":1},{"logicalname":"mshied_attendance","componenttype":1},{"logicalname":"team","componenttype":1},{"logicalname":"mshied_academicperiod","componenttype":1},{"logicalname":"account","componenttype":1}]}</CdsDependencies>
+  <BackgroundImageUri>/CanvasApps/mshied_attendanceappk12_ac52b_BackgroundImageUri</BackgroundImageUri>
+  <DocumentUri>/CanvasApps/mshied_attendanceappk12_ac52b_DocumentUri.msapp</DocumentUri>
+</CanvasApp>

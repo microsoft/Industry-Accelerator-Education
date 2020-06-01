@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{65e1d59f-14de-4706-8fd3-4e231912849d}</formid>
+    <IntroducedVersion>1.0.3.8</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab name="tab_2" id="{36125160-7a6c-8bb6-1b28-508979c5dd55}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_2_section_2" showlabel="true" showbar="true" locklevel="0" id="{76a97dd8-4dc3-8b20-1b19-6270221ab0b0}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Scholarship Information" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{dc0794f2-596f-421e-b435-6d6e165cd755}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="mshied_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="mshied_name" />
+                      </cell>
+                      <cell id="{6b341b26-3e99-d3d6-146a-3b4a8e442aab}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Type" languagecode="1033" />
+                        </labels>
+                        <control id="mshied_type" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="mshied_type" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{478e3e73-1db2-d171-9982-cd4eed463662}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Amount" languagecode="1033" />
+                        </labels>
+                        <control id="mshied_amount" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="mshied_amount" disabled="false" />
+                      </cell>
+                      <cell id="{ced67943-d995-3bab-e1c3-aec96254620c}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Posted Date" languagecode="1033" />
+                        </labels>
+                        <control id="mshied_posteddate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="mshied_posteddate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0cc0d857-74b2-6a72-5690-a9954d36b445}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Business Partner" languagecode="1033" />
+                        </labels>
+                        <control id="mshied_businesspartner" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="mshied_businesspartner" disabled="false" />
+                      </cell>
+                      <cell id="{87201927-6114-d478-4d5a-aed4d2c7be3b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Application Deadline Date" languagecode="1033" />
+                        </labels>
+                        <control id="mshied_applicationdeadlinedate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="mshied_applicationdeadlinedate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{24582731-825c-bb7b-d306-73a9686b42ca}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Business Partner Contact" languagecode="1033" />
+                        </labels>
+                        <control id="mshied_businesspartnercontact" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="mshied_businesspartnercontact" disabled="false" />
+                      </cell>
+                      <cell id="{90005ed8-bbec-1688-7906-563b60c035b4}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Academic Period" languagecode="1033" />
+                        </labels>
+                        <control id="mshied_academicperiod" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="mshied_academicperiod" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d2940eac-d8d0-ae24-c96e-aac39bde7d35}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Website URL" languagecode="1033" />
+                        </labels>
+                        <control id="mshied_websiteurl" classid="{71716B6C-711E-476c-8AB8-5D11542BFB47}" datafieldname="mshied_websiteurl" disabled="false" />
+                      </cell>
+                      <cell id="{42b001e7-b590-7e7e-1e84-07e73b3397e9}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="tab_2_section_3" showlabel="true" showbar="true" locklevel="0" id="{0452ed2a-4300-712c-8da8-5537344dc3a1}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Details" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{9b9955c2-86d0-2d08-ced9-33e97b2716de}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Description" languagecode="1033" />
+                        </labels>
+                        <control id="mshied_description" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="mshied_description" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3489daa3-5649-404a-abbe-5db2de7a5b84}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Qualifications" languagecode="1033" />
+                        </labels>
+                        <control id="mshied_qualifications" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="mshied_qualifications" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_3" id="{e59e53e1-c69b-2d35-d3d2-2a66a183eb1a}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+          <labels>
+            <label description="Applicants" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_3_section_1" showlabel="false" showbar="false" locklevel="0" id="{91b58e52-bd4b-71b1-94b0-d989db894e54}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Applicants" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{45584129-c69c-b380-b242-013505c38ea7}" showlabel="false" colspan="1" auto="false" rowspan="6">
+                        <labels>
+                          <label description="Scholarship Applicants (Scholarship)" languagecode="1033" />
+                        </labels>
+                        <control id="Applicants" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{89ebaed4-a451-791c-9543-69dd4d4a4560}">
+                          <parameters>
+                            <ViewId>{77036D02-8264-EA11-A811-000D3A579C6C}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>mshied_ScholarshipApplicant_Scholarship</RelationshipName>
+                            <TargetEntityType>mshied_scholarshipapplicant</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{16BE99A2-2C40-4322-9D0D-8F0F86BF91C1},{77036D02-8264-EA11-A811-000D3A579C6C}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>Grid</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>false</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{62ca7fe2-0d5c-45ed-94ce-844cea9f3061}" columns="111">
+        <rows>
+          <row>
+            <cell id="{9774124d-cdb5-4b05-9fe6-abedaddf0460}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{2a0509f5-24d0-41b5-ad66-cc3fbb35f79f}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{55212ccb-7876-44c9-35a3-7dd305aa7a68}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Owner" languagecode="1033" />
+              </labels>
+              <control id="header_ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

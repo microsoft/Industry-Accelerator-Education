@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{50f82398-b117-4c2c-b514-bb4b10b6bba2}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{6e3bfff6-ed98-4610-89eb-6aab56a12c78}" IsUserDefined="1" labelid="{ca2e9e0f-f5e9-4085-b1f1-b9f9562cccf0}">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{ab0a18d4-fea3-4eff-b160-cfc8730c39fa}" labelid="{ddf4a882-f789-4ec9-abd7-e3484a5a13f6}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{f7a9e895-8825-4a9d-b45f-b57b6e52dcfd}" labelid="{a10cc5f5-ea39-47d1-85ac-1ec2dcd567b5}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="mshied_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="mshied_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d0518937-a2c4-1176-1932-97162cdd2c56}" showlabel="true" locklevel="0" labelid="{2c3892ec-8ef9-4cff-b391-ba01a35a4533}">
+                        <labels>
+                          <label description="Incident Category" languagecode="1033" />
+                        </labels>
+                        <control id="mshied_incidentcategory" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="mshied_incidentcategory" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d86818e8-1eed-80bb-aaa5-04855dd3b71d}" showlabel="true" locklevel="0" labelid="{1235a536-5a3f-4c26-84a9-2daee76b09d4}">
+                        <labels>
+                          <label description="Incident Description" languagecode="1033" />
+                        </labels>
+                        <control id="mshied_incidentdescription" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="mshied_incidentdescription" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_3" id="{08c76528-4512-0c59-7ea5-1b0ab4760b9d}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+          <labels>
+            <label description="Incident Actions" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_3_section_1" showlabel="false" showbar="false" locklevel="0" id="{24de1eea-a648-0c27-17c5-dcd110424679}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{d540d31a-845d-549c-5aa0-12d31b66cd33}" showlabel="false" colspan="1" auto="false" rowspan="6" labelid="{9ff1d8e4-51d9-41b7-ad53-f0af9003af47}">
+                        <labels>
+                          <label description="Incident Actions (Incident)" languagecode="1033" />
+                        </labels>
+                        <control id="Related_Incident_Actions" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <ViewId>{8F81658B-9C83-4C64-8959-7A9738A7453F}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>mshied_IncidentAction_IncidentId_mshied_I</RelationshipName>
+                            <TargetEntityType>mshied_incidentaction</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{8F81658B-9C83-4C64-8959-7A9738A7453F}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_2" id="{73b5c54e-9acb-aa0b-e8e7-e388eea7d44d}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+          <labels>
+            <label description="Behavior Incidents" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_2_section_1" showlabel="false" showbar="false" locklevel="0" id="{15210e16-a127-7512-5ce1-11a025ac4e28}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{892b595a-d4cb-2e3b-987d-4c53a3dd6b04}" showlabel="false" colspan="1" auto="false" rowspan="6">
+                        <labels>
+                          <label description="Behavior Incidents (Incident Type)" languagecode="1033" />
+                        </labels>
+                        <control id="BehaviorIncidents" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{db40c790-c974-1419-2be3-ceebdb4ea848}">
+                          <parameters>
+                            <ViewId>{15379528-83A4-453B-A97D-6C85222937F1}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>mshied_IncidentType_mshied_IncidentType_m</RelationshipName>
+                            <TargetEntityType>mshied_behaviorincident</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{15379528-83A4-453B-A97D-6C85222937F1}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{8bf34230-f672-4421-bc15-7731200f4dd4}" columns="111">
+        <rows>
+          <row>
+            <cell id="{4c1e0048-b8dc-49dd-9368-75b13389c8f8}" showlabel="false" labelid="{2c654c3b-38b1-45c8-a1d8-0b9e155ad6f3}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{fcb5fb3a-0a93-40c4-b085-45de813c7bd9}" showlabel="false" labelid="{0f0422d9-0c81-4127-9759-fb3db8d59c99}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{944a6d4d-8588-0ada-2caa-b2bb79ad53cb}" showlabel="true" locklevel="0" labelid="{c73554cc-805b-4cf4-a363-aa4c73be9591}">
+              <labels>
+                <label description="Owner" languagecode="1033" />
+              </labels>
+              <control id="header_ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+      <DisplayConditions Order="1">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="K12 Incident Type" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

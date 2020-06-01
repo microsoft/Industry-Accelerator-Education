@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="mshied_accomplishmenttype" localizedName="Accomplishment Type" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.3.8</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <displaynames>
+    <displayname description="Accomplishment Type" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="" languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="494280000">
+      <labels>
+        <label description="Publication" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="494280001">
+      <labels>
+        <label description="Patent" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="494280002">
+      <labels>
+        <label description="Honor and Award" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="494280003">
+      <labels>
+        <label description="Organization" languagecode="1033" />
+      </labels>
+    </option>
+  </options>
+</optionset>

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{f9132ab7-bf0d-4fc5-8fe6-19d285627771}</savedqueryid>
+    <layoutxml>
+      <grid name="mshied_learningstandardcriterias" jump="mshied_name" select="1" icon="1" preview="0">
+        <row name="mshied_learningstandardcriteria" id="mshied_learningstandardcriteriaid">
+          <cell name="mshied_name" width="300" />
+          <cell name="mshied_gradelevel" width="100" />
+          <cell name="mshied_learningstandardid" width="100" />
+          <cell name="mshied_successcriteria" width="100" disableSorting="1" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>64</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="mshied_learningstandardcriteria">
+          <attribute name="mshied_learningstandardcriteriaid" />
+          <attribute name="mshied_name" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <order attribute="mshied_name" descending="false" />
+          <attribute name="mshied_successcriteria" />
+          <attribute name="mshied_learningstandardid" />
+          <attribute name="mshied_gradelevel" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Learning Standard Criteria Lookup View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CanvasApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>mshied_k12behaviormanagement_e24cc</Name>
+  <AppVersion>2020-04-10T14:41:11Z</AppVersion>
+  <Status>Ready</Status>
+  <CreatedByClientVersion>3.20022.21.0</CreatedByClientVersion>
+  <MinClientVersion>3.20022.21.0</MinClientVersion>
+  <Tags>{"primaryDeviceWidth":"1366","primaryDeviceHeight":"768","sienaVersion":"e04b48e4-c87f-4987-9ce5-02b7210dda8f","deviceCapabilities":"","supportsPortrait":"false","supportsLandscape":"true","primaryFormFactor":"Tablet","publisherVersion":"3.20022.21","minimumRequiredApiVersion":"2.2.0","hasComponent":"true","hasUnlockedComponent":"true"}</Tags>
+  <IsCdsUpgraded>0</IsCdsUpgraded>
+  <GalleryItemId xsi:nil="true"></GalleryItemId>
+  <BackgroundColor>rgba(0, 176, 240, 1)</BackgroundColor>
+  <DisplayName>K12 Behavior Management</DisplayName>
+  <Description xsi:nil="true"></Description>
+  <CommitMessage xsi:nil="true"></CommitMessage>
+  <Publisher xsi:nil="true"></Publisher>
+  <AuthorizationReferences xsi:nil="true"></AuthorizationReferences>
+  <ConnectionReferences>{"9d74d958-c208-4739-98c5-52ce61a7db11":{"id":"/providers/microsoft.powerapps/apis/shared_office365","displayName":"Office 365 Outlook","iconUri":"https://connectoricons-prod.azureedge.net/office365/icon_1.0.1328.1952.png","dataSources":["Office365Outlook"],"dependencies":[],"dependents":[],"parameterHints":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard"}}</ConnectionReferences>
+  <DatabaseReferences>{"default.cds":{"databaseDetails":{"referenceType":"Environmental","environmentName":"default.cds"},"dataSources":{"Contacts":{"entitySetName":"contacts","logicalName":"contact"},"Behavior Incidents":{"entitySetName":"mshied_behaviorincidents","logicalName":"mshied_behaviorincident"},"Incident Types":{"entitySetName":"mshied_incidenttypes","logicalName":"mshied_incidenttype"},"Academic Periods":{"entitySetName":"mshied_academicperiods","logicalName":"mshied_academicperiod"},"Incident Actions":{"entitySetName":"mshied_incidentactions","logicalName":"mshied_incidentaction"},"Users":{"entitySetName":"systemusers","logicalName":"systemuser"},"Attendances":{"entitySetName":"mshied_attendances","logicalName":"mshied_attendance"},"Social Activities":{"entitySetName":"socialactivities","logicalName":"socialactivity"},"Courses":{"entitySetName":"mshied_courses","logicalName":"mshied_course"},"Course Section":{"entitySetName":"mshied_coursesections","logicalName":"mshied_coursesection"}}}}</DatabaseReferences>
+  <BypassConsent>0</BypassConsent>
+  <AdminControlBypassConsent>0</AdminControlBypassConsent>
+  <EmbeddedApp xsi:nil="true"></EmbeddedApp>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <CdsDependencies>{"cdsdependencies":[{"logicalname":"contact","componenttype":1},{"logicalname":"mshied_behaviorincident","componenttype":1},{"logicalname":"mshied_incidenttype","componenttype":1},{"logicalname":"mshied_academicperiod","componenttype":1},{"logicalname":"mshied_incidentaction","componenttype":1},{"logicalname":"systemuser","componenttype":1},{"logicalname":"mshied_attendance","componenttype":1},{"logicalname":"socialactivity","componenttype":1},{"logicalname":"mshied_course","componenttype":1},{"logicalname":"mshied_coursesection","componenttype":1}]}</CdsDependencies>
+  <BackgroundImageUri>/CanvasApps/mshied_k12behaviormanagement_e24cc_BackgroundImageUri</BackgroundImageUri>
+  <DocumentUri>/CanvasApps/mshied_k12behaviormanagement_e24cc_DocumentUri.msapp</DocumentUri>
+</CanvasApp>

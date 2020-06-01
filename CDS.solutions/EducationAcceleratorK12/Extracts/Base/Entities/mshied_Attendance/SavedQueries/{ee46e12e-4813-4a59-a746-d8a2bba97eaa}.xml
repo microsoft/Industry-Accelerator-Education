@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{ee46e12e-4813-4a59-a746-d8a2bba97eaa}</savedqueryid>
+    <layoutxml>
+      <grid name="mshied_attendances" jump="mshied_name" select="1" icon="1" preview="1">
+        <row name="mshied_attendance" id="mshied_attendanceid">
+          <cell name="mshied_name" width="300" />
+          <cell name="mshied_attendancedate" width="100" />
+          <cell name="mshied_coursesectionid" width="100" />
+          <cell name="mshied_ispresent" width="100" />
+          <cell name="mshied_studentid" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>2</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="mshied_attendance">
+          <attribute name="mshied_name" />
+          <order attribute="mshied_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="mshied_studentid" />
+          <attribute name="mshied_ispresent" />
+          <attribute name="mshied_coursesectionid" />
+          <attribute name="mshied_attendancedate" />
+          <attribute name="mshied_attendanceid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Attendance Associated View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

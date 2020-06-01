@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{318202f2-9d7a-ea11-a812-000d3a99e112}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="mshied_name" select="1" icon="1" preview="1">
+        <row name="result" id="mshied_attendanceid">
+          <cell name="mshied_studentid" width="100" />
+          <cell name="mshied_coursesectionid" width="100" />
+          <cell name="mshied_ispresent" width="100" />
+          <cell name="mshied_attendancedate" width="100" />
+          <cell name="new_pred_b9f440ed_6214_4506_b637_491843df3166" width="100" />
+          <cell name="new_p1_b9f440ed_6214_4506_b637_491843df3166" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="mshied_attendance">
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="mshied_ispresent" />
+          <attribute name="mshied_coursesectionid" />
+          <attribute name="mshied_attendancedate" />
+          <attribute name="mshied_studentid" />
+          <attribute name="mshied_attendanceid" />
+          <attribute name="new_pred_b9f440ed_6214_4506_b637_491843df3166" />
+          <attribute name="new_p1_b9f440ed_6214_4506_b637_491843df3166" />
+          <order attribute="mshied_attendancedate" descending="true" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="K12 Attendances AI Enabled" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>
