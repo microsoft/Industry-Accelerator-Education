@@ -35,7 +35,7 @@ Click "release" tab on the top or click this [link](https://github.com/microsoft
 | [Nonprofit Accelerator](https://github.com/Microsoft/Industry-Accelerator-Nonprofit) |  Rapidly develop nonprofit fundraising, grant management, and programmatic measurement solutions. The Microsoft Nonprofit Accelerator is set of capabilities and standards to help drive greater impact. Get more details from [Dynamics 365 ISV Success community](https://community.dynamics.com/365/b/dynamics365isvsuccess)
 
 
-#Engage with experts and peers, read blog articles, and find local events within the Industry Accelerator Community. 
+# Engage with experts and peers, read blog articles, and find local events within the Industry Accelerator Community. 
 
 Join the [Industry Accelerator conversation](https://community.dynamics.com/365/industry-accelerators/).
 
