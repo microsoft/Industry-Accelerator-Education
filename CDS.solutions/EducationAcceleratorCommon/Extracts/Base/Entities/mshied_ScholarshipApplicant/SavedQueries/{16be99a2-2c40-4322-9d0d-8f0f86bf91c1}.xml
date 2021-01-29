@@ -10,12 +10,13 @@
     <layoutxml>
       <grid name="resultset" jump="mshied_name" select="1" icon="1" preview="1">
         <row name="result" id="mshied_scholarshipapplicantid">
+          <cell name="mshied_name" width="100" />
+          <cell name="mshied_applicant" width="100" />
+          <cell name="mshied_scholarship" width="100" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="mshied_businesspartner" width="100" />
           <cell name="mshied_applicationstatecode" width="100" />
-          <cell name="mshied_scholarship" width="200" />
           <cell name="mshied_submissiondate" width="100" />
           <cell name="mshied_offermadedate" width="100" />
-          <cell name="mshied_offerdeadlinedate" width="100" />
-          <cell name="mshied_offeraccepteddate" width="100" />
         </row>
       </grid>
     </layoutxml>
@@ -23,7 +24,6 @@
     <fetchxml>
       <fetch version="1.0" mapping="logical">
         <entity name="mshied_scholarshipapplicant">
-          <attribute name="mshied_scholarshipapplicantid" />
           <filter type="and">
             <condition attribute="statecode" operator="eq" value="0" />
           </filter>
@@ -31,8 +31,11 @@
           <attribute name="mshied_scholarship" />
           <attribute name="mshied_submissiondate" />
           <attribute name="mshied_offermadedate" />
-          <attribute name="mshied_offerdeadlinedate" />
-          <attribute name="mshied_offeraccepteddate" />
+          <attribute name="mshied_name" />
+          <attribute name="mshied_businesspartner" />
+          <attribute name="mshied_applicant" />
+          <order attribute="mshied_name" descending="false" />
+          <attribute name="mshied_scholarshipapplicantid" />
         </entity>
       </fetch>
     </fetchxml>

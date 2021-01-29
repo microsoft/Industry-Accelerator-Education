@@ -12,6 +12,7 @@
         <row name="result" id="mshied_academicperioddetailsid">
           <cell name="mshied_name" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
           <cell name="mshied_academicperiodid" width="100" />
+          <cell name="mshied_studentid" width="100" />
           <cell name="mshied_attendancetype" width="100" />
           <cell name="mshied_educationlevelid" width="100" />
           <cell name="mshied_programid" width="100" />
@@ -50,6 +51,7 @@
           <attribute name="mshied_isemployed" />
           <attribute name="mshied_isathlete" />
           <attribute name="mshied_academicperioddetailsid" />
+          <attribute name="mshied_studentid" />
         </entity>
       </fetch>
     </fetchxml>

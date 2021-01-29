@@ -333,7 +333,7 @@
           <Type>lookup</Type>
           <Name>mshied_businesspartner</Name>
           <LogicalName>mshied_businesspartner</LogicalName>
-          <RequiredLevel>none</RequiredLevel>
+          <RequiredLevel>required</RequiredLevel>
           <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
           <ImeMode>auto</ImeMode>
           <ValidForUpdateApi>1</ValidForUpdateApi>
@@ -1229,6 +1229,7 @@
       <AutoRouteToOwnerQueue>0</AutoRouteToOwnerQueue>
       <IsConnectionsEnabled>0</IsConnectionsEnabled>
       <IsDocumentManagementEnabled>0</IsDocumentManagementEnabled>
+      <AutoCreateAccessTeams>0</AutoCreateAccessTeams>
       <IsOneNoteIntegrationEnabled>0</IsOneNoteIntegrationEnabled>
       <IsKnowledgeManagementEnabled>0</IsKnowledgeManagementEnabled>
       <IsSLAEnabled>0</IsSLAEnabled>

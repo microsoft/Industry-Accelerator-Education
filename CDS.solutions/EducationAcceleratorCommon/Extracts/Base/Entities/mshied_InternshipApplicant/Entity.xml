@@ -293,7 +293,7 @@
           <Type>lookup</Type>
           <Name>mshied_applicant</Name>
           <LogicalName>mshied_applicant</LogicalName>
-          <RequiredLevel>none</RequiredLevel>
+          <RequiredLevel>required</RequiredLevel>
           <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
           <ImeMode>auto</ImeMode>
           <ValidForUpdateApi>1</ValidForUpdateApi>
@@ -315,9 +315,9 @@
           <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
           <IsDataSourceSecret>0</IsDataSourceSecret>
           <AutoNumberFormat></AutoNumberFormat>
-          <IsSearchable>0</IsSearchable>
+          <IsSearchable>1</IsSearchable>
           <IsFilterable>0</IsFilterable>
-          <IsRetrievable>0</IsRetrievable>
+          <IsRetrievable>1</IsRetrievable>
           <IsLocalizable>0</IsLocalizable>
           <LookupStyle>single</LookupStyle>
           <LookupTypes />
@@ -354,9 +354,9 @@
           <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
           <IsDataSourceSecret>0</IsDataSourceSecret>
           <AutoNumberFormat></AutoNumberFormat>
-          <IsSearchable>0</IsSearchable>
+          <IsSearchable>1</IsSearchable>
           <IsFilterable>0</IsFilterable>
-          <IsRetrievable>0</IsRetrievable>
+          <IsRetrievable>1</IsRetrievable>
           <IsLocalizable>0</IsLocalizable>
           <AppDefaultValue>494280000</AppDefaultValue>
           <OptionSetName>mshied_applicationstatecode</OptionSetName>
@@ -393,9 +393,9 @@
           <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
           <IsDataSourceSecret>0</IsDataSourceSecret>
           <AutoNumberFormat></AutoNumberFormat>
-          <IsSearchable>0</IsSearchable>
+          <IsSearchable>1</IsSearchable>
           <IsFilterable>0</IsFilterable>
-          <IsRetrievable>0</IsRetrievable>
+          <IsRetrievable>1</IsRetrievable>
           <IsLocalizable>0</IsLocalizable>
           <LookupStyle>single</LookupStyle>
           <LookupTypes />
@@ -410,7 +410,7 @@
           <Type>lookup</Type>
           <Name>mshied_internship</Name>
           <LogicalName>mshied_internship</LogicalName>
-          <RequiredLevel>none</RequiredLevel>
+          <RequiredLevel>required</RequiredLevel>
           <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
           <ImeMode>auto</ImeMode>
           <ValidForUpdateApi>1</ValidForUpdateApi>
@@ -432,9 +432,9 @@
           <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
           <IsDataSourceSecret>0</IsDataSourceSecret>
           <AutoNumberFormat></AutoNumberFormat>
-          <IsSearchable>0</IsSearchable>
+          <IsSearchable>1</IsSearchable>
           <IsFilterable>0</IsFilterable>
-          <IsRetrievable>0</IsRetrievable>
+          <IsRetrievable>1</IsRetrievable>
           <IsLocalizable>0</IsLocalizable>
           <LookupStyle>single</LookupStyle>
           <LookupTypes />
@@ -609,7 +609,7 @@
           <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
           <IsDataSourceSecret>0</IsDataSourceSecret>
           <AutoNumberFormat></AutoNumberFormat>
-          <IsSearchable>1</IsSearchable>
+          <IsSearchable>0</IsSearchable>
           <IsFilterable>0</IsFilterable>
           <IsRetrievable>0</IsRetrievable>
           <IsLocalizable>0</IsLocalizable>
@@ -649,7 +649,7 @@
           <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
           <IsDataSourceSecret>0</IsDataSourceSecret>
           <AutoNumberFormat></AutoNumberFormat>
-          <IsSearchable>1</IsSearchable>
+          <IsSearchable>0</IsSearchable>
           <IsFilterable>0</IsFilterable>
           <IsRetrievable>0</IsRetrievable>
           <IsLocalizable>0</IsLocalizable>
@@ -689,9 +689,9 @@
           <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
           <IsDataSourceSecret>0</IsDataSourceSecret>
           <AutoNumberFormat></AutoNumberFormat>
-          <IsSearchable>1</IsSearchable>
+          <IsSearchable>0</IsSearchable>
           <IsFilterable>0</IsFilterable>
-          <IsRetrievable>0</IsRetrievable>
+          <IsRetrievable>1</IsRetrievable>
           <IsLocalizable>0</IsLocalizable>
           <Format>date</Format>
           <CanChangeDateTimeBehavior>1</CanChangeDateTimeBehavior>
@@ -768,9 +768,9 @@
           <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
           <IsDataSourceSecret>0</IsDataSourceSecret>
           <AutoNumberFormat></AutoNumberFormat>
-          <IsSearchable>1</IsSearchable>
+          <IsSearchable>0</IsSearchable>
           <IsFilterable>0</IsFilterable>
-          <IsRetrievable>0</IsRetrievable>
+          <IsRetrievable>1</IsRetrievable>
           <IsLocalizable>0</IsLocalizable>
           <Format>date</Format>
           <CanChangeDateTimeBehavior>1</CanChangeDateTimeBehavior>
@@ -1302,6 +1302,7 @@
       <AutoRouteToOwnerQueue>0</AutoRouteToOwnerQueue>
       <IsConnectionsEnabled>0</IsConnectionsEnabled>
       <IsDocumentManagementEnabled>0</IsDocumentManagementEnabled>
+      <AutoCreateAccessTeams>0</AutoCreateAccessTeams>
       <IsOneNoteIntegrationEnabled>0</IsOneNoteIntegrationEnabled>
       <IsKnowledgeManagementEnabled>0</IsKnowledgeManagementEnabled>
       <IsSLAEnabled>0</IsSLAEnabled>

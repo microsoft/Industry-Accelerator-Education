@@ -325,7 +325,45 @@
             <displayname description="Academic Period Details" languagecode="1033" />
           </displaynames>
           <Descriptions>
-            <Description description="The academic period details record for the student" languagecode="1033" />
+            <Description description="The academic period details record in which student enrolls in the course." languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="mshied_AcademicPeriodid">
+          <Type>lookup</Type>
+          <Name>mshied_academicperiodid</Name>
+          <LogicalName>mshied_academicperiodid</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>3.0.0.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Academic Period" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Academic period record in which student enrolls in the course." languagecode="1033" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="mshied_ContinuingEducation">
@@ -430,7 +468,7 @@
           <Type>lookup</Type>
           <Name>mshied_courseid</Name>
           <LogicalName>mshied_courseid</LogicalName>
-          <RequiredLevel>none</RequiredLevel>
+          <RequiredLevel>required</RequiredLevel>
           <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
           <ImeMode>auto</ImeMode>
           <ValidForUpdateApi>1</ValidForUpdateApi>
@@ -469,7 +507,7 @@
           <Type>lookup</Type>
           <Name>mshied_coursesectionid</Name>
           <LogicalName>mshied_coursesectionid</LogicalName>
-          <RequiredLevel>none</RequiredLevel>
+          <RequiredLevel>required</RequiredLevel>
           <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
           <ImeMode>auto</ImeMode>
           <ValidForUpdateApi>1</ValidForUpdateApi>
@@ -622,6 +660,128 @@
           </displaynames>
           <Descriptions>
             <Description description="The grade points received." languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="mshied_IsCompleted">
+          <Type>bit</Type>
+          <Name>mshied_iscompleted</Name>
+          <LogicalName>mshied_iscompleted</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>3.0.0.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <AppDefaultValue>0</AppDefaultValue>
+          <optionset Name="mshied_mshied_coursehistory_iscompleted">
+            <OptionSetType>bit</OptionSetType>
+            <IntroducedVersion>3.0.0.0</IntroducedVersion>
+            <IsCustomizable>1</IsCustomizable>
+            <displaynames>
+              <displayname description="Local Enumeration" languagecode="1033" />
+            </displaynames>
+            <Descriptions>
+              <Description description="Denotes whether a course is completed by the student or not. Updated based on Registration Status." languagecode="1033" />
+            </Descriptions>
+            <options>
+              <option value="1">
+                <labels>
+                  <label description="Yes" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="0">
+                <labels>
+                  <label description="No" languagecode="1033" />
+                </labels>
+              </option>
+            </options>
+          </optionset>
+          <displaynames>
+            <displayname description="Is Course Completed" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Denotes whether a course is completed by the student or not. Updated based on Registration Status." languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="mshied_IsRequired">
+          <Type>bit</Type>
+          <Name>mshied_isrequired</Name>
+          <LogicalName>mshied_isrequired</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>3.0.0.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <AppDefaultValue>0</AppDefaultValue>
+          <optionset Name="mshied_mshied_coursehistory_isrequired">
+            <OptionSetType>bit</OptionSetType>
+            <IntroducedVersion>3.0.0.0</IntroducedVersion>
+            <IsCustomizable>1</IsCustomizable>
+            <displaynames>
+              <displayname description="Local Enumeration" languagecode="1033" />
+            </displaynames>
+            <Descriptions>
+              <Description description="Denotes whether a course is required by the student's current program." languagecode="1033" />
+            </Descriptions>
+            <options>
+              <option value="1">
+                <labels>
+                  <label description="Yes" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="0">
+                <labels>
+                  <label description="No" languagecode="1033" />
+                </labels>
+              </option>
+            </options>
+          </optionset>
+          <displaynames>
+            <displayname description="Is Required" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Denotes whether a course is required by the student's current program." languagecode="1033" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="mshied_LastDateofAttendance">
@@ -818,7 +978,7 @@
           <MaxLength>100</MaxLength>
           <Length>200</Length>
           <displaynames>
-            <displayname description="Course History Name" languagecode="1033" />
+            <displayname description="Course History" languagecode="1033" />
           </displaynames>
           <Descriptions>
             <Description description="Course History Entity" languagecode="1033" />
@@ -867,7 +1027,7 @@
           <Type>lookup</Type>
           <Name>mshied_studentid</Name>
           <LogicalName>mshied_studentid</LogicalName>
-          <RequiredLevel>none</RequiredLevel>
+          <RequiredLevel>required</RequiredLevel>
           <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
           <ImeMode>auto</ImeMode>
           <ValidForUpdateApi>1</ValidForUpdateApi>
@@ -1299,6 +1459,35 @@
           </Descriptions>
         </attribute>
       </attributes>
+      <EntityKeys>
+        <EntityKey>
+          <Name>mshied_Student_Course_AcademicPeriod</Name>
+          <LogicalName>mshied_student_course_academicperiod</LogicalName>
+          <IntroducedVersion>3.0.0.0</IntroducedVersion>
+          <IsCustomizable>0</IsCustomizable>
+          <EntityKeyAttributes>
+            <AttributeName>mshied_academicperiodid</AttributeName>
+            <AttributeName>mshied_courseid</AttributeName>
+            <AttributeName>mshied_studentid</AttributeName>
+          </EntityKeyAttributes>
+          <displaynames>
+            <displayname description="Student_Course_AcademicPeriod" languagecode="1033" />
+          </displaynames>
+        </EntityKey>
+        <EntityKey>
+          <Name>mshied_Student_CourseSection</Name>
+          <LogicalName>mshied_student_coursesection</LogicalName>
+          <IntroducedVersion>3.0.0.0</IntroducedVersion>
+          <IsCustomizable>0</IsCustomizable>
+          <EntityKeyAttributes>
+            <AttributeName>mshied_coursesectionid</AttributeName>
+            <AttributeName>mshied_studentid</AttributeName>
+          </EntityKeyAttributes>
+          <displaynames>
+            <displayname description="Student_CourseSection" languagecode="1033" />
+          </displaynames>
+        </EntityKey>
+      </EntityKeys>
       <EntitySetName>mshied_coursehistories</EntitySetName>
       <IsDuplicateCheckSupported>1</IsDuplicateCheckSupported>
       <IsBusinessProcessEnabled>0</IsBusinessProcessEnabled>
@@ -1309,6 +1498,7 @@
       <IsConnectionsEnabled>0</IsConnectionsEnabled>
       <EntityColor></EntityColor>
       <IsDocumentManagementEnabled>0</IsDocumentManagementEnabled>
+      <AutoCreateAccessTeams>0</AutoCreateAccessTeams>
       <IsOneNoteIntegrationEnabled>0</IsOneNoteIntegrationEnabled>
       <IsKnowledgeManagementEnabled>0</IsKnowledgeManagementEnabled>
       <IsSLAEnabled>0</IsSLAEnabled>

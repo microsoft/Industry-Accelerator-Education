@@ -352,9 +352,9 @@
           <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
           <IsDataSourceSecret>0</IsDataSourceSecret>
           <AutoNumberFormat></AutoNumberFormat>
-          <IsSearchable>0</IsSearchable>
+          <IsSearchable>1</IsSearchable>
           <IsFilterable>0</IsFilterable>
-          <IsRetrievable>0</IsRetrievable>
+          <IsRetrievable>1</IsRetrievable>
           <IsLocalizable>0</IsLocalizable>
           <AppDefaultValue>-1</AppDefaultValue>
           <OptionSetName>mshied_accomplishmenttype</OptionSetName>
@@ -391,9 +391,9 @@
           <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
           <IsDataSourceSecret>0</IsDataSourceSecret>
           <AutoNumberFormat></AutoNumberFormat>
-          <IsSearchable>0</IsSearchable>
+          <IsSearchable>1</IsSearchable>
           <IsFilterable>0</IsFilterable>
-          <IsRetrievable>0</IsRetrievable>
+          <IsRetrievable>1</IsRetrievable>
           <IsLocalizable>0</IsLocalizable>
           <Format></Format>
           <MaxLength>2000</MaxLength>
@@ -448,7 +448,7 @@
           <Type>lookup</Type>
           <Name>mshied_student</Name>
           <LogicalName>mshied_student</LogicalName>
-          <RequiredLevel>none</RequiredLevel>
+          <RequiredLevel>required</RequiredLevel>
           <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
           <ImeMode>auto</ImeMode>
           <ValidForUpdateApi>1</ValidForUpdateApi>
@@ -470,9 +470,9 @@
           <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
           <IsDataSourceSecret>0</IsDataSourceSecret>
           <AutoNumberFormat></AutoNumberFormat>
-          <IsSearchable>0</IsSearchable>
+          <IsSearchable>1</IsSearchable>
           <IsFilterable>0</IsFilterable>
-          <IsRetrievable>0</IsRetrievable>
+          <IsRetrievable>1</IsRetrievable>
           <IsLocalizable>0</IsLocalizable>
           <LookupStyle>single</LookupStyle>
           <LookupTypes />
@@ -889,6 +889,7 @@
       <AutoRouteToOwnerQueue>0</AutoRouteToOwnerQueue>
       <IsConnectionsEnabled>0</IsConnectionsEnabled>
       <IsDocumentManagementEnabled>0</IsDocumentManagementEnabled>
+      <AutoCreateAccessTeams>0</AutoCreateAccessTeams>
       <IsOneNoteIntegrationEnabled>0</IsOneNoteIntegrationEnabled>
       <IsKnowledgeManagementEnabled>0</IsKnowledgeManagementEnabled>
       <IsSLAEnabled>0</IsSLAEnabled>

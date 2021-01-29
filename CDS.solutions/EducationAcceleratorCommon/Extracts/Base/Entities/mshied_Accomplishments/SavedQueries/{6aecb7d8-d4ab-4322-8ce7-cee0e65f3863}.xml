@@ -10,8 +10,10 @@
     <layoutxml>
       <grid name="mshied_accomplishmentses" jump="mshied_name" select="1" icon="1" preview="0">
         <row name="mshied_accomplishments" id="mshied_accomplishmentsid">
-          <cell name="mshied_name" width="300" />
-          <cell name="createdon" width="125" />
+          <cell name="mshied_name" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="mshied_accomplishmenttype" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="mshied_student" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="mshied_description" width="300" disableSorting="1" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
         </row>
       </grid>
     </layoutxml>
@@ -21,10 +23,13 @@
         <entity name="mshied_accomplishments">
           <attribute name="mshied_accomplishmentsid" />
           <attribute name="mshied_name" />
-          <attribute name="createdon" />
           <filter type="and">
             <condition attribute="statecode" operator="eq" value="0" />
           </filter>
+          <order attribute="mshied_name" descending="false" />
+          <attribute name="mshied_student" />
+          <attribute name="mshied_accomplishmenttype" />
+          <attribute name="mshied_description" />
         </entity>
       </fetch>
     </fetchxml>

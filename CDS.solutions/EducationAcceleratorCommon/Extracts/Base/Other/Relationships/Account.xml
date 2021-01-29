@@ -196,7 +196,7 @@
     <ReferencingAttributeName>mshied_BusinessPartner</ReferencingAttributeName>
     <RelationshipDescription>
       <Descriptions>
-        <Description description="Business Partner unique identification number " languagecode="1033" />
+        <Description description="Business Partner unique identification number" languagecode="1033" />
       </Descriptions>
     </RelationshipDescription>
     <EntityRelationshipRoles>

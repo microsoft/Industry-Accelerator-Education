@@ -416,7 +416,7 @@
           <Type>nvarchar</Type>
           <Name>mshied_coursenumber</Name>
           <LogicalName>mshied_coursenumber</LogicalName>
-          <RequiredLevel>none</RequiredLevel>
+          <RequiredLevel>required</RequiredLevel>
           <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
           <ImeMode>auto</ImeMode>
           <ValidForUpdateApi>1</ValidForUpdateApi>
@@ -450,6 +450,46 @@
           </displaynames>
           <Descriptions>
             <Description description="The number of the course." languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="mshied_Credits">
+          <Type>decimal</Type>
+          <Name>mshied_credits</Name>
+          <LogicalName>mshied_credits</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>3.0.0.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <MinValue>-100000000000</MinValue>
+          <MaxValue>100000000000</MaxValue>
+          <Accuracy>0</Accuracy>
+          <displaynames>
+            <displayname description="Number of Credits" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Number of Credits" languagecode="1033" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="mshied_EndDate">
@@ -1168,6 +1208,33 @@
           </Descriptions>
         </attribute>
       </attributes>
+      <EntityKeys>
+        <EntityKey>
+          <Name>mshied_CourseNumber</Name>
+          <LogicalName>mshied_coursenumber</LogicalName>
+          <IntroducedVersion>3.0.0.0</IntroducedVersion>
+          <IsCustomizable>0</IsCustomizable>
+          <EntityKeyAttributes>
+            <AttributeName>mshied_coursenumber</AttributeName>
+          </EntityKeyAttributes>
+          <displaynames>
+            <displayname description="CourseNumber" languagecode="1033" />
+          </displaynames>
+        </EntityKey>
+        <EntityKey>
+          <Name>mshied_ExternalSourceSystem_ExternalIdentifier</Name>
+          <LogicalName>mshied_externalsourcesystem_externalidentifier</LogicalName>
+          <IntroducedVersion>3.0.0.0</IntroducedVersion>
+          <IsCustomizable>0</IsCustomizable>
+          <EntityKeyAttributes>
+            <AttributeName>mshied_externalidentifier</AttributeName>
+            <AttributeName>mshied_externalsourcesystem</AttributeName>
+          </EntityKeyAttributes>
+          <displaynames>
+            <displayname description="ExternalSourceSystem_ExternalIdentifier" languagecode="1033" />
+          </displaynames>
+        </EntityKey>
+      </EntityKeys>
       <EntitySetName>mshied_courses</EntitySetName>
       <IsDuplicateCheckSupported>1</IsDuplicateCheckSupported>
       <IsBusinessProcessEnabled>0</IsBusinessProcessEnabled>
@@ -1178,6 +1245,7 @@
       <IsConnectionsEnabled>0</IsConnectionsEnabled>
       <EntityColor></EntityColor>
       <IsDocumentManagementEnabled>0</IsDocumentManagementEnabled>
+      <AutoCreateAccessTeams>0</AutoCreateAccessTeams>
       <IsOneNoteIntegrationEnabled>0</IsOneNoteIntegrationEnabled>
       <IsKnowledgeManagementEnabled>0</IsKnowledgeManagementEnabled>
       <IsSLAEnabled>0</IsSLAEnabled>

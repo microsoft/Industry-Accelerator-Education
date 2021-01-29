@@ -330,7 +330,7 @@
           <Type>nvarchar</Type>
           <Name>mshied_code</Name>
           <LogicalName>mshied_code</LogicalName>
-          <RequiredLevel>none</RequiredLevel>
+          <RequiredLevel>required</RequiredLevel>
           <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
           <ImeMode>auto</ImeMode>
           <ValidForUpdateApi>1</ValidForUpdateApi>
@@ -962,6 +962,33 @@
           </Descriptions>
         </attribute>
       </attributes>
+      <EntityKeys>
+        <EntityKey>
+          <Name>mshied_Code</Name>
+          <LogicalName>mshied_code</LogicalName>
+          <IntroducedVersion>3.0.0.0</IntroducedVersion>
+          <IsCustomizable>0</IsCustomizable>
+          <EntityKeyAttributes>
+            <AttributeName>mshied_code</AttributeName>
+          </EntityKeyAttributes>
+          <displaynames>
+            <displayname description="Code" languagecode="1033" />
+          </displaynames>
+        </EntityKey>
+        <EntityKey>
+          <Name>mshied_ExternalSourceSystem_ExternalIdentifier</Name>
+          <LogicalName>mshied_externalsourcesystem_externalidentifier</LogicalName>
+          <IntroducedVersion>3.0.0.0</IntroducedVersion>
+          <IsCustomizable>0</IsCustomizable>
+          <EntityKeyAttributes>
+            <AttributeName>mshied_externalidentifier</AttributeName>
+            <AttributeName>mshied_externalsourcesystem</AttributeName>
+          </EntityKeyAttributes>
+          <displaynames>
+            <displayname description="ExternalSourceSystem_ExternalIdentifier" languagecode="1033" />
+          </displaynames>
+        </EntityKey>
+      </EntityKeys>
       <EntitySetName>mshied_academicperiods</EntitySetName>
       <IsDuplicateCheckSupported>1</IsDuplicateCheckSupported>
       <IsBusinessProcessEnabled>0</IsBusinessProcessEnabled>
@@ -972,6 +999,7 @@
       <IsConnectionsEnabled>0</IsConnectionsEnabled>
       <EntityColor></EntityColor>
       <IsDocumentManagementEnabled>0</IsDocumentManagementEnabled>
+      <AutoCreateAccessTeams>0</AutoCreateAccessTeams>
       <IsOneNoteIntegrationEnabled>0</IsOneNoteIntegrationEnabled>
       <IsKnowledgeManagementEnabled>0</IsKnowledgeManagementEnabled>
       <IsSLAEnabled>0</IsSLAEnabled>

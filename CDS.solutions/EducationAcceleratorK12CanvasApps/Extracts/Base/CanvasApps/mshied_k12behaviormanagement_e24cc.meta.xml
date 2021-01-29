@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CanvasApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>mshied_k12behaviormanagement_e24cc</Name>
-  <AppVersion>2020-04-10T14:41:11Z</AppVersion>
+  <AppVersion>2020-06-10T19:53:27Z</AppVersion>
   <Status>Ready</Status>
-  <CreatedByClientVersion>3.20022.21.0</CreatedByClientVersion>
-  <MinClientVersion>3.20022.21.0</MinClientVersion>
-  <Tags>{"primaryDeviceWidth":"1366","primaryDeviceHeight":"768","sienaVersion":"e04b48e4-c87f-4987-9ce5-02b7210dda8f","deviceCapabilities":"","supportsPortrait":"false","supportsLandscape":"true","primaryFormFactor":"Tablet","publisherVersion":"3.20022.21","minimumRequiredApiVersion":"2.2.0","hasComponent":"true","hasUnlockedComponent":"true"}</Tags>
+  <CreatedByClientVersion>3.20053.24.0</CreatedByClientVersion>
+  <MinClientVersion>3.20053.24.0</MinClientVersion>
+  <Tags>{"primaryDeviceWidth":"1366","primaryDeviceHeight":"768","sienaVersion":"d1489245-e274-4e71-b800-05003ddfa5cc","deviceCapabilities":"","supportsPortrait":"false","supportsLandscape":"true","primaryFormFactor":"Tablet","publisherVersion":"3.20053.24","minimumRequiredApiVersion":"2.2.0","hasComponent":"true","hasUnlockedComponent":"true","isUnifiedRootApp":"false"}</Tags>
   <IsCdsUpgraded>0</IsCdsUpgraded>
   <GalleryItemId xsi:nil="true"></GalleryItemId>
   <BackgroundColor>rgba(0, 176, 240, 1)</BackgroundColor>
