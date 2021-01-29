@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{4b91be34-895c-4b5a-aaca-d0151a4fe754}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{65832000-c292-4c22-8f95-e03d0fafdac8}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{14332f1d-c01a-415d-b9dc-3cb360dada86}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{7b66767f-a1ac-423c-a433-4e1cfb8538bb}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="mshied_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="mshied_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{bd414090-6b14-85aa-8c75-11268165a47e}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Grade Level" languagecode="1033" />
+                        </labels>
+                        <control id="mshied_gradelevel" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="mshied_gradelevel" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{40dbb750-56e8-39ec-5954-51d9a001a0b2}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Learning Standard" languagecode="1033" />
+                        </labels>
+                        <control id="mshied_learningstandardid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="mshied_learningstandardid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0b224dd6-9ce4-e404-2d1e-72626d9521ab}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Success Criteria" languagecode="1033" />
+                        </labels>
+                        <control id="mshied_successcriteria" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="mshied_successcriteria" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{6976cd98-d53b-4038-a48f-5050fa39900f}" columns="111">
+        <rows>
+          <row>
+            <cell id="{4f7c3778-b802-468a-a87e-be50de9b8067}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{d701c5ef-ebc1-4c79-aaeb-8b1146d8809d}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{82797eee-8e2d-dd3d-656d-36991c1b3c27}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Owner" languagecode="1033" />
+              </labels>
+              <control id="header_ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{f2255de0-9cc7-488f-912b-42ee8dd6c167}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form shownavigationbar="true" showImage="false" maxWidth="1920">
+      <tabs>
+        <tab name="tab_4" id="{797b489c-5864-9370-b401-61461ca37d73}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true" ordinalvalue="3" solutionaction="Added">
+          <labels>
+            <label description="Participants" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section name="tab_4_section_1" showlabel="false" showbar="false" locklevel="0" id="{88002d37-3a0d-7ae5-034a-72d4e81d21de}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" ordinalvalue="0">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{44397e13-4c61-b988-0bc5-4db5584dd267}" showlabel="false" colspan="1" auto="false" rowspan="6" ordinalvalue="10000">
+                        <labels>
+                          <label description="Extra Curricular Participants (Extra Curricular Activity)" languagecode="1033" />
+                        </labels>
+                        <control id="ECAParticipants" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <ViewId>{C64CF34E-8464-EA11-A811-000D3A579C6C}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>mshied_extracurricularactivities_extracurricularparticipant_ExtraCurricularActivityId</RelationshipName>
+                            <TargetEntityType>mshied_extracurricularparticipant</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{9D068FC4-4113-4A7C-B9A0-62CE70F3FA61},{C64CF34E-8464-EA11-A811-000D3A579C6C}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId>{AAA6805B-27CE-E811-A967-000D3A1C53E4}</VisualizationId>
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <controlDescriptions solutionaction="Added" />
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Higher Education Extra Curricular Activity Form" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Higher Education Extra Curricular Activity Form" languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{a48f7196-7bec-4cf9-a3f0-7cb88b468de5}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{61d4172d-bb6c-45b1-829c-c72d8bdb222a}" IsUserDefined="1" labelid="{9faf5f72-9a6a-47c6-8303-1df445d8d157}" expanded="false">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{ad20712b-143c-4554-9aa5-e29637f79173}" labelid="{1677c8f8-42f5-4fb0-b63c-3f492612e3c0}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{c0f76b9f-745a-4e7d-90ed-3a247ab290c1}" labelid="{1b2339c2-8959-4c57-ae3e-0f98f1793ea9}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="mshied_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="mshied_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2902a0d7-0109-c118-7c87-17a5c911cc38}" showlabel="true" locklevel="0" labelid="{3aa0d9a9-f406-4b84-9a84-8529b45c8baa}">
+                        <labels>
+                          <label description="Language" languagecode="1033" />
+                        </labels>
+                        <control id="mshied_language" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="mshied_language" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{44232c96-33dd-e757-d733-56337638755b}" showlabel="true" locklevel="0" labelid="{217cea5f-064b-41d3-a085-60e3d525e82a}">
+                        <labels>
+                          <label description="Learning Standard" languagecode="1033" />
+                        </labels>
+                        <control id="mshied_learningstandardid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="mshied_learningstandardid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0123aac9-0bc8-2245-7bca-565c692c37ab}" showlabel="true" locklevel="0" labelid="{6353fd35-2f36-414f-9b00-92845ff0e4ab}">
+                        <labels>
+                          <label description="Maximum Raw Score" languagecode="1033" />
+                        </labels>
+                        <control id="mshied_maximumrawscore" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="mshied_maximumrawscore" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{04112031-ee15-58a6-80d1-3aee4b912ddb}" showlabel="true" locklevel="0" labelid="{81131cef-4c03-4224-a9df-cc1aae455a51}">
+                        <labels>
+                          <label description="Question" languagecode="1033" />
+                        </labels>
+                        <control id="mshied_question" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="mshied_question" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_2" id="{ccae33d3-5728-7bee-727c-5ee68c08895c}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+          <labels>
+            <label description="Assessments" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_2_section_1" showlabel="false" showbar="false" locklevel="0" id="{9bbbded7-9792-5a55-d02b-8432ac1e100a}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{806a701a-56cd-5a1c-a942-9cee670be422}" showlabel="false" colspan="1" auto="false" rowspan="6">
+                        <labels>
+                          <label description="Assessments" languagecode="1033" />
+                        </labels>
+                        <control id="Assessments" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <ViewId>{875056FC-9967-EA11-A811-000D3A579C6C}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>mshied_Assessment_mshied_AssessmentItem_m</RelationshipName>
+                            <TargetEntityType>mshied_assessment</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{B1DB6A8F-4496-4B8F-B089-C2631276D589},{875056FC-9967-EA11-A811-000D3A579C6C}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                            <RelationshipRoleOrdinal>1</RelationshipRoleOrdinal>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_3" id="{6ab50636-cc64-cd4d-5915-363a6ed0bc85}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+          <labels>
+            <label description="Responses" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_3_section_1" showlabel="false" showbar="false" locklevel="0" id="{1788a533-e27d-c57b-3cee-a07e126563be}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{54e2000c-cd53-5dce-760a-d6815b609732}" showlabel="false" colspan="1" auto="false" rowspan="6">
+                        <labels>
+                          <label description="Student Assessment Item Responses (Assessment Item)" languagecode="1033" />
+                        </labels>
+                        <control id="StudentResponses" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <ViewId>{F415185C-8564-EA11-A811-000D3A579C6C}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>mshied_StudentAssessmentItemRespons_Asses</RelationshipName>
+                            <TargetEntityType>mshied_studentassessmentitemresponse</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{CFB9004A-ADA9-426B-8781-F4B509123120},{F415185C-8564-EA11-A811-000D3A579C6C}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{8335774e-eeb6-41c0-a3d4-7ac6beb51fd1}" columns="111">
+        <rows>
+          <row>
+            <cell id="{2e0e2454-803a-4289-ac8e-4bfca6640a03}" showlabel="false" labelid="{c0b7a17d-0e17-40f0-af02-99fb87749b19}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{21a03341-2488-483d-a323-cb7dc7f291d6}" showlabel="false" labelid="{91a8e3f2-6e77-4689-9bea-ab6d2c2b9ebc}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{554b02c1-bd91-69a7-6133-09aa9054d7e3}" showlabel="true" locklevel="0" labelid="{6dca5908-be8d-49e9-bceb-07363142c082}">
+              <labels>
+                <label description="Owner" languagecode="1033" />
+              </labels>
+              <control id="header_ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+      <DisplayConditions Order="1">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="K12 Assessment Item" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

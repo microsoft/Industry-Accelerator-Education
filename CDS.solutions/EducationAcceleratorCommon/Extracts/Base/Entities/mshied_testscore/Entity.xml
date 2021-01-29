@@ -1364,7 +1364,7 @@
           <MaxLength>100</MaxLength>
           <Length>200</Length>
           <displaynames>
-            <displayname description="Test Score Name" languagecode="1033" />
+            <displayname description="Test Score" languagecode="1033" />
           </displaynames>
           <Descriptions>
             <Description description="The name of the Test Score." languagecode="1033" />
@@ -1614,7 +1614,7 @@
           <Type>lookup</Type>
           <Name>mshied_studentid</Name>
           <LogicalName>mshied_studentid</LogicalName>
-          <RequiredLevel>none</RequiredLevel>
+          <RequiredLevel>required</RequiredLevel>
           <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
           <ImeMode>auto</ImeMode>
           <ValidForUpdateApi>1</ValidForUpdateApi>
@@ -1881,7 +1881,7 @@
           <Type>lookup</Type>
           <Name>mshied_testtypeid</Name>
           <LogicalName>mshied_testtypeid</LogicalName>
-          <RequiredLevel>none</RequiredLevel>
+          <RequiredLevel>required</RequiredLevel>
           <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
           <ImeMode>auto</ImeMode>
           <ValidForUpdateApi>1</ValidForUpdateApi>
@@ -2523,6 +2523,7 @@
       <IsConnectionsEnabled>0</IsConnectionsEnabled>
       <EntityColor></EntityColor>
       <IsDocumentManagementEnabled>0</IsDocumentManagementEnabled>
+      <AutoCreateAccessTeams>0</AutoCreateAccessTeams>
       <IsOneNoteIntegrationEnabled>0</IsOneNoteIntegrationEnabled>
       <IsKnowledgeManagementEnabled>0</IsKnowledgeManagementEnabled>
       <IsSLAEnabled>0</IsSLAEnabled>

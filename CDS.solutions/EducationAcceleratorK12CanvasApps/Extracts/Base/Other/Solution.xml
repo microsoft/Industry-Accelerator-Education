@@ -1,19 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ImportExportXml version="9.1.0.17162" SolutionPackageVersion="9.1" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ImportExportXml version="9.1.0.25249" SolutionPackageVersion="9.1" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SolutionManifest>
     <UniqueName>EducationAcceleratorK12CanvasApps</UniqueName>
     <LocalizedNames>
       <LocalizedName description="Education Accelerator K12 Canvas Apps" languagecode="1033" />
     </LocalizedNames>
     <Descriptions />
-    <Version>3.0.0.0</Version>
-    <Managed>0</Managed>
+    <Version>3.1.3.0</Version>
+    <Managed>2</Managed>
     <Publisher>
-      <UniqueName>dynamics365education</UniqueName>
+      <UniqueName>educationacceleratorcommon</UniqueName>
       <LocalizedNames>
         <LocalizedName description="Dynamics 365 Education" languagecode="1033" />
       </LocalizedNames>
-      <Descriptions />
+      <Descriptions>
+        <Description description="Education Accelerator Common" languagecode="1033" />
+      </Descriptions>
       <EMailAddress xsi:nil="true"></EMailAddress>
       <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
       <CustomizationPrefix>mshied</CustomizationPrefix>

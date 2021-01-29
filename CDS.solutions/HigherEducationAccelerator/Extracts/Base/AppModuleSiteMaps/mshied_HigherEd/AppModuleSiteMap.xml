@@ -1,53 +1,450 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <AppModuleSiteMap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SiteMapUniqueName>mshied_HigherEd</SiteMapUniqueName>
-  <SiteMap IntroducedVersion="7.0.0.0">
+  <SiteMap>
     <Area Id="NewArea_aa439169" ResourceId="SitemapDesigner.NewArea" VectorIcon="$webresource:mshied_HigherEdIconforUI2" Icon="/WebResources/msdyn_/Images/Area_Default_Icon.png" ShowGroups="false">
       <Titles>
         <Title LCID="1033" Title="Higher Education" />
+        <Title LCID="1025" Title="" />
+        <Title LCID="1026" Title="" />
+        <Title LCID="1027" Title="" />
+        <Title LCID="1029" Title="" />
+        <Title LCID="1030" Title="" />
+        <Title LCID="1031" Title="" />
+        <Title LCID="1032" Title="" />
+        <Title LCID="3082" Title="" />
+        <Title LCID="1061" Title="" />
+        <Title LCID="1069" Title="" />
+        <Title LCID="1035" Title="" />
+        <Title LCID="1036" Title="" />
+        <Title LCID="1110" Title="" />
+        <Title LCID="1037" Title="" />
+        <Title LCID="1081" Title="" />
+        <Title LCID="1050" Title="" />
+        <Title LCID="1038" Title="" />
+        <Title LCID="1057" Title="" />
+        <Title LCID="1040" Title="" />
+        <Title LCID="1041" Title="" />
+        <Title LCID="1087" Title="" />
+        <Title LCID="1042" Title="" />
+        <Title LCID="1063" Title="" />
+        <Title LCID="1062" Title="" />
+        <Title LCID="1086" Title="" />
+        <Title LCID="1044" Title="" />
+        <Title LCID="1043" Title="" />
+        <Title LCID="1045" Title="" />
+        <Title LCID="1046" Title="" />
+        <Title LCID="2070" Title="" />
+        <Title LCID="1048" Title="" />
+        <Title LCID="1049" Title="" />
+        <Title LCID="1051" Title="" />
+        <Title LCID="1060" Title="" />
+        <Title LCID="10266" Title="" />
+        <Title LCID="9242" Title="" />
+        <Title LCID="1053" Title="" />
+        <Title LCID="1054" Title="" />
+        <Title LCID="1055" Title="" />
+        <Title LCID="1058" Title="" />
+        <Title LCID="1066" Title="" />
+        <Title LCID="2052" Title="" />
+        <Title LCID="3076" Title="" />
+        <Title LCID="1028" Title="" />
       </Titles>
       <Group Id="NewGroup_bef7354c" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
         <Titles>
           <Title LCID="1033" Title="General" />
+          <Title LCID="1025" Title="" />
+          <Title LCID="1026" Title="" />
+          <Title LCID="1027" Title="" />
+          <Title LCID="1029" Title="" />
+          <Title LCID="1030" Title="" />
+          <Title LCID="1031" Title="" />
+          <Title LCID="1032" Title="" />
+          <Title LCID="3082" Title="" />
+          <Title LCID="1061" Title="" />
+          <Title LCID="1069" Title="" />
+          <Title LCID="1035" Title="" />
+          <Title LCID="1036" Title="" />
+          <Title LCID="1110" Title="" />
+          <Title LCID="1037" Title="" />
+          <Title LCID="1081" Title="" />
+          <Title LCID="1050" Title="" />
+          <Title LCID="1038" Title="" />
+          <Title LCID="1057" Title="" />
+          <Title LCID="1040" Title="" />
+          <Title LCID="1041" Title="" />
+          <Title LCID="1087" Title="" />
+          <Title LCID="1042" Title="" />
+          <Title LCID="1063" Title="" />
+          <Title LCID="1062" Title="" />
+          <Title LCID="1086" Title="" />
+          <Title LCID="1044" Title="" />
+          <Title LCID="1043" Title="" />
+          <Title LCID="1045" Title="" />
+          <Title LCID="1046" Title="" />
+          <Title LCID="2070" Title="" />
+          <Title LCID="1048" Title="" />
+          <Title LCID="1049" Title="" />
+          <Title LCID="1051" Title="" />
+          <Title LCID="1060" Title="" />
+          <Title LCID="10266" Title="" />
+          <Title LCID="9242" Title="" />
+          <Title LCID="1053" Title="" />
+          <Title LCID="1054" Title="" />
+          <Title LCID="1055" Title="" />
+          <Title LCID="1058" Title="" />
+          <Title LCID="1066" Title="" />
+          <Title LCID="2052" Title="" />
+          <Title LCID="3076" Title="" />
+          <Title LCID="1028" Title="" />
         </Titles>
         <SubArea Id="NewSubArea_f987912b" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="account" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
           <Titles>
             <Title LCID="1033" Title="Account" />
+            <Title LCID="1025" Title="" />
+            <Title LCID="1026" Title="" />
+            <Title LCID="1027" Title="" />
+            <Title LCID="1029" Title="" />
+            <Title LCID="1030" Title="" />
+            <Title LCID="1031" Title="" />
+            <Title LCID="1032" Title="" />
+            <Title LCID="3082" Title="" />
+            <Title LCID="1061" Title="" />
+            <Title LCID="1069" Title="" />
+            <Title LCID="1035" Title="" />
+            <Title LCID="1036" Title="" />
+            <Title LCID="1110" Title="" />
+            <Title LCID="1037" Title="" />
+            <Title LCID="1081" Title="" />
+            <Title LCID="1050" Title="" />
+            <Title LCID="1038" Title="" />
+            <Title LCID="1057" Title="" />
+            <Title LCID="1040" Title="" />
+            <Title LCID="1041" Title="" />
+            <Title LCID="1087" Title="" />
+            <Title LCID="1042" Title="" />
+            <Title LCID="1063" Title="" />
+            <Title LCID="1062" Title="" />
+            <Title LCID="1086" Title="" />
+            <Title LCID="1044" Title="" />
+            <Title LCID="1043" Title="" />
+            <Title LCID="1045" Title="" />
+            <Title LCID="1046" Title="" />
+            <Title LCID="2070" Title="" />
+            <Title LCID="1048" Title="" />
+            <Title LCID="1049" Title="" />
+            <Title LCID="1051" Title="" />
+            <Title LCID="1060" Title="" />
+            <Title LCID="10266" Title="" />
+            <Title LCID="9242" Title="" />
+            <Title LCID="1053" Title="" />
+            <Title LCID="1054" Title="" />
+            <Title LCID="1055" Title="" />
+            <Title LCID="1058" Title="" />
+            <Title LCID="1066" Title="" />
+            <Title LCID="2052" Title="" />
+            <Title LCID="3076" Title="" />
+            <Title LCID="1028" Title="" />
           </Titles>
         </SubArea>
         <SubArea Id="NewSubArea_2968e126" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="contact" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
           <Titles>
             <Title LCID="1033" Title="Contact" />
+            <Title LCID="1025" Title="" />
+            <Title LCID="1026" Title="" />
+            <Title LCID="1027" Title="" />
+            <Title LCID="1029" Title="" />
+            <Title LCID="1030" Title="" />
+            <Title LCID="1031" Title="" />
+            <Title LCID="1032" Title="" />
+            <Title LCID="3082" Title="" />
+            <Title LCID="1061" Title="" />
+            <Title LCID="1069" Title="" />
+            <Title LCID="1035" Title="" />
+            <Title LCID="1036" Title="" />
+            <Title LCID="1110" Title="" />
+            <Title LCID="1037" Title="" />
+            <Title LCID="1081" Title="" />
+            <Title LCID="1050" Title="" />
+            <Title LCID="1038" Title="" />
+            <Title LCID="1057" Title="" />
+            <Title LCID="1040" Title="" />
+            <Title LCID="1041" Title="" />
+            <Title LCID="1087" Title="" />
+            <Title LCID="1042" Title="" />
+            <Title LCID="1063" Title="" />
+            <Title LCID="1062" Title="" />
+            <Title LCID="1086" Title="" />
+            <Title LCID="1044" Title="" />
+            <Title LCID="1043" Title="" />
+            <Title LCID="1045" Title="" />
+            <Title LCID="1046" Title="" />
+            <Title LCID="2070" Title="" />
+            <Title LCID="1048" Title="" />
+            <Title LCID="1049" Title="" />
+            <Title LCID="1051" Title="" />
+            <Title LCID="1060" Title="" />
+            <Title LCID="10266" Title="" />
+            <Title LCID="9242" Title="" />
+            <Title LCID="1053" Title="" />
+            <Title LCID="1054" Title="" />
+            <Title LCID="1055" Title="" />
+            <Title LCID="1058" Title="" />
+            <Title LCID="1066" Title="" />
+            <Title LCID="2052" Title="" />
+            <Title LCID="3076" Title="" />
+            <Title LCID="1028" Title="" />
           </Titles>
         </SubArea>
         <SubArea Id="NewSubArea_a5012c05" ResourceId="Homepage_Dashboards" DescriptionResourceId="Dashboards_Description" Icon="/_imgs/imagestrips/transparent_spacer.gif" Url="/workplace/home_dashboards.aspx" DefaultDashboard="ee50a18b-3f88-df11-8d93-00155db1891a" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
           <Titles>
-            <Title LCID="1033" Title="Sample Dashboard" />
+            <Title LCID="1033" Title="Dashboard" />
+            <Title LCID="1025" Title="" />
+            <Title LCID="1026" Title="" />
+            <Title LCID="1027" Title="" />
+            <Title LCID="1029" Title="" />
+            <Title LCID="1030" Title="" />
+            <Title LCID="1031" Title="" />
+            <Title LCID="1032" Title="" />
+            <Title LCID="3082" Title="" />
+            <Title LCID="1061" Title="" />
+            <Title LCID="1069" Title="" />
+            <Title LCID="1035" Title="" />
+            <Title LCID="1036" Title="" />
+            <Title LCID="1110" Title="" />
+            <Title LCID="1037" Title="" />
+            <Title LCID="1081" Title="" />
+            <Title LCID="1050" Title="" />
+            <Title LCID="1038" Title="" />
+            <Title LCID="1057" Title="" />
+            <Title LCID="1040" Title="" />
+            <Title LCID="1041" Title="" />
+            <Title LCID="1087" Title="" />
+            <Title LCID="1042" Title="" />
+            <Title LCID="1063" Title="" />
+            <Title LCID="1062" Title="" />
+            <Title LCID="1086" Title="" />
+            <Title LCID="1044" Title="" />
+            <Title LCID="1043" Title="" />
+            <Title LCID="1045" Title="" />
+            <Title LCID="1046" Title="" />
+            <Title LCID="2070" Title="" />
+            <Title LCID="1048" Title="" />
+            <Title LCID="1049" Title="" />
+            <Title LCID="1051" Title="" />
+            <Title LCID="1060" Title="" />
+            <Title LCID="10266" Title="" />
+            <Title LCID="9242" Title="" />
+            <Title LCID="1053" Title="" />
+            <Title LCID="1054" Title="" />
+            <Title LCID="1055" Title="" />
+            <Title LCID="1058" Title="" />
+            <Title LCID="1066" Title="" />
+            <Title LCID="2052" Title="" />
+            <Title LCID="3076" Title="" />
+            <Title LCID="1028" Title="" />
           </Titles>
         </SubArea>
       </Group>
       <Group Id="NewGroup_972e538b" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
         <Titles>
           <Title LCID="1033" Title="Details" />
+          <Title LCID="1025" Title="" />
+          <Title LCID="1026" Title="" />
+          <Title LCID="1027" Title="" />
+          <Title LCID="1029" Title="" />
+          <Title LCID="1030" Title="" />
+          <Title LCID="1031" Title="" />
+          <Title LCID="1032" Title="" />
+          <Title LCID="3082" Title="" />
+          <Title LCID="1061" Title="" />
+          <Title LCID="1069" Title="" />
+          <Title LCID="1035" Title="" />
+          <Title LCID="1036" Title="" />
+          <Title LCID="1110" Title="" />
+          <Title LCID="1037" Title="" />
+          <Title LCID="1081" Title="" />
+          <Title LCID="1050" Title="" />
+          <Title LCID="1038" Title="" />
+          <Title LCID="1057" Title="" />
+          <Title LCID="1040" Title="" />
+          <Title LCID="1041" Title="" />
+          <Title LCID="1087" Title="" />
+          <Title LCID="1042" Title="" />
+          <Title LCID="1063" Title="" />
+          <Title LCID="1062" Title="" />
+          <Title LCID="1086" Title="" />
+          <Title LCID="1044" Title="" />
+          <Title LCID="1043" Title="" />
+          <Title LCID="1045" Title="" />
+          <Title LCID="1046" Title="" />
+          <Title LCID="2070" Title="" />
+          <Title LCID="1048" Title="" />
+          <Title LCID="1049" Title="" />
+          <Title LCID="1051" Title="" />
+          <Title LCID="1060" Title="" />
+          <Title LCID="10266" Title="" />
+          <Title LCID="9242" Title="" />
+          <Title LCID="1053" Title="" />
+          <Title LCID="1054" Title="" />
+          <Title LCID="1055" Title="" />
+          <Title LCID="1058" Title="" />
+          <Title LCID="1066" Title="" />
+          <Title LCID="2052" Title="" />
+          <Title LCID="3076" Title="" />
+          <Title LCID="1028" Title="" />
         </Titles>
-        <SubArea Id="NewSubArea_3a70174d" Entity="mshied_course" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
-        <SubArea Id="NewSubArea_904a99" Entity="mshied_program" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
-        <SubArea Id="NewSubArea_5d1bd007" Entity="mshied_extracurricularactivities" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
-        <SubArea Id="NewSubArea_f211b1bd" Entity="mshied_areaofinterest" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
-        <SubArea Id="NewSubArea_55f9ed49" Entity="mshied_areaofstudy" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_3a70174d" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="mshied_course" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_904a99" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="mshied_program" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_d3b4c423" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="mshied_programrequirement" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_5d1bd007" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="mshied_extracurricularactivities" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_f211b1bd" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="mshied_areaofinterest" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_55f9ed49" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="mshied_areaofstudy" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
       </Group>
       <Group Id="NewGroup_8518009f" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
         <Titles>
           <Title LCID="1033" Title="Additional Information" />
+          <Title LCID="1025" Title="" />
+          <Title LCID="1026" Title="" />
+          <Title LCID="1027" Title="" />
+          <Title LCID="1029" Title="" />
+          <Title LCID="1030" Title="" />
+          <Title LCID="1031" Title="" />
+          <Title LCID="1032" Title="" />
+          <Title LCID="3082" Title="" />
+          <Title LCID="1061" Title="" />
+          <Title LCID="1069" Title="" />
+          <Title LCID="1035" Title="" />
+          <Title LCID="1036" Title="" />
+          <Title LCID="1110" Title="" />
+          <Title LCID="1037" Title="" />
+          <Title LCID="1081" Title="" />
+          <Title LCID="1050" Title="" />
+          <Title LCID="1038" Title="" />
+          <Title LCID="1057" Title="" />
+          <Title LCID="1040" Title="" />
+          <Title LCID="1041" Title="" />
+          <Title LCID="1087" Title="" />
+          <Title LCID="1042" Title="" />
+          <Title LCID="1063" Title="" />
+          <Title LCID="1062" Title="" />
+          <Title LCID="1086" Title="" />
+          <Title LCID="1044" Title="" />
+          <Title LCID="1043" Title="" />
+          <Title LCID="1045" Title="" />
+          <Title LCID="1046" Title="" />
+          <Title LCID="2070" Title="" />
+          <Title LCID="1048" Title="" />
+          <Title LCID="1049" Title="" />
+          <Title LCID="1051" Title="" />
+          <Title LCID="1060" Title="" />
+          <Title LCID="10266" Title="" />
+          <Title LCID="9242" Title="" />
+          <Title LCID="1053" Title="" />
+          <Title LCID="1054" Title="" />
+          <Title LCID="1055" Title="" />
+          <Title LCID="1058" Title="" />
+          <Title LCID="1066" Title="" />
+          <Title LCID="2052" Title="" />
+          <Title LCID="3076" Title="" />
+          <Title LCID="1028" Title="" />
         </Titles>
         <SubArea Id="NewSubArea_90145fd1" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="mshied_internship" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
           <Titles>
             <Title LCID="1033" Title="Internships" />
+            <Title LCID="1025" Title="" />
+            <Title LCID="1026" Title="" />
+            <Title LCID="1027" Title="" />
+            <Title LCID="1029" Title="" />
+            <Title LCID="1030" Title="" />
+            <Title LCID="1031" Title="" />
+            <Title LCID="1032" Title="" />
+            <Title LCID="3082" Title="" />
+            <Title LCID="1061" Title="" />
+            <Title LCID="1069" Title="" />
+            <Title LCID="1035" Title="" />
+            <Title LCID="1036" Title="" />
+            <Title LCID="1110" Title="" />
+            <Title LCID="1037" Title="" />
+            <Title LCID="1081" Title="" />
+            <Title LCID="1050" Title="" />
+            <Title LCID="1038" Title="" />
+            <Title LCID="1057" Title="" />
+            <Title LCID="1040" Title="" />
+            <Title LCID="1041" Title="" />
+            <Title LCID="1087" Title="" />
+            <Title LCID="1042" Title="" />
+            <Title LCID="1063" Title="" />
+            <Title LCID="1062" Title="" />
+            <Title LCID="1086" Title="" />
+            <Title LCID="1044" Title="" />
+            <Title LCID="1043" Title="" />
+            <Title LCID="1045" Title="" />
+            <Title LCID="1046" Title="" />
+            <Title LCID="2070" Title="" />
+            <Title LCID="1048" Title="" />
+            <Title LCID="1049" Title="" />
+            <Title LCID="1051" Title="" />
+            <Title LCID="1060" Title="" />
+            <Title LCID="10266" Title="" />
+            <Title LCID="9242" Title="" />
+            <Title LCID="1053" Title="" />
+            <Title LCID="1054" Title="" />
+            <Title LCID="1055" Title="" />
+            <Title LCID="1058" Title="" />
+            <Title LCID="1066" Title="" />
+            <Title LCID="2052" Title="" />
+            <Title LCID="3076" Title="" />
+            <Title LCID="1028" Title="" />
           </Titles>
         </SubArea>
         <SubArea Id="NewSubArea_9742aee3" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="mshied_scholarship" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
           <Titles>
             <Title LCID="1033" Title="Scholarships" />
+            <Title LCID="1025" Title="" />
+            <Title LCID="1026" Title="" />
+            <Title LCID="1027" Title="" />
+            <Title LCID="1029" Title="" />
+            <Title LCID="1030" Title="" />
+            <Title LCID="1031" Title="" />
+            <Title LCID="1032" Title="" />
+            <Title LCID="3082" Title="" />
+            <Title LCID="1061" Title="" />
+            <Title LCID="1069" Title="" />
+            <Title LCID="1035" Title="" />
+            <Title LCID="1036" Title="" />
+            <Title LCID="1110" Title="" />
+            <Title LCID="1037" Title="" />
+            <Title LCID="1081" Title="" />
+            <Title LCID="1050" Title="" />
+            <Title LCID="1038" Title="" />
+            <Title LCID="1057" Title="" />
+            <Title LCID="1040" Title="" />
+            <Title LCID="1041" Title="" />
+            <Title LCID="1087" Title="" />
+            <Title LCID="1042" Title="" />
+            <Title LCID="1063" Title="" />
+            <Title LCID="1062" Title="" />
+            <Title LCID="1086" Title="" />
+            <Title LCID="1044" Title="" />
+            <Title LCID="1043" Title="" />
+            <Title LCID="1045" Title="" />
+            <Title LCID="1046" Title="" />
+            <Title LCID="2070" Title="" />
+            <Title LCID="1048" Title="" />
+            <Title LCID="1049" Title="" />
+            <Title LCID="1051" Title="" />
+            <Title LCID="1060" Title="" />
+            <Title LCID="10266" Title="" />
+            <Title LCID="9242" Title="" />
+            <Title LCID="1053" Title="" />
+            <Title LCID="1054" Title="" />
+            <Title LCID="1055" Title="" />
+            <Title LCID="1058" Title="" />
+            <Title LCID="1066" Title="" />
+            <Title LCID="2052" Title="" />
+            <Title LCID="3076" Title="" />
+            <Title LCID="1028" Title="" />
           </Titles>
         </SubArea>
         <SubArea Id="NewSubArea_49c16ffe" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="mshied_grant" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
@@ -55,6 +452,7 @@
             <Title LCID="1033" Title="Grants" />
           </Titles>
         </SubArea>
+        <SubArea Id="NewSubArea_c536ac48" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="mshied_studentresource" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
       </Group>
     </Area>
   </SiteMap>

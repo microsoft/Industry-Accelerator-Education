@@ -11,14 +11,13 @@
       <grid name="resultset" jump="fullname" select="1" icon="1" preview="1">
         <row name="result" id="contactid">
           <cell name="fullname" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
-          <cell name="address1_city" width="100" />
           <cell name="emailaddress1" width="150" />
-          <cell name="mshied_studentstatusid" width="100" />
-          <cell name="mshied_currentacademicperiodid" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="mshied_graduationyear" width="100" />
+          <cell name="mshied_currentprogramcompletionpercentage" width="100" />
           <cell name="mshied_currentprogramid" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
           <cell name="mshied_currentprogramlevelid" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
-          <cell name="mshied_firstgeneration" width="100" />
-          <cell name="mshied_legacy" width="100" />
+          <cell name="mshied_studentstatusid" width="100" />
+          <cell name="mshied_currentacademicperiodid" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
         </row>
       </grid>
     </layoutxml>
@@ -37,10 +36,9 @@
           <attribute name="mshied_currentprogramlevelid" />
           <attribute name="mshied_currentprogramid" />
           <attribute name="mshied_currentacademicperiodid" />
-          <attribute name="mshied_legacy" />
-          <attribute name="mshied_firstgeneration" />
-          <attribute name="address1_city" />
           <attribute name="contactid" />
+          <attribute name="mshied_graduationyear" />
+          <attribute name="mshied_currentprogramcompletionpercentage" />
         </entity>
       </fetch>
     </fetchxml>

@@ -4,6 +4,44 @@
   <EntityInfo>
     <entity Name="Contact">
       <attributes>
+        <attribute PhysicalName="mshied_Advisorid">
+          <Type>lookup</Type>
+          <Name>mshied_advisorid</Name>
+          <LogicalName>mshied_advisorid</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>3.0.0.3</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Advisor" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Lookup to the advisor who recommended the resource to a student.&#xA;" languagecode="1033" />
+          </Descriptions>
+        </attribute>
         <attribute PhysicalName="mshied_Citizenship">
           <Type>picklist</Type>
           <Name>mshied_citizenship</Name>
@@ -172,6 +210,21 @@
               <Description description="Type of contact" languagecode="1033" />
             </Descriptions>
             <options>
+              <option value="494280006" ExternalValue="" Color="">
+                <labels>
+                  <label description="Advisor" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="494280011" ExternalValue="" Color="#0000ff">
+                <labels>
+                  <label description="Student" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="494280000" ExternalValue="" Color="#0000ff">
+                <labels>
+                  <label description="Instructor" languagecode="1033" />
+                </labels>
+              </option>
               <option value="494280001" ExternalValue="" Color="#0000ff">
                 <labels>
                   <label description="Alumni" languagecode="1033" />
@@ -197,11 +250,6 @@
                   <label description="Guest" languagecode="1033" />
                 </labels>
               </option>
-              <option value="494280000" ExternalValue="" Color="#0000ff">
-                <labels>
-                  <label description="Intructor" languagecode="1033" />
-                </labels>
-              </option>
               <option value="494280007" ExternalValue="" Color="#0000ff">
                 <labels>
                   <label description="Organization Contact" languagecode="1033" />
@@ -220,11 +268,6 @@
               <option value="494280010" ExternalValue="" Color="#0000ff">
                 <labels>
                   <label description="Staff" languagecode="1033" />
-                </labels>
-              </option>
-              <option value="494280011" ExternalValue="" Color="#0000ff">
-                <labels>
-                  <label description="Student" languagecode="1033" />
                 </labels>
               </option>
             </options>
@@ -341,6 +384,46 @@
             <Description description="Current academic period enrolled, if any, for the contact." languagecode="1033" />
           </Descriptions>
         </attribute>
+        <attribute PhysicalName="mshied_CurrentProgramCompletionPercentage">
+          <Type>decimal</Type>
+          <Name>mshied_currentprogramcompletionpercentage</Name>
+          <LogicalName>mshied_currentprogramcompletionpercentage</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>3.0.0.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <MinValue>0</MinValue>
+          <MaxValue>100</MaxValue>
+          <Accuracy>2</Accuracy>
+          <displaynames>
+            <displayname description="Current Program Completion Percentage" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Program Completion Percentage for the current student program based on the credits earned so far." languagecode="1033" />
+          </Descriptions>
+        </attribute>
         <attribute PhysicalName="mshied_CurrentProgramId">
           <Type>lookup</Type>
           <Name>mshied_currentprogramid</Name>
@@ -417,6 +500,44 @@
           </displaynames>
           <Descriptions>
             <Description description="Current program level associated to the program for the contact." languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="mshied_CurrentProgramVersion">
+          <Type>lookup</Type>
+          <Name>mshied_currentprogramversion</Name>
+          <LogicalName>mshied_currentprogramversion</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>3.0.0.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Current Program Version" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Current program version/specialization student has opted for." languagecode="1033" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="mshied_EthnicGroup">
@@ -684,6 +805,46 @@
           </displaynames>
           <Descriptions>
             <Description description="Indicates if contact is a first generation student." languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="mshied_GraduationYear">
+          <Type>nvarchar</Type>
+          <Name>mshied_graduationyear</Name>
+          <LogicalName>mshied_graduationyear</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>3.0.0.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>text</Format>
+          <MaxLength>4</MaxLength>
+          <Length>200</Length>
+          <displaynames>
+            <displayname description="Graduation Year" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Graduation Year of the student for the current program." languagecode="1033" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="mshied_HIPAAIndicator">

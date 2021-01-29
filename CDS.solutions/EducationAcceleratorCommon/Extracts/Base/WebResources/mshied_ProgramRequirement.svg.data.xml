@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <WebResourceId>{7894bc27-8d18-eb11-a813-000d3a33f11e}</WebResourceId>
+  <Name>mshied_ProgramRequirement.svg</Name>
+  <DisplayName>Program Requirement SVG</DisplayName>
+  <WebResourceType>11</WebResourceType>
+  <IntroducedVersion>3.0.0.0</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <DependencyXml>&lt;Dependencies&gt;&lt;Dependency componentType="WebResource"/&gt;&lt;/Dependencies&gt;</DependencyXml>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/mshied_ProgramRequirementsvg7894BC27-8D18-EB11-A813-000D3A33F11E</FileName>
+</WebResource>

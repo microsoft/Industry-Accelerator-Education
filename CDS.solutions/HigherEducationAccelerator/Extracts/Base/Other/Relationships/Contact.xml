@@ -85,7 +85,7 @@
     <ReferencingAttributeName>mshied_Applicant</ReferencingAttributeName>
     <RelationshipDescription>
       <Descriptions>
-        <Description description="Grant applicant id " languagecode="1033" />
+        <Description description="Grant applicant id" languagecode="1033" />
       </Descriptions>
     </RelationshipDescription>
     <EntityRelationshipRoles>

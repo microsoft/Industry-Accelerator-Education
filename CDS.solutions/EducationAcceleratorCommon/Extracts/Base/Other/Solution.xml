@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ImportExportXml version="9.1.0.17162" SolutionPackageVersion="9.1" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ImportExportXml version="9.1.0.26146" SolutionPackageVersion="9.1" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SolutionManifest>
     <UniqueName>EducationAcceleratorCommon</UniqueName>
     <LocalizedNames>
       <LocalizedName description="Education Accelerator Common" languagecode="1033" />
     </LocalizedNames>
     <Descriptions />
-    <Version>3.0.0.0</Version>
-    <Managed>0</Managed>
+    <Version>3.1.3.0</Version>
+    <Managed>2</Managed>
     <Publisher>
       <UniqueName>educationacceleratorcommon</UniqueName>
       <LocalizedNames>
@@ -81,6 +81,7 @@
     </Publisher>
     <RootComponents>
       <RootComponent type="1" schemaName="account" behavior="2" />
+      <RootComponent type="1" schemaName="appointment" behavior="2" />
       <RootComponent type="1" schemaName="contact" behavior="2" />
       <RootComponent type="1" schemaName="customeraddress" behavior="2" />
       <RootComponent type="1" schemaName="mshied_academicperiod" behavior="0" />
@@ -100,11 +101,16 @@
       <RootComponent type="1" schemaName="mshied_previouseducation" behavior="0" />
       <RootComponent type="1" schemaName="mshied_program" behavior="0" />
       <RootComponent type="1" schemaName="mshied_programlevel" behavior="0" />
+      <RootComponent type="1" schemaName="mshied_programrequirement" behavior="0" />
+      <RootComponent type="1" schemaName="mshied_programversion" behavior="0" />
+      <RootComponent type="1" schemaName="mshied_programversiondetail" behavior="0" />
+      <RootComponent type="1" schemaName="mshied_recommendedstudentresource" behavior="0" />
       <RootComponent type="1" schemaName="mshied_registrationstatus" behavior="0" />
       <RootComponent type="1" schemaName="mshied_scholarship" behavior="0" />
       <RootComponent type="1" schemaName="mshied_scholarshipapplicant" behavior="0" />
       <RootComponent type="1" schemaName="mshied_scholarshipapplicationbusinessprocessflow" behavior="0" />
       <RootComponent type="1" schemaName="mshied_studentprogramtype" behavior="0" />
+      <RootComponent type="1" schemaName="mshied_studentresource" behavior="0" />
       <RootComponent type="1" schemaName="mshied_studentstatus" behavior="0" />
       <RootComponent type="1" schemaName="mshied_testscore" behavior="0" />
       <RootComponent type="1" schemaName="mshied_testtype" behavior="0" />
@@ -112,24 +118,54 @@
       <RootComponent type="1" schemaName="task" behavior="2" />
       <RootComponent type="9" schemaName="mshied_accomplishmenttype" behavior="0" />
       <RootComponent type="9" schemaName="mshied_applicationstatecode" behavior="0" />
+      <RootComponent type="9" schemaName="mshied_appointmentstatus" behavior="0" />
       <RootComponent type="9" schemaName="mshied_extensionstatus" behavior="0" />
       <RootComponent type="9" schemaName="mshied_scholarshiptype" behavior="0" />
       <RootComponent type="9" schemaName="mshied_sourcesystem" behavior="0" />
+      <RootComponent type="9" schemaName="mshied_studentresourcetype" behavior="0" />
       <RootComponent type="29" id="{040c650b-719b-43f1-905a-1dc6697de33b}" behavior="0" />
       <RootComponent type="29" id="{15526afb-b34f-45dd-a606-82c6d798835a}" behavior="0" />
+      <RootComponent type="29" id="{16b5ffe3-a608-eb11-a813-0022480822ca}" behavior="0" />
       <RootComponent type="29" id="{1ceab136-3925-4394-86c6-0783f967ca42}" behavior="0" />
+      <RootComponent type="29" id="{3e2932f2-6a02-eb11-a813-000d3a33f11e}" behavior="0" />
+      <RootComponent type="29" id="{47c746f8-881f-eb11-a813-000d3a378c4b}" behavior="0" />
+      <RootComponent type="29" id="{62033d5c-1104-eb11-a813-0022480822ca}" behavior="0" />
+      <RootComponent type="29" id="{6534584e-7ddb-4c25-b8be-05d93b1cfe0c}" behavior="0" />
+      <RootComponent type="29" id="{7d51d301-3857-4045-a83c-fa662470e0f9}" behavior="0" />
+      <RootComponent type="29" id="{81d7b095-6b02-eb11-a813-000d3a33f11e}" behavior="0" />
       <RootComponent type="29" id="{8ae827c1-47c0-49c5-a694-779710c67e2f}" behavior="0" />
+      <RootComponent type="29" id="{8ed60c3e-abe3-408b-9de3-631e6088ec26}" behavior="0" />
       <RootComponent type="29" id="{a1cb9b6c-4db8-4c5c-8879-5901e7006115}" behavior="0" />
       <RootComponent type="29" id="{a6dbf0e1-0b0e-4359-b5bd-7b4dd340c90b}" behavior="0" />
+      <RootComponent type="29" id="{bf68a6d3-e30e-4abc-98cb-8b635e72e233}" behavior="0" />
+      <RootComponent type="29" id="{c031d5ff-6d02-eb11-a813-0022480822ca}" behavior="0" />
       <RootComponent type="29" id="{ecbbc25e-762f-474e-9ea5-c89bb5234f31}" behavior="0" />
+      <RootComponent type="60" id="{0028f222-56d9-439f-b572-423649cf3d29}" behavior="0" />
+      <RootComponent type="60" id="{08ca35ed-4d19-4cbb-b751-d685f947280a}" behavior="0" />
       <RootComponent type="60" id="{10a86981-28ce-e811-a967-000d3a1c53e4}" behavior="0" />
+      <RootComponent type="60" id="{1b35c636-b886-4198-9af2-47d2d986610a}" behavior="0" />
+      <RootComponent type="60" id="{1d401d79-3159-4c2e-adc2-f85d7b511e69}" behavior="0" />
+      <RootComponent type="60" id="{2581d811-33f8-40d1-bdda-cf34dc0aa04e}" behavior="0" />
+      <RootComponent type="60" id="{549a8aa3-c349-4ab9-8bac-4873fa9a7a5c}" />
+      <RootComponent type="60" id="{5895e983-598b-4834-80f9-68a4e9f4f744}" />
+      <RootComponent type="60" id="{656cc4ad-235b-495b-8cb9-6174f9b09321}" />
+      <RootComponent type="60" id="{679f53ee-88bc-42e6-806c-cf9c5762c94b}" behavior="0" />
+      <RootComponent type="60" id="{722fb6c9-50e7-4e98-8ba4-9c756a5a8f91}" behavior="0" />
       <RootComponent type="60" id="{805b59a2-acdf-e911-a960-000d3a3b9b3d}" behavior="0" />
+      <RootComponent type="60" id="{8cf350f2-5b92-46ca-bfe9-5bdacd3de8ac}" behavior="0" />
       <RootComponent type="60" id="{91d14055-12b2-4d18-9e7c-59603e5a2295}" behavior="0" />
       <RootComponent type="60" id="{94eb6fcd-3aa2-4b1f-9eea-f23da74df76f}" />
+      <RootComponent type="60" id="{aa3edfd3-561a-4b83-942c-c1087737d3e3}" behavior="0" />
+      <RootComponent type="60" id="{b5624b8e-e9c1-4bcf-b350-068c24b0fb88}" behavior="0" />
       <RootComponent type="60" id="{d3ee6982-e236-4ec4-922a-48105dc85838}" />
+      <RootComponent type="60" id="{db95852f-1ff8-4137-b6f2-d7a4d7d6d5db}" behavior="0" />
       <RootComponent type="60" id="{dc419af9-8994-4f86-91db-8d0169c0ad4e}" />
       <RootComponent type="60" id="{ed828b48-04df-e911-a968-000d3a3b9825}" behavior="0" />
       <RootComponent type="60" id="{ef140875-b7e7-4469-809c-5f4ab700b1d1}" behavior="0" />
+      <RootComponent type="60" id="{fd9ab5c4-8adc-414e-9b53-dbdcfc551f75}" behavior="0" />
+      <RootComponent type="61" schemaName="mshied_/Scripts/Forms/contact.js" behavior="0" />
+      <RootComponent type="61" schemaName="mshied_/Scripts/Forms/mshied_testscore.js" behavior="0" />
+      <RootComponent type="61" schemaName="mshied_/Scripts/Utilities/formUtil.js" behavior="0" />
       <RootComponent type="61" schemaName="mshied_AcademicPeriod" behavior="0" />
       <RootComponent type="61" schemaName="mshied_AcademicPeriod16" behavior="0" />
       <RootComponent type="61" schemaName="mshied_academicperiodstatus" behavior="0" />
@@ -172,7 +208,19 @@
       <RootComponent type="61" schemaName="mshied_ProgramLevel" behavior="0" />
       <RootComponent type="61" schemaName="mshied_ProgramLevel16" behavior="0" />
       <RootComponent type="61" schemaName="mshied_ProgramLevelSVG" behavior="0" />
+      <RootComponent type="61" schemaName="mshied_ProgramRequirement.svg" behavior="0" />
+      <RootComponent type="61" schemaName="mshied_ProgramRequirement16.png" behavior="0" />
+      <RootComponent type="61" schemaName="mshied_ProgramRequirement32.png" behavior="0" />
       <RootComponent type="61" schemaName="mshied_ProgramSVG" behavior="0" />
+      <RootComponent type="61" schemaName="mshied_ProgramVersion" behavior="0" />
+      <RootComponent type="61" schemaName="mshied_ProgramVersion16" behavior="0" />
+      <RootComponent type="61" schemaName="mshied_ProgramVersionDetails" behavior="0" />
+      <RootComponent type="61" schemaName="mshied_ProgramVersionDetails16" behavior="0" />
+      <RootComponent type="61" schemaName="mshied_ProgramVersionDetailsSVG" behavior="0" />
+      <RootComponent type="61" schemaName="mshied_ProgramVersionSVG" behavior="0" />
+      <RootComponent type="61" schemaName="mshied_RecommendedStudentResource.svg" behavior="0" />
+      <RootComponent type="61" schemaName="mshied_RecommendedStudentResource16.png" behavior="0" />
+      <RootComponent type="61" schemaName="mshied_RecommendedStudentResource32.png" behavior="0" />
       <RootComponent type="61" schemaName="mshied_RegistrationStatus" behavior="0" />
       <RootComponent type="61" schemaName="mshied_RegistrationStatus16" behavior="0" />
       <RootComponent type="61" schemaName="mshied_RegistrationStatusSVG" behavior="0" />
@@ -197,6 +245,9 @@
       <RootComponent type="61" schemaName="mshied_StudentProgramType" behavior="0" />
       <RootComponent type="61" schemaName="mshied_StudentProgramType16" behavior="0" />
       <RootComponent type="61" schemaName="mshied_StudentProgramTypeSVG" behavior="0" />
+      <RootComponent type="61" schemaName="mshied_StudentResource.svg" behavior="0" />
+      <RootComponent type="61" schemaName="mshied_StudentResource16.png" behavior="0" />
+      <RootComponent type="61" schemaName="mshied_StudentResource32.png" behavior="0" />
       <RootComponent type="61" schemaName="mshied_TestScore" behavior="0" />
       <RootComponent type="61" schemaName="mshied_TestScore16" behavior="0" />
       <RootComponent type="61" schemaName="mshied_TestScoreSVG" behavior="0" />
@@ -211,12 +262,28 @@
         <Dependent key="1" type="60" displayName="Higher Education User Form" parentDisplayName="User" id="{91d14055-12b2-4d18-9e7c-59603e5a2295}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="2" type="26" schemaName="All Institutions" displayName="All Institutions" parentSchemaName="account" parentDisplayName="Account" solution="msdynce_AppCommon (9.0.4.0066)" id="{65ffaf9a-e8c5-432d-860b-32f841b00d87}" />
-        <Dependent key="2" type="26" schemaName="All Institutions" displayName="All Institutions" parentSchemaName="account" parentDisplayName="Account" id="{65ffaf9a-e8c5-432d-860b-32f841b00d87}" />
+        <Required key="2" type="60" displayName="Appointment quick create form." parentDisplayName="Appointment" solution="msdynce_Activities (9.0.1.2033)" id="{5895e983-598b-4834-80f9-68a4e9f4f744}" />
+        <Dependent key="2" type="60" displayName="Appointment quick create form." parentDisplayName="Appointment" id="{5895e983-598b-4834-80f9-68a4e9f4f744}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="3" type="61" schemaName="AppCommon/Contact/Contact_main_system_library.js" displayName="AppCommon/Contact/Contact_main_system_library.js" solution="msdynce_AppCommon (9.0.4.0066)" />
-        <Dependent key="4" type="60" displayName="Higher Education Faculty Form" parentDisplayName="Contact" id="{94eb6fcd-3aa2-4b1f-9eea-f23da74df76f}" />
+        <Required key="3" type="60" displayName="Appointment" parentDisplayName="Appointment" solution="msdynce_Activities (9.0.1.2033)" id="{549a8aa3-c349-4ab9-8bac-4873fa9a7a5c}" />
+        <Dependent key="3" type="60" displayName="Appointment" parentDisplayName="Appointment" id="{549a8aa3-c349-4ab9-8bac-4873fa9a7a5c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="4" type="61" schemaName="Activities/SystemLibraries/Appointment_main_system_library.js" displayName="Activities/SystemLibraries/Appointment_main_system_library.js" solution="msdynce_Activities (9.0.1.2033)" />
+        <Dependent key="3" type="60" displayName="Appointment" parentDisplayName="Appointment" id="{549a8aa3-c349-4ab9-8bac-4873fa9a7a5c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="5" type="61" schemaName="AppCommon/Contact/Contact_main_system_library.js" displayName="AppCommon/Contact/Contact_main_system_library.js" solution="msdynce_AppCommon (9.0.4.0066)" />
+        <Dependent key="6" type="60" displayName="Higher Education Student Form" parentDisplayName="Contact" id="{dc419af9-8994-4f86-91db-8d0169c0ad4e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="7" type="26" schemaName="All Institutions" displayName="All Institutions" parentSchemaName="account" parentDisplayName="Account" solution="msdynce_AppCommon (9.0.4.0066)" id="{65ffaf9a-e8c5-432d-860b-32f841b00d87}" />
+        <Dependent key="7" type="26" schemaName="All Institutions" displayName="All Institutions" parentSchemaName="account" parentDisplayName="Account" id="{65ffaf9a-e8c5-432d-860b-32f841b00d87}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="8" type="61" schemaName="msdyn_/Images/Area_Default_Icon.png" displayName="msdyn_/Images/Area_Default_Icon.png" solution="AppModuleWebResources (2.5)" />
+        <Dependent key="9" type="62" schemaName="mshied_HigherEd" />
       </MissingDependency>
     </MissingDependencies>
   </SolutionManifest>

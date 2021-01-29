@@ -17,7 +17,7 @@
     <ReferencingAttributeName>mshied_AcademicPeriodDetailsId</ReferencingAttributeName>
     <RelationshipDescription>
       <Descriptions>
-        <Description description="The academic period details record for the student" languagecode="1033" />
+        <Description description="The academic period details record in which student enrolls in the course." languagecode="1033" />
       </Descriptions>
     </RelationshipDescription>
     <EntityRelationshipRoles>

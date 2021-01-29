@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{5895e983-598b-4834-80f9-68a4e9f4f744}</formid>
+    <IntroducedVersion>9.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab id="{57f22b37-faf3-4a2b-b4a3-09e91aedc5df}" name="tab_1" showlabel="false" ordinalvalue="0">
+          <columns>
+            <column width="33%" id="0">
+              <sections>
+                <section id="{813bb7c4-c5ff-4c5a-b6ab-c01101d7bbd9}" name="tab_1_column_1_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell showlabel="true" locklevel="1" id="{ff43f51c-5e57-4346-bf81-b820f19ddf8e}" ordinalvalue="10000">
+                        <labels>
+                          <label description="Owner" languagecode="1033" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell auto="false" showlabel="true" locklevel="1" rowspan="1" colspan="1" id="{8901DF19-82EB-4BD3-B96B-CD3D4F5710D5}" labelid="{96c0e57a-cc1c-465f-8212-1f457dd78a53}" ordinalvalue="10001">
+                        <labels>
+                          <label description="Required Attendees" languagecode="1033" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell auto="false" showlabel="true" locklevel="0" rowspan="1" colspan="1" id="{3953269C-ABD1-4B75-8DDB-23D5BC088D65}" labelid="{894cad6e-5beb-412a-9de4-687c74e227ef}" ordinalvalue="10002">
+                        <labels>
+                          <label description="Optional Attendees" languagecode="1033" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b30b0e78-1a14-1824-d916-c11c41b7531b}" showlabel="true" locklevel="0" ordinalvalue="10003">
+                        <labels>
+                          <label description="Subject" languagecode="1033" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell colspan="1" id="{E15ACF1F-BA3E-4BC5-8AE5-AA3A290E7779}" labelid="{a6afc721-530f-40f5-96f4-99d4d71b83f0}" ordinalvalue="10004">
+                        <labels>
+                          <label description="Location" languagecode="1033" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%" id="1">
+              <sections>
+                <section id="{813bb7c4-c5ff-4c5a-b6ab-c01101d7bbd8}" name="tab_1_column_2_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{4ac67a81-bb43-d274-069e-d3aa48ac4002}" showlabel="true" locklevel="0" ordinalvalue="10000">
+                        <labels>
+                          <label description="Start Time" languagecode="1033" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0774774d-4d35-bb09-91e8-6304220ba5bb}" showlabel="true" locklevel="0" ordinalvalue="10001">
+                        <labels>
+                          <label description="End Time" languagecode="1033" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell auto="false" showlabel="true" locklevel="0" rowspan="1" colspan="1" id="{4899B6A9-00DC-46BF-B6C6-4809D6EAAA68}" labelid="{159df316-2418-45c4-90ff-6d082a6cefe7}" ordinalvalue="10002">
+                        <labels>
+                          <label description="All Day Event" languagecode="1033" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d926dea4-6519-522a-53b5-d45977e7d2a6}" showlabel="true" locklevel="0" ordinalvalue="10003">
+                        <labels>
+                          <label description="Duration" languagecode="1033" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%" id="2">
+              <sections>
+                <section id="{813bb7c4-c5ff-4c5a-b6ab-c01101d7bbd7}" name="tab_1_column_3_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{44548c24-8e8e-41ea-13d4-81de04963459}" showlabel="true" locklevel="0" ordinalvalue="10000">
+                        <labels>
+                          <label description="Description" languagecode="1033" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9a68993d-5c2b-7304-a741-c0aa97ab3738}" showlabel="true" locklevel="0" ordinalvalue="10001">
+                        <labels>
+                          <label description="Regarding" languagecode="1033" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{56640e52-70ee-49ed-a093-a0ab575763e5}" showlabel="true" locklevel="0" ordinalvalue="10002">
+                        <labels>
+                          <label description="Priority" languagecode="1033" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a56d7dec-4aac-4b78-9eda-3e9a8685c387}" locklevel="0" ordinalvalue="10003" solutionaction="Added">
+                        <labels>
+                          <label description="Status Reason" languagecode="1033" />
+                        </labels>
+                        <control id="statuscode" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="statuscode" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{10393484-1bb0-a73a-485e-d1d3c6512d13}" showlabel="true" locklevel="0" ordinalvalue="10004" solutionaction="Added">
+                        <labels>
+                          <label description="Appointment Status" languagecode="1033" />
+                        </labels>
+                        <control id="mshied_appointmentstatus" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="mshied_appointmentstatus" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Appointment quick create form." languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Appointment quick create form." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>
