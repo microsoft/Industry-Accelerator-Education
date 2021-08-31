@@ -48,14 +48,13 @@
         function onTestTypeChange() {
             hideSections(TAB_NAME, ALL_SECTIONS);
 
-            // None selected? Show all
+            var testTypeName;
             var testTypeValue = testTypeControl.getAttribute().getValue();
-            if (!testTypeValue || testTypeValue.length === 0) {
-                showSections(TAB_NAME, ALL_SECTIONS);
-                return;
+            if (testTypeValue && testTypeValue.length > 0 && testTypeValue[0].name) {
+                testTypeName = testTypeValue[0].name.toUpperCase();
             }
 
-            switch (testTypeValue[0].name) {
+            switch (testTypeName) {
                 case 'ACT':
                     showSection(TAB_NAME, 'act_section');
                     break;
@@ -74,7 +73,7 @@
                 case 'TOEFL':
                     showSection(TAB_NAME, 'toefl_section');
                     break;
-                case 'Other':
+                default:
                     showSections(TAB_NAME, ALL_SECTIONS);
                     break;
             }

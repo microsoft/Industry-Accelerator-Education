@@ -1,0 +1,1422 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.2.21064.148" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SolutionManifest>
+    <UniqueName>EducationAcceleratorK12Portal</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="Education Accelerator K12 Portal" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions />
+    <Version>3.2.3.10</Version>
+    <Managed>2</Managed>
+    <Publisher>
+      <UniqueName>educationacceleratorcommon</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="Dynamics 365 Education" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions>
+        <Description description="Education Accelerator Common" languagecode="1033" />
+      </Descriptions>
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>mshied</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>49428</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="activitypointer" behavior="2" />
+      <RootComponent type="1" schemaName="contact" behavior="2" />
+      <RootComponent type="1" schemaName="letter" behavior="2" />
+      <RootComponent type="1" schemaName="mshied_assessment" behavior="2" />
+      <RootComponent type="1" schemaName="mshied_assessmentdelivery" behavior="2" />
+      <RootComponent type="1" schemaName="mshied_assessmentscore" behavior="2" />
+      <RootComponent type="1" schemaName="mshied_attendance" behavior="2" />
+      <RootComponent type="1" schemaName="mshied_behaviorincident" behavior="2" />
+      <RootComponent type="1" schemaName="mshied_coursesection" behavior="2" />
+      <RootComponent type="1" schemaName="mshied_educationcontent" behavior="2" />
+      <RootComponent type="1" schemaName="mshied_extracurricularactivities" behavior="2" />
+      <RootComponent type="1" schemaName="mshied_extracurricularparticipant" behavior="2" />
+      <RootComponent type="1" schemaName="mshied_intervention" behavior="2" />
+      <RootComponent type="1" schemaName="mshied_interventionparticipant" behavior="2" />
+      <RootComponent type="1" schemaName="mshied_learningstandard" behavior="2" />
+      <RootComponent type="1" schemaName="mshied_testscore" behavior="2" />
+      <RootComponent type="1" schemaName="task" behavior="2" />
+      <RootComponent type="29" id="{845dc2ad-74a4-41b5-a634-0daa0acf2db3}" behavior="0" />
+      <RootComponent type="29" id="{92b302fe-7c86-eb11-a812-000d3a59397a}" behavior="0" />
+      <RootComponent type="29" id="{9b63158c-8086-eb11-a812-000d3a59397a}" behavior="0" />
+      <RootComponent type="60" id="{046ce8a6-4250-4ca6-9137-d9f6be2816a9}" behavior="0" />
+      <RootComponent type="60" id="{0e082f70-a328-4afa-8841-69f153307042}" behavior="0" />
+      <RootComponent type="60" id="{174bfd7f-a235-4484-8aa5-72a69f9fb2eb}" behavior="0" />
+      <RootComponent type="60" id="{1ec5a783-6ab7-4244-bafb-adc586123aa8}" behavior="0" />
+      <RootComponent type="60" id="{211d2042-f718-4559-8c7f-f5da4caa4d04}" behavior="0" />
+      <RootComponent type="60" id="{28987114-8ed2-4ca1-8da7-7c4946d58dec}" behavior="0" />
+      <RootComponent type="60" id="{4e6dca57-7448-4eff-91ca-2603e64347b6}" behavior="0" />
+      <RootComponent type="60" id="{541c3d9c-99f6-4c47-be56-784f29c376b9}" behavior="0" />
+      <RootComponent type="60" id="{550ffb3b-6817-490f-aad4-d77ee1e8374c}" behavior="0" />
+      <RootComponent type="60" id="{70a2c8b0-3425-49b5-a9a5-6009c9b4b0da}" behavior="0" />
+      <RootComponent type="60" id="{7d1eedef-9419-45c5-8550-86a3d0589411}" behavior="0" />
+      <RootComponent type="60" id="{b5d5940a-ddcc-4338-9b12-314b72405f0b}" behavior="0" />
+      <RootComponent type="60" id="{c16a4124-68d2-40c6-a46b-70f79a745b56}" behavior="0" />
+      <RootComponent type="60" id="{dbbc702a-bdfa-4eb9-aefe-577949be2bfa}" behavior="0" />
+      <RootComponent type="60" id="{defb79e3-f3ce-45e0-9904-8f3b2a28ba55}" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required type="1" schemaName="mshied_assessment" displayName="Assessment" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="1" schemaName="mshied_assessment" displayName="Assessment" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mshied_assessment" displayName="Assessment" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Active Assessments" displayName="K12 Portal Active Assessments" parentSchemaName="mshied_assessment" parentDisplayName="Assessment" id="{539be30b-927d-ea11-a812-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mshied_assessmentdelivery" displayName="Assessment Delivery" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="1" schemaName="mshied_assessmentdelivery" displayName="Assessment Delivery" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mshied_assessmentdelivery" displayName="Assessment Delivery" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Active Assessment Deliveries" displayName="K12 Portal Active Assessment Deliveries" parentSchemaName="mshied_assessmentdelivery" parentDisplayName="Assessment Delivery" id="{a8de3b6d-917d-ea11-a812-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mshied_assessmentdelivery" displayName="Assessment Delivery" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Assessment Delivery Form" parentDisplayName="Assessment Delivery" id="{dbbc702a-bdfa-4eb9-aefe-577949be2bfa}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mshied_assessmentscore" displayName="Assessment Score" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="1" schemaName="mshied_assessmentscore" displayName="Assessment Score" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mshied_assessmentscore" displayName="Assessment Score" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Active Assessment Scores" displayName="K12 Portal Active Assessment Scores" parentSchemaName="mshied_assessmentscore" parentDisplayName="Assessment Score" id="{58c20dfc-8e73-ea11-a811-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mshied_assessmentscore" displayName="Assessment Score" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Assessment Score" parentDisplayName="Assessment Score" id="{c16a4124-68d2-40c6-a46b-70f79a745b56}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mshied_assessmentscore" displayName="Assessment Score" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Assessment Delivery Form" parentDisplayName="Assessment Delivery" id="{dbbc702a-bdfa-4eb9-aefe-577949be2bfa}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mshied_attendance" displayName="Attendance" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="1" schemaName="mshied_attendance" displayName="Attendance" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mshied_attendance" displayName="Attendance" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="2" schemaName="mshied_attendancesummaryfortheportal" displayName="Attendance summary for the portal" parentSchemaName="mshied_attendance" parentDisplayName="Attendance" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mshied_attendance" displayName="Attendance" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Attendances" displayName="K12 Portal Attendances" parentSchemaName="mshied_attendance" parentDisplayName="Attendance" id="{0e97940c-b572-ea11-a811-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mshied_attendance" displayName="Attendance" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Calendar View" displayName="K12 Portal Calendar View" parentSchemaName="mshied_attendance" parentDisplayName="Attendance" id="{e7a92959-31d3-eb11-bacc-000d3a5b8e71}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mshied_attendance" displayName="Attendance" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="29" displayName="Attendance - Update Attendance Summary on Create/Update" id="{845dc2ad-74a4-41b5-a634-0daa0acf2db3}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mshied_attendance" displayName="Attendance" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="29" displayName="Check Is Tardy  ?" id="{92b302fe-7c86-eb11-a812-000d3a59397a}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mshied_attendance" displayName="Attendance" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="29" displayName="Check Is Excused" id="{9b63158c-8086-eb11-a812-000d3a59397a}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mshied_attendance" displayName="Attendance" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Attendance" parentDisplayName="Attendance" id="{174bfd7f-a235-4484-8aa5-72a69f9fb2eb}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mshied_behaviorincident" displayName="Behavior Incident" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="1" schemaName="mshied_behaviorincident" displayName="Behavior Incident" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mshied_behaviorincident" displayName="Behavior Incident" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Active Behavior Incidents" displayName="K12 Portal Active Behavior Incidents" parentSchemaName="mshied_behaviorincident" parentDisplayName="Behavior Incident" id="{29048a68-146e-ea11-a811-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mshied_behaviorincident" displayName="Behavior Incident" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Behavior Incident Form" parentDisplayName="Behavior Incident" id="{7d1eedef-9419-45c5-8550-86a3d0589411}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mshied_course" displayName="Course" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Education Content Form" parentDisplayName="Education Content" id="{70a2c8b0-3425-49b5-a9a5-6009c9b4b0da}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mshied_coursesection" displayName="Course Section" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="1" schemaName="mshied_coursesection" displayName="Course Section" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mshied_coursesection" displayName="Course Section" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Active Course Section" displayName="K12 Portal Active Course Section" parentSchemaName="mshied_coursesection" parentDisplayName="Course Section" id="{c79d7f51-136e-ea11-a811-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mshied_coursesection" displayName="Course Section" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Course Section Form" parentDisplayName="Course Section" id="{1ec5a783-6ab7-4244-bafb-adc586123aa8}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mshied_educationcontent" displayName="Education Content" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="1" schemaName="mshied_educationcontent" displayName="Education Content" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mshied_educationcontent" displayName="Education Content" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Active Education Contents" displayName="K12 Portal Active Education Contents" parentSchemaName="mshied_educationcontent" parentDisplayName="Education Content" id="{fa2c0ad7-136e-ea11-a811-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mshied_educationcontent" displayName="Education Content" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Education Content Form" parentDisplayName="Education Content" id="{70a2c8b0-3425-49b5-a9a5-6009c9b4b0da}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mshied_externalsystemidentifier" displayName="External System Identifier" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Faculty Form" parentDisplayName="Contact" id="{b5d5940a-ddcc-4338-9b12-314b72405f0b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mshied_extracurricularactivities" displayName="Extra Curricular Activity" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="1" schemaName="mshied_extracurricularactivities" displayName="Extra Curricular Activity" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mshied_extracurricularactivities" displayName="Extra Curricular Activity" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Active Extra Curricular Activities" displayName="K12 Portal Active Extra Curricular Activities" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" id="{64c9f280-106e-ea11-a811-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mshied_extracurricularactivities" displayName="Extra Curricular Activity" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Extra Curricular Activity Form" parentDisplayName="Extra Curricular Activity" id="{0e082f70-a328-4afa-8841-69f153307042}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mshied_extracurricularparticipant" displayName="Extra Curricular Participant" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="1" schemaName="mshied_extracurricularparticipant" displayName="Extra Curricular Participant" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mshied_extracurricularparticipant" displayName="Extra Curricular Participant" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal EC Activity Participant" displayName="K12 Portal EC Activity Participant" parentSchemaName="mshied_extracurricularparticipant" parentDisplayName="Extra Curricular Participant" id="{09b41d0f-8673-ea11-a811-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mshied_extracurricularparticipant" displayName="Extra Curricular Participant" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal EC Activity Participant Form" parentDisplayName="Extra Curricular Participant" id="{211d2042-f718-4559-8c7f-f5da4caa4d04}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mshied_intervention" displayName="Intervention" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="1" schemaName="mshied_intervention" displayName="Intervention" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mshied_intervention" displayName="Intervention" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Active Interventions" displayName="K12 Portal Active Interventions" parentSchemaName="mshied_intervention" parentDisplayName="Intervention" id="{29f0bdb6-146e-ea11-a811-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mshied_intervention" displayName="Intervention" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Intervention Form" parentDisplayName="Intervention" id="{4e6dca57-7448-4eff-91ca-2603e64347b6}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mshied_intervention" displayName="Intervention" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Education Content Form" parentDisplayName="Education Content" id="{70a2c8b0-3425-49b5-a9a5-6009c9b4b0da}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mshied_interventionparticipant" displayName="Intervention Participant" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="1" schemaName="mshied_interventionparticipant" displayName="Intervention Participant" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mshied_interventionparticipant" displayName="Intervention Participant" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Active Intervention Participants" displayName="K12 Portal Active Intervention Participants" parentSchemaName="mshied_interventionparticipant" parentDisplayName="Intervention Participant" id="{ac197abc-2574-ea11-a811-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mshied_interventionparticipant" displayName="Intervention Participant" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Intervention Participant" parentDisplayName="Intervention Participant" id="{defb79e3-f3ce-45e0-9904-8f3b2a28ba55}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mshied_learningstandard" displayName="Learning Standard" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="1" schemaName="mshied_learningstandard" displayName="Learning Standard" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mshied_learningstandard" displayName="Learning Standard" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Active Learning Standards" displayName="K12 Portal Active Learning Standards" parentSchemaName="mshied_learningstandard" parentDisplayName="Learning Standard" id="{f6cb341a-146e-ea11-a811-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mshied_learningstandard" displayName="Learning Standard" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Learning Standard Form" parentDisplayName="Learning Standard" id="{550ffb3b-6817-490f-aad4-d77ee1e8374c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mshied_testscore" displayName="Test Score" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="1" schemaName="mshied_testscore" displayName="Test Score" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mshied_testscore" displayName="Test Score" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Active Test Scores" displayName="K12 Portal Active Test Scores" parentSchemaName="mshied_testscore" parentDisplayName="Test Score" id="{b824838d-136e-ea11-a811-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="mshied_EducationContent_Contact_Contact" displayName="mshied_EducationContent_Contact_Contact" parentSchemaName="contact" parentDisplayName="Contact" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Education Content Form" parentDisplayName="Education Content" id="{70a2c8b0-3425-49b5-a9a5-6009c9b4b0da}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="mshied_ExternalSystemIdentifier_Contact_C" displayName="mshied_ExternalSystemIdentifier_Contact_C" parentSchemaName="contact" parentDisplayName="Contact" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Faculty Form" parentDisplayName="Contact" id="{b5d5940a-ddcc-4338-9b12-314b72405f0b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="mshied_AssessmentDelivery_AssessmentId_ms" displayName="mshied_AssessmentDelivery_AssessmentId_ms" parentSchemaName="mshied_assessmentdelivery" parentDisplayName="Assessment Delivery" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Assessment Delivery Form" parentDisplayName="Assessment Delivery" id="{dbbc702a-bdfa-4eb9-aefe-577949be2bfa}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="mshied_AssessmentDelivery_AssessmentPerio" displayName="mshied_AssessmentDelivery_AssessmentPerio" parentSchemaName="mshied_assessmentdelivery" parentDisplayName="Assessment Delivery" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Assessment Delivery Form" parentDisplayName="Assessment Delivery" id="{dbbc702a-bdfa-4eb9-aefe-577949be2bfa}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="mshied_AssessmentDelivery_CourseSectionId" displayName="mshied_AssessmentDelivery_CourseSectionId" parentSchemaName="mshied_assessmentdelivery" parentDisplayName="Assessment Delivery" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Assessment Delivery Form" parentDisplayName="Assessment Delivery" id="{dbbc702a-bdfa-4eb9-aefe-577949be2bfa}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="mshied_AssessmentScore_AssessmentDelivery" displayName="mshied_AssessmentScore_AssessmentDelivery" parentSchemaName="mshied_assessmentscore" parentDisplayName="Assessment Score" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Assessment Score" parentDisplayName="Assessment Score" id="{c16a4124-68d2-40c6-a46b-70f79a745b56}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="mshied_AssessmentScore_AssessmentDelivery" displayName="mshied_AssessmentScore_AssessmentDelivery" parentSchemaName="mshied_assessmentscore" parentDisplayName="Assessment Score" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Assessment Delivery Form" parentDisplayName="Assessment Delivery" id="{dbbc702a-bdfa-4eb9-aefe-577949be2bfa}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="mshied_AssessmentScore_AssessmentType_msh" displayName="mshied_AssessmentScore_AssessmentType_msh" parentSchemaName="mshied_assessmentscore" parentDisplayName="Assessment Score" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Assessment Score" parentDisplayName="Assessment Score" id="{c16a4124-68d2-40c6-a46b-70f79a745b56}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="mshied_AssessmentScore_Student_Contact" displayName="mshied_AssessmentScore_Student_Contact" parentSchemaName="mshied_assessmentscore" parentDisplayName="Assessment Score" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Assessment Score" parentDisplayName="Assessment Score" id="{c16a4124-68d2-40c6-a46b-70f79a745b56}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="mshied_Attendance_CourseSectionID_mshied_" displayName="mshied_Attendance_CourseSectionID_mshied_" parentSchemaName="mshied_attendance" parentDisplayName="Attendance" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Attendance" parentDisplayName="Attendance" id="{174bfd7f-a235-4484-8aa5-72a69f9fb2eb}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="mshied_Attendance_Studentid_Contact" displayName="mshied_Attendance_Studentid_Contact" parentSchemaName="mshied_attendance" parentDisplayName="Attendance" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Attendance" parentDisplayName="Attendance" id="{174bfd7f-a235-4484-8aa5-72a69f9fb2eb}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="mshied_BehaviorIncident_AcademicPeriodId_" displayName="mshied_BehaviorIncident_AcademicPeriodId_" parentSchemaName="mshied_behaviorincident" parentDisplayName="Behavior Incident" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Behavior Incident Form" parentDisplayName="Behavior Incident" id="{7d1eedef-9419-45c5-8550-86a3d0589411}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="mshied_IncidentType_mshied_IncidentType_m" displayName="mshied_IncidentType_mshied_IncidentType_m" parentSchemaName="mshied_behaviorincident" parentDisplayName="Behavior Incident" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Behavior Incident Form" parentDisplayName="Behavior Incident" id="{7d1eedef-9419-45c5-8550-86a3d0589411}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="mshied_EducationContent_mshied_course_msh" displayName="mshied_EducationContent_mshied_course_msh" parentSchemaName="mshied_course" parentDisplayName="Course" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Education Content Form" parentDisplayName="Education Content" id="{70a2c8b0-3425-49b5-a9a5-6009c9b4b0da}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="mshied_academicperiod_coursesection_AcademicPeriod" displayName="mshied_academicperiod_coursesection_AcademicPeriod" parentSchemaName="mshied_coursesection" parentDisplayName="Course Section" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Course Section Form" parentDisplayName="Course Section" id="{1ec5a783-6ab7-4244-bafb-adc586123aa8}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="mshied_account_coursesection_CampusId" displayName="mshied_account_coursesection_CampusId" parentSchemaName="mshied_coursesection" parentDisplayName="Course Section" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Course Section Form" parentDisplayName="Course Section" id="{1ec5a783-6ab7-4244-bafb-adc586123aa8}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="mshied_contact_coursesection_InstructorId" displayName="mshied_contact_coursesection_InstructorId" parentSchemaName="mshied_coursesection" parentDisplayName="Course Section" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Course Section Form" parentDisplayName="Course Section" id="{1ec5a783-6ab7-4244-bafb-adc586123aa8}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="mshied_mshied_externalsystem_contact_ExternalSystem" displayName="mshied_mshied_externalsystem_contact_ExternalSystem" parentSchemaName="mshied_externalsystem" parentDisplayName="External System" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Faculty Form" parentDisplayName="Contact" id="{b5d5940a-ddcc-4338-9b12-314b72405f0b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="mshied_contact_extracurricularactivities_PrimaryContactId" displayName="mshied_contact_extracurricularactivities_PrimaryContactId" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Extra Curricular Activity Form" parentDisplayName="Extra Curricular Activity" id="{0e082f70-a328-4afa-8841-69f153307042}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="mshied_contact_extracurricularparticipant_ContactId" displayName="mshied_contact_extracurricularparticipant_ContactId" parentSchemaName="mshied_extracurricularparticipant" parentDisplayName="Extra Curricular Participant" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal EC Activity Participant Form" parentDisplayName="Extra Curricular Participant" id="{211d2042-f718-4559-8c7f-f5da4caa4d04}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="mshied_extracurricularactivities_extracurricularparticipant_ExtraCurricularActivityId" displayName="mshied_extracurricularactivities_extracurricularparticipant_ExtraCurricularActivityId" parentSchemaName="mshied_extracurricularparticipant" parentDisplayName="Extra Curricular Participant" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal EC Activity Participant Form" parentDisplayName="Extra Curricular Participant" id="{211d2042-f718-4559-8c7f-f5da4caa4d04}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="mshied_EducationContent_mshied_Interventi" displayName="mshied_EducationContent_mshied_Interventi" parentSchemaName="mshied_intervention" parentDisplayName="Intervention" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Education Content Form" parentDisplayName="Education Content" id="{70a2c8b0-3425-49b5-a9a5-6009c9b4b0da}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="mshied_Intervention_AcademicPeriodId_mshi" displayName="mshied_Intervention_AcademicPeriodId_mshi" parentSchemaName="mshied_intervention" parentDisplayName="Intervention" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Intervention Form" parentDisplayName="Intervention" id="{4e6dca57-7448-4eff-91ca-2603e64347b6}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="mshied_Intervention_CourseSectionId_mshie" displayName="mshied_Intervention_CourseSectionId_mshie" parentSchemaName="mshied_intervention" parentDisplayName="Intervention" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Intervention Form" parentDisplayName="Intervention" id="{4e6dca57-7448-4eff-91ca-2603e64347b6}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="mshied_Intervention_InstructorId_Contact" displayName="mshied_Intervention_InstructorId_Contact" parentSchemaName="mshied_intervention" parentDisplayName="Intervention" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Intervention Form" parentDisplayName="Intervention" id="{4e6dca57-7448-4eff-91ca-2603e64347b6}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="mshied_InterventionParticipant_Interventi" displayName="mshied_InterventionParticipant_Interventi" parentSchemaName="mshied_interventionparticipant" parentDisplayName="Intervention Participant" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Intervention Participant" parentDisplayName="Intervention Participant" id="{defb79e3-f3ce-45e0-9904-8f3b2a28ba55}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="mshied_InterventionParticipant_StudentId_" displayName="mshied_InterventionParticipant_StudentId_" parentSchemaName="mshied_interventionparticipant" parentDisplayName="Intervention Participant" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Intervention Participant" parentDisplayName="Intervention Participant" id="{defb79e3-f3ce-45e0-9904-8f3b2a28ba55}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="mshied_contact_testscore_StudentID" displayName="mshied_contact_testscore_StudentID" parentSchemaName="mshied_testscore" parentDisplayName="Test Score" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="60" displayName="Portal K12 Test Scores" parentDisplayName="Test Score" id="{541c3d9c-99f6-4c47-be56-784f29c376b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="mshied_testtype_testscore_TestTypeId" displayName="mshied_testtype_testscore_TestTypeId" parentSchemaName="mshied_testscore" parentDisplayName="Test Score" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="60" displayName="Portal K12 Test Scores" parentDisplayName="Test Score" id="{541c3d9c-99f6-4c47-be56-784f29c376b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_contacttype" displayName="Contact Type" parentSchemaName="contact" parentDisplayName="Contact" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Active Faculty" displayName="K12 Portal Active Faculty" parentSchemaName="contact" parentDisplayName="Contact" id="{38e715df-0f6e-ea11-a811-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_contacttype" displayName="Contact Type" parentSchemaName="contact" parentDisplayName="Contact" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Faculty Form" parentDisplayName="Contact" id="{b5d5940a-ddcc-4338-9b12-314b72405f0b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_externalidentifier" displayName="External Identifier" parentSchemaName="contact" parentDisplayName="Contact" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Faculty Form" parentDisplayName="Contact" id="{b5d5940a-ddcc-4338-9b12-314b72405f0b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_externalsystem" displayName="External System" parentSchemaName="contact" parentDisplayName="Contact" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Faculty Form" parentDisplayName="Contact" id="{b5d5940a-ddcc-4338-9b12-314b72405f0b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_academicsubject" displayName="Academic Subject" parentSchemaName="mshied_assessment" parentDisplayName="Assessment" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Active Assessments" displayName="K12 Portal Active Assessments" parentSchemaName="mshied_assessment" parentDisplayName="Assessment" id="{539be30b-927d-ea11-a812-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_assessmentid" displayName="Assessment" parentSchemaName="mshied_assessment" parentDisplayName="Assessment" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Active Assessments" displayName="K12 Portal Active Assessments" parentSchemaName="mshied_assessment" parentDisplayName="Assessment" id="{539be30b-927d-ea11-a812-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_assessmenttypeid" displayName="Assessment Type" parentSchemaName="mshied_assessment" parentDisplayName="Assessment" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Active Assessments" displayName="K12 Portal Active Assessments" parentSchemaName="mshied_assessment" parentDisplayName="Assessment" id="{539be30b-927d-ea11-a812-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_maxrawscore" displayName="Max Raw Score" parentSchemaName="mshied_assessment" parentDisplayName="Assessment" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Active Assessments" displayName="K12 Portal Active Assessments" parentSchemaName="mshied_assessment" parentDisplayName="Assessment" id="{539be30b-927d-ea11-a812-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_name" displayName="Name" parentSchemaName="mshied_assessment" parentDisplayName="Assessment" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Active Assessments" displayName="K12 Portal Active Assessments" parentSchemaName="mshied_assessment" parentDisplayName="Assessment" id="{539be30b-927d-ea11-a812-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="mshied_assessment" parentDisplayName="Assessment" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Active Assessments" displayName="K12 Portal Active Assessments" parentSchemaName="mshied_assessment" parentDisplayName="Assessment" id="{539be30b-927d-ea11-a812-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_assessmentdate" displayName="Assessment Date" parentSchemaName="mshied_assessmentdelivery" parentDisplayName="Assessment Delivery" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Active Assessment Deliveries" displayName="K12 Portal Active Assessment Deliveries" parentSchemaName="mshied_assessmentdelivery" parentDisplayName="Assessment Delivery" id="{a8de3b6d-917d-ea11-a812-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_assessmentdate" displayName="Assessment Date" parentSchemaName="mshied_assessmentdelivery" parentDisplayName="Assessment Delivery" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Assessment Delivery Form" parentDisplayName="Assessment Delivery" id="{dbbc702a-bdfa-4eb9-aefe-577949be2bfa}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_assessmentdeliveryid" displayName="Assessment Delivery" parentSchemaName="mshied_assessmentdelivery" parentDisplayName="Assessment Delivery" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Active Assessment Deliveries" displayName="K12 Portal Active Assessment Deliveries" parentSchemaName="mshied_assessmentdelivery" parentDisplayName="Assessment Delivery" id="{a8de3b6d-917d-ea11-a812-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_assessmentid" displayName="Assessment " parentSchemaName="mshied_assessmentdelivery" parentDisplayName="Assessment Delivery" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Assessment Delivery Form" parentDisplayName="Assessment Delivery" id="{dbbc702a-bdfa-4eb9-aefe-577949be2bfa}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_assessmentperiod" displayName="Assessment Period" parentSchemaName="mshied_assessmentdelivery" parentDisplayName="Assessment Delivery" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Active Assessment Deliveries" displayName="K12 Portal Active Assessment Deliveries" parentSchemaName="mshied_assessmentdelivery" parentDisplayName="Assessment Delivery" id="{a8de3b6d-917d-ea11-a812-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_assessmentperiod" displayName="Assessment Period" parentSchemaName="mshied_assessmentdelivery" parentDisplayName="Assessment Delivery" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Assessment Delivery Form" parentDisplayName="Assessment Delivery" id="{dbbc702a-bdfa-4eb9-aefe-577949be2bfa}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_coursesectionid" displayName="Course Section" parentSchemaName="mshied_assessmentdelivery" parentDisplayName="Assessment Delivery" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Active Assessment Deliveries" displayName="K12 Portal Active Assessment Deliveries" parentSchemaName="mshied_assessmentdelivery" parentDisplayName="Assessment Delivery" id="{a8de3b6d-917d-ea11-a812-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_coursesectionid" displayName="Course Section" parentSchemaName="mshied_assessmentdelivery" parentDisplayName="Assessment Delivery" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Assessment Delivery Form" parentDisplayName="Assessment Delivery" id="{dbbc702a-bdfa-4eb9-aefe-577949be2bfa}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_name" displayName="Name" parentSchemaName="mshied_assessmentdelivery" parentDisplayName="Assessment Delivery" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Active Assessment Deliveries" displayName="K12 Portal Active Assessment Deliveries" parentSchemaName="mshied_assessmentdelivery" parentDisplayName="Assessment Delivery" id="{a8de3b6d-917d-ea11-a812-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_name" displayName="Name" parentSchemaName="mshied_assessmentdelivery" parentDisplayName="Assessment Delivery" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Assessment Delivery Form" parentDisplayName="Assessment Delivery" id="{dbbc702a-bdfa-4eb9-aefe-577949be2bfa}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="mshied_assessmentdelivery" parentDisplayName="Assessment Delivery" solution="Active" />
+        <Dependent type="60" displayName="K12 Portal Assessment Delivery Form" parentDisplayName="Assessment Delivery" id="{dbbc702a-bdfa-4eb9-aefe-577949be2bfa}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="mshied_assessmentdelivery" parentDisplayName="Assessment Delivery" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Active Assessment Deliveries" displayName="K12 Portal Active Assessment Deliveries" parentSchemaName="mshied_assessmentdelivery" parentDisplayName="Assessment Delivery" id="{a8de3b6d-917d-ea11-a812-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_assessmentdate" displayName="Assessment Date" parentSchemaName="mshied_assessmentscore" parentDisplayName="Assessment Score" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Active Assessment Scores" displayName="K12 Portal Active Assessment Scores" parentSchemaName="mshied_assessmentscore" parentDisplayName="Assessment Score" id="{58c20dfc-8e73-ea11-a811-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_assessmentdate" displayName="Assessment Date" parentSchemaName="mshied_assessmentscore" parentDisplayName="Assessment Score" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Assessment Score" parentDisplayName="Assessment Score" id="{c16a4124-68d2-40c6-a46b-70f79a745b56}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_assessmentdelivery" displayName="Assessment Delivery" parentSchemaName="mshied_assessmentscore" parentDisplayName="Assessment Score" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Active Assessment Scores" displayName="K12 Portal Active Assessment Scores" parentSchemaName="mshied_assessmentscore" parentDisplayName="Assessment Score" id="{58c20dfc-8e73-ea11-a811-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_assessmentdelivery" displayName="Assessment Delivery" parentSchemaName="mshied_assessmentscore" parentDisplayName="Assessment Score" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Assessment Score" parentDisplayName="Assessment Score" id="{c16a4124-68d2-40c6-a46b-70f79a745b56}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_assessmentscore" displayName="Assessment Score" parentSchemaName="mshied_assessmentscore" parentDisplayName="Assessment Score" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Active Assessment Scores" displayName="K12 Portal Active Assessment Scores" parentSchemaName="mshied_assessmentscore" parentDisplayName="Assessment Score" id="{58c20dfc-8e73-ea11-a811-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_assessmentscore" displayName="Assessment Score" parentSchemaName="mshied_assessmentscore" parentDisplayName="Assessment Score" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Assessment Score" parentDisplayName="Assessment Score" id="{c16a4124-68d2-40c6-a46b-70f79a745b56}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_assessmentscoreid" displayName="Assessment Score" parentSchemaName="mshied_assessmentscore" parentDisplayName="Assessment Score" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Active Assessment Scores" displayName="K12 Portal Active Assessment Scores" parentSchemaName="mshied_assessmentscore" parentDisplayName="Assessment Score" id="{58c20dfc-8e73-ea11-a811-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_assessmenttype" displayName="Assessment Type" parentSchemaName="mshied_assessmentscore" parentDisplayName="Assessment Score" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Assessment Score" parentDisplayName="Assessment Score" id="{c16a4124-68d2-40c6-a46b-70f79a745b56}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_name" displayName="Name" parentSchemaName="mshied_assessmentscore" parentDisplayName="Assessment Score" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Assessment Score" parentDisplayName="Assessment Score" id="{c16a4124-68d2-40c6-a46b-70f79a745b56}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_student" displayName="Student" parentSchemaName="mshied_assessmentscore" parentDisplayName="Assessment Score" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Active Assessment Scores" displayName="K12 Portal Active Assessment Scores" parentSchemaName="mshied_assessmentscore" parentDisplayName="Assessment Score" id="{58c20dfc-8e73-ea11-a811-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_student" displayName="Student" parentSchemaName="mshied_assessmentscore" parentDisplayName="Assessment Score" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Assessment Score" parentDisplayName="Assessment Score" id="{c16a4124-68d2-40c6-a46b-70f79a745b56}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="mshied_assessmentscore" parentDisplayName="Assessment Score" solution="Active" />
+        <Dependent type="60" displayName="K12 Portal Assessment Score" parentDisplayName="Assessment Score" id="{c16a4124-68d2-40c6-a46b-70f79a745b56}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="mshied_assessmentscore" parentDisplayName="Assessment Score" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Active Assessment Scores" displayName="K12 Portal Active Assessment Scores" parentSchemaName="mshied_assessmentscore" parentDisplayName="Assessment Score" id="{58c20dfc-8e73-ea11-a811-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_attendancedate" displayName="Attendance Date" parentSchemaName="mshied_attendance" parentDisplayName="Attendance" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Attendances" displayName="K12 Portal Attendances" parentSchemaName="mshied_attendance" parentDisplayName="Attendance" id="{0e97940c-b572-ea11-a811-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_attendancedate" displayName="Attendance Date" parentSchemaName="mshied_attendance" parentDisplayName="Attendance" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Calendar View" displayName="K12 Portal Calendar View" parentSchemaName="mshied_attendance" parentDisplayName="Attendance" id="{e7a92959-31d3-eb11-bacc-000d3a5b8e71}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_attendancedate" displayName="Attendance Date" parentSchemaName="mshied_attendance" parentDisplayName="Attendance" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="29" displayName="Attendance - Update Attendance Summary on Create/Update" id="{845dc2ad-74a4-41b5-a634-0daa0acf2db3}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_attendancedate" displayName="Attendance Date" parentSchemaName="mshied_attendance" parentDisplayName="Attendance" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Attendance" parentDisplayName="Attendance" id="{174bfd7f-a235-4484-8aa5-72a69f9fb2eb}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_attendanceid" displayName="Attendance" parentSchemaName="mshied_attendance" parentDisplayName="Attendance" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Attendances" displayName="K12 Portal Attendances" parentSchemaName="mshied_attendance" parentDisplayName="Attendance" id="{0e97940c-b572-ea11-a811-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_attendanceid" displayName="Attendance" parentSchemaName="mshied_attendance" parentDisplayName="Attendance" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Calendar View" displayName="K12 Portal Calendar View" parentSchemaName="mshied_attendance" parentDisplayName="Attendance" id="{e7a92959-31d3-eb11-bacc-000d3a5b8e71}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_attendanceid" displayName="Attendance" parentSchemaName="mshied_attendance" parentDisplayName="Attendance" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="29" displayName="Attendance - Update Attendance Summary on Create/Update" id="{845dc2ad-74a4-41b5-a634-0daa0acf2db3}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_attendanceid" displayName="Attendance" parentSchemaName="mshied_attendance" parentDisplayName="Attendance" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="29" displayName="Check Is Tardy  ?" id="{92b302fe-7c86-eb11-a812-000d3a59397a}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_attendanceid" displayName="Attendance" parentSchemaName="mshied_attendance" parentDisplayName="Attendance" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="29" displayName="Check Is Excused" id="{9b63158c-8086-eb11-a812-000d3a59397a}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_coursesectionid" displayName="Course Section" parentSchemaName="mshied_attendance" parentDisplayName="Attendance" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Attendances" displayName="K12 Portal Attendances" parentSchemaName="mshied_attendance" parentDisplayName="Attendance" id="{0e97940c-b572-ea11-a811-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_coursesectionid" displayName="Course Section" parentSchemaName="mshied_attendance" parentDisplayName="Attendance" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Calendar View" displayName="K12 Portal Calendar View" parentSchemaName="mshied_attendance" parentDisplayName="Attendance" id="{e7a92959-31d3-eb11-bacc-000d3a5b8e71}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_coursesectionid" displayName="Course Section" parentSchemaName="mshied_attendance" parentDisplayName="Attendance" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="29" displayName="Attendance - Update Attendance Summary on Create/Update" id="{845dc2ad-74a4-41b5-a634-0daa0acf2db3}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_coursesectionid" displayName="Course Section" parentSchemaName="mshied_attendance" parentDisplayName="Attendance" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Attendance" parentDisplayName="Attendance" id="{174bfd7f-a235-4484-8aa5-72a69f9fb2eb}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_isexcused" displayName="Is Excused ?" parentSchemaName="mshied_attendance" parentDisplayName="Attendance" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Attendances" displayName="K12 Portal Attendances" parentSchemaName="mshied_attendance" parentDisplayName="Attendance" id="{0e97940c-b572-ea11-a811-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_isexcused" displayName="Is Excused ?" parentSchemaName="mshied_attendance" parentDisplayName="Attendance" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Calendar View" displayName="K12 Portal Calendar View" parentSchemaName="mshied_attendance" parentDisplayName="Attendance" id="{e7a92959-31d3-eb11-bacc-000d3a5b8e71}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_isexcused" displayName="Is Excused ?" parentSchemaName="mshied_attendance" parentDisplayName="Attendance" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="29" displayName="Attendance - Update Attendance Summary on Create/Update" id="{845dc2ad-74a4-41b5-a634-0daa0acf2db3}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_isexcused" displayName="Is Excused ?" parentSchemaName="mshied_attendance" parentDisplayName="Attendance" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="29" displayName="Check Is Excused" id="{9b63158c-8086-eb11-a812-000d3a59397a}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_isexcused" displayName="Is Excused ?" parentSchemaName="mshied_attendance" parentDisplayName="Attendance" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Attendance" parentDisplayName="Attendance" id="{174bfd7f-a235-4484-8aa5-72a69f9fb2eb}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_ispresent" displayName="Is Present?" parentSchemaName="mshied_attendance" parentDisplayName="Attendance" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Attendances" displayName="K12 Portal Attendances" parentSchemaName="mshied_attendance" parentDisplayName="Attendance" id="{0e97940c-b572-ea11-a811-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_ispresent" displayName="Is Present?" parentSchemaName="mshied_attendance" parentDisplayName="Attendance" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Calendar View" displayName="K12 Portal Calendar View" parentSchemaName="mshied_attendance" parentDisplayName="Attendance" id="{e7a92959-31d3-eb11-bacc-000d3a5b8e71}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_ispresent" displayName="Is Present?" parentSchemaName="mshied_attendance" parentDisplayName="Attendance" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="29" displayName="Attendance - Update Attendance Summary on Create/Update" id="{845dc2ad-74a4-41b5-a634-0daa0acf2db3}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_ispresent" displayName="Is Present?" parentSchemaName="mshied_attendance" parentDisplayName="Attendance" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="29" displayName="Check Is Tardy  ?" id="{92b302fe-7c86-eb11-a812-000d3a59397a}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_ispresent" displayName="Is Present?" parentSchemaName="mshied_attendance" parentDisplayName="Attendance" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="29" displayName="Check Is Excused" id="{9b63158c-8086-eb11-a812-000d3a59397a}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_ispresent" displayName="Is Present?" parentSchemaName="mshied_attendance" parentDisplayName="Attendance" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Attendance" parentDisplayName="Attendance" id="{174bfd7f-a235-4484-8aa5-72a69f9fb2eb}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_istardy" displayName="Is Tardy ?" parentSchemaName="mshied_attendance" parentDisplayName="Attendance" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Attendances" displayName="K12 Portal Attendances" parentSchemaName="mshied_attendance" parentDisplayName="Attendance" id="{0e97940c-b572-ea11-a811-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_istardy" displayName="Is Tardy ?" parentSchemaName="mshied_attendance" parentDisplayName="Attendance" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Calendar View" displayName="K12 Portal Calendar View" parentSchemaName="mshied_attendance" parentDisplayName="Attendance" id="{e7a92959-31d3-eb11-bacc-000d3a5b8e71}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_istardy" displayName="Is Tardy ?" parentSchemaName="mshied_attendance" parentDisplayName="Attendance" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="29" displayName="Attendance - Update Attendance Summary on Create/Update" id="{845dc2ad-74a4-41b5-a634-0daa0acf2db3}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_istardy" displayName="Is Tardy ?" parentSchemaName="mshied_attendance" parentDisplayName="Attendance" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="29" displayName="Check Is Tardy  ?" id="{92b302fe-7c86-eb11-a812-000d3a59397a}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_istardy" displayName="Is Tardy ?" parentSchemaName="mshied_attendance" parentDisplayName="Attendance" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="29" displayName="Check Is Excused" id="{9b63158c-8086-eb11-a812-000d3a59397a}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_istardy" displayName="Is Tardy ?" parentSchemaName="mshied_attendance" parentDisplayName="Attendance" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Attendance" parentDisplayName="Attendance" id="{174bfd7f-a235-4484-8aa5-72a69f9fb2eb}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_name" displayName="Name" parentSchemaName="mshied_attendance" parentDisplayName="Attendance" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="29" displayName="Attendance - Update Attendance Summary on Create/Update" id="{845dc2ad-74a4-41b5-a634-0daa0acf2db3}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_name" displayName="Name" parentSchemaName="mshied_attendance" parentDisplayName="Attendance" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="29" displayName="Check Is Tardy  ?" id="{92b302fe-7c86-eb11-a812-000d3a59397a}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_name" displayName="Name" parentSchemaName="mshied_attendance" parentDisplayName="Attendance" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="29" displayName="Check Is Excused" id="{9b63158c-8086-eb11-a812-000d3a59397a}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_name" displayName="Name" parentSchemaName="mshied_attendance" parentDisplayName="Attendance" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Attendance" parentDisplayName="Attendance" id="{174bfd7f-a235-4484-8aa5-72a69f9fb2eb}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_studentid" displayName="Student" parentSchemaName="mshied_attendance" parentDisplayName="Attendance" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Attendances" displayName="K12 Portal Attendances" parentSchemaName="mshied_attendance" parentDisplayName="Attendance" id="{0e97940c-b572-ea11-a811-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_studentid" displayName="Student" parentSchemaName="mshied_attendance" parentDisplayName="Attendance" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Calendar View" displayName="K12 Portal Calendar View" parentSchemaName="mshied_attendance" parentDisplayName="Attendance" id="{e7a92959-31d3-eb11-bacc-000d3a5b8e71}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_studentid" displayName="Student" parentSchemaName="mshied_attendance" parentDisplayName="Attendance" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Attendance" parentDisplayName="Attendance" id="{174bfd7f-a235-4484-8aa5-72a69f9fb2eb}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="mshied_attendance" parentDisplayName="Attendance" solution="Active" />
+        <Dependent type="60" displayName="K12 Portal Attendance" parentDisplayName="Attendance" id="{174bfd7f-a235-4484-8aa5-72a69f9fb2eb}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="mshied_attendance" parentDisplayName="Attendance" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Attendances" displayName="K12 Portal Attendances" parentSchemaName="mshied_attendance" parentDisplayName="Attendance" id="{0e97940c-b572-ea11-a811-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="mshied_attendance" parentDisplayName="Attendance" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Calendar View" displayName="K12 Portal Calendar View" parentSchemaName="mshied_attendance" parentDisplayName="Attendance" id="{e7a92959-31d3-eb11-bacc-000d3a5b8e71}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_academicperiodid" displayName="Academic Period" parentSchemaName="mshied_behaviorincident" parentDisplayName="Behavior Incident" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Active Behavior Incidents" displayName="K12 Portal Active Behavior Incidents" parentSchemaName="mshied_behaviorincident" parentDisplayName="Behavior Incident" id="{29048a68-146e-ea11-a811-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_academicperiodid" displayName="Academic Period" parentSchemaName="mshied_behaviorincident" parentDisplayName="Behavior Incident" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Behavior Incident Form" parentDisplayName="Behavior Incident" id="{7d1eedef-9419-45c5-8550-86a3d0589411}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_behaviorincidentid" displayName="Behavior Incident" parentSchemaName="mshied_behaviorincident" parentDisplayName="Behavior Incident" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Active Behavior Incidents" displayName="K12 Portal Active Behavior Incidents" parentSchemaName="mshied_behaviorincident" parentDisplayName="Behavior Incident" id="{29048a68-146e-ea11-a811-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_incidentdate" displayName="Incident Date" parentSchemaName="mshied_behaviorincident" parentDisplayName="Behavior Incident" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Active Behavior Incidents" displayName="K12 Portal Active Behavior Incidents" parentSchemaName="mshied_behaviorincident" parentDisplayName="Behavior Incident" id="{29048a68-146e-ea11-a811-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_incidentdate" displayName="Incident Date" parentSchemaName="mshied_behaviorincident" parentDisplayName="Behavior Incident" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Behavior Incident Form" parentDisplayName="Behavior Incident" id="{7d1eedef-9419-45c5-8550-86a3d0589411}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_incidentlocation" displayName="Incident Location" parentSchemaName="mshied_behaviorincident" parentDisplayName="Behavior Incident" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Active Behavior Incidents" displayName="K12 Portal Active Behavior Incidents" parentSchemaName="mshied_behaviorincident" parentDisplayName="Behavior Incident" id="{29048a68-146e-ea11-a811-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_incidentlocation" displayName="Incident Location" parentSchemaName="mshied_behaviorincident" parentDisplayName="Behavior Incident" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Behavior Incident Form" parentDisplayName="Behavior Incident" id="{7d1eedef-9419-45c5-8550-86a3d0589411}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_incidenttype" displayName="Incident Type" parentSchemaName="mshied_behaviorincident" parentDisplayName="Behavior Incident" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Behavior Incident Form" parentDisplayName="Behavior Incident" id="{7d1eedef-9419-45c5-8550-86a3d0589411}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_name" displayName="Name" parentSchemaName="mshied_behaviorincident" parentDisplayName="Behavior Incident" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Active Behavior Incidents" displayName="K12 Portal Active Behavior Incidents" parentSchemaName="mshied_behaviorincident" parentDisplayName="Behavior Incident" id="{29048a68-146e-ea11-a811-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_name" displayName="Name" parentSchemaName="mshied_behaviorincident" parentDisplayName="Behavior Incident" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Behavior Incident Form" parentDisplayName="Behavior Incident" id="{7d1eedef-9419-45c5-8550-86a3d0589411}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="mshied_behaviorincident" parentDisplayName="Behavior Incident" solution="Active" />
+        <Dependent type="60" displayName="K12 Portal Behavior Incident Form" parentDisplayName="Behavior Incident" id="{7d1eedef-9419-45c5-8550-86a3d0589411}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="mshied_behaviorincident" parentDisplayName="Behavior Incident" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Active Behavior Incidents" displayName="K12 Portal Active Behavior Incidents" parentSchemaName="mshied_behaviorincident" parentDisplayName="Behavior Incident" id="{29048a68-146e-ea11-a811-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_academicperiodid" displayName="Academic Period" parentSchemaName="mshied_coursesection" parentDisplayName="Course Section" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Active Course Section" displayName="K12 Portal Active Course Section" parentSchemaName="mshied_coursesection" parentDisplayName="Course Section" id="{c79d7f51-136e-ea11-a811-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_academicperiodid" displayName="Academic Period" parentSchemaName="mshied_coursesection" parentDisplayName="Course Section" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Course Section Form" parentDisplayName="Course Section" id="{1ec5a783-6ab7-4244-bafb-adc586123aa8}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_campusid" displayName="Campus" parentSchemaName="mshied_coursesection" parentDisplayName="Course Section" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Active Course Section" displayName="K12 Portal Active Course Section" parentSchemaName="mshied_coursesection" parentDisplayName="Course Section" id="{c79d7f51-136e-ea11-a811-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_campusid" displayName="Campus" parentSchemaName="mshied_coursesection" parentDisplayName="Course Section" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Course Section Form" parentDisplayName="Course Section" id="{1ec5a783-6ab7-4244-bafb-adc586123aa8}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_coursedaytime" displayName="Course Day/Time" parentSchemaName="mshied_coursesection" parentDisplayName="Course Section" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Active Course Section" displayName="K12 Portal Active Course Section" parentSchemaName="mshied_coursesection" parentDisplayName="Course Section" id="{c79d7f51-136e-ea11-a811-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_coursedaytime" displayName="Course Day/Time" parentSchemaName="mshied_coursesection" parentDisplayName="Course Section" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Course Section Form" parentDisplayName="Course Section" id="{1ec5a783-6ab7-4244-bafb-adc586123aa8}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_coursesectionid" displayName="Course Section" parentSchemaName="mshied_coursesection" parentDisplayName="Course Section" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Active Course Section" displayName="K12 Portal Active Course Section" parentSchemaName="mshied_coursesection" parentDisplayName="Course Section" id="{c79d7f51-136e-ea11-a811-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_instructorid" displayName="Instructor" parentSchemaName="mshied_coursesection" parentDisplayName="Course Section" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Active Course Section" displayName="K12 Portal Active Course Section" parentSchemaName="mshied_coursesection" parentDisplayName="Course Section" id="{c79d7f51-136e-ea11-a811-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_instructorid" displayName="Instructor" parentSchemaName="mshied_coursesection" parentDisplayName="Course Section" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Course Section Form" parentDisplayName="Course Section" id="{1ec5a783-6ab7-4244-bafb-adc586123aa8}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_location" displayName="Location" parentSchemaName="mshied_coursesection" parentDisplayName="Course Section" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Course Section Form" parentDisplayName="Course Section" id="{1ec5a783-6ab7-4244-bafb-adc586123aa8}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_name" displayName="Course Section Name" parentSchemaName="mshied_coursesection" parentDisplayName="Course Section" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Active Course Section" displayName="K12 Portal Active Course Section" parentSchemaName="mshied_coursesection" parentDisplayName="Course Section" id="{c79d7f51-136e-ea11-a811-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_name" displayName="Course Section Name" parentSchemaName="mshied_coursesection" parentDisplayName="Course Section" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Course Section Form" parentDisplayName="Course Section" id="{1ec5a783-6ab7-4244-bafb-adc586123aa8}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="mshied_coursesection" parentDisplayName="Course Section" solution="Active" />
+        <Dependent type="60" displayName="K12 Portal Course Section Form" parentDisplayName="Course Section" id="{1ec5a783-6ab7-4244-bafb-adc586123aa8}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="mshied_coursesection" parentDisplayName="Course Section" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Active Course Section" displayName="K12 Portal Active Course Section" parentSchemaName="mshied_coursesection" parentDisplayName="Course Section" id="{c79d7f51-136e-ea11-a811-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_author" displayName="Author" parentSchemaName="mshied_educationcontent" parentDisplayName="Education Content" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Active Education Contents" displayName="K12 Portal Active Education Contents" parentSchemaName="mshied_educationcontent" parentDisplayName="Education Content" id="{fa2c0ad7-136e-ea11-a811-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_author" displayName="Author" parentSchemaName="mshied_educationcontent" parentDisplayName="Education Content" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Education Content Form" parentDisplayName="Education Content" id="{70a2c8b0-3425-49b5-a9a5-6009c9b4b0da}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_cost" displayName="Cost" parentSchemaName="mshied_educationcontent" parentDisplayName="Education Content" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Education Content Form" parentDisplayName="Education Content" id="{70a2c8b0-3425-49b5-a9a5-6009c9b4b0da}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_educationcontentid" displayName="Education Content" parentSchemaName="mshied_educationcontent" parentDisplayName="Education Content" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Active Education Contents" displayName="K12 Portal Active Education Contents" parentSchemaName="mshied_educationcontent" parentDisplayName="Education Content" id="{fa2c0ad7-136e-ea11-a811-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_name" displayName="Name" parentSchemaName="mshied_educationcontent" parentDisplayName="Education Content" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Active Education Contents" displayName="K12 Portal Active Education Contents" parentSchemaName="mshied_educationcontent" parentDisplayName="Education Content" id="{fa2c0ad7-136e-ea11-a811-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_name" displayName="Name" parentSchemaName="mshied_educationcontent" parentDisplayName="Education Content" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Education Content Form" parentDisplayName="Education Content" id="{70a2c8b0-3425-49b5-a9a5-6009c9b4b0da}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_publicationdate" displayName="Publication Date" parentSchemaName="mshied_educationcontent" parentDisplayName="Education Content" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Active Education Contents" displayName="K12 Portal Active Education Contents" parentSchemaName="mshied_educationcontent" parentDisplayName="Education Content" id="{fa2c0ad7-136e-ea11-a811-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_publicationdate" displayName="Publication Date" parentSchemaName="mshied_educationcontent" parentDisplayName="Education Content" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Education Content Form" parentDisplayName="Education Content" id="{70a2c8b0-3425-49b5-a9a5-6009c9b4b0da}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_publisher" displayName="Publisher" parentSchemaName="mshied_educationcontent" parentDisplayName="Education Content" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Active Education Contents" displayName="K12 Portal Active Education Contents" parentSchemaName="mshied_educationcontent" parentDisplayName="Education Content" id="{fa2c0ad7-136e-ea11-a811-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_publisher" displayName="Publisher" parentSchemaName="mshied_educationcontent" parentDisplayName="Education Content" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Education Content Form" parentDisplayName="Education Content" id="{70a2c8b0-3425-49b5-a9a5-6009c9b4b0da}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_timerequired" displayName="Time Required" parentSchemaName="mshied_educationcontent" parentDisplayName="Education Content" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Education Content Form" parentDisplayName="Education Content" id="{70a2c8b0-3425-49b5-a9a5-6009c9b4b0da}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="mshied_educationcontent" parentDisplayName="Education Content" solution="Active" />
+        <Dependent type="60" displayName="K12 Portal Education Content Form" parentDisplayName="Education Content" id="{70a2c8b0-3425-49b5-a9a5-6009c9b4b0da}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="mshied_educationcontent" parentDisplayName="Education Content" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Active Education Contents" displayName="K12 Portal Active Education Contents" parentSchemaName="mshied_educationcontent" parentDisplayName="Education Content" id="{fa2c0ad7-136e-ea11-a811-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="createdon" displayName="Created On" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="26" schemaName="Quick Find Active Extra Curricular Activities" displayName="Quick Find Active Extra Curricular Activities" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" id="{5a4fa675-3ba5-495d-ab21-7d47170f8815}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_activitydate" displayName="Activity Date" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="26" schemaName="Extra Curricular Activity Advanced Find View" displayName="Extra Curricular Activity Advanced Find View" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" id="{0cd9d9ef-928b-46b1-b739-656eead0a2be}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_activitydate" displayName="Activity Date" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="26" schemaName="Active Extra Curricular Activities K12" displayName="Active Extra Curricular Activities K12" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" id="{1c9e4d23-8664-ea11-a811-000d3a579c6c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_activitydate" displayName="Activity Date" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="26" schemaName="Extra Curricular Activity Associated View" displayName="Extra Curricular Activity Associated View" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" id="{4d71b6fd-9350-4594-944a-2a518a694209}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_activitydate" displayName="Activity Date" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="26" schemaName="Quick Find Active Extra Curricular Activities" displayName="Quick Find Active Extra Curricular Activities" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" id="{5a4fa675-3ba5-495d-ab21-7d47170f8815}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_activitydate" displayName="Activity Date" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Active Extra Curricular Activities" displayName="K12 Portal Active Extra Curricular Activities" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" id="{64c9f280-106e-ea11-a811-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_activitydate" displayName="Activity Date" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="26" schemaName="Extra Curricular Activity Lookup View" displayName="Extra Curricular Activity Lookup View" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" id="{aa1fe40d-8bad-4a72-97d4-14cec4dc780f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_activitydate" displayName="Activity Date" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="26" schemaName="Inactive Extra Curricular Activities" displayName="Inactive Extra Curricular Activities" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" id="{c6327b2c-ead3-4eae-afbe-402ebf80ec97}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_activitydate" displayName="Activity Date" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="26" schemaName="Active Extra Curricular Activities" displayName="Active Extra Curricular Activities" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" id="{d4501044-f941-4ce0-b9e8-b5cefc74d031}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_activitydate" displayName="Activity Date" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Extra Curricular Activity Form" parentDisplayName="Extra Curricular Activity" id="{0e082f70-a328-4afa-8841-69f153307042}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_code" displayName="Code" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="26" schemaName="Extra Curricular Activity Advanced Find View" displayName="Extra Curricular Activity Advanced Find View" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" id="{0cd9d9ef-928b-46b1-b739-656eead0a2be}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_code" displayName="Code" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="26" schemaName="Active Extra Curricular Activities K12" displayName="Active Extra Curricular Activities K12" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" id="{1c9e4d23-8664-ea11-a811-000d3a579c6c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_code" displayName="Code" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="26" schemaName="Extra Curricular Activity Associated View" displayName="Extra Curricular Activity Associated View" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" id="{4d71b6fd-9350-4594-944a-2a518a694209}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_code" displayName="Code" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="26" schemaName="Extra Curricular Activity Lookup View" displayName="Extra Curricular Activity Lookup View" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" id="{aa1fe40d-8bad-4a72-97d4-14cec4dc780f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_code" displayName="Code" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="26" schemaName="Inactive Extra Curricular Activities" displayName="Inactive Extra Curricular Activities" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" id="{c6327b2c-ead3-4eae-afbe-402ebf80ec97}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_code" displayName="Code" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="26" schemaName="Active Extra Curricular Activities" displayName="Active Extra Curricular Activities" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" id="{d4501044-f941-4ce0-b9e8-b5cefc74d031}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_extracurricularactivitiesid" displayName="Extra Curricular Activity" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="26" schemaName="Extra Curricular Activity Advanced Find View" displayName="Extra Curricular Activity Advanced Find View" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" id="{0cd9d9ef-928b-46b1-b739-656eead0a2be}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_extracurricularactivitiesid" displayName="Extra Curricular Activity" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="26" schemaName="Active Extra Curricular Activities K12" displayName="Active Extra Curricular Activities K12" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" id="{1c9e4d23-8664-ea11-a811-000d3a579c6c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_extracurricularactivitiesid" displayName="Extra Curricular Activity" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="26" schemaName="Extra Curricular Activity Associated View" displayName="Extra Curricular Activity Associated View" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" id="{4d71b6fd-9350-4594-944a-2a518a694209}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_extracurricularactivitiesid" displayName="Extra Curricular Activity" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="26" schemaName="Quick Find Active Extra Curricular Activities" displayName="Quick Find Active Extra Curricular Activities" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" id="{5a4fa675-3ba5-495d-ab21-7d47170f8815}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_extracurricularactivitiesid" displayName="Extra Curricular Activity" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Active Extra Curricular Activities" displayName="K12 Portal Active Extra Curricular Activities" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" id="{64c9f280-106e-ea11-a811-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_extracurricularactivitiesid" displayName="Extra Curricular Activity" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="26" schemaName="Extra Curricular Activity Lookup View" displayName="Extra Curricular Activity Lookup View" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" id="{aa1fe40d-8bad-4a72-97d4-14cec4dc780f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_extracurricularactivitiesid" displayName="Extra Curricular Activity" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="26" schemaName="Inactive Extra Curricular Activities" displayName="Inactive Extra Curricular Activities" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" id="{c6327b2c-ead3-4eae-afbe-402ebf80ec97}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_extracurricularactivitiesid" displayName="Extra Curricular Activity" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="26" schemaName="Active Extra Curricular Activities" displayName="Active Extra Curricular Activities" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" id="{d4501044-f941-4ce0-b9e8-b5cefc74d031}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_generalemail" displayName="General Email" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Active Extra Curricular Activities" displayName="K12 Portal Active Extra Curricular Activities" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" id="{64c9f280-106e-ea11-a811-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_generalemail" displayName="General Email" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Extra Curricular Activity Form" parentDisplayName="Extra Curricular Activity" id="{0e082f70-a328-4afa-8841-69f153307042}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_name" displayName="Extra Curricular Activity Name" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="26" schemaName="Extra Curricular Activity Advanced Find View" displayName="Extra Curricular Activity Advanced Find View" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" id="{0cd9d9ef-928b-46b1-b739-656eead0a2be}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_name" displayName="Extra Curricular Activity Name" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="26" schemaName="Active Extra Curricular Activities K12" displayName="Active Extra Curricular Activities K12" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" id="{1c9e4d23-8664-ea11-a811-000d3a579c6c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_name" displayName="Extra Curricular Activity Name" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="26" schemaName="Extra Curricular Activity Associated View" displayName="Extra Curricular Activity Associated View" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" id="{4d71b6fd-9350-4594-944a-2a518a694209}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_name" displayName="Extra Curricular Activity Name" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="26" schemaName="Quick Find Active Extra Curricular Activities" displayName="Quick Find Active Extra Curricular Activities" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" id="{5a4fa675-3ba5-495d-ab21-7d47170f8815}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_name" displayName="Extra Curricular Activity Name" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Active Extra Curricular Activities" displayName="K12 Portal Active Extra Curricular Activities" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" id="{64c9f280-106e-ea11-a811-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_name" displayName="Extra Curricular Activity Name" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="26" schemaName="Extra Curricular Activity Lookup View" displayName="Extra Curricular Activity Lookup View" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" id="{aa1fe40d-8bad-4a72-97d4-14cec4dc780f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_name" displayName="Extra Curricular Activity Name" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="26" schemaName="Inactive Extra Curricular Activities" displayName="Inactive Extra Curricular Activities" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" id="{c6327b2c-ead3-4eae-afbe-402ebf80ec97}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_name" displayName="Extra Curricular Activity Name" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="26" schemaName="Active Extra Curricular Activities" displayName="Active Extra Curricular Activities" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" id="{d4501044-f941-4ce0-b9e8-b5cefc74d031}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_name" displayName="Extra Curricular Activity Name" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Extra Curricular Activity Form" parentDisplayName="Extra Curricular Activity" id="{0e082f70-a328-4afa-8841-69f153307042}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_primarycontactid" displayName="Primary Contact" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="26" schemaName="Extra Curricular Activity Advanced Find View" displayName="Extra Curricular Activity Advanced Find View" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" id="{0cd9d9ef-928b-46b1-b739-656eead0a2be}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_primarycontactid" displayName="Primary Contact" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="26" schemaName="Extra Curricular Activity Associated View" displayName="Extra Curricular Activity Associated View" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" id="{4d71b6fd-9350-4594-944a-2a518a694209}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_primarycontactid" displayName="Primary Contact" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Active Extra Curricular Activities" displayName="K12 Portal Active Extra Curricular Activities" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" id="{64c9f280-106e-ea11-a811-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_primarycontactid" displayName="Primary Contact" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="26" schemaName="Extra Curricular Activity Lookup View" displayName="Extra Curricular Activity Lookup View" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" id="{aa1fe40d-8bad-4a72-97d4-14cec4dc780f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_primarycontactid" displayName="Primary Contact" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="26" schemaName="Inactive Extra Curricular Activities" displayName="Inactive Extra Curricular Activities" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" id="{c6327b2c-ead3-4eae-afbe-402ebf80ec97}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_primarycontactid" displayName="Primary Contact" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="26" schemaName="Active Extra Curricular Activities" displayName="Active Extra Curricular Activities" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" id="{d4501044-f941-4ce0-b9e8-b5cefc74d031}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_primarycontactid" displayName="Primary Contact" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Extra Curricular Activity Form" parentDisplayName="Extra Curricular Activity" id="{0e082f70-a328-4afa-8841-69f153307042}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_primarypurpose" displayName="Primary Purpose" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="26" schemaName="Extra Curricular Activity Advanced Find View" displayName="Extra Curricular Activity Advanced Find View" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" id="{0cd9d9ef-928b-46b1-b739-656eead0a2be}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_primarypurpose" displayName="Primary Purpose" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="26" schemaName="Active Extra Curricular Activities K12" displayName="Active Extra Curricular Activities K12" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" id="{1c9e4d23-8664-ea11-a811-000d3a579c6c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_primarypurpose" displayName="Primary Purpose" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="26" schemaName="Extra Curricular Activity Associated View" displayName="Extra Curricular Activity Associated View" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" id="{4d71b6fd-9350-4594-944a-2a518a694209}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_primarypurpose" displayName="Primary Purpose" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="26" schemaName="Extra Curricular Activity Lookup View" displayName="Extra Curricular Activity Lookup View" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" id="{aa1fe40d-8bad-4a72-97d4-14cec4dc780f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_primarypurpose" displayName="Primary Purpose" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="26" schemaName="Inactive Extra Curricular Activities" displayName="Inactive Extra Curricular Activities" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" id="{c6327b2c-ead3-4eae-afbe-402ebf80ec97}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_primarypurpose" displayName="Primary Purpose" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="26" schemaName="Active Extra Curricular Activities" displayName="Active Extra Curricular Activities" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" id="{d4501044-f941-4ce0-b9e8-b5cefc74d031}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_schoolid" displayName="School" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="26" schemaName="Extra Curricular Activity Advanced Find View" displayName="Extra Curricular Activity Advanced Find View" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" id="{0cd9d9ef-928b-46b1-b739-656eead0a2be}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_schoolid" displayName="School" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="26" schemaName="Active Extra Curricular Activities K12" displayName="Active Extra Curricular Activities K12" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" id="{1c9e4d23-8664-ea11-a811-000d3a579c6c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_schoolid" displayName="School" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="26" schemaName="Extra Curricular Activity Associated View" displayName="Extra Curricular Activity Associated View" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" id="{4d71b6fd-9350-4594-944a-2a518a694209}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_schoolid" displayName="School" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="26" schemaName="Extra Curricular Activity Lookup View" displayName="Extra Curricular Activity Lookup View" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" id="{aa1fe40d-8bad-4a72-97d4-14cec4dc780f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_schoolid" displayName="School" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="26" schemaName="Inactive Extra Curricular Activities" displayName="Inactive Extra Curricular Activities" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" id="{c6327b2c-ead3-4eae-afbe-402ebf80ec97}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_schoolid" displayName="School" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="26" schemaName="Active Extra Curricular Activities" displayName="Active Extra Curricular Activities" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" id="{d4501044-f941-4ce0-b9e8-b5cefc74d031}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" solution="Active" />
+        <Dependent type="60" displayName="K12 Portal Extra Curricular Activity Form" parentDisplayName="Extra Curricular Activity" id="{0e082f70-a328-4afa-8841-69f153307042}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="26" schemaName="Active Extra Curricular Activities K12" displayName="Active Extra Curricular Activities K12" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" id="{1c9e4d23-8664-ea11-a811-000d3a579c6c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="26" schemaName="Extra Curricular Activity Associated View" displayName="Extra Curricular Activity Associated View" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" id="{4d71b6fd-9350-4594-944a-2a518a694209}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="26" schemaName="Quick Find Active Extra Curricular Activities" displayName="Quick Find Active Extra Curricular Activities" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" id="{5a4fa675-3ba5-495d-ab21-7d47170f8815}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Active Extra Curricular Activities" displayName="K12 Portal Active Extra Curricular Activities" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" id="{64c9f280-106e-ea11-a811-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="26" schemaName="Extra Curricular Activity Lookup View" displayName="Extra Curricular Activity Lookup View" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" id="{aa1fe40d-8bad-4a72-97d4-14cec4dc780f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="26" schemaName="Inactive Extra Curricular Activities" displayName="Inactive Extra Curricular Activities" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" id="{c6327b2c-ead3-4eae-afbe-402ebf80ec97}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="26" schemaName="Active Extra Curricular Activities" displayName="Active Extra Curricular Activities" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" id="{d4501044-f941-4ce0-b9e8-b5cefc74d031}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_contactid" displayName="Student" parentSchemaName="mshied_extracurricularparticipant" parentDisplayName="Extra Curricular Participant" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal EC Activity Participant" displayName="K12 Portal EC Activity Participant" parentSchemaName="mshied_extracurricularparticipant" parentDisplayName="Extra Curricular Participant" id="{09b41d0f-8673-ea11-a811-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_contactid" displayName="Student" parentSchemaName="mshied_extracurricularparticipant" parentDisplayName="Extra Curricular Participant" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal EC Activity Participant Form" parentDisplayName="Extra Curricular Participant" id="{211d2042-f718-4559-8c7f-f5da4caa4d04}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_enddate" displayName="End Date" parentSchemaName="mshied_extracurricularparticipant" parentDisplayName="Extra Curricular Participant" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal EC Activity Participant" displayName="K12 Portal EC Activity Participant" parentSchemaName="mshied_extracurricularparticipant" parentDisplayName="Extra Curricular Participant" id="{09b41d0f-8673-ea11-a811-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_enddate" displayName="End Date" parentSchemaName="mshied_extracurricularparticipant" parentDisplayName="Extra Curricular Participant" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal EC Activity Participant Form" parentDisplayName="Extra Curricular Participant" id="{211d2042-f718-4559-8c7f-f5da4caa4d04}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_extracurricularactivityid" displayName="Extra Curricular Activity" parentSchemaName="mshied_extracurricularparticipant" parentDisplayName="Extra Curricular Participant" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal EC Activity Participant" displayName="K12 Portal EC Activity Participant" parentSchemaName="mshied_extracurricularparticipant" parentDisplayName="Extra Curricular Participant" id="{09b41d0f-8673-ea11-a811-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_extracurricularactivityid" displayName="Extra Curricular Activity" parentSchemaName="mshied_extracurricularparticipant" parentDisplayName="Extra Curricular Participant" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal EC Activity Participant Form" parentDisplayName="Extra Curricular Participant" id="{211d2042-f718-4559-8c7f-f5da4caa4d04}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_extracurricularparticipantid" displayName="Extra Curricular Participant" parentSchemaName="mshied_extracurricularparticipant" parentDisplayName="Extra Curricular Participant" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal EC Activity Participant" displayName="K12 Portal EC Activity Participant" parentSchemaName="mshied_extracurricularparticipant" parentDisplayName="Extra Curricular Participant" id="{09b41d0f-8673-ea11-a811-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_name" displayName="Student Extra Curricular Name" parentSchemaName="mshied_extracurricularparticipant" parentDisplayName="Extra Curricular Participant" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal EC Activity Participant Form" parentDisplayName="Extra Curricular Participant" id="{211d2042-f718-4559-8c7f-f5da4caa4d04}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_startdate" displayName="Start Date" parentSchemaName="mshied_extracurricularparticipant" parentDisplayName="Extra Curricular Participant" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal EC Activity Participant" displayName="K12 Portal EC Activity Participant" parentSchemaName="mshied_extracurricularparticipant" parentDisplayName="Extra Curricular Participant" id="{09b41d0f-8673-ea11-a811-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_startdate" displayName="Start Date" parentSchemaName="mshied_extracurricularparticipant" parentDisplayName="Extra Curricular Participant" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal EC Activity Participant Form" parentDisplayName="Extra Curricular Participant" id="{211d2042-f718-4559-8c7f-f5da4caa4d04}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_state" displayName="State" parentSchemaName="mshied_extracurricularparticipant" parentDisplayName="Extra Curricular Participant" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal EC Activity Participant Form" parentDisplayName="Extra Curricular Participant" id="{211d2042-f718-4559-8c7f-f5da4caa4d04}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="mshied_extracurricularparticipant" parentDisplayName="Extra Curricular Participant" solution="Active" />
+        <Dependent type="60" displayName="K12 Portal EC Activity Participant Form" parentDisplayName="Extra Curricular Participant" id="{211d2042-f718-4559-8c7f-f5da4caa4d04}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="mshied_extracurricularparticipant" parentDisplayName="Extra Curricular Participant" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal EC Activity Participant" displayName="K12 Portal EC Activity Participant" parentSchemaName="mshied_extracurricularparticipant" parentDisplayName="Extra Curricular Participant" id="{09b41d0f-8673-ea11-a811-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_academicperiodid" displayName="Academic Period" parentSchemaName="mshied_intervention" parentDisplayName="Intervention" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Intervention Form" parentDisplayName="Intervention" id="{4e6dca57-7448-4eff-91ca-2603e64347b6}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_appropriategradelevel" displayName="Appropriate Grade Level" parentSchemaName="mshied_intervention" parentDisplayName="Intervention" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Active Interventions" displayName="K12 Portal Active Interventions" parentSchemaName="mshied_intervention" parentDisplayName="Intervention" id="{29f0bdb6-146e-ea11-a811-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_appropriategradelevel" displayName="Appropriate Grade Level" parentSchemaName="mshied_intervention" parentDisplayName="Intervention" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Intervention Form" parentDisplayName="Intervention" id="{4e6dca57-7448-4eff-91ca-2603e64347b6}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_begindate" displayName="Begin Date" parentSchemaName="mshied_intervention" parentDisplayName="Intervention" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Active Interventions" displayName="K12 Portal Active Interventions" parentSchemaName="mshied_intervention" parentDisplayName="Intervention" id="{29f0bdb6-146e-ea11-a811-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_begindate" displayName="Begin Date" parentSchemaName="mshied_intervention" parentDisplayName="Intervention" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Intervention Form" parentDisplayName="Intervention" id="{4e6dca57-7448-4eff-91ca-2603e64347b6}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_coursesectionid" displayName="Course Section" parentSchemaName="mshied_intervention" parentDisplayName="Intervention" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Active Interventions" displayName="K12 Portal Active Interventions" parentSchemaName="mshied_intervention" parentDisplayName="Intervention" id="{29f0bdb6-146e-ea11-a811-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_coursesectionid" displayName="Course Section" parentSchemaName="mshied_intervention" parentDisplayName="Intervention" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Intervention Form" parentDisplayName="Intervention" id="{4e6dca57-7448-4eff-91ca-2603e64347b6}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_deliverymethod" displayName="Delivery Method" parentSchemaName="mshied_intervention" parentDisplayName="Intervention" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Active Interventions" displayName="K12 Portal Active Interventions" parentSchemaName="mshied_intervention" parentDisplayName="Intervention" id="{29f0bdb6-146e-ea11-a811-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_deliverymethod" displayName="Delivery Method" parentSchemaName="mshied_intervention" parentDisplayName="Intervention" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Intervention Form" parentDisplayName="Intervention" id="{4e6dca57-7448-4eff-91ca-2603e64347b6}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_enddate" displayName="End Date" parentSchemaName="mshied_intervention" parentDisplayName="Intervention" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Active Interventions" displayName="K12 Portal Active Interventions" parentSchemaName="mshied_intervention" parentDisplayName="Intervention" id="{29f0bdb6-146e-ea11-a811-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_enddate" displayName="End Date" parentSchemaName="mshied_intervention" parentDisplayName="Intervention" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Intervention Form" parentDisplayName="Intervention" id="{4e6dca57-7448-4eff-91ca-2603e64347b6}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_instructorid" displayName="Instructor" parentSchemaName="mshied_intervention" parentDisplayName="Intervention" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Active Interventions" displayName="K12 Portal Active Interventions" parentSchemaName="mshied_intervention" parentDisplayName="Intervention" id="{29f0bdb6-146e-ea11-a811-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_instructorid" displayName="Instructor" parentSchemaName="mshied_intervention" parentDisplayName="Intervention" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Intervention Form" parentDisplayName="Intervention" id="{4e6dca57-7448-4eff-91ca-2603e64347b6}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_interventionid" displayName="Intervention" parentSchemaName="mshied_intervention" parentDisplayName="Intervention" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Active Interventions" displayName="K12 Portal Active Interventions" parentSchemaName="mshied_intervention" parentDisplayName="Intervention" id="{29f0bdb6-146e-ea11-a811-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_name" displayName="Name" parentSchemaName="mshied_intervention" parentDisplayName="Intervention" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Active Interventions" displayName="K12 Portal Active Interventions" parentSchemaName="mshied_intervention" parentDisplayName="Intervention" id="{29f0bdb6-146e-ea11-a811-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_name" displayName="Name" parentSchemaName="mshied_intervention" parentDisplayName="Intervention" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Intervention Form" parentDisplayName="Intervention" id="{4e6dca57-7448-4eff-91ca-2603e64347b6}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_type" displayName="Type" parentSchemaName="mshied_intervention" parentDisplayName="Intervention" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Active Interventions" displayName="K12 Portal Active Interventions" parentSchemaName="mshied_intervention" parentDisplayName="Intervention" id="{29f0bdb6-146e-ea11-a811-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_type" displayName="Type" parentSchemaName="mshied_intervention" parentDisplayName="Intervention" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Intervention Form" parentDisplayName="Intervention" id="{4e6dca57-7448-4eff-91ca-2603e64347b6}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="mshied_intervention" parentDisplayName="Intervention" solution="Active" />
+        <Dependent type="60" displayName="K12 Portal Intervention Form" parentDisplayName="Intervention" id="{4e6dca57-7448-4eff-91ca-2603e64347b6}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="mshied_intervention" parentDisplayName="Intervention" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Active Interventions" displayName="K12 Portal Active Interventions" parentSchemaName="mshied_intervention" parentDisplayName="Intervention" id="{29f0bdb6-146e-ea11-a811-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_interventionid" displayName="Intervention" parentSchemaName="mshied_interventionparticipant" parentDisplayName="Intervention Participant" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Active Intervention Participants" displayName="K12 Portal Active Intervention Participants" parentSchemaName="mshied_interventionparticipant" parentDisplayName="Intervention Participant" id="{ac197abc-2574-ea11-a811-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_interventionid" displayName="Intervention" parentSchemaName="mshied_interventionparticipant" parentDisplayName="Intervention Participant" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Intervention Participant" parentDisplayName="Intervention Participant" id="{defb79e3-f3ce-45e0-9904-8f3b2a28ba55}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_interventionparticipantid" displayName="Intervention Participant" parentSchemaName="mshied_interventionparticipant" parentDisplayName="Intervention Participant" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Active Intervention Participants" displayName="K12 Portal Active Intervention Participants" parentSchemaName="mshied_interventionparticipant" parentDisplayName="Intervention Participant" id="{ac197abc-2574-ea11-a811-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_name" displayName="Name" parentSchemaName="mshied_interventionparticipant" parentDisplayName="Intervention Participant" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Active Intervention Participants" displayName="K12 Portal Active Intervention Participants" parentSchemaName="mshied_interventionparticipant" parentDisplayName="Intervention Participant" id="{ac197abc-2574-ea11-a811-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_name" displayName="Name" parentSchemaName="mshied_interventionparticipant" parentDisplayName="Intervention Participant" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Intervention Participant" parentDisplayName="Intervention Participant" id="{defb79e3-f3ce-45e0-9904-8f3b2a28ba55}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_reason" displayName="Reason" parentSchemaName="mshied_interventionparticipant" parentDisplayName="Intervention Participant" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Active Intervention Participants" displayName="K12 Portal Active Intervention Participants" parentSchemaName="mshied_interventionparticipant" parentDisplayName="Intervention Participant" id="{ac197abc-2574-ea11-a811-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_reason" displayName="Reason" parentSchemaName="mshied_interventionparticipant" parentDisplayName="Intervention Participant" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Intervention Participant" parentDisplayName="Intervention Participant" id="{defb79e3-f3ce-45e0-9904-8f3b2a28ba55}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_studentid" displayName="Student" parentSchemaName="mshied_interventionparticipant" parentDisplayName="Intervention Participant" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Active Intervention Participants" displayName="K12 Portal Active Intervention Participants" parentSchemaName="mshied_interventionparticipant" parentDisplayName="Intervention Participant" id="{ac197abc-2574-ea11-a811-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_studentid" displayName="Student" parentSchemaName="mshied_interventionparticipant" parentDisplayName="Intervention Participant" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Intervention Participant" parentDisplayName="Intervention Participant" id="{defb79e3-f3ce-45e0-9904-8f3b2a28ba55}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="mshied_interventionparticipant" parentDisplayName="Intervention Participant" solution="Active" />
+        <Dependent type="60" displayName="K12 Portal Intervention Participant" parentDisplayName="Intervention Participant" id="{defb79e3-f3ce-45e0-9904-8f3b2a28ba55}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="mshied_interventionparticipant" parentDisplayName="Intervention Participant" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Active Intervention Participants" displayName="K12 Portal Active Intervention Participants" parentSchemaName="mshied_interventionparticipant" parentDisplayName="Intervention Participant" id="{ac197abc-2574-ea11-a811-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_description" displayName="Description" parentSchemaName="mshied_learningstandard" parentDisplayName="Learning Standard" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Learning Standard Form" parentDisplayName="Learning Standard" id="{550ffb3b-6817-490f-aad4-d77ee1e8374c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_learningstandardid" displayName="Learning Standard" parentSchemaName="mshied_learningstandard" parentDisplayName="Learning Standard" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Active Learning Standards" displayName="K12 Portal Active Learning Standards" parentSchemaName="mshied_learningstandard" parentDisplayName="Learning Standard" id="{f6cb341a-146e-ea11-a811-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_learningstandardtype" displayName="Learning Standard Type" parentSchemaName="mshied_learningstandard" parentDisplayName="Learning Standard" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Learning Standard Form" parentDisplayName="Learning Standard" id="{550ffb3b-6817-490f-aad4-d77ee1e8374c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_name" displayName="Name" parentSchemaName="mshied_learningstandard" parentDisplayName="Learning Standard" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Active Learning Standards" displayName="K12 Portal Active Learning Standards" parentSchemaName="mshied_learningstandard" parentDisplayName="Learning Standard" id="{f6cb341a-146e-ea11-a811-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_name" displayName="Name" parentSchemaName="mshied_learningstandard" parentDisplayName="Learning Standard" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="60" displayName="K12 Portal Learning Standard Form" parentDisplayName="Learning Standard" id="{550ffb3b-6817-490f-aad4-d77ee1e8374c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_parentlearningstandard" displayName="Parent Learning Standard" parentSchemaName="mshied_learningstandard" parentDisplayName="Learning Standard" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Active Learning Standards" displayName="K12 Portal Active Learning Standards" parentSchemaName="mshied_learningstandard" parentDisplayName="Learning Standard" id="{f6cb341a-146e-ea11-a811-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="mshied_learningstandard" parentDisplayName="Learning Standard" solution="Active" />
+        <Dependent type="60" displayName="K12 Portal Learning Standard Form" parentDisplayName="Learning Standard" id="{550ffb3b-6817-490f-aad4-d77ee1e8374c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="mshied_learningstandard" parentDisplayName="Learning Standard" solution="EducationAcceleratorK12 (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Active Learning Standards" displayName="K12 Portal Active Learning Standards" parentSchemaName="mshied_learningstandard" parentDisplayName="Learning Standard" id="{f6cb341a-146e-ea11-a811-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_name" displayName="Test Score" parentSchemaName="mshied_testscore" parentDisplayName="Test Score" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Active Test Scores" displayName="K12 Portal Active Test Scores" parentSchemaName="mshied_testscore" parentDisplayName="Test Score" id="{b824838d-136e-ea11-a811-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_name" displayName="Test Score" parentSchemaName="mshied_testscore" parentDisplayName="Test Score" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="60" displayName="Portal K12 Test Scores" parentDisplayName="Test Score" id="{541c3d9c-99f6-4c47-be56-784f29c376b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_studentid" displayName="Student ID" parentSchemaName="mshied_testscore" parentDisplayName="Test Score" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="60" displayName="Portal K12 Test Scores" parentDisplayName="Test Score" id="{541c3d9c-99f6-4c47-be56-784f29c376b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_testdate" displayName="Test Date" parentSchemaName="mshied_testscore" parentDisplayName="Test Score" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Active Test Scores" displayName="K12 Portal Active Test Scores" parentSchemaName="mshied_testscore" parentDisplayName="Test Score" id="{b824838d-136e-ea11-a811-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_testdate" displayName="Test Date" parentSchemaName="mshied_testscore" parentDisplayName="Test Score" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="60" displayName="Portal K12 Test Scores" parentDisplayName="Test Score" id="{541c3d9c-99f6-4c47-be56-784f29c376b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_testscoreid" displayName="Test Score" parentSchemaName="mshied_testscore" parentDisplayName="Test Score" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Active Test Scores" displayName="K12 Portal Active Test Scores" parentSchemaName="mshied_testscore" parentDisplayName="Test Score" id="{b824838d-136e-ea11-a811-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_testscorevalue" displayName="Test Score Value" parentSchemaName="mshied_testscore" parentDisplayName="Test Score" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Active Test Scores" displayName="K12 Portal Active Test Scores" parentSchemaName="mshied_testscore" parentDisplayName="Test Score" id="{b824838d-136e-ea11-a811-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_testscorevalue" displayName="Test Score Value" parentSchemaName="mshied_testscore" parentDisplayName="Test Score" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="60" displayName="Portal K12 Test Scores" parentDisplayName="Test Score" id="{541c3d9c-99f6-4c47-be56-784f29c376b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_testtypeid" displayName="Test Type" parentSchemaName="mshied_testscore" parentDisplayName="Test Score" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Active Test Scores" displayName="K12 Portal Active Test Scores" parentSchemaName="mshied_testscore" parentDisplayName="Test Score" id="{b824838d-136e-ea11-a811-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_testtypeid" displayName="Test Type" parentSchemaName="mshied_testscore" parentDisplayName="Test Score" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="60" displayName="Portal K12 Test Scores" parentDisplayName="Test Score" id="{541c3d9c-99f6-4c47-be56-784f29c376b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="mshied_testscore" parentDisplayName="Test Score" solution="Active" />
+        <Dependent type="60" displayName="Portal K12 Test Scores" parentDisplayName="Test Score" id="{541c3d9c-99f6-4c47-be56-784f29c376b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="mshied_testscore" parentDisplayName="Test Score" solution="EducationAcceleratorCommon (3.2.3.0)" />
+        <Dependent type="26" schemaName="K12 Portal Active Test Scores" displayName="K12 Portal Active Test Scores" parentSchemaName="mshied_testscore" parentDisplayName="Test Score" id="{b824838d-136e-ea11-a811-000d3a579c6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Related External Identifiers" displayName="Related External Identifiers" parentSchemaName="mshied_externalsystemidentifier" parentDisplayName="External System Identifier" solution="EducationAcceleratorCommon (3.2.3.0)" id="{09b08e26-efc1-eb11-bacc-000d3a31d455}" />
+        <Dependent type="60" displayName="K12 Portal Faculty Form" parentDisplayName="Contact" id="{b5d5940a-ddcc-4338-9b12-314b72405f0b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="K12 Active Assessment Scores" displayName="K12 Active Assessment Scores" parentSchemaName="mshied_assessmentscore" parentDisplayName="Assessment Score" solution="EducationAcceleratorK12 (3.2.3.0)" id="{3ed48672-8e73-ea11-a811-000d3a579c6b}" />
+        <Dependent type="60" displayName="K12 Portal Assessment Delivery Form" parentDisplayName="Assessment Delivery" id="{dbbc702a-bdfa-4eb9-aefe-577949be2bfa}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="EDU Connections" displayName="EDU Connections" parentSchemaName="connection" parentDisplayName="Connection" solution="EducationAcceleratorCommon (3.2.3.0)" id="{54f223bc-34b8-eb11-8236-000d3a5a5e23}" />
+        <Dependent type="60" displayName="K12 Portal Faculty Form" parentDisplayName="Contact" id="{b5d5940a-ddcc-4338-9b12-314b72405f0b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Courses" displayName="Active Courses" parentSchemaName="mshied_course" parentDisplayName="Course" solution="EducationAcceleratorCommon (3.2.3.0)" id="{788204cb-1eaa-44c4-86a8-7b701a0a0453}" />
+        <Dependent type="60" displayName="K12 Portal Education Content Form" parentDisplayName="Education Content" id="{70a2c8b0-3425-49b5-a9a5-6009c9b4b0da}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active External System Identifiers" displayName="Active External System Identifiers" parentSchemaName="mshied_externalsystemidentifier" parentDisplayName="External System Identifier" solution="EducationAcceleratorCommon (3.2.3.0)" id="{ae62af90-e893-4ec4-ad6e-2ea57050ee89}" />
+        <Dependent type="60" displayName="K12 Portal Faculty Form" parentDisplayName="Contact" id="{b5d5940a-ddcc-4338-9b12-314b72405f0b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Students" displayName="Active Students" parentSchemaName="contact" parentDisplayName="Contact" solution="EducationAcceleratorCommon (3.2.3.0)" id="{ae88af10-95cc-e811-a96b-000d3a1c5716}" />
+        <Dependent type="60" displayName="K12 Portal EC Activity Participant Form" parentDisplayName="Extra Curricular Participant" id="{211d2042-f718-4559-8c7f-f5da4caa4d04}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Students" displayName="Active Students" parentSchemaName="contact" parentDisplayName="Contact" solution="EducationAcceleratorCommon (3.2.3.0)" id="{ae88af10-95cc-e811-a96b-000d3a1c5716}" />
+        <Dependent type="60" displayName="K12 Portal Education Content Form" parentDisplayName="Education Content" id="{70a2c8b0-3425-49b5-a9a5-6009c9b4b0da}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Assessment Scores" displayName="Active Assessment Scores" parentSchemaName="mshied_assessmentscore" parentDisplayName="Assessment Score" solution="EducationAcceleratorK12 (3.2.3.0)" id="{b2c38ddc-ff48-4136-a96d-48e876168f70}" />
+        <Dependent type="60" displayName="K12 Portal Assessment Delivery Form" parentDisplayName="Assessment Delivery" id="{dbbc702a-bdfa-4eb9-aefe-577949be2bfa}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Faculty" displayName="Active Faculty" parentSchemaName="contact" parentDisplayName="Contact" solution="EducationAcceleratorCommon (3.2.3.0)" id="{bf399cf9-24ce-e811-a967-000d3a1c53e4}" />
+        <Dependent type="60" displayName="K12 Portal Course Section Form" parentDisplayName="Course Section" id="{1ec5a783-6ab7-4244-bafb-adc586123aa8}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Interventions" displayName="Active Interventions" parentSchemaName="mshied_intervention" parentDisplayName="Intervention" solution="EducationAcceleratorK12 (3.2.3.0)" id="{cc879128-b16e-4051-89e2-91607da5de5b}" />
+        <Dependent type="60" displayName="K12 Portal Education Content Form" parentDisplayName="Education Content" id="{70a2c8b0-3425-49b5-a9a5-6009c9b4b0da}" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>

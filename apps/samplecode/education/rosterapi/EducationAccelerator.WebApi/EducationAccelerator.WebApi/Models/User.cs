@@ -45,7 +45,6 @@ namespace EducationAccelerator.Models
             ["email"] = "emailaddress1",
             ["sms"] = "mobilephone",
             ["phone"] = "telephone1",
-            ["password"] = "msk12_password",
             ["grades"] = "msk12_grades"
         };
 

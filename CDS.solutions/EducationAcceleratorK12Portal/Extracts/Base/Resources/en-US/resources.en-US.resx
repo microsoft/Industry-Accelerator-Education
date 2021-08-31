@@ -1,0 +1,1252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="Source LCID" xml:space="preserve">
+    <value>1033</value>
+  </metadata>
+  <metadata name="Source file" xml:space="preserve">
+    <value>EducationAcceleratorK12Portal_managed.zip</value>
+  </metadata>
+  <metadata name="Source package type" xml:space="preserve">
+    <value>Both</value>
+  </metadata>
+  <metadata name="SolutionPackager Version" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uVmVyc2lvbgQAAAAGX01ham9yBl9NaW5vcgZfQnVpbGQJX1JldmlzaW9uAAAAAAgICAgJAAAAAAAAAAAAAAAAAAAACw==</value>
+  </metadata>
+  <metadata name="SolutionPackager Version String" xml:space="preserve">
+    <value>9.0.0.0</value>
+  </metadata>
+  <data name="100000:label,environmentvariabledefinitiondescription" xml:space="preserve">
+    <value>Power BI Report URL</value>
+    <comment>label</comment>
+  </data>
+  <data name="100000:label,environmentvariabledefinitiondisplayname" xml:space="preserve">
+    <value>Power BI Report URL</value>
+    <comment>label</comment>
+  </data>
+  <data name="15062:Description,educationacceleratorcommonmshied49428" xml:space="preserve">
+    <value>Education Accelerator Common</value>
+    <comment> 'educationacceleratorcommon' : Description for Solution Publisher</comment>
+  </data>
+  <data name="15062:LocalizedName,educationacceleratorcommonmshied49428" xml:space="preserve">
+    <value>Dynamics 365 Education</value>
+    <comment> 'educationacceleratorcommon' : LocalizedName for Solution Publisher</comment>
+  </data>
+  <data name="15062:LocalizedName,EducationAcceleratorK12Portal" xml:space="preserve">
+    <value>Education Accelerator K12 Portal</value>
+    <comment> 'EducationAcceleratorK12Portal' : LocalizedName for Solution</comment>
+  </data>
+  <data name="1:Description,mshied_Attendancemshied_Attendancesummaryfortheportal" xml:space="preserve">
+    <value />
+    <comment>'mshied_Attendance' : Description for Attribute 'mshied_Attendancesummaryfortheportal' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_extracurricularactivitiesmshied_ActivityDate" xml:space="preserve">
+    <value />
+    <comment>'mshied_extracurricularactivities' : Description for Attribute 'mshied_ActivityDate' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_extracurricularactivitiesmshied_extracurricularactivities_statecode" xml:space="preserve">
+    <value>Status of the Extra Curricular Activity</value>
+    <comment>'mshied_extracurricularactivities' : Description for OptionSet 'mshied_extracurricularactivities_statecode' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_extracurricularactivitiesmshied_name" xml:space="preserve">
+    <value>The name of the custom entity.</value>
+    <comment>'mshied_extracurricularactivities' : Description for Attribute 'mshied_name' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_extracurricularactivitiesstatecode" xml:space="preserve">
+    <value>Status of the Extra Curricular Activity</value>
+    <comment>'mshied_extracurricularactivities' : Description for Attribute 'statecode' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_Attendancemshied_Attendancesummaryfortheportal" xml:space="preserve">
+    <value>Attendance summary for the portal</value>
+    <comment>'mshied_Attendance' : displayname for Attribute 'mshied_Attendancesummaryfortheportal' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_extracurricularactivitiesmshied_ActivityDate" xml:space="preserve">
+    <value>Activity Date</value>
+    <comment>'mshied_extracurricularactivities' : displayname for Attribute 'mshied_ActivityDate' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_extracurricularactivitiesmshied_extracurricularactivities_statecode" xml:space="preserve">
+    <value>Status</value>
+    <comment>'mshied_extracurricularactivities' : displayname for OptionSet 'mshied_extracurricularactivities_statecode' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_extracurricularactivitiesmshied_name" xml:space="preserve">
+    <value>Extra Curricular Activity Name</value>
+    <comment>'mshied_extracurricularactivities' : displayname for Attribute 'mshied_name' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_extracurricularactivitiesstatecode" xml:space="preserve">
+    <value>Status</value>
+    <comment>'mshied_extracurricularactivities' : displayname for Attribute 'statecode' on Entity</comment>
+  </data>
+  <data name="1:label,Assessment Delivery{23326bdc-e96e-c00b-3c6e-ee5de36ec140}" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'Assessment Delivery' : label for cell in Entity FormXml ID: '{23326bdc-e96e-c00b-3c6e-ee5de36ec140}'</comment>
+  </data>
+  <data name="1:label,Assessment Delivery{296cda03-e61e-e620-bd17-226622945db3}" xml:space="preserve">
+    <value>Assessment Scores</value>
+    <comment>'Assessment Delivery' : label for cell in Entity FormXml ID: '{296cda03-e61e-e620-bd17-226622945db3}'</comment>
+  </data>
+  <data name="1:label,Assessment Delivery{2a42733a-1266-4702-bec6-e476e16a6dec}" xml:space="preserve">
+    <value>General</value>
+    <comment>'Assessment Delivery' : label for tab in Entity FormXml ID: '{2a42733a-1266-4702-bec6-e476e16a6dec}'</comment>
+  </data>
+  <data name="1:label,Assessment Delivery{472b602e-23b4-3214-3b34-bb9cd1565938}" xml:space="preserve">
+    <value>Assessment </value>
+    <comment>'Assessment Delivery' : label for cell in Entity FormXml ID: '{472b602e-23b4-3214-3b34-bb9cd1565938}'</comment>
+  </data>
+  <data name="1:label,Assessment Delivery{6a979117-6d2b-2a11-2a33-7c285598dd40}" xml:space="preserve">
+    <value>Section</value>
+    <comment>'Assessment Delivery' : label for section in Entity FormXml ID: '{6a979117-6d2b-2a11-2a33-7c285598dd40}'</comment>
+  </data>
+  <data name="1:label,Assessment Delivery{729917a9-12d1-636e-b787-64285de81ab2}" xml:space="preserve">
+    <value>Assessment Scores</value>
+    <comment>'Assessment Delivery' : label for tab in Entity FormXml ID: '{729917a9-12d1-636e-b787-64285de81ab2}'</comment>
+  </data>
+  <data name="1:label,Assessment Delivery{7c0df64b-b9ed-4a16-806c-4db9b611812a}" xml:space="preserve">
+    <value />
+    <comment>'Assessment Delivery' : label for cell in Entity FormXml ID: '{7c0df64b-b9ed-4a16-806c-4db9b611812a}'</comment>
+  </data>
+  <data name="1:label,Assessment Delivery{8c9c0ac6-e7b7-43d4-b084-608b5b545cf9}" xml:space="preserve">
+    <value />
+    <comment>'Assessment Delivery' : label for cell in Entity FormXml ID: '{8c9c0ac6-e7b7-43d4-b084-608b5b545cf9}'</comment>
+  </data>
+  <data name="1:label,Assessment Delivery{9764748c-e358-b882-d518-5460511e356e}" xml:space="preserve">
+    <value>Assessment Date</value>
+    <comment>'Assessment Delivery' : label for cell in Entity FormXml ID: '{9764748c-e358-b882-d518-5460511e356e}'</comment>
+  </data>
+  <data name="1:label,Assessment Delivery{b02c3191-47c0-4d59-9227-22729d6bb529}" xml:space="preserve">
+    <value>Name</value>
+    <comment>'Assessment Delivery' : label for cell in Entity FormXml ID: '{b02c3191-47c0-4d59-9227-22729d6bb529}'</comment>
+  </data>
+  <data name="1:label,Assessment Delivery{b9b67194-0b81-770e-d6c1-bc29157e74cd}" xml:space="preserve">
+    <value>Assessment Period</value>
+    <comment>'Assessment Delivery' : label for cell in Entity FormXml ID: '{b9b67194-0b81-770e-d6c1-bc29157e74cd}'</comment>
+  </data>
+  <data name="1:label,Assessment Delivery{d904db96-c580-d9b9-1c30-e9e76b9b60ae}" xml:space="preserve">
+    <value>Course Section</value>
+    <comment>'Assessment Delivery' : label for cell in Entity FormXml ID: '{d904db96-c580-d9b9-1c30-e9e76b9b60ae}'</comment>
+  </data>
+  <data name="1:label,Assessment Delivery{de1b9988-c5a6-452e-a942-0307ca9d4d49}" xml:space="preserve">
+    <value>General</value>
+    <comment>'Assessment Delivery' : label for section in Entity FormXml ID: '{de1b9988-c5a6-452e-a942-0307ca9d4d49}'</comment>
+  </data>
+  <data name="1:label,Assessment Delivery{e85910ba-a678-0075-5623-3a01b9666de4}" xml:space="preserve">
+    <value>Section</value>
+    <comment>'Assessment Delivery' : label for section in Entity FormXml ID: '{e85910ba-a678-0075-5623-3a01b9666de4}'</comment>
+  </data>
+  <data name="1:label,Assessment Score{1006653b-cd32-96d9-cc3c-4b150995d6b4}" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'Assessment Score' : label for cell in Entity FormXml ID: '{1006653b-cd32-96d9-cc3c-4b150995d6b4}'</comment>
+  </data>
+  <data name="1:label,Assessment Score{1b2d6558-98fa-4139-a128-28a816601fc8}" xml:space="preserve">
+    <value>General</value>
+    <comment>'Assessment Score' : label for section in Entity FormXml ID: '{1b2d6558-98fa-4139-a128-28a816601fc8}'</comment>
+  </data>
+  <data name="1:label,Assessment Score{2764cb7e-3969-dadd-d29b-4c903a8d6ea1}" xml:space="preserve">
+    <value>Assessment Date</value>
+    <comment>'Assessment Score' : label for cell in Entity FormXml ID: '{2764cb7e-3969-dadd-d29b-4c903a8d6ea1}'</comment>
+  </data>
+  <data name="1:label,Assessment Score{521eb309-ee47-4440-ab3b-a3bac9e44234}" xml:space="preserve">
+    <value />
+    <comment>'Assessment Score' : label for cell in Entity FormXml ID: '{521eb309-ee47-4440-ab3b-a3bac9e44234}'</comment>
+  </data>
+  <data name="1:label,Assessment Score{5581c6a3-8aed-4bdd-af6c-1fc7b8c6e916}" xml:space="preserve">
+    <value>General</value>
+    <comment>'Assessment Score' : label for tab in Entity FormXml ID: '{5581c6a3-8aed-4bdd-af6c-1fc7b8c6e916}'</comment>
+  </data>
+  <data name="1:label,Assessment Score{6ee5dc28-1a14-3d70-ec5c-868656c4b278}" xml:space="preserve">
+    <value>Assessment Delivery</value>
+    <comment>'Assessment Score' : label for cell in Entity FormXml ID: '{6ee5dc28-1a14-3d70-ec5c-868656c4b278}'</comment>
+  </data>
+  <data name="1:label,Assessment Score{7c1e5e4d-b663-a823-3834-59c4024bd249}" xml:space="preserve">
+    <value>Student</value>
+    <comment>'Assessment Score' : label for cell in Entity FormXml ID: '{7c1e5e4d-b663-a823-3834-59c4024bd249}'</comment>
+  </data>
+  <data name="1:label,Assessment Score{882f8a42-c4fa-4d77-813c-990c6925936d}" xml:space="preserve">
+    <value />
+    <comment>'Assessment Score' : label for cell in Entity FormXml ID: '{882f8a42-c4fa-4d77-813c-990c6925936d}'</comment>
+  </data>
+  <data name="1:label,Assessment Score{92505e15-62ce-6390-97d6-c0807c7329cc}" xml:space="preserve">
+    <value>Assessment Type</value>
+    <comment>'Assessment Score' : label for cell in Entity FormXml ID: '{92505e15-62ce-6390-97d6-c0807c7329cc}'</comment>
+  </data>
+  <data name="1:label,Assessment Score{9463c79c-b4ca-0cec-2eb2-dc20b8738b2a}" xml:space="preserve">
+    <value>Assessment Score</value>
+    <comment>'Assessment Score' : label for cell in Entity FormXml ID: '{9463c79c-b4ca-0cec-2eb2-dc20b8738b2a}'</comment>
+  </data>
+  <data name="1:label,Assessment Score{991b42ab-6e85-4749-dbac-3cd9be64e28a}" xml:space="preserve">
+    <value>Section</value>
+    <comment>'Assessment Score' : label for section in Entity FormXml ID: '{991b42ab-6e85-4749-dbac-3cd9be64e28a}'</comment>
+  </data>
+  <data name="1:label,Assessment Score{f0d8cf03-69ba-4ebc-8788-b113a902218d}" xml:space="preserve">
+    <value>Name</value>
+    <comment>'Assessment Score' : label for cell in Entity FormXml ID: '{f0d8cf03-69ba-4ebc-8788-b113a902218d}'</comment>
+  </data>
+  <data name="1:label,Attendance{04ac1a57-27ed-d58c-a52d-1d63263d9659}" xml:space="preserve">
+    <value />
+    <comment>'Attendance' : label for cell in Entity FormXml ID: '{04ac1a57-27ed-d58c-a52d-1d63263d9659}'</comment>
+  </data>
+  <data name="1:label,Attendance{0a257070-42f4-4bdb-8ccf-513d044d4502}" xml:space="preserve">
+    <value />
+    <comment>'Attendance' : label for cell in Entity FormXml ID: '{0a257070-42f4-4bdb-8ccf-513d044d4502}'</comment>
+  </data>
+  <data name="1:label,Attendance{0fea14ea-9e01-42a7-9762-72b15b585eee}" xml:space="preserve">
+    <value>General</value>
+    <comment>'Attendance' : label for section in Entity FormXml ID: '{0fea14ea-9e01-42a7-9762-72b15b585eee}'</comment>
+  </data>
+  <data name="1:label,Attendance{18e737e9-bf5e-478c-9ce1-918db359feda}" xml:space="preserve">
+    <value>Is Excused ?</value>
+    <comment>'Attendance' : label for cell in Entity FormXml ID: '{18e737e9-bf5e-478c-9ce1-918db359feda}'</comment>
+  </data>
+  <data name="1:label,Attendance{309f001c-38d4-46d5-a91b-85701113abc2}" xml:space="preserve">
+    <value />
+    <comment>'Attendance' : label for cell in Entity FormXml ID: '{309f001c-38d4-46d5-a91b-85701113abc2}'</comment>
+  </data>
+  <data name="1:label,Attendance{32a35ab7-655c-189a-329a-61ce98941447}" xml:space="preserve">
+    <value>Attendance Date</value>
+    <comment>'Attendance' : label for cell in Entity FormXml ID: '{32a35ab7-655c-189a-329a-61ce98941447}'</comment>
+  </data>
+  <data name="1:label,Attendance{49ffed61-7cc2-43fa-8f21-4a1bf47bd89b}" xml:space="preserve">
+    <value />
+    <comment>'Attendance' : label for cell in Entity FormXml ID: '{49ffed61-7cc2-43fa-8f21-4a1bf47bd89b}'</comment>
+  </data>
+  <data name="1:label,Attendance{6108f87d-96fc-4d74-a417-1030bee00f6a}" xml:space="preserve">
+    <value>Name</value>
+    <comment>'Attendance' : label for cell in Entity FormXml ID: '{6108f87d-96fc-4d74-a417-1030bee00f6a}'</comment>
+  </data>
+  <data name="1:label,Attendance{680748b9-b22c-7347-9862-1a07ec10e945}" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'Attendance' : label for cell in Entity FormXml ID: '{680748b9-b22c-7347-9862-1a07ec10e945}'</comment>
+  </data>
+  <data name="1:label,Attendance{73654c49-0009-49fb-8519-3ae08ff82e51}" xml:space="preserve">
+    <value>General</value>
+    <comment>'Attendance' : label for tab in Entity FormXml ID: '{73654c49-0009-49fb-8519-3ae08ff82e51}'</comment>
+  </data>
+  <data name="1:label,Attendance{78f376f1-7364-494c-b180-2b58c56f506b}" xml:space="preserve">
+    <value />
+    <comment>'Attendance' : label for cell in Entity FormXml ID: '{78f376f1-7364-494c-b180-2b58c56f506b}'</comment>
+  </data>
+  <data name="1:label,Attendance{81d9b759-28ce-d419-65c4-9e2072637034}" xml:space="preserve">
+    <value>Student</value>
+    <comment>'Attendance' : label for cell in Entity FormXml ID: '{81d9b759-28ce-d419-65c4-9e2072637034}'</comment>
+  </data>
+  <data name="1:label,Attendance{a580399d-b9e5-b048-4bde-e39c69392b47}" xml:space="preserve">
+    <value>Is Present?</value>
+    <comment>'Attendance' : label for cell in Entity FormXml ID: '{a580399d-b9e5-b048-4bde-e39c69392b47}'</comment>
+  </data>
+  <data name="1:label,Attendance{c770482b-80ec-4d31-b5ea-bc70734bb1c6}" xml:space="preserve">
+    <value>Is Tardy ?</value>
+    <comment>'Attendance' : label for cell in Entity FormXml ID: '{c770482b-80ec-4d31-b5ea-bc70734bb1c6}'</comment>
+  </data>
+  <data name="1:label,Attendance{d5c5e10a-54b9-4206-ca5a-c278b94d2c45}" xml:space="preserve">
+    <value>Course Section</value>
+    <comment>'Attendance' : label for cell in Entity FormXml ID: '{d5c5e10a-54b9-4206-ca5a-c278b94d2c45}'</comment>
+  </data>
+  <data name="1:label,Attendance{e2730748-40a7-46dc-8b3e-f66bf8945269}" xml:space="preserve">
+    <value />
+    <comment>'Attendance' : label for cell in Entity FormXml ID: '{e2730748-40a7-46dc-8b3e-f66bf8945269}'</comment>
+  </data>
+  <data name="1:label,Attendance{f5efee95-589e-4847-8cb6-8e2603c99643}" xml:space="preserve">
+    <value />
+    <comment>'Attendance' : label for cell in Entity FormXml ID: '{f5efee95-589e-4847-8cb6-8e2603c99643}'</comment>
+  </data>
+  <data name="1:label,Attendance{fc144ad5-fb85-426d-b60e-b0114832ab93}" xml:space="preserve">
+    <value />
+    <comment>'Attendance' : label for cell in Entity FormXml ID: '{fc144ad5-fb85-426d-b60e-b0114832ab93}'</comment>
+  </data>
+  <data name="1:label,Behavior Incident{05a20d90-bccb-ac8c-417b-52a8b1352894}" xml:space="preserve">
+    <value>Section</value>
+    <comment>'Behavior Incident' : label for section in Entity FormXml ID: '{05a20d90-bccb-ac8c-417b-52a8b1352894}'</comment>
+  </data>
+  <data name="1:label,Behavior Incident{15a70594-b25d-23b7-16cd-ba22778a96aa}" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'Behavior Incident' : label for cell in Entity FormXml ID: '{15a70594-b25d-23b7-16cd-ba22778a96aa}'</comment>
+  </data>
+  <data name="1:label,Behavior Incident{236982a0-5bc7-9b0d-b783-2e83a36be4c0}" xml:space="preserve">
+    <value>Incident Location</value>
+    <comment>'Behavior Incident' : label for cell in Entity FormXml ID: '{236982a0-5bc7-9b0d-b783-2e83a36be4c0}'</comment>
+  </data>
+  <data name="1:label,Behavior Incident{3a626388-4091-604b-985e-dda7b653eea7}" xml:space="preserve">
+    <value>Incident Date</value>
+    <comment>'Behavior Incident' : label for cell in Entity FormXml ID: '{3a626388-4091-604b-985e-dda7b653eea7}'</comment>
+  </data>
+  <data name="1:label,Behavior Incident{747b87dd-20d0-4a24-9d56-e8c968725f17}" xml:space="preserve">
+    <value />
+    <comment>'Behavior Incident' : label for cell in Entity FormXml ID: '{747b87dd-20d0-4a24-9d56-e8c968725f17}'</comment>
+  </data>
+  <data name="1:label,Behavior Incident{79a91aa8-eb90-47a3-825c-97f91c918ce2}" xml:space="preserve">
+    <value>Name</value>
+    <comment>'Behavior Incident' : label for cell in Entity FormXml ID: '{79a91aa8-eb90-47a3-825c-97f91c918ce2}'</comment>
+  </data>
+  <data name="1:label,Behavior Incident{a81c31bb-c58a-b325-1978-193799066585}" xml:space="preserve">
+    <value>Academic Period</value>
+    <comment>'Behavior Incident' : label for cell in Entity FormXml ID: '{a81c31bb-c58a-b325-1978-193799066585}'</comment>
+  </data>
+  <data name="1:label,Behavior Incident{c8afada3-6dba-41d7-b268-57abe46f0b3b}" xml:space="preserve">
+    <value />
+    <comment>'Behavior Incident' : label for cell in Entity FormXml ID: '{c8afada3-6dba-41d7-b268-57abe46f0b3b}'</comment>
+  </data>
+  <data name="1:label,Behavior Incident{d127c5d0-d348-431b-9cb1-e5591032cb72}" xml:space="preserve">
+    <value>Incident Type</value>
+    <comment>'Behavior Incident' : label for cell in Entity FormXml ID: '{d127c5d0-d348-431b-9cb1-e5591032cb72}'</comment>
+  </data>
+  <data name="1:label,Behavior Incident{f4e9c937-7ae8-4fd5-bd2d-c0abeb9e08e8}" xml:space="preserve">
+    <value>General</value>
+    <comment>'Behavior Incident' : label for tab in Entity FormXml ID: '{f4e9c937-7ae8-4fd5-bd2d-c0abeb9e08e8}'</comment>
+  </data>
+  <data name="1:label,Behavior Incident{f61da09e-9e71-47b0-bcfb-a9682d893576}" xml:space="preserve">
+    <value>General</value>
+    <comment>'Behavior Incident' : label for section in Entity FormXml ID: '{f61da09e-9e71-47b0-bcfb-a9682d893576}'</comment>
+  </data>
+  <data name="1:label,Course Section{26881569-394b-4a25-8ec5-78de15aabcb2}" xml:space="preserve">
+    <value>Course Section Name</value>
+    <comment>'Course Section' : label for cell in Entity FormXml ID: '{26881569-394b-4a25-8ec5-78de15aabcb2}'</comment>
+  </data>
+  <data name="1:label,Course Section{30c1d906-ca92-b838-e151-22c40e8426c5}" xml:space="preserve">
+    <value>Course Day/Time</value>
+    <comment>'Course Section' : label for cell in Entity FormXml ID: '{30c1d906-ca92-b838-e151-22c40e8426c5}'</comment>
+  </data>
+  <data name="1:label,Course Section{353d9d58-e80f-419b-af74-34cf7d147e6d}" xml:space="preserve">
+    <value>General</value>
+    <comment>'Course Section' : label for tab in Entity FormXml ID: '{353d9d58-e80f-419b-af74-34cf7d147e6d}'</comment>
+  </data>
+  <data name="1:label,Course Section{49b32d69-28e8-eb23-21c8-c52dede0c9d6}" xml:space="preserve">
+    <value>Campus</value>
+    <comment>'Course Section' : label for cell in Entity FormXml ID: '{49b32d69-28e8-eb23-21c8-c52dede0c9d6}'</comment>
+  </data>
+  <data name="1:label,Course Section{56d02d16-4d80-3ea6-74cd-d7be6e3d55c2}" xml:space="preserve">
+    <value>Academic Period</value>
+    <comment>'Course Section' : label for cell in Entity FormXml ID: '{56d02d16-4d80-3ea6-74cd-d7be6e3d55c2}'</comment>
+  </data>
+  <data name="1:label,Course Section{7f17fe16-42a8-4ad7-9454-307c400470d9}" xml:space="preserve">
+    <value />
+    <comment>'Course Section' : label for cell in Entity FormXml ID: '{7f17fe16-42a8-4ad7-9454-307c400470d9}'</comment>
+  </data>
+  <data name="1:label,Course Section{85036b1c-9d92-241e-bd7b-1cd1e57e3da5}" xml:space="preserve">
+    <value>Location</value>
+    <comment>'Course Section' : label for cell in Entity FormXml ID: '{85036b1c-9d92-241e-bd7b-1cd1e57e3da5}'</comment>
+  </data>
+  <data name="1:label,Course Section{8943126d-c66d-8143-6d06-873900509984}" xml:space="preserve">
+    <value>Instructor</value>
+    <comment>'Course Section' : label for cell in Entity FormXml ID: '{8943126d-c66d-8143-6d06-873900509984}'</comment>
+  </data>
+  <data name="1:label,Course Section{c9743539-1235-cc6e-3aae-28dc7d98310e}" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'Course Section' : label for cell in Entity FormXml ID: '{c9743539-1235-cc6e-3aae-28dc7d98310e}'</comment>
+  </data>
+  <data name="1:label,Course Section{e82424e6-763f-4bb8-a720-605774479112}" xml:space="preserve">
+    <value />
+    <comment>'Course Section' : label for cell in Entity FormXml ID: '{e82424e6-763f-4bb8-a720-605774479112}'</comment>
+  </data>
+  <data name="1:label,Course Section{f631ae50-ae50-4182-9377-b14293ebb198}" xml:space="preserve">
+    <value>General</value>
+    <comment>'Course Section' : label for section in Entity FormXml ID: '{f631ae50-ae50-4182-9377-b14293ebb198}'</comment>
+  </data>
+  <data name="1:label,Education Content{044a86d4-0ea5-3ad2-b926-80cac9068567}" xml:space="preserve">
+    <value>Interventions</value>
+    <comment>'Education Content' : label for cell in Entity FormXml ID: '{044a86d4-0ea5-3ad2-b926-80cac9068567}'</comment>
+  </data>
+  <data name="1:label,Education Content{0a15e4ab-25d3-2a17-4ed5-2b8bdcde5c42}" xml:space="preserve">
+    <value>Interventions</value>
+    <comment>'Education Content' : label for tab in Entity FormXml ID: '{0a15e4ab-25d3-2a17-4ed5-2b8bdcde5c42}'</comment>
+  </data>
+  <data name="1:label,Education Content{0b5c6a4e-5609-e7a0-dd6b-13773a174e30}" xml:space="preserve">
+    <value>Contacts</value>
+    <comment>'Education Content' : label for tab in Entity FormXml ID: '{0b5c6a4e-5609-e7a0-dd6b-13773a174e30}'</comment>
+  </data>
+  <data name="1:label,Education Content{1c13030e-5652-8da1-9b13-2117d80ea1a7}" xml:space="preserve">
+    <value>Time Required</value>
+    <comment>'Education Content' : label for cell in Entity FormXml ID: '{1c13030e-5652-8da1-9b13-2117d80ea1a7}'</comment>
+  </data>
+  <data name="1:label,Education Content{26b12bac-1a0d-a3d1-3431-da7e64a68ece}" xml:space="preserve">
+    <value>Author</value>
+    <comment>'Education Content' : label for cell in Entity FormXml ID: '{26b12bac-1a0d-a3d1-3431-da7e64a68ece}'</comment>
+  </data>
+  <data name="1:label,Education Content{33b21053-b302-2671-766b-37b3be318654}" xml:space="preserve">
+    <value>Publication Date</value>
+    <comment>'Education Content' : label for cell in Entity FormXml ID: '{33b21053-b302-2671-766b-37b3be318654}'</comment>
+  </data>
+  <data name="1:label,Education Content{44ca49ce-b683-4aa6-e30d-60b35b746a4b}" xml:space="preserve">
+    <value>Cost</value>
+    <comment>'Education Content' : label for cell in Entity FormXml ID: '{44ca49ce-b683-4aa6-e30d-60b35b746a4b}'</comment>
+  </data>
+  <data name="1:label,Education Content{5557ebec-1a27-4042-89ae-8dfecfddb6fd}" xml:space="preserve">
+    <value />
+    <comment>'Education Content' : label for cell in Entity FormXml ID: '{5557ebec-1a27-4042-89ae-8dfecfddb6fd}'</comment>
+  </data>
+  <data name="1:label,Education Content{679649ba-b921-9e39-4062-5a7c0a15b3b8}" xml:space="preserve">
+    <value>Courses</value>
+    <comment>'Education Content' : label for cell in Entity FormXml ID: '{679649ba-b921-9e39-4062-5a7c0a15b3b8}'</comment>
+  </data>
+  <data name="1:label,Education Content{788fa8ae-3213-4d9e-b68c-f330220f0fce}" xml:space="preserve">
+    <value>Name</value>
+    <comment>'Education Content' : label for cell in Entity FormXml ID: '{788fa8ae-3213-4d9e-b68c-f330220f0fce}'</comment>
+  </data>
+  <data name="1:label,Education Content{78b7d455-b732-4db2-a8fd-713e3560128f}" xml:space="preserve">
+    <value />
+    <comment>'Education Content' : label for cell in Entity FormXml ID: '{78b7d455-b732-4db2-a8fd-713e3560128f}'</comment>
+  </data>
+  <data name="1:label,Education Content{7c03390d-7173-1407-7354-b9924275c188}" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'Education Content' : label for cell in Entity FormXml ID: '{7c03390d-7173-1407-7354-b9924275c188}'</comment>
+  </data>
+  <data name="1:label,Education Content{7e883b3a-e336-48e1-b2a7-930d8da82c0c}" xml:space="preserve">
+    <value>General</value>
+    <comment>'Education Content' : label for tab in Entity FormXml ID: '{7e883b3a-e336-48e1-b2a7-930d8da82c0c}'</comment>
+  </data>
+  <data name="1:label,Education Content{b9a640de-e70a-0445-8b7b-96d283a65ddb}" xml:space="preserve">
+    <value>Section</value>
+    <comment>'Education Content' : label for section in Entity FormXml ID: '{b9a640de-e70a-0445-8b7b-96d283a65ddb}'</comment>
+  </data>
+  <data name="1:label,Education Content{bca8d224-e855-8603-315e-470eb4c1c4c1}" xml:space="preserve">
+    <value>Publisher</value>
+    <comment>'Education Content' : label for cell in Entity FormXml ID: '{bca8d224-e855-8603-315e-470eb4c1c4c1}'</comment>
+  </data>
+  <data name="1:label,Education Content{d0ea7a63-75dd-01a5-3146-637455664c46}" xml:space="preserve">
+    <value>Contacts</value>
+    <comment>'Education Content' : label for cell in Entity FormXml ID: '{d0ea7a63-75dd-01a5-3146-637455664c46}'</comment>
+  </data>
+  <data name="1:label,Education Content{d2c9a889-2aec-c406-6cca-4a60962b1841}" xml:space="preserve">
+    <value>Courses</value>
+    <comment>'Education Content' : label for section in Entity FormXml ID: '{d2c9a889-2aec-c406-6cca-4a60962b1841}'</comment>
+  </data>
+  <data name="1:label,Education Content{dc3ee4a1-1e8a-6b85-5ab5-b60e34d9737e}" xml:space="preserve">
+    <value>Section</value>
+    <comment>'Education Content' : label for section in Entity FormXml ID: '{dc3ee4a1-1e8a-6b85-5ab5-b60e34d9737e}'</comment>
+  </data>
+  <data name="1:label,Education Content{f3913942-39b7-481e-a2ea-8a31b75b0858}" xml:space="preserve">
+    <value>General</value>
+    <comment>'Education Content' : label for section in Entity FormXml ID: '{f3913942-39b7-481e-a2ea-8a31b75b0858}'</comment>
+  </data>
+  <data name="1:label,Extra Curricular Activity{0d975ab3-32c9-c446-c06c-a850eb99161c}" xml:space="preserve">
+    <value>Primary Contact</value>
+    <comment>'Extra Curricular Activity' : label for cell in Entity FormXml ID: '{0d975ab3-32c9-c446-c06c-a850eb99161c}'</comment>
+  </data>
+  <data name="1:label,Extra Curricular Activity{15ac1d42-a55e-4f6f-bb6e-ebe6669d0077}" xml:space="preserve">
+    <value />
+    <comment>'Extra Curricular Activity' : label for cell in Entity FormXml ID: '{15ac1d42-a55e-4f6f-bb6e-ebe6669d0077}'</comment>
+  </data>
+  <data name="1:label,Extra Curricular Activity{16f5e843-6323-4494-a0c5-e859fa81f76c}" xml:space="preserve">
+    <value>Extra Curricular Activity Name</value>
+    <comment>'Extra Curricular Activity' : label for cell in Entity FormXml ID: '{16f5e843-6323-4494-a0c5-e859fa81f76c}'</comment>
+  </data>
+  <data name="1:label,Extra Curricular Activity{3dc52fe9-877e-4b4f-9bbd-3287748a569f}" xml:space="preserve">
+    <value />
+    <comment>'Extra Curricular Activity' : label for cell in Entity FormXml ID: '{3dc52fe9-877e-4b4f-9bbd-3287748a569f}'</comment>
+  </data>
+  <data name="1:label,Extra Curricular Activity{5d778e75-2ecd-4ffe-8c24-4b055711eaf6}" xml:space="preserve">
+    <value />
+    <comment>'Extra Curricular Activity' : label for cell in Entity FormXml ID: '{5d778e75-2ecd-4ffe-8c24-4b055711eaf6}'</comment>
+  </data>
+  <data name="1:label,Extra Curricular Activity{62b8651d-9e21-4555-b47f-643ff1645358}" xml:space="preserve">
+    <value />
+    <comment>'Extra Curricular Activity' : label for cell in Entity FormXml ID: '{62b8651d-9e21-4555-b47f-643ff1645358}'</comment>
+  </data>
+  <data name="1:label,Extra Curricular Activity{7c4cd354-5a55-46f5-80d4-b9a304808d53}" xml:space="preserve">
+    <value />
+    <comment>'Extra Curricular Activity' : label for cell in Entity FormXml ID: '{7c4cd354-5a55-46f5-80d4-b9a304808d53}'</comment>
+  </data>
+  <data name="1:label,Extra Curricular Activity{bdcd4869-cb6c-0052-b298-99e167e581d2}" xml:space="preserve">
+    <value>General Email</value>
+    <comment>'Extra Curricular Activity' : label for cell in Entity FormXml ID: '{bdcd4869-cb6c-0052-b298-99e167e581d2}'</comment>
+  </data>
+  <data name="1:label,Extra Curricular Activity{ca22cfcd-b36e-4e65-bc8d-6e5655eb372e}" xml:space="preserve">
+    <value>General</value>
+    <comment>'Extra Curricular Activity' : label for section in Entity FormXml ID: '{ca22cfcd-b36e-4e65-bc8d-6e5655eb372e}'</comment>
+  </data>
+  <data name="1:label,Extra Curricular Activity{d4e7c3f7-ea47-42b8-af02-b776715eb559}" xml:space="preserve">
+    <value>Activity Date</value>
+    <comment>'Extra Curricular Activity' : label for cell in Entity FormXml ID: '{d4e7c3f7-ea47-42b8-af02-b776715eb559}'</comment>
+  </data>
+  <data name="1:label,Extra Curricular Activity{e301291f-3eff-4981-bf1d-a8d3f56c936d}" xml:space="preserve">
+    <value />
+    <comment>'Extra Curricular Activity' : label for cell in Entity FormXml ID: '{e301291f-3eff-4981-bf1d-a8d3f56c936d}'</comment>
+  </data>
+  <data name="1:label,Extra Curricular Activity{e7cce7c8-8c73-4f4a-b02a-9952e1aea8ed}" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'Extra Curricular Activity' : label for cell in Entity FormXml ID: '{e7cce7c8-8c73-4f4a-b02a-9952e1aea8ed}'</comment>
+  </data>
+  <data name="1:label,Extra Curricular Activity{f5575e0c-ed44-4878-97a6-584b81478ff8}" xml:space="preserve">
+    <value>General</value>
+    <comment>'Extra Curricular Activity' : label for tab in Entity FormXml ID: '{f5575e0c-ed44-4878-97a6-584b81478ff8}'</comment>
+  </data>
+  <data name="1:label,Extra Curricular Participant{01d97680-9222-6717-a26e-219caecaa8e7}" xml:space="preserve">
+    <value>Start Date</value>
+    <comment>'Extra Curricular Participant' : label for cell in Entity FormXml ID: '{01d97680-9222-6717-a26e-219caecaa8e7}'</comment>
+  </data>
+  <data name="1:label,Extra Curricular Participant{4b244952-20c2-4e0d-e13c-559616dce01b}" xml:space="preserve">
+    <value>State</value>
+    <comment>'Extra Curricular Participant' : label for cell in Entity FormXml ID: '{4b244952-20c2-4e0d-e13c-559616dce01b}'</comment>
+  </data>
+  <data name="1:label,Extra Curricular Participant{573d44df-9a8d-4ad8-af1b-6e01d5d8fa11}" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'Extra Curricular Participant' : label for cell in Entity FormXml ID: '{573d44df-9a8d-4ad8-af1b-6e01d5d8fa11}'</comment>
+  </data>
+  <data name="1:label,Extra Curricular Participant{746e180a-e983-460e-8758-55304b08b940}" xml:space="preserve">
+    <value>Student Extra Curricular Name</value>
+    <comment>'Extra Curricular Participant' : label for cell in Entity FormXml ID: '{746e180a-e983-460e-8758-55304b08b940}'</comment>
+  </data>
+  <data name="1:label,Extra Curricular Participant{7ca7a794-9809-96bb-124c-75116828ca15}" xml:space="preserve">
+    <value>Extra Curricular Activity</value>
+    <comment>'Extra Curricular Participant' : label for cell in Entity FormXml ID: '{7ca7a794-9809-96bb-124c-75116828ca15}'</comment>
+  </data>
+  <data name="1:label,Extra Curricular Participant{8365bb96-8235-3153-7a81-4ab38ec11baa}" xml:space="preserve">
+    <value>End Date</value>
+    <comment>'Extra Curricular Participant' : label for cell in Entity FormXml ID: '{8365bb96-8235-3153-7a81-4ab38ec11baa}'</comment>
+  </data>
+  <data name="1:label,Extra Curricular Participant{85b69a2c-c1ae-4c81-889f-ab0437327f7c}" xml:space="preserve">
+    <value>General</value>
+    <comment>'Extra Curricular Participant' : label for section in Entity FormXml ID: '{85b69a2c-c1ae-4c81-889f-ab0437327f7c}'</comment>
+  </data>
+  <data name="1:label,Extra Curricular Participant{92659e9e-cca7-e660-e841-eead3e500b9e}" xml:space="preserve">
+    <value>Student</value>
+    <comment>'Extra Curricular Participant' : label for cell in Entity FormXml ID: '{92659e9e-cca7-e660-e841-eead3e500b9e}'</comment>
+  </data>
+  <data name="1:label,Extra Curricular Participant{ff17254d-1978-42c8-9db9-4cc54e5b8b02}" xml:space="preserve">
+    <value>General</value>
+    <comment>'Extra Curricular Participant' : label for tab in Entity FormXml ID: '{ff17254d-1978-42c8-9db9-4cc54e5b8b02}'</comment>
+  </data>
+  <data name="1:label,Intervention Participant{2c699c9b-42e1-e257-434e-5b6a3cb221c9}" xml:space="preserve">
+    <value>Reason</value>
+    <comment>'Intervention Participant' : label for cell in Entity FormXml ID: '{2c699c9b-42e1-e257-434e-5b6a3cb221c9}'</comment>
+  </data>
+  <data name="1:label,Intervention Participant{330fba38-fc7f-42ef-938e-fdcd20f73f9b}" xml:space="preserve">
+    <value />
+    <comment>'Intervention Participant' : label for cell in Entity FormXml ID: '{330fba38-fc7f-42ef-938e-fdcd20f73f9b}'</comment>
+  </data>
+  <data name="1:label,Intervention Participant{41c53539-9c3d-4f07-b658-22e75fea2a02}" xml:space="preserve">
+    <value>General</value>
+    <comment>'Intervention Participant' : label for section in Entity FormXml ID: '{41c53539-9c3d-4f07-b658-22e75fea2a02}'</comment>
+  </data>
+  <data name="1:label,Intervention Participant{624a148d-a93d-4b9b-9bd5-ea025f007236}" xml:space="preserve">
+    <value />
+    <comment>'Intervention Participant' : label for cell in Entity FormXml ID: '{624a148d-a93d-4b9b-9bd5-ea025f007236}'</comment>
+  </data>
+  <data name="1:label,Intervention Participant{69ce1ef2-8313-4798-928e-cd89612e01e5}" xml:space="preserve">
+    <value>Name</value>
+    <comment>'Intervention Participant' : label for cell in Entity FormXml ID: '{69ce1ef2-8313-4798-928e-cd89612e01e5}'</comment>
+  </data>
+  <data name="1:label,Intervention Participant{ba09149a-6ca1-82bc-0602-6dab94b29599}" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'Intervention Participant' : label for cell in Entity FormXml ID: '{ba09149a-6ca1-82bc-0602-6dab94b29599}'</comment>
+  </data>
+  <data name="1:label,Intervention Participant{c07309db-531d-6cae-ea56-4660a10221c8}" xml:space="preserve">
+    <value>Student</value>
+    <comment>'Intervention Participant' : label for cell in Entity FormXml ID: '{c07309db-531d-6cae-ea56-4660a10221c8}'</comment>
+  </data>
+  <data name="1:label,Intervention Participant{cb917bcd-27d0-a610-8447-97e1a19adc1d}" xml:space="preserve">
+    <value>Intervention</value>
+    <comment>'Intervention Participant' : label for cell in Entity FormXml ID: '{cb917bcd-27d0-a610-8447-97e1a19adc1d}'</comment>
+  </data>
+  <data name="1:label,Intervention Participant{e89691c8-577b-4891-ac37-a1feca296d59}" xml:space="preserve">
+    <value>General</value>
+    <comment>'Intervention Participant' : label for tab in Entity FormXml ID: '{e89691c8-577b-4891-ac37-a1feca296d59}'</comment>
+  </data>
+  <data name="1:label,Intervention{090f3599-9ba9-4da4-bc91-96b4366a405e}" xml:space="preserve">
+    <value>General</value>
+    <comment>'Intervention' : label for section in Entity FormXml ID: '{090f3599-9ba9-4da4-bc91-96b4366a405e}'</comment>
+  </data>
+  <data name="1:label,Intervention{16417384-aada-40bf-8264-ac3abbb05a40}" xml:space="preserve">
+    <value>General</value>
+    <comment>'Intervention' : label for tab in Entity FormXml ID: '{16417384-aada-40bf-8264-ac3abbb05a40}'</comment>
+  </data>
+  <data name="1:label,Intervention{1b165520-c9ca-ea21-50c1-b1767598ed7d}" xml:space="preserve">
+    <value>Course Section</value>
+    <comment>'Intervention' : label for cell in Entity FormXml ID: '{1b165520-c9ca-ea21-50c1-b1767598ed7d}'</comment>
+  </data>
+  <data name="1:label,Intervention{4b361061-98d6-bcbd-9998-c0c0383116d4}" xml:space="preserve">
+    <value>Type</value>
+    <comment>'Intervention' : label for cell in Entity FormXml ID: '{4b361061-98d6-bcbd-9998-c0c0383116d4}'</comment>
+  </data>
+  <data name="1:label,Intervention{4e3b62bc-ea11-8a9e-92a6-d286147b7937}" xml:space="preserve">
+    <value>Begin Date</value>
+    <comment>'Intervention' : label for cell in Entity FormXml ID: '{4e3b62bc-ea11-8a9e-92a6-d286147b7937}'</comment>
+  </data>
+  <data name="1:label,Intervention{6c9d9993-4139-4619-afd9-b3cf504cc044}" xml:space="preserve">
+    <value>Name</value>
+    <comment>'Intervention' : label for cell in Entity FormXml ID: '{6c9d9993-4139-4619-afd9-b3cf504cc044}'</comment>
+  </data>
+  <data name="1:label,Intervention{7a87a8d5-043e-417c-a2d6-bf7d87a0348e}" xml:space="preserve">
+    <value />
+    <comment>'Intervention' : label for cell in Entity FormXml ID: '{7a87a8d5-043e-417c-a2d6-bf7d87a0348e}'</comment>
+  </data>
+  <data name="1:label,Intervention{8ca2c554-02a6-0eb8-6ee8-009e7061b467}" xml:space="preserve">
+    <value>Academic Period</value>
+    <comment>'Intervention' : label for cell in Entity FormXml ID: '{8ca2c554-02a6-0eb8-6ee8-009e7061b467}'</comment>
+  </data>
+  <data name="1:label,Intervention{97d3e1d9-8410-49e8-729d-13d58ca27a3c}" xml:space="preserve">
+    <value>Appropriate Grade Level</value>
+    <comment>'Intervention' : label for cell in Entity FormXml ID: '{97d3e1d9-8410-49e8-729d-13d58ca27a3c}'</comment>
+  </data>
+  <data name="1:label,Intervention{985899a6-822d-1527-006b-d112682549e7}" xml:space="preserve">
+    <value>Instructor</value>
+    <comment>'Intervention' : label for cell in Entity FormXml ID: '{985899a6-822d-1527-006b-d112682549e7}'</comment>
+  </data>
+  <data name="1:label,Intervention{c5455730-86a3-4266-08aa-015cee0146d6}" xml:space="preserve">
+    <value>Delivery Method</value>
+    <comment>'Intervention' : label for cell in Entity FormXml ID: '{c5455730-86a3-4266-08aa-015cee0146d6}'</comment>
+  </data>
+  <data name="1:label,Intervention{de152aa8-8263-4736-82bf-b754b184526b}" xml:space="preserve">
+    <value />
+    <comment>'Intervention' : label for cell in Entity FormXml ID: '{de152aa8-8263-4736-82bf-b754b184526b}'</comment>
+  </data>
+  <data name="1:label,Intervention{e94c0b35-e650-73a4-8627-9820346e8d79}" xml:space="preserve">
+    <value>End Date</value>
+    <comment>'Intervention' : label for cell in Entity FormXml ID: '{e94c0b35-e650-73a4-8627-9820346e8d79}'</comment>
+  </data>
+  <data name="1:label,Intervention{e9b031eb-04e8-1d9c-d91b-ad179b63812e}" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'Intervention' : label for cell in Entity FormXml ID: '{e9b031eb-04e8-1d9c-d91b-ad179b63812e}'</comment>
+  </data>
+  <data name="1:label,Learning Standard{2009069f-76af-437c-a484-6ca6db41c316}" xml:space="preserve">
+    <value />
+    <comment>'Learning Standard' : label for cell in Entity FormXml ID: '{2009069f-76af-437c-a484-6ca6db41c316}'</comment>
+  </data>
+  <data name="1:label,Learning Standard{284a0693-6279-8a46-d9d1-c36c79c36372}" xml:space="preserve">
+    <value>Learning Standard Type</value>
+    <comment>'Learning Standard' : label for cell in Entity FormXml ID: '{284a0693-6279-8a46-d9d1-c36c79c36372}'</comment>
+  </data>
+  <data name="1:label,Learning Standard{2ce46135-fac8-4df2-af94-dec8a3776f49}" xml:space="preserve">
+    <value>General</value>
+    <comment>'Learning Standard' : label for section in Entity FormXml ID: '{2ce46135-fac8-4df2-af94-dec8a3776f49}'</comment>
+  </data>
+  <data name="1:label,Learning Standard{3aa451e0-5d3a-c13c-e4a4-43136ea231e5}" xml:space="preserve">
+    <value>Description</value>
+    <comment>'Learning Standard' : label for cell in Entity FormXml ID: '{3aa451e0-5d3a-c13c-e4a4-43136ea231e5}'</comment>
+  </data>
+  <data name="1:label,Learning Standard{a7aeb5a2-eaab-b45e-335d-ea3560bc775e}" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'Learning Standard' : label for cell in Entity FormXml ID: '{a7aeb5a2-eaab-b45e-335d-ea3560bc775e}'</comment>
+  </data>
+  <data name="1:label,Learning Standard{abced116-9613-40a0-bc3c-a4cd7e6493eb}" xml:space="preserve">
+    <value />
+    <comment>'Learning Standard' : label for cell in Entity FormXml ID: '{abced116-9613-40a0-bc3c-a4cd7e6493eb}'</comment>
+  </data>
+  <data name="1:label,Learning Standard{b48e2d9d-c2cc-4c32-b08f-2f6f636309ac}" xml:space="preserve">
+    <value>Name</value>
+    <comment>'Learning Standard' : label for cell in Entity FormXml ID: '{b48e2d9d-c2cc-4c32-b08f-2f6f636309ac}'</comment>
+  </data>
+  <data name="1:label,Learning Standard{d3836d53-3429-4a00-b351-0e27ecbcd3c0}" xml:space="preserve">
+    <value>General</value>
+    <comment>'Learning Standard' : label for tab in Entity FormXml ID: '{d3836d53-3429-4a00-b351-0e27ecbcd3c0}'</comment>
+  </data>
+  <data name="1:label,Letter{0b8ee2e2-8bc5-665a-e80c-2899014de1b6}" xml:space="preserve">
+    <value>Summary</value>
+    <comment>'Letter' : label for tab in Entity FormXml ID: '{0b8ee2e2-8bc5-665a-e80c-2899014de1b6}'</comment>
+  </data>
+  <data name="1:label,Letter{0e0ed28b-35c2-8ab3-57c0-36b7a6771448}" xml:space="preserve">
+    <value>Section</value>
+    <comment>'Letter' : label for section in Entity FormXml ID: '{0e0ed28b-35c2-8ab3-57c0-36b7a6771448}'</comment>
+  </data>
+  <data name="1:label,Letter{108F893F-2198-4343-9BEE-F9B2787715AE}" xml:space="preserve">
+    <value>Activity Status</value>
+    <comment>'Letter' : label for cell in Entity FormXml ID: '{108F893F-2198-4343-9BEE-F9B2787715AE}'</comment>
+  </data>
+  <data name="1:label,Letter{37650769-7061-8e56-5d06-8a118084371d}" xml:space="preserve">
+    <value>Regarding</value>
+    <comment>'Letter' : label for cell in Entity FormXml ID: '{37650769-7061-8e56-5d06-8a118084371d}'</comment>
+  </data>
+  <data name="1:label,Letter{4D273ADC-7ACF-4425-A0F0-63FE10D735D1}" xml:space="preserve">
+    <value>To</value>
+    <comment>'Letter' : label for cell in Entity FormXml ID: '{4D273ADC-7ACF-4425-A0F0-63FE10D735D1}'</comment>
+  </data>
+  <data name="1:label,Letter{4E00A033-0C09-42A5-81BF-A4738A71819F}" xml:space="preserve">
+    <value>Due</value>
+    <comment>'Letter' : label for cell in Entity FormXml ID: '{4E00A033-0C09-42A5-81BF-A4738A71819F}'</comment>
+  </data>
+  <data name="1:label,Letter{6BE63CCF-F439-41C0-BCEB-36E4C5692FBA}" xml:space="preserve">
+    <value>Priority</value>
+    <comment>'Letter' : label for cell in Entity FormXml ID: '{6BE63CCF-F439-41C0-BCEB-36E4C5692FBA}'</comment>
+  </data>
+  <data name="1:label,Letter{827ca61a-0c71-1185-590a-c6cd751c1873}" xml:space="preserve">
+    <value>Homework View</value>
+    <comment>'Letter' : label for tab in Entity FormXml ID: '{827ca61a-0c71-1185-590a-c6cd751c1873}'</comment>
+  </data>
+  <data name="1:label,Letter{9F3AC78D-4959-4A1B-9243-057896534DA0}" xml:space="preserve">
+    <value>Subject</value>
+    <comment>'Letter' : label for cell in Entity FormXml ID: '{9F3AC78D-4959-4A1B-9243-057896534DA0}'</comment>
+  </data>
+  <data name="1:label,Letter{a2a28e75-2980-8c5d-d96c-7597024d02d4}" xml:space="preserve">
+    <value>Due Date</value>
+    <comment>'Letter' : label for cell in Entity FormXml ID: '{a2a28e75-2980-8c5d-d96c-7597024d02d4}'</comment>
+  </data>
+  <data name="1:label,Letter{AB2B7960-8CDF-465A-977D-26B27B36AE7D}" xml:space="preserve">
+    <value />
+    <comment>'Letter' : label for section in Entity FormXml ID: '{AB2B7960-8CDF-465A-977D-26B27B36AE7D}'</comment>
+  </data>
+  <data name="1:label,Letter{AF07FCD7-8384-45B9-A26A-03619C0426E8}" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'Letter' : label for cell in Entity FormXml ID: '{AF07FCD7-8384-45B9-A26A-03619C0426E8}'</comment>
+  </data>
+  <data name="1:label,Letter{B3935E5A-98B8-404B-B18A-5BFF0423C7F5}" xml:space="preserve">
+    <value>From</value>
+    <comment>'Letter' : label for cell in Entity FormXml ID: '{B3935E5A-98B8-404B-B18A-5BFF0423C7F5}'</comment>
+  </data>
+  <data name="1:label,Letter{d35e5955-43ba-dca7-0a07-0d3d85596d95}" xml:space="preserve">
+    <value>Duration</value>
+    <comment>'Letter' : label for cell in Entity FormXml ID: '{d35e5955-43ba-dca7-0a07-0d3d85596d95}'</comment>
+  </data>
+  <data name="1:label,mshied_extracurricularactivitiesmshied_extracurricularactivities_statecode0" xml:space="preserve">
+    <value>Active</value>
+    <comment>'mshied_extracurricularactivities' : label for state '0' on Entity</comment>
+  </data>
+  <data name="1:label,mshied_extracurricularactivitiesmshied_extracurricularactivities_statecode1" xml:space="preserve">
+    <value>Inactive</value>
+    <comment>'mshied_extracurricularactivities' : label for state '1' on Entity</comment>
+  </data>
+  <data name="1:label,Task{0A9B5273-AD20-4A08-8990-64CB20861D81}" xml:space="preserve">
+    <value>Priority</value>
+    <comment>'Task' : label for cell in Entity FormXml ID: '{0A9B5273-AD20-4A08-8990-64CB20861D81}'</comment>
+  </data>
+  <data name="1:label,Task{156932d8-1082-4e0a-92e9-9fde7847394a}" xml:space="preserve">
+    <value />
+    <comment>'Task' : label for cell in Entity FormXml ID: '{156932d8-1082-4e0a-92e9-9fde7847394a}'</comment>
+  </data>
+  <data name="1:label,Task{48b67334-c258-7097-73d3-a1e511b31772}" xml:space="preserve">
+    <value>Note Text</value>
+    <comment>'Task' : label for cell in Entity FormXml ID: '{48b67334-c258-7097-73d3-a1e511b31772}'</comment>
+  </data>
+  <data name="1:label,Task{59BF22C1-8C1D-4235-8516-4647EDEAE36C}" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'Task' : label for cell in Entity FormXml ID: '{59BF22C1-8C1D-4235-8516-4647EDEAE36C}'</comment>
+  </data>
+  <data name="1:label,Task{5ba6510a-e508-4fd5-9999-ba1d9586cdd2}" xml:space="preserve">
+    <value />
+    <comment>'Task' : label for cell in Entity FormXml ID: '{5ba6510a-e508-4fd5-9999-ba1d9586cdd2}'</comment>
+  </data>
+  <data name="1:label,Task{5FD2BE87-C1CF-41A6-9AD9-4D273733422E}" xml:space="preserve">
+    <value>Subject</value>
+    <comment>'Task' : label for cell in Entity FormXml ID: '{5FD2BE87-C1CF-41A6-9AD9-4D273733422E}'</comment>
+  </data>
+  <data name="1:label,Task{6A04844E-9375-4428-BF70-85C6C3556B8B}" xml:space="preserve">
+    <value>Activity Status</value>
+    <comment>'Task' : label for cell in Entity FormXml ID: '{6A04844E-9375-4428-BF70-85C6C3556B8B}'</comment>
+  </data>
+  <data name="1:label,Task{ab665b56-1520-41f1-bbb1-45b38e47a878}" xml:space="preserve">
+    <value />
+    <comment>'Task' : label for cell in Entity FormXml ID: '{ab665b56-1520-41f1-bbb1-45b38e47a878}'</comment>
+  </data>
+  <data name="1:label,Task{ADFD103B-691E-4A92-B4CF-F844B645A1F7}" xml:space="preserve">
+    <value>TASK</value>
+    <comment>'Task' : label for tab in Entity FormXml ID: '{ADFD103B-691E-4A92-B4CF-F844B645A1F7}'</comment>
+  </data>
+  <data name="1:label,Task{E3CC7544-665F-4BDC-874C-FD933C7C05ED}" xml:space="preserve">
+    <value>Due</value>
+    <comment>'Task' : label for cell in Entity FormXml ID: '{E3CC7544-665F-4BDC-874C-FD933C7C05ED}'</comment>
+  </data>
+  <data name="1:label,Task{EBB3C46D-5E9B-4EBB-A9E4-B8C25D364BB3}" xml:space="preserve">
+    <value>TASK</value>
+    <comment>'Task' : label for section in Entity FormXml ID: '{EBB3C46D-5E9B-4EBB-A9E4-B8C25D364BB3}'</comment>
+  </data>
+  <data name="1:LocalizedName,Activity{33359ad3-0c6e-ea11-a811-000d3a579c6b}" xml:space="preserve">
+    <value>K12 Portal Homework</value>
+    <comment>'Activity' : LocalizedName for SavedQuery on Entity QueryId: '{33359ad3-0c6e-ea11-a811-000d3a579c6b}'</comment>
+  </data>
+  <data name="1:LocalizedName,Activity{9ff9fce4-687a-ea11-a812-000d3a17769f}" xml:space="preserve">
+    <value>K12 Portal Tasks Registration View</value>
+    <comment>'Activity' : LocalizedName for SavedQuery on Entity QueryId: '{9ff9fce4-687a-ea11-a812-000d3a17769f}'</comment>
+  </data>
+  <data name="1:LocalizedName,Activity{b7a0907b-0d6e-ea11-a811-000d3a579c6b}" xml:space="preserve">
+    <value>K12 Portal Homework Future</value>
+    <comment>'Activity' : LocalizedName for SavedQuery on Entity QueryId: '{b7a0907b-0d6e-ea11-a811-000d3a579c6b}'</comment>
+  </data>
+  <data name="1:LocalizedName,Activity{d9a08d69-0d6e-ea11-a811-000d3a579c6b}" xml:space="preserve">
+    <value>K12 Portal Homework Past</value>
+    <comment>'Activity' : LocalizedName for SavedQuery on Entity QueryId: '{d9a08d69-0d6e-ea11-a811-000d3a579c6b}'</comment>
+  </data>
+  <data name="1:LocalizedName,Assessment Delivery{a8de3b6d-917d-ea11-a812-000d3a579c6b}" xml:space="preserve">
+    <value>K12 Portal Active Assessment Deliveries</value>
+    <comment>'Assessment Delivery' : LocalizedName for SavedQuery on Entity QueryId: '{a8de3b6d-917d-ea11-a812-000d3a579c6b}'</comment>
+  </data>
+  <data name="1:LocalizedName,Assessment Delivery{dbbc702a-bdfa-4eb9-aefe-577949be2bfa}" xml:space="preserve">
+    <value>K12 Portal Assessment Delivery Form</value>
+    <comment>'Assessment Delivery' : LocalizedName for systemform in Entity FormXml ID: '{dbbc702a-bdfa-4eb9-aefe-577949be2bfa}'</comment>
+  </data>
+  <data name="1:LocalizedName,Assessment Score{58c20dfc-8e73-ea11-a811-000d3a579c6b}" xml:space="preserve">
+    <value>K12 Portal Active Assessment Scores</value>
+    <comment>'Assessment Score' : LocalizedName for SavedQuery on Entity QueryId: '{58c20dfc-8e73-ea11-a811-000d3a579c6b}'</comment>
+  </data>
+  <data name="1:LocalizedName,Assessment Score{c16a4124-68d2-40c6-a46b-70f79a745b56}" xml:space="preserve">
+    <value>K12 Portal Assessment Score</value>
+    <comment>'Assessment Score' : LocalizedName for systemform in Entity FormXml ID: '{c16a4124-68d2-40c6-a46b-70f79a745b56}'</comment>
+  </data>
+  <data name="1:LocalizedName,Assessment{539be30b-927d-ea11-a812-000d3a579c6b}" xml:space="preserve">
+    <value>K12 Portal Active Assessments</value>
+    <comment>'Assessment' : LocalizedName for SavedQuery on Entity QueryId: '{539be30b-927d-ea11-a812-000d3a579c6b}'</comment>
+  </data>
+  <data name="1:LocalizedName,Attendance{0e97940c-b572-ea11-a811-000d3a579c6b}" xml:space="preserve">
+    <value>K12 Portal Attendances</value>
+    <comment>'Attendance' : LocalizedName for SavedQuery on Entity QueryId: '{0e97940c-b572-ea11-a811-000d3a579c6b}'</comment>
+  </data>
+  <data name="1:LocalizedName,Attendance{174bfd7f-a235-4484-8aa5-72a69f9fb2eb}" xml:space="preserve">
+    <value>K12 Portal Attendance</value>
+    <comment>'Attendance' : LocalizedName for systemform in Entity FormXml ID: '{174bfd7f-a235-4484-8aa5-72a69f9fb2eb}'</comment>
+  </data>
+  <data name="1:LocalizedName,Attendance{e7a92959-31d3-eb11-bacc-000d3a5b8e71}" xml:space="preserve">
+    <value>K12 Portal Calendar View</value>
+    <comment>'Attendance' : LocalizedName for SavedQuery on Entity QueryId: '{e7a92959-31d3-eb11-bacc-000d3a5b8e71}'</comment>
+  </data>
+  <data name="1:LocalizedName,Behavior Incident{29048a68-146e-ea11-a811-000d3a579c6b}" xml:space="preserve">
+    <value>K12 Portal Active Behavior Incidents</value>
+    <comment>'Behavior Incident' : LocalizedName for SavedQuery on Entity QueryId: '{29048a68-146e-ea11-a811-000d3a579c6b}'</comment>
+  </data>
+  <data name="1:LocalizedName,Behavior Incident{7d1eedef-9419-45c5-8550-86a3d0589411}" xml:space="preserve">
+    <value>K12 Portal Behavior Incident Form</value>
+    <comment>'Behavior Incident' : LocalizedName for systemform in Entity FormXml ID: '{7d1eedef-9419-45c5-8550-86a3d0589411}'</comment>
+  </data>
+  <data name="1:LocalizedName,Contact{38e715df-0f6e-ea11-a811-000d3a579c6b}" xml:space="preserve">
+    <value>K12 Portal Active Faculty</value>
+    <comment>'Contact' : LocalizedName for SavedQuery on Entity QueryId: '{38e715df-0f6e-ea11-a811-000d3a579c6b}'</comment>
+  </data>
+  <data name="1:LocalizedName,Contact{b5d5940a-ddcc-4338-9b12-314b72405f0b}" xml:space="preserve">
+    <value>K12 Portal Faculty Form</value>
+    <comment>'Contact' : LocalizedName for systemform in Entity FormXml ID: '{b5d5940a-ddcc-4338-9b12-314b72405f0b}'</comment>
+  </data>
+  <data name="1:LocalizedName,Course Section{1ec5a783-6ab7-4244-bafb-adc586123aa8}" xml:space="preserve">
+    <value>K12 Portal Course Section Form</value>
+    <comment>'Course Section' : LocalizedName for systemform in Entity FormXml ID: '{1ec5a783-6ab7-4244-bafb-adc586123aa8}'</comment>
+  </data>
+  <data name="1:LocalizedName,Course Section{c79d7f51-136e-ea11-a811-000d3a579c6b}" xml:space="preserve">
+    <value>K12 Portal Active Course Section</value>
+    <comment>'Course Section' : LocalizedName for SavedQuery on Entity QueryId: '{c79d7f51-136e-ea11-a811-000d3a579c6b}'</comment>
+  </data>
+  <data name="1:LocalizedName,Education Content{70a2c8b0-3425-49b5-a9a5-6009c9b4b0da}" xml:space="preserve">
+    <value>K12 Portal Education Content Form</value>
+    <comment>'Education Content' : LocalizedName for systemform in Entity FormXml ID: '{70a2c8b0-3425-49b5-a9a5-6009c9b4b0da}'</comment>
+  </data>
+  <data name="1:LocalizedName,Education Content{fa2c0ad7-136e-ea11-a811-000d3a579c6b}" xml:space="preserve">
+    <value>K12 Portal Active Education Contents</value>
+    <comment>'Education Content' : LocalizedName for SavedQuery on Entity QueryId: '{fa2c0ad7-136e-ea11-a811-000d3a579c6b}'</comment>
+  </data>
+  <data name="1:LocalizedName,Extra Curricular Activity{0cd9d9ef-928b-46b1-b739-656eead0a2be}" xml:space="preserve">
+    <value>Extra Curricular Activity Advanced Find View</value>
+    <comment>'Extra Curricular Activity' : LocalizedName for SavedQuery on Entity QueryId: '{0cd9d9ef-928b-46b1-b739-656eead0a2be}'</comment>
+  </data>
+  <data name="1:LocalizedName,Extra Curricular Activity{0e082f70-a328-4afa-8841-69f153307042}" xml:space="preserve">
+    <value>K12 Portal Extra Curricular Activity Form</value>
+    <comment>'Extra Curricular Activity' : LocalizedName for systemform in Entity FormXml ID: '{0e082f70-a328-4afa-8841-69f153307042}'</comment>
+  </data>
+  <data name="1:LocalizedName,Extra Curricular Activity{1c9e4d23-8664-ea11-a811-000d3a579c6c}" xml:space="preserve">
+    <value>Active Extra Curricular Activities K12</value>
+    <comment>'Extra Curricular Activity' : LocalizedName for SavedQuery on Entity QueryId: '{1c9e4d23-8664-ea11-a811-000d3a579c6c}'</comment>
+  </data>
+  <data name="1:LocalizedName,Extra Curricular Activity{4d71b6fd-9350-4594-944a-2a518a694209}" xml:space="preserve">
+    <value>Extra Curricular Activity Associated View</value>
+    <comment>'Extra Curricular Activity' : LocalizedName for SavedQuery on Entity QueryId: '{4d71b6fd-9350-4594-944a-2a518a694209}'</comment>
+  </data>
+  <data name="1:LocalizedName,Extra Curricular Activity{5a4fa675-3ba5-495d-ab21-7d47170f8815}" xml:space="preserve">
+    <value>Quick Find Active Extra Curricular Activities</value>
+    <comment>'Extra Curricular Activity' : LocalizedName for SavedQuery on Entity QueryId: '{5a4fa675-3ba5-495d-ab21-7d47170f8815}'</comment>
+  </data>
+  <data name="1:LocalizedName,Extra Curricular Activity{64c9f280-106e-ea11-a811-000d3a579c6b}" xml:space="preserve">
+    <value>K12 Portal Active Extra Curricular Activities</value>
+    <comment>'Extra Curricular Activity' : LocalizedName for SavedQuery on Entity QueryId: '{64c9f280-106e-ea11-a811-000d3a579c6b}'</comment>
+  </data>
+  <data name="1:LocalizedName,Extra Curricular Activity{aa1fe40d-8bad-4a72-97d4-14cec4dc780f}" xml:space="preserve">
+    <value>Extra Curricular Activity Lookup View</value>
+    <comment>'Extra Curricular Activity' : LocalizedName for SavedQuery on Entity QueryId: '{aa1fe40d-8bad-4a72-97d4-14cec4dc780f}'</comment>
+  </data>
+  <data name="1:LocalizedName,Extra Curricular Activity{c6327b2c-ead3-4eae-afbe-402ebf80ec97}" xml:space="preserve">
+    <value>Inactive Extra Curricular Activities</value>
+    <comment>'Extra Curricular Activity' : LocalizedName for SavedQuery on Entity QueryId: '{c6327b2c-ead3-4eae-afbe-402ebf80ec97}'</comment>
+  </data>
+  <data name="1:LocalizedName,Extra Curricular Activity{d4501044-f941-4ce0-b9e8-b5cefc74d031}" xml:space="preserve">
+    <value>Active Extra Curricular Activities</value>
+    <comment>'Extra Curricular Activity' : LocalizedName for SavedQuery on Entity QueryId: '{d4501044-f941-4ce0-b9e8-b5cefc74d031}'</comment>
+  </data>
+  <data name="1:LocalizedName,Extra Curricular Participant{09b41d0f-8673-ea11-a811-000d3a579c6b}" xml:space="preserve">
+    <value>K12 Portal EC Activity Participant</value>
+    <comment>'Extra Curricular Participant' : LocalizedName for SavedQuery on Entity QueryId: '{09b41d0f-8673-ea11-a811-000d3a579c6b}'</comment>
+  </data>
+  <data name="1:LocalizedName,Extra Curricular Participant{211d2042-f718-4559-8c7f-f5da4caa4d04}" xml:space="preserve">
+    <value>K12 Portal EC Activity Participant Form</value>
+    <comment>'Extra Curricular Participant' : LocalizedName for systemform in Entity FormXml ID: '{211d2042-f718-4559-8c7f-f5da4caa4d04}'</comment>
+  </data>
+  <data name="1:LocalizedName,Intervention Participant{ac197abc-2574-ea11-a811-000d3a579c6b}" xml:space="preserve">
+    <value>K12 Portal Active Intervention Participants</value>
+    <comment>'Intervention Participant' : LocalizedName for SavedQuery on Entity QueryId: '{ac197abc-2574-ea11-a811-000d3a579c6b}'</comment>
+  </data>
+  <data name="1:LocalizedName,Intervention Participant{defb79e3-f3ce-45e0-9904-8f3b2a28ba55}" xml:space="preserve">
+    <value>K12 Portal Intervention Participant</value>
+    <comment>'Intervention Participant' : LocalizedName for systemform in Entity FormXml ID: '{defb79e3-f3ce-45e0-9904-8f3b2a28ba55}'</comment>
+  </data>
+  <data name="1:LocalizedName,Intervention{29f0bdb6-146e-ea11-a811-000d3a579c6b}" xml:space="preserve">
+    <value>K12 Portal Active Interventions</value>
+    <comment>'Intervention' : LocalizedName for SavedQuery on Entity QueryId: '{29f0bdb6-146e-ea11-a811-000d3a579c6b}'</comment>
+  </data>
+  <data name="1:LocalizedName,Intervention{4e6dca57-7448-4eff-91ca-2603e64347b6}" xml:space="preserve">
+    <value>K12 Portal Intervention Form</value>
+    <comment>'Intervention' : LocalizedName for systemform in Entity FormXml ID: '{4e6dca57-7448-4eff-91ca-2603e64347b6}'</comment>
+  </data>
+  <data name="1:LocalizedName,Learning Standard{550ffb3b-6817-490f-aad4-d77ee1e8374c}" xml:space="preserve">
+    <value>K12 Portal Learning Standard Form</value>
+    <comment>'Learning Standard' : LocalizedName for systemform in Entity FormXml ID: '{550ffb3b-6817-490f-aad4-d77ee1e8374c}'</comment>
+  </data>
+  <data name="1:LocalizedName,Learning Standard{f6cb341a-146e-ea11-a811-000d3a579c6b}" xml:space="preserve">
+    <value>K12 Portal Active Learning Standards</value>
+    <comment>'Learning Standard' : LocalizedName for SavedQuery on Entity QueryId: '{f6cb341a-146e-ea11-a811-000d3a579c6b}'</comment>
+  </data>
+  <data name="1:LocalizedName,Letter{046ce8a6-4250-4ca6-9137-d9f6be2816a9}" xml:space="preserve">
+    <value>K12 Portal Homework</value>
+    <comment>'Letter' : LocalizedName for systemform in Entity FormXml ID: '{046ce8a6-4250-4ca6-9137-d9f6be2816a9}'</comment>
+  </data>
+  <data name="1:LocalizedName,Task{23107275-4e77-eb11-a812-000d3a37d155}" xml:space="preserve">
+    <value>K12 Portal Assignment View</value>
+    <comment>'Task' : LocalizedName for SavedQuery on Entity QueryId: '{23107275-4e77-eb11-a812-000d3a37d155}'</comment>
+  </data>
+  <data name="1:LocalizedName,Task{28987114-8ed2-4ca1-8da7-7c4946d58dec}" xml:space="preserve">
+    <value>K12 Portal Task Form</value>
+    <comment>'Task' : LocalizedName for systemform in Entity FormXml ID: '{28987114-8ed2-4ca1-8da7-7c4946d58dec}'</comment>
+  </data>
+  <data name="1:LocalizedName,Task{8c0b6cee-677a-ea11-a812-000d3a17769f}" xml:space="preserve">
+    <value>K12 Portal Registration</value>
+    <comment>'Task' : LocalizedName for SavedQuery on Entity QueryId: '{8c0b6cee-677a-ea11-a812-000d3a17769f}'</comment>
+  </data>
+  <data name="1:LocalizedName,Task{b6f48599-4f77-eb11-a812-000d3a37d155}" xml:space="preserve">
+    <value>K12 Portal Homework View</value>
+    <comment>'Task' : LocalizedName for SavedQuery on Entity QueryId: '{b6f48599-4f77-eb11-a812-000d3a37d155}'</comment>
+  </data>
+  <data name="1:LocalizedName,Test Score{541c3d9c-99f6-4c47-be56-784f29c376b9}" xml:space="preserve">
+    <value>Portal K12 Test Scores</value>
+    <comment>'Test Score' : LocalizedName for systemform in Entity FormXml ID: '{541c3d9c-99f6-4c47-be56-784f29c376b9}'</comment>
+  </data>
+  <data name="1:LocalizedName,Test Score{b824838d-136e-ea11-a811-000d3a579c6b}" xml:space="preserve">
+    <value>K12 Portal Active Test Scores</value>
+    <comment>'Test Score' : LocalizedName for SavedQuery on Entity QueryId: '{b824838d-136e-ea11-a811-000d3a579c6b}'</comment>
+  </data>
+  <data name="1:Title,Assessment DeliveryInfo{dbbc702a-bdfa-4eb9-aefe-577949be2bfa}" xml:space="preserve">
+    <value>Common</value>
+    <comment>'Assessment Delivery' : Title for NavBarArea in Entity FormXml ID: 'Info'</comment>
+  </data>
+  <data name="1:Title,Assessment DeliveryMarketing{dbbc702a-bdfa-4eb9-aefe-577949be2bfa}" xml:space="preserve">
+    <value>Marketing</value>
+    <comment>'Assessment Delivery' : Title for NavBarArea in Entity FormXml ID: 'Marketing'</comment>
+  </data>
+  <data name="1:Title,Assessment DeliveryProcessCenter{dbbc702a-bdfa-4eb9-aefe-577949be2bfa}" xml:space="preserve">
+    <value>Process Sessions</value>
+    <comment>'Assessment Delivery' : Title for NavBarArea in Entity FormXml ID: 'ProcessCenter'</comment>
+  </data>
+  <data name="1:Title,Assessment DeliverySales{dbbc702a-bdfa-4eb9-aefe-577949be2bfa}" xml:space="preserve">
+    <value>Sales</value>
+    <comment>'Assessment Delivery' : Title for NavBarArea in Entity FormXml ID: 'Sales'</comment>
+  </data>
+  <data name="1:Title,Assessment DeliveryService{dbbc702a-bdfa-4eb9-aefe-577949be2bfa}" xml:space="preserve">
+    <value>Service</value>
+    <comment>'Assessment Delivery' : Title for NavBarArea in Entity FormXml ID: 'Service'</comment>
+  </data>
+  <data name="1:Title,Assessment ScoreInfo{c16a4124-68d2-40c6-a46b-70f79a745b56}" xml:space="preserve">
+    <value>Common</value>
+    <comment>'Assessment Score' : Title for NavBarArea in Entity FormXml ID: 'Info'</comment>
+  </data>
+  <data name="1:Title,Assessment ScoreMarketing{c16a4124-68d2-40c6-a46b-70f79a745b56}" xml:space="preserve">
+    <value>Marketing</value>
+    <comment>'Assessment Score' : Title for NavBarArea in Entity FormXml ID: 'Marketing'</comment>
+  </data>
+  <data name="1:Title,Assessment ScoreProcessCenter{c16a4124-68d2-40c6-a46b-70f79a745b56}" xml:space="preserve">
+    <value>Process Sessions</value>
+    <comment>'Assessment Score' : Title for NavBarArea in Entity FormXml ID: 'ProcessCenter'</comment>
+  </data>
+  <data name="1:Title,Assessment ScoreSales{c16a4124-68d2-40c6-a46b-70f79a745b56}" xml:space="preserve">
+    <value>Sales</value>
+    <comment>'Assessment Score' : Title for NavBarArea in Entity FormXml ID: 'Sales'</comment>
+  </data>
+  <data name="1:Title,Assessment ScoreService{c16a4124-68d2-40c6-a46b-70f79a745b56}" xml:space="preserve">
+    <value>Service</value>
+    <comment>'Assessment Score' : Title for NavBarArea in Entity FormXml ID: 'Service'</comment>
+  </data>
+  <data name="1:Title,AttendanceInfo{174bfd7f-a235-4484-8aa5-72a69f9fb2eb}" xml:space="preserve">
+    <value>Common</value>
+    <comment>'Attendance' : Title for NavBarArea in Entity FormXml ID: 'Info'</comment>
+  </data>
+  <data name="1:Title,AttendanceMarketing{174bfd7f-a235-4484-8aa5-72a69f9fb2eb}" xml:space="preserve">
+    <value>Marketing</value>
+    <comment>'Attendance' : Title for NavBarArea in Entity FormXml ID: 'Marketing'</comment>
+  </data>
+  <data name="1:Title,AttendanceProcessCenter{174bfd7f-a235-4484-8aa5-72a69f9fb2eb}" xml:space="preserve">
+    <value>Process Sessions</value>
+    <comment>'Attendance' : Title for NavBarArea in Entity FormXml ID: 'ProcessCenter'</comment>
+  </data>
+  <data name="1:Title,AttendanceSales{174bfd7f-a235-4484-8aa5-72a69f9fb2eb}" xml:space="preserve">
+    <value>Sales</value>
+    <comment>'Attendance' : Title for NavBarArea in Entity FormXml ID: 'Sales'</comment>
+  </data>
+  <data name="1:Title,AttendanceService{174bfd7f-a235-4484-8aa5-72a69f9fb2eb}" xml:space="preserve">
+    <value>Service</value>
+    <comment>'Attendance' : Title for NavBarArea in Entity FormXml ID: 'Service'</comment>
+  </data>
+  <data name="1:Title,Behavior IncidentInfo{7d1eedef-9419-45c5-8550-86a3d0589411}" xml:space="preserve">
+    <value>Common</value>
+    <comment>'Behavior Incident' : Title for NavBarArea in Entity FormXml ID: 'Info'</comment>
+  </data>
+  <data name="1:Title,Behavior IncidentMarketing{7d1eedef-9419-45c5-8550-86a3d0589411}" xml:space="preserve">
+    <value>Marketing</value>
+    <comment>'Behavior Incident' : Title for NavBarArea in Entity FormXml ID: 'Marketing'</comment>
+  </data>
+  <data name="1:Title,Behavior IncidentProcessCenter{7d1eedef-9419-45c5-8550-86a3d0589411}" xml:space="preserve">
+    <value>Process Sessions</value>
+    <comment>'Behavior Incident' : Title for NavBarArea in Entity FormXml ID: 'ProcessCenter'</comment>
+  </data>
+  <data name="1:Title,Behavior IncidentSales{7d1eedef-9419-45c5-8550-86a3d0589411}" xml:space="preserve">
+    <value>Sales</value>
+    <comment>'Behavior Incident' : Title for NavBarArea in Entity FormXml ID: 'Sales'</comment>
+  </data>
+  <data name="1:Title,Behavior IncidentService{7d1eedef-9419-45c5-8550-86a3d0589411}" xml:space="preserve">
+    <value>Service</value>
+    <comment>'Behavior Incident' : Title for NavBarArea in Entity FormXml ID: 'Service'</comment>
+  </data>
+  <data name="1:Title,Course SectionInfo{1ec5a783-6ab7-4244-bafb-adc586123aa8}" xml:space="preserve">
+    <value>Common</value>
+    <comment>'Course Section' : Title for NavBarArea in Entity FormXml ID: 'Info'</comment>
+  </data>
+  <data name="1:Title,Course SectionMarketing{1ec5a783-6ab7-4244-bafb-adc586123aa8}" xml:space="preserve">
+    <value>Marketing</value>
+    <comment>'Course Section' : Title for NavBarArea in Entity FormXml ID: 'Marketing'</comment>
+  </data>
+  <data name="1:Title,Course SectionProcessCenter{1ec5a783-6ab7-4244-bafb-adc586123aa8}" xml:space="preserve">
+    <value>Process Sessions</value>
+    <comment>'Course Section' : Title for NavBarArea in Entity FormXml ID: 'ProcessCenter'</comment>
+  </data>
+  <data name="1:Title,Course SectionSales{1ec5a783-6ab7-4244-bafb-adc586123aa8}" xml:space="preserve">
+    <value>Sales</value>
+    <comment>'Course Section' : Title for NavBarArea in Entity FormXml ID: 'Sales'</comment>
+  </data>
+  <data name="1:Title,Course SectionService{1ec5a783-6ab7-4244-bafb-adc586123aa8}" xml:space="preserve">
+    <value>Service</value>
+    <comment>'Course Section' : Title for NavBarArea in Entity FormXml ID: 'Service'</comment>
+  </data>
+  <data name="1:Title,Education ContentInfo{70a2c8b0-3425-49b5-a9a5-6009c9b4b0da}" xml:space="preserve">
+    <value>Common</value>
+    <comment>'Education Content' : Title for NavBarArea in Entity FormXml ID: 'Info'</comment>
+  </data>
+  <data name="1:Title,Education ContentMarketing{70a2c8b0-3425-49b5-a9a5-6009c9b4b0da}" xml:space="preserve">
+    <value>Marketing</value>
+    <comment>'Education Content' : Title for NavBarArea in Entity FormXml ID: 'Marketing'</comment>
+  </data>
+  <data name="1:Title,Education ContentProcessCenter{70a2c8b0-3425-49b5-a9a5-6009c9b4b0da}" xml:space="preserve">
+    <value>Process Sessions</value>
+    <comment>'Education Content' : Title for NavBarArea in Entity FormXml ID: 'ProcessCenter'</comment>
+  </data>
+  <data name="1:Title,Education ContentSales{70a2c8b0-3425-49b5-a9a5-6009c9b4b0da}" xml:space="preserve">
+    <value>Sales</value>
+    <comment>'Education Content' : Title for NavBarArea in Entity FormXml ID: 'Sales'</comment>
+  </data>
+  <data name="1:Title,Education ContentService{70a2c8b0-3425-49b5-a9a5-6009c9b4b0da}" xml:space="preserve">
+    <value>Service</value>
+    <comment>'Education Content' : Title for NavBarArea in Entity FormXml ID: 'Service'</comment>
+  </data>
+  <data name="1:Title,Extra Curricular ActivityInfo{0e082f70-a328-4afa-8841-69f153307042}" xml:space="preserve">
+    <value>Common</value>
+    <comment>'Extra Curricular Activity' : Title for NavBarArea in Entity FormXml ID: 'Info'</comment>
+  </data>
+  <data name="1:Title,Extra Curricular ActivityMarketing{0e082f70-a328-4afa-8841-69f153307042}" xml:space="preserve">
+    <value>Marketing</value>
+    <comment>'Extra Curricular Activity' : Title for NavBarArea in Entity FormXml ID: 'Marketing'</comment>
+  </data>
+  <data name="1:Title,Extra Curricular ActivityProcessCenter{0e082f70-a328-4afa-8841-69f153307042}" xml:space="preserve">
+    <value>Process Sessions</value>
+    <comment>'Extra Curricular Activity' : Title for NavBarArea in Entity FormXml ID: 'ProcessCenter'</comment>
+  </data>
+  <data name="1:Title,Extra Curricular ActivitySales{0e082f70-a328-4afa-8841-69f153307042}" xml:space="preserve">
+    <value>Sales</value>
+    <comment>'Extra Curricular Activity' : Title for NavBarArea in Entity FormXml ID: 'Sales'</comment>
+  </data>
+  <data name="1:Title,Extra Curricular ActivityService{0e082f70-a328-4afa-8841-69f153307042}" xml:space="preserve">
+    <value>Service</value>
+    <comment>'Extra Curricular Activity' : Title for NavBarArea in Entity FormXml ID: 'Service'</comment>
+  </data>
+  <data name="1:Title,Extra Curricular ParticipantInfo{211d2042-f718-4559-8c7f-f5da4caa4d04}" xml:space="preserve">
+    <value>Common</value>
+    <comment>'Extra Curricular Participant' : Title for NavBarArea in Entity FormXml ID: 'Info'</comment>
+  </data>
+  <data name="1:Title,Extra Curricular ParticipantMarketing{211d2042-f718-4559-8c7f-f5da4caa4d04}" xml:space="preserve">
+    <value>Marketing</value>
+    <comment>'Extra Curricular Participant' : Title for NavBarArea in Entity FormXml ID: 'Marketing'</comment>
+  </data>
+  <data name="1:Title,Extra Curricular ParticipantProcessCenter{211d2042-f718-4559-8c7f-f5da4caa4d04}" xml:space="preserve">
+    <value>Process Sessions</value>
+    <comment>'Extra Curricular Participant' : Title for NavBarArea in Entity FormXml ID: 'ProcessCenter'</comment>
+  </data>
+  <data name="1:Title,Extra Curricular ParticipantSales{211d2042-f718-4559-8c7f-f5da4caa4d04}" xml:space="preserve">
+    <value>Sales</value>
+    <comment>'Extra Curricular Participant' : Title for NavBarArea in Entity FormXml ID: 'Sales'</comment>
+  </data>
+  <data name="1:Title,Extra Curricular ParticipantService{211d2042-f718-4559-8c7f-f5da4caa4d04}" xml:space="preserve">
+    <value>Service</value>
+    <comment>'Extra Curricular Participant' : Title for NavBarArea in Entity FormXml ID: 'Service'</comment>
+  </data>
+  <data name="1:Title,Intervention ParticipantInfo{defb79e3-f3ce-45e0-9904-8f3b2a28ba55}" xml:space="preserve">
+    <value>Common</value>
+    <comment>'Intervention Participant' : Title for NavBarArea in Entity FormXml ID: 'Info'</comment>
+  </data>
+  <data name="1:Title,Intervention ParticipantMarketing{defb79e3-f3ce-45e0-9904-8f3b2a28ba55}" xml:space="preserve">
+    <value>Marketing</value>
+    <comment>'Intervention Participant' : Title for NavBarArea in Entity FormXml ID: 'Marketing'</comment>
+  </data>
+  <data name="1:Title,Intervention ParticipantProcessCenter{defb79e3-f3ce-45e0-9904-8f3b2a28ba55}" xml:space="preserve">
+    <value>Process Sessions</value>
+    <comment>'Intervention Participant' : Title for NavBarArea in Entity FormXml ID: 'ProcessCenter'</comment>
+  </data>
+  <data name="1:Title,Intervention ParticipantSales{defb79e3-f3ce-45e0-9904-8f3b2a28ba55}" xml:space="preserve">
+    <value>Sales</value>
+    <comment>'Intervention Participant' : Title for NavBarArea in Entity FormXml ID: 'Sales'</comment>
+  </data>
+  <data name="1:Title,Intervention ParticipantService{defb79e3-f3ce-45e0-9904-8f3b2a28ba55}" xml:space="preserve">
+    <value>Service</value>
+    <comment>'Intervention Participant' : Title for NavBarArea in Entity FormXml ID: 'Service'</comment>
+  </data>
+  <data name="1:Title,InterventionInfo{4e6dca57-7448-4eff-91ca-2603e64347b6}" xml:space="preserve">
+    <value>Common</value>
+    <comment>'Intervention' : Title for NavBarArea in Entity FormXml ID: 'Info'</comment>
+  </data>
+  <data name="1:Title,InterventionMarketing{4e6dca57-7448-4eff-91ca-2603e64347b6}" xml:space="preserve">
+    <value>Marketing</value>
+    <comment>'Intervention' : Title for NavBarArea in Entity FormXml ID: 'Marketing'</comment>
+  </data>
+  <data name="1:Title,InterventionProcessCenter{4e6dca57-7448-4eff-91ca-2603e64347b6}" xml:space="preserve">
+    <value>Process Sessions</value>
+    <comment>'Intervention' : Title for NavBarArea in Entity FormXml ID: 'ProcessCenter'</comment>
+  </data>
+  <data name="1:Title,InterventionSales{4e6dca57-7448-4eff-91ca-2603e64347b6}" xml:space="preserve">
+    <value>Sales</value>
+    <comment>'Intervention' : Title for NavBarArea in Entity FormXml ID: 'Sales'</comment>
+  </data>
+  <data name="1:Title,InterventionService{4e6dca57-7448-4eff-91ca-2603e64347b6}" xml:space="preserve">
+    <value>Service</value>
+    <comment>'Intervention' : Title for NavBarArea in Entity FormXml ID: 'Service'</comment>
+  </data>
+  <data name="1:Title,Learning StandardInfo{550ffb3b-6817-490f-aad4-d77ee1e8374c}" xml:space="preserve">
+    <value>Common</value>
+    <comment>'Learning Standard' : Title for NavBarArea in Entity FormXml ID: 'Info'</comment>
+  </data>
+  <data name="1:Title,Learning StandardMarketing{550ffb3b-6817-490f-aad4-d77ee1e8374c}" xml:space="preserve">
+    <value>Marketing</value>
+    <comment>'Learning Standard' : Title for NavBarArea in Entity FormXml ID: 'Marketing'</comment>
+  </data>
+  <data name="1:Title,Learning StandardProcessCenter{550ffb3b-6817-490f-aad4-d77ee1e8374c}" xml:space="preserve">
+    <value>Process Sessions</value>
+    <comment>'Learning Standard' : Title for NavBarArea in Entity FormXml ID: 'ProcessCenter'</comment>
+  </data>
+  <data name="1:Title,Learning StandardSales{550ffb3b-6817-490f-aad4-d77ee1e8374c}" xml:space="preserve">
+    <value>Sales</value>
+    <comment>'Learning Standard' : Title for NavBarArea in Entity FormXml ID: 'Sales'</comment>
+  </data>
+  <data name="1:Title,Learning StandardService{550ffb3b-6817-490f-aad4-d77ee1e8374c}" xml:space="preserve">
+    <value>Service</value>
+    <comment>'Learning Standard' : Title for NavBarArea in Entity FormXml ID: 'Service'</comment>
+  </data>
+  <data name="1:Title,LetterInfo{046ce8a6-4250-4ca6-9137-d9f6be2816a9}" xml:space="preserve">
+    <value>Common</value>
+    <comment>'Letter' : Title for NavBarArea in Entity FormXml ID: 'Info'</comment>
+  </data>
+  <data name="1:Title,LetterMarketing{046ce8a6-4250-4ca6-9137-d9f6be2816a9}" xml:space="preserve">
+    <value>Marketing</value>
+    <comment>'Letter' : Title for NavBarArea in Entity FormXml ID: 'Marketing'</comment>
+  </data>
+  <data name="1:Title,LetterProcessCenter{046ce8a6-4250-4ca6-9137-d9f6be2816a9}" xml:space="preserve">
+    <value>Process Sessions</value>
+    <comment>'Letter' : Title for NavBarArea in Entity FormXml ID: 'ProcessCenter'</comment>
+  </data>
+  <data name="1:Title,LetterSales{046ce8a6-4250-4ca6-9137-d9f6be2816a9}" xml:space="preserve">
+    <value>Sales</value>
+    <comment>'Letter' : Title for NavBarArea in Entity FormXml ID: 'Sales'</comment>
+  </data>
+  <data name="1:Title,LetterService{046ce8a6-4250-4ca6-9137-d9f6be2816a9}" xml:space="preserve">
+    <value>Service</value>
+    <comment>'Letter' : Title for NavBarArea in Entity FormXml ID: 'Service'</comment>
+  </data>
+  <data name="1:Title,TaskInfo{28987114-8ed2-4ca1-8da7-7c4946d58dec}" xml:space="preserve">
+    <value>Common</value>
+    <comment>'Task' : Title for NavBarArea in Entity FormXml ID: 'Info'</comment>
+  </data>
+  <data name="1:Title,TaskMarketing{28987114-8ed2-4ca1-8da7-7c4946d58dec}" xml:space="preserve">
+    <value>Marketing</value>
+    <comment>'Task' : Title for NavBarArea in Entity FormXml ID: 'Marketing'</comment>
+  </data>
+  <data name="1:Title,TaskProcessCenter{28987114-8ed2-4ca1-8da7-7c4946d58dec}" xml:space="preserve">
+    <value>Process Sessions</value>
+    <comment>'Task' : Title for NavBarArea in Entity FormXml ID: 'ProcessCenter'</comment>
+  </data>
+  <data name="1:Title,TaskSales{28987114-8ed2-4ca1-8da7-7c4946d58dec}" xml:space="preserve">
+    <value>Sales</value>
+    <comment>'Task' : Title for NavBarArea in Entity FormXml ID: 'Sales'</comment>
+  </data>
+  <data name="1:Title,TaskService{28987114-8ed2-4ca1-8da7-7c4946d58dec}" xml:space="preserve">
+    <value>Service</value>
+    <comment>'Task' : Title for NavBarArea in Entity FormXml ID: 'Service'</comment>
+  </data>
+  <data name="29:Description,{92b302fe-7c86-eb11-a812-000d3a59397a}" xml:space="preserve">
+    <value>Click to add description</value>
+    <comment>'Check Is Tardy  ?' : Description for Workflow</comment>
+  </data>
+  <data name="29:Description,{9b63158c-8086-eb11-a812-000d3a59397a}" xml:space="preserve">
+    <value>Click to add description</value>
+    <comment>'Check Is Excused' : Description for Workflow</comment>
+  </data>
+  <data name="29:LocalizedName,{845dc2ad-74a4-41b5-a634-0daa0acf2db3}" xml:space="preserve">
+    <value>Attendance - Update Attendance Summary on Create/Update</value>
+    <comment>'Attendance - Update Attendance Summary on Create/Update' : LocalizedName for Workflow</comment>
+  </data>
+  <data name="29:LocalizedName,{92b302fe-7c86-eb11-a812-000d3a59397a}" xml:space="preserve">
+    <value>Check Is Tardy  ?</value>
+    <comment>'Check Is Tardy  ?' : LocalizedName for Workflow</comment>
+  </data>
+  <data name="29:LocalizedName,{9b63158c-8086-eb11-a812-000d3a59397a}" xml:space="preserve">
+    <value>Check Is Excused</value>
+    <comment>'Check Is Excused' : LocalizedName for Workflow</comment>
+  </data>
+</root>

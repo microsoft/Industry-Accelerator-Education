@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{69d8a5f8-6515-eb11-a813-000d3a378f47}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="mshied_name" select="1" icon="1" preview="1">
+        <row name="result" id="mshied_courseid">
+          <cell name="mshied_name" width="275" />
+          <cell name="mshied_academiclevel" width="122" />
+          <cell name="mshied_coursenumber" width="132" />
+          <cell name="mshied_credits" width="101" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="mshied_course">
+          <attribute name="mshied_name" />
+          <attribute name="mshied_courseid" />
+          <attribute name="mshied_academiclevel" />
+          <attribute name="mshied_coursenumber" />
+          <attribute name="mshied_credits" />
+          <link-entity name="mshied_coursehistory" alias="ab" link-type="inner" from="mshied_courseid" to="mshied_courseid">
+            <filter type="and">
+              <condition attribute="mshied_studentid" operator="eq" value="{901fef6a-be1e-eb11-a813-000d3a378f47}" uiname="Portal Filter" uitype="contact" />
+            </filter>
+          </link-entity>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.2</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Current Courses Portal" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

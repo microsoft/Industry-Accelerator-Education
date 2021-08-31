@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery unmodified="1">
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{840dc305-b29c-4639-bd7a-dc43b489c084}</savedqueryid>
+    <queryapi></queryapi>
+    <layoutxml>
+      <grid name="resultset" jump="subject" select="1" preview="1" icon="1">
+        <row name="result" id="activityid">
+          <cell name="regardingobjectid" width="100" />
+          <cell name="location" width="100" />
+          <cell name="prioritycode" width="100" />
+          <cell name="scheduledstart" width="100" />
+          <cell name="scheduledend" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>1024</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="true">
+        <entity name="appointment">
+          <attribute name="scheduledstart" />
+          <attribute name="scheduledend" />
+          <attribute name="regardingobjectid" />
+          <attribute name="prioritycode" />
+          <attribute name="activityid" />
+          <attribute name="location" />
+          <order attribute="scheduledstart" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="in">
+              <value>0</value>
+              <value>3</value>
+            </condition>
+          </filter>
+          <link-entity name="activityparty" from="activityid" to="activityid" alias="aa">
+            <filter type="and">
+              <condition attribute="partyid" operator="eq-userid" />
+              <condition attribute="participationtypemask" operator="in">
+                <value>7</value>
+                <value>9</value>
+                <value>5</value>
+                <value>6</value>
+              </condition>
+            </filter>
+          </link-entity>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>5.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="My Appointments" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Displays Appointments the current user owns (to be used asynchronously)." languagecode="1033" />
+    </Descriptions>
+  </savedquery>
+</savedqueries>

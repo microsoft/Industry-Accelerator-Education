@@ -8,7 +8,7 @@
     <isdefault>1</isdefault>
     <savedqueryid>{5254efcf-b426-4a7f-b515-4979074ff097}</savedqueryid>
     <layoutxml>
-      <grid name="" jump="mshied_name" select="1" icon="1" preview="0">
+      <grid name="resultset" jump="mshied_name" select="1" icon="1" preview="0">
         <row name="mshied_programlevel" id="mshied_programlevelid">
           <cell name="mshied_name" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
           <cell name="mshied_code" width="100" />

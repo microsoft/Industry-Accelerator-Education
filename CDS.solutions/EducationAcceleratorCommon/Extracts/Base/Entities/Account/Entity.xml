@@ -81,6 +81,91 @@
                   <label description="Business Partner" languagecode="1033" />
                 </labels>
               </option>
+              <option value="494280007">
+                <labels>
+                  <label description="Department" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="494280008">
+                <labels>
+                  <label description="School" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="494280009">
+                <labels>
+                  <label description="District" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="494280010">
+                <labels>
+                  <label description="Local" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="494280011">
+                <labels>
+                  <label description="State" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="494280012">
+                <labels>
+                  <label description="National" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="494280013">
+                <labels>
+                  <label description="Department of Education" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="494280014">
+                <labels>
+                  <label description="Ministry of Education" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="494280015">
+                <labels>
+                  <label description="Adult Education" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="494280016">
+                <labels>
+                  <label description="Municipality" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="494280017">
+                <labels>
+                  <label description="Academic Trust" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="494280018">
+                <labels>
+                  <label description="Local Authority" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="494280019">
+                <labels>
+                  <label description="Region" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="494280020">
+                <labels>
+                  <label description="Division" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="494280021">
+                <labels>
+                  <label description="Province" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="494280022">
+                <labels>
+                  <label description="Research Center" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="494280023">
+                <labels>
+                  <label description="Program" languagecode="1033" />
+                </labels>
+              </option>
             </options>
           </optionset>
           <displaynames>
@@ -141,9 +226,9 @@
           <ValidForReadApi>1</ValidForReadApi>
           <ValidForCreateApi>1</ValidForCreateApi>
           <IsCustomField>1</IsCustomField>
-          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsAuditEnabled>0</IsAuditEnabled>
           <IsSecured>0</IsSecured>
-          <IntroducedVersion>1.0.0.0</IntroducedVersion>
+          <IntroducedVersion>3.1.3.5</IntroducedVersion>
           <IsCustomizable>1</IsCustomizable>
           <IsRenameable>1</IsRenameable>
           <CanModifySearchSettings>1</CanModifySearchSettings>
@@ -166,7 +251,46 @@
             <displayname description="External Source System" languagecode="1033" />
           </displaynames>
           <Descriptions>
-            <Description description="External Source System" languagecode="1033" />
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="mshied_ExternalSystem">
+          <Type>lookup</Type>
+          <Name>mshied_externalsystem</Name>
+          <LogicalName>mshied_externalsystem</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>3.1.3.5</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="External System" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="mshied_numberofContacts">
@@ -215,5 +339,6 @@
   </EntityInfo>
   <FormXml />
   <SavedQueries />
+  <Visualizations />
   <RibbonDiffXml />
 </Entity>

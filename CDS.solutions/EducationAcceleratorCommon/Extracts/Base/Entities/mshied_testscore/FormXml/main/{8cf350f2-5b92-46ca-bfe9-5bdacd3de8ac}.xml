@@ -429,11 +429,11 @@
             <label description="Admin" languagecode="1033" />
           </labels>
           <columns>
-            <column width="100%">
+            <column width="50%">
               <sections>
-                <section name="admin_section_1" showlabel="false" showbar="false" locklevel="0" id="{b1cca7b7-b81d-64d5-4c31-24c77da61137}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="130" celllabelalignment="Left" celllabelposition="Left">
+                <section name="section_AdminInformation" showlabel="true" showbar="false" locklevel="0" id="{b1cca7b7-b81d-64d5-4c31-24c77da61137}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="130" celllabelalignment="Left" celllabelposition="Left">
                   <labels>
-                    <label description="Section" languagecode="1033" />
+                    <label description="Admin Information" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
@@ -443,11 +443,10 @@
                         </labels>
                         <control id="createdby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="createdby" disabled="false" />
                       </cell>
-                      <cell id="{0a5007cc-3981-6171-1ca2-58c70a12e7dd}" showlabel="true" locklevel="0">
+                      <cell id="{87561546-351e-3956-873b-6b33912ed1e5}" showlabel="false">
                         <labels>
-                          <label description="Modified By" languagecode="1033" />
+                          <label description="" languagecode="1033" />
                         </labels>
-                        <control id="modifiedby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="modifiedby" disabled="false" />
                       </cell>
                     </row>
                     <row>
@@ -457,11 +456,36 @@
                         </labels>
                         <control id="createdon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="createdon" disabled="false" />
                       </cell>
+                      <cell locklevel="0" id="{d837c155-7fc7-44fa-9653-5c8b220b88a2}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0a5007cc-3981-6171-1ca2-58c70a12e7dd}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Modified By" languagecode="1033" />
+                        </labels>
+                        <control id="modifiedby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="modifiedby" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{6d0d2d67-2999-44e7-8f83-0e76b38a6c5c}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
                       <cell id="{13ba2ba4-7067-6e14-d85c-9a94419022c6}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="Modified On" languagecode="1033" />
                         </labels>
                         <control id="modifiedon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="modifiedon" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{afbc1175-3b3b-4863-93e5-339bec4039fb}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
                       </cell>
                     </row>
                     <row>
@@ -471,7 +495,25 @@
                         </labels>
                         <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" uniqueid="{cea2ad91-7202-5c16-881d-5521bae60294}" />
                       </cell>
-                      <cell id="{87561546-351e-3956-873b-6b33912ed1e5}" showlabel="false">
+                      <cell locklevel="0" id="{bf03598e-5ba1-4e90-b2e9-2d226b27248a}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="50%">
+              <sections>
+                <section name="_section_21" id="9dc9903c-4476-4b72-95c9-0986a9c43377" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell showlabel="false" locklevel="0" id="{b765f6dc-0670-427b-9cb0-17088a885f75}">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>
@@ -485,7 +527,7 @@
         </tab>
       </tabs>
       <Navigation>
-        <NavBar></NavBar>
+        <NavBar />
         <NavBarAreas>
           <NavBarArea Id="Info">
             <Titles>

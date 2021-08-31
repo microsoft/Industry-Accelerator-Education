@@ -1,0 +1,12 @@
+<environmentvariabledefinition schemaname="mshied_PowerBIReportURL">
+  <description default="Power BI Report URL">
+    <label description="Power BI Report URL" languagecode="1033" />
+  </description>
+  <displayname default="Power BI Report URL">
+    <label description="Power BI Report URL" languagecode="1033" />
+  </displayname>
+  <introducedversion>3.1.1.2</introducedversion>
+  <iscustomizable>1</iscustomizable>
+  <isrequired>0</isrequired>
+  <type>100000000</type>
+</environmentvariabledefinition>

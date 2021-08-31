@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery unmodified="1">
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{3b5046c0-70a1-44c4-be6e-e6f553e7ee7c}</savedqueryid>
+    <queryapi></queryapi>
+    <querytype>131072</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="appointment">
+          <attribute name="activityid" />
+          <filter type="and">
+            <condition attribute="scheduledstart" operator="not-null" />
+            <condition attribute="scheduledend" operator="not-null" />
+            <condition attribute="instancetypecode" operator="ne" value="2" />
+          </filter>
+          <link-entity name="activityparty" from="activityid" to="activityid">
+            <filter type="and">
+              <condition attribute="partyid" operator="eq-userid" />
+              <condition attribute="participationtypemask" operator="ne" value="9" />
+            </filter>
+          </link-entity>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>5.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="My Appointments" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Appointments Synced To Outlook" languagecode="1033" />
+    </Descriptions>
+  </savedquery>
+</savedqueries>

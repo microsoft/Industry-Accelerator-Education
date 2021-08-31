@@ -1,0 +1,926 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.2.21063.132" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SolutionManifest>
+    <UniqueName>Dynamics365HigherEdPortal</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="Dynamics 365 Higher Ed Portal" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions />
+    <Version>3.2.3.10</Version>
+    <Managed>2</Managed>
+    <Publisher>
+      <UniqueName>educationacceleratorcommon</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="Dynamics 365 Education" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions>
+        <Description description="Education Accelerator Common" languagecode="1033" />
+      </Descriptions>
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>mshied</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>49428</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="account" behavior="2" />
+      <RootComponent type="1" schemaName="adx_entitypermission" behavior="2" />
+      <RootComponent type="1" schemaName="appointment" behavior="2" />
+      <RootComponent type="1" schemaName="contact" behavior="2" />
+      <RootComponent type="1" schemaName="mshied_course" behavior="2" />
+      <RootComponent type="1" schemaName="mshied_coursehistory" behavior="2" />
+      <RootComponent type="1" schemaName="mshied_extracurricularactivities" behavior="2" />
+      <RootComponent type="1" schemaName="mshied_grantapplicant" behavior="2" />
+      <RootComponent type="1" schemaName="mshied_internship" behavior="2" />
+      <RootComponent type="1" schemaName="mshied_internshipapplicant" behavior="2" />
+      <RootComponent type="1" schemaName="mshied_programrequirement" behavior="2" />
+      <RootComponent type="1" schemaName="mshied_scholarship" behavior="2" />
+      <RootComponent type="1" schemaName="mshied_scholarshipapplicant" behavior="2" />
+      <RootComponent type="1" schemaName="mshied_studentresource" behavior="2" />
+      <RootComponent type="1" schemaName="task" behavior="2" />
+      <RootComponent type="29" id="{9aed6cca-5920-eb11-a813-000d3a378c4b}" behavior="0" />
+      <RootComponent type="29" id="{9e674443-0877-4845-a5a9-4a078eb6a66b}" behavior="0" />
+      <RootComponent type="60" id="{08ca35ed-4d19-4cbb-b751-d685f947280a}" behavior="0" />
+      <RootComponent type="60" id="{0bd832d5-9d6a-456d-bdc1-21129e82cc0f}" behavior="0" />
+      <RootComponent type="60" id="{1ecb245a-080c-41b1-ad31-9eccb26789d8}" behavior="0" />
+      <RootComponent type="60" id="{2581d811-33f8-40d1-bdda-cf34dc0aa04e}" behavior="0" />
+      <RootComponent type="60" id="{2ca9f014-790a-eb11-a813-000d3a1bb495}" behavior="0" />
+      <RootComponent type="60" id="{549a8aa3-c349-4ab9-8bac-4873fa9a7a5c}" behavior="0" />
+      <RootComponent type="60" id="{5f21ae68-bf55-4dd1-a434-eb99d6c0d003}" behavior="0" />
+      <RootComponent type="60" id="{60085773-4920-eb11-a813-000d3a378c4b}" behavior="0" />
+      <RootComponent type="60" id="{65e1d59f-14de-4706-8fd3-4e231912849d}" behavior="0" />
+      <RootComponent type="60" id="{6870df28-9763-4401-9c11-9d51a2a227fc}" behavior="0" />
+      <RootComponent type="60" id="{872b8f81-1f0b-eb11-a813-000d3a13a9b7}" behavior="0" />
+      <RootComponent type="60" id="{932a1aeb-6f05-ea11-a811-000d3a3bef84}" behavior="0" />
+      <RootComponent type="60" id="{a057d395-05e9-e911-a984-000d3a34a14b}" behavior="0" />
+      <RootComponent type="60" id="{b788f3b2-270b-eb11-a813-000d3a13a9b7}" behavior="0" />
+      <RootComponent type="60" id="{c8ea400b-9fdd-42ff-9ae6-e83938c5a99f}" behavior="0" />
+      <RootComponent type="60" id="{d70da3e4-ae62-42a0-be9a-d609aabb7eea}" behavior="0" />
+      <RootComponent type="60" id="{db543fa5-1bdd-44da-8c8b-b40739be6c7d}" behavior="0" />
+      <RootComponent type="60" id="{f1db2471-06e9-e911-a982-000d3a34a1bd}" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required type="1" schemaName="adx_entitypermission" displayName="Table Permission" solution="MicrosoftPortalBase (9.2.2103.1)" />
+        <Dependent type="1" schemaName="adx_entitypermission" displayName="Table Permission" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mshied_academicperiod" displayName="Academic Period" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="Current Program Courses Portal" displayName="Current Program Courses Portal" parentSchemaName="mshied_coursehistory" parentDisplayName="Course History" id="{f1578435-d20c-eb11-a813-000d3a13a9b7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mshied_course" displayName="Course" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="1" schemaName="mshied_course" displayName="Course" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mshied_course" displayName="Course" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="Current Courses Portal" displayName="Current Courses Portal" parentSchemaName="mshied_course" parentDisplayName="Course" id="{69d8a5f8-6515-eb11-a813-000d3a378f47}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mshied_course" displayName="Course" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="Course History Portal" displayName="Course History Portal" parentSchemaName="mshied_coursehistory" parentDisplayName="Course History" id="{8f2aa8ba-140f-eb11-a813-000d3a1bb495}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mshied_course" displayName="Course" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="Current Courses History Portal" displayName="Current Courses History Portal" parentSchemaName="mshied_coursehistory" parentDisplayName="Course History" id="{b643f287-6b15-eb11-a813-000d3a378c4b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mshied_course" displayName="Course" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="All Courses Portal" displayName="All Courses Portal" parentSchemaName="mshied_course" parentDisplayName="Course" id="{f01bf3db-ef1d-eb11-a813-000d3a378c4b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mshied_course" displayName="Course" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Higher Education Course Form Portal" parentDisplayName="Course" id="{a057d395-05e9-e911-a984-000d3a34a14b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mshied_coursehistory" displayName="Course History" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="1" schemaName="mshied_coursehistory" displayName="Course History" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mshied_coursehistory" displayName="Course History" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="Courses Completed Portal" displayName="Courses Completed Portal" parentSchemaName="mshied_coursehistory" parentDisplayName="Course History" id="{084c46ed-140f-eb11-a813-000d3a1bb495}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mshied_coursehistory" displayName="Course History" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="Required Courses Portal" displayName="Required Courses Portal" parentSchemaName="mshied_coursehistory" parentDisplayName="Course History" id="{2c24bd2b-150f-eb11-a813-000d3a1bb495}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mshied_coursehistory" displayName="Course History" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="Current Courses Portal" displayName="Current Courses Portal" parentSchemaName="mshied_course" parentDisplayName="Course" id="{69d8a5f8-6515-eb11-a813-000d3a378f47}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mshied_coursehistory" displayName="Course History" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="Optional Courses Portal" displayName="Optional Courses Portal" parentSchemaName="mshied_coursehistory" parentDisplayName="Course History" id="{83175a62-150f-eb11-a813-000d3a1bb495}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mshied_coursehistory" displayName="Course History" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="Course History Portal" displayName="Course History Portal" parentSchemaName="mshied_coursehistory" parentDisplayName="Course History" id="{8f2aa8ba-140f-eb11-a813-000d3a1bb495}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mshied_coursehistory" displayName="Course History" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="Current Courses History Portal" displayName="Current Courses History Portal" parentSchemaName="mshied_coursehistory" parentDisplayName="Course History" id="{b643f287-6b15-eb11-a813-000d3a378c4b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mshied_coursehistory" displayName="Course History" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="Current Program Courses Portal" displayName="Current Program Courses Portal" parentSchemaName="mshied_coursehistory" parentDisplayName="Course History" id="{f1578435-d20c-eb11-a813-000d3a13a9b7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mshied_extracurricularactivities" displayName="Extra Curricular Activity" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="1" schemaName="mshied_extracurricularactivities" displayName="Extra Curricular Activity" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mshied_extracurricularactivities" displayName="Extra Curricular Activity" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="Extra-Curricular Activities Portal" displayName="Extra-Curricular Activities Portal" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" id="{549c1005-d30c-eb11-a813-000d3a13a9b7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mshied_grantapplicant" displayName="Grant Applicant" solution="Dynamics365HigherEducationAccelerator (3.2.1.0)" />
+        <Dependent type="1" schemaName="mshied_grantapplicant" displayName="Grant Applicant" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mshied_internship" displayName="Internship" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="1" schemaName="mshied_internship" displayName="Internship" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mshied_internship" displayName="Internship" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="Active Internships Portal" displayName="Active Internships Portal" parentSchemaName="mshied_internship" parentDisplayName="Internship" id="{647cc84e-c31e-eb11-a813-000d3a378c4b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mshied_internship" displayName="Internship" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Information - Portal" parentDisplayName="Internship" id="{db543fa5-1bdd-44da-8c8b-b40739be6c7d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mshied_internshipapplicant" displayName="Internship Applicant" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="1" schemaName="mshied_internshipapplicant" displayName="Internship Applicant" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mshied_internshipapplicant" displayName="Internship Applicant" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="Current Internship Applications Portal" displayName="Current Internship Applications Portal" parentSchemaName="mshied_internshipapplicant" parentDisplayName="Internship Applicant" id="{8d2f7004-ec1d-eb11-a813-000d3a378c4b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mshied_internshipapplicant" displayName="Internship Applicant" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="New Internship Application Form" parentDisplayName="Internship Applicant" id="{1ecb245a-080c-41b1-ad31-9eccb26789d8}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mshied_programrequirement" displayName="Program Requirement" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="1" schemaName="mshied_programrequirement" displayName="Program Requirement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mshied_recommendedstudentresource" displayName="Recommended Student Resource" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="Student Resource Portal" displayName="Student Resource Portal" parentSchemaName="mshied_studentresource" parentDisplayName="Student Resource" id="{5e8307af-5620-eb11-a813-000d3a378f47}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mshied_scholarship" displayName="Scholarship" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="1" schemaName="mshied_scholarship" displayName="Scholarship" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mshied_scholarship" displayName="Scholarship" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="All Scholarships Portal" displayName="All Scholarships Portal" parentSchemaName="mshied_scholarship" parentDisplayName="Scholarship" id="{8e51b4a5-ec1d-eb11-a813-000d3a378f47}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mshied_scholarship" displayName="Scholarship" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Information - Portal" parentDisplayName="Scholarship" id="{d70da3e4-ae62-42a0-be9a-d609aabb7eea}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mshied_scholarshipapplicant" displayName="Scholarship Applicant" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="1" schemaName="mshied_scholarshipapplicant" displayName="Scholarship Applicant" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mshied_scholarshipapplicant" displayName="Scholarship Applicant" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="Current Scholarship Applications Portal" displayName="Current Scholarship Applications Portal" parentSchemaName="mshied_scholarshipapplicant" parentDisplayName="Scholarship Applicant" id="{63fa2116-ed1d-eb11-a813-000d3a378c4b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mshied_scholarshipapplicant" displayName="Scholarship Applicant" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="New Scholarship Application Form" parentDisplayName="Scholarship Applicant" id="{6870df28-9763-4401-9c11-9d51a2a227fc}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mshied_studentresource" displayName="Student Resource" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="1" schemaName="mshied_studentresource" displayName="Student Resource" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mshied_studentresource" displayName="Student Resource" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="Student Resource Portal" displayName="Student Resource Portal" parentSchemaName="mshied_studentresource" parentDisplayName="Student Resource" id="{5e8307af-5620-eb11-a813-000d3a378f47}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mshied_studentresource" displayName="Student Resource" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Student Resource Portal" parentDisplayName="Student Resource" id="{60085773-4920-eb11-a813-000d3a378c4b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="mshied_Internship_BusinessPartner_Account" displayName="mshied_Internship_BusinessPartner_Account" parentSchemaName="account" parentDisplayName="Account" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Information - Portal" parentDisplayName="Internship" id="{db543fa5-1bdd-44da-8c8b-b40739be6c7d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="mshied_Scholarship_BusinessPartner_Account" displayName="mshied_Scholarship_BusinessPartner_Account" parentSchemaName="account" parentDisplayName="Account" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Information - Portal" parentDisplayName="Scholarship" id="{d70da3e4-ae62-42a0-be9a-d609aabb7eea}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="mshied_Contact_Advisorid_Contact" displayName="mshied_Contact_Advisorid_Contact" parentSchemaName="contact" parentDisplayName="Contact" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName=" quick view form" parentDisplayName="Contact" id="{2ca9f014-790a-eb11-a813-000d3a1bb495}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="mshied_Contact_Advisorid_Contact" displayName="mshied_Contact_Advisorid_Contact" parentSchemaName="contact" parentDisplayName="Contact" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Student Success Path Portal" parentDisplayName="Contact" id="{872b8f81-1f0b-eb11-a813-000d3a13a9b7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="mshied_Contact_Advisorid_Contact" displayName="mshied_Contact_Advisorid_Contact" parentSchemaName="contact" parentDisplayName="Contact" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="test form" parentDisplayName="Contact" id="{b788f3b2-270b-eb11-a813-000d3a13a9b7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="mshied_Internship_BusinessPartnerContact_Contact" displayName="mshied_Internship_BusinessPartnerContact_Contact" parentSchemaName="contact" parentDisplayName="Contact" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Information - Portal" parentDisplayName="Internship" id="{db543fa5-1bdd-44da-8c8b-b40739be6c7d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="mshied_Scholarship_BusinessPartnerContact_Contac" displayName="mshied_Scholarship_BusinessPartnerContact_Contac" parentSchemaName="contact" parentDisplayName="Contact" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Information - Portal" parentDisplayName="Scholarship" id="{d70da3e4-ae62-42a0-be9a-d609aabb7eea}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="mshied_Scholarship_AcademicPeriod_mshied_Academi" displayName="mshied_Scholarship_AcademicPeriod_mshied_Academi" parentSchemaName="mshied_academicperiod" parentDisplayName="Academic Period" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Information - Portal" parentDisplayName="Scholarship" id="{d70da3e4-ae62-42a0-be9a-d609aabb7eea}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="mshied_program_contact_CurrentProgramId" displayName="mshied_program_contact_CurrentProgramId" parentSchemaName="mshied_program" parentDisplayName="Program" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName=" quick view form" parentDisplayName="Contact" id="{2ca9f014-790a-eb11-a813-000d3a1bb495}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="mshied_program_contact_CurrentProgramId" displayName="mshied_program_contact_CurrentProgramId" parentSchemaName="mshied_program" parentDisplayName="Program" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Student Success Path Portal" parentDisplayName="Contact" id="{872b8f81-1f0b-eb11-a813-000d3a13a9b7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="mshied_program_contact_CurrentProgramId" displayName="mshied_program_contact_CurrentProgramId" parentSchemaName="mshied_program" parentDisplayName="Program" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="test form" parentDisplayName="Contact" id="{b788f3b2-270b-eb11-a813-000d3a13a9b7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="mshied_programlevel_contact_CurrentProgramLevelId" displayName="mshied_programlevel_contact_CurrentProgramLevelId" parentSchemaName="mshied_programlevel" parentDisplayName="Program Level" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName=" quick view form" parentDisplayName="Contact" id="{2ca9f014-790a-eb11-a813-000d3a1bb495}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="mshied_programlevel_contact_CurrentProgramLevelId" displayName="mshied_programlevel_contact_CurrentProgramLevelId" parentSchemaName="mshied_programlevel" parentDisplayName="Program Level" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Student Success Path Portal" parentDisplayName="Contact" id="{872b8f81-1f0b-eb11-a813-000d3a13a9b7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_accounttype" displayName="Account Type" parentSchemaName="account" parentDisplayName="Account" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Higher Education Account Form - Portal" parentDisplayName="Account" id="{c8ea400b-9fdd-42ff-9ae6-e83938c5a99f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_numberofcontacts" displayName="# of Contacts" parentSchemaName="account" parentDisplayName="Account" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Higher Education Account Form - Portal" parentDisplayName="Account" id="{c8ea400b-9fdd-42ff-9ae6-e83938c5a99f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_appointmentstatus" displayName="Appointment Status" parentSchemaName="appointment" parentDisplayName="Appointment" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="My Appointments Portal" displayName="My Appointments Portal" parentSchemaName="appointment" parentDisplayName="Appointment" id="{a4674687-9b0d-eb11-a813-000d3a1bb495}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_appointmentstatus" displayName="Appointment Status" parentSchemaName="appointment" parentDisplayName="Appointment" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="29" displayName="Appointment Portal - Accept Proposed Time" id="{9e674443-0877-4845-a5a9-4a078eb6a66b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_appointmentstatus" displayName="Appointment Status" parentSchemaName="appointment" parentDisplayName="Appointment" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Appointment" parentDisplayName="Appointment" id="{549a8aa3-c349-4ab9-8bac-4873fa9a7a5c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_advisorid" displayName="Advisor" parentSchemaName="contact" parentDisplayName="Contact" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName=" quick view form" parentDisplayName="Contact" id="{2ca9f014-790a-eb11-a813-000d3a1bb495}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_advisorid" displayName="Advisor" parentSchemaName="contact" parentDisplayName="Contact" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Student Success Path Portal" parentDisplayName="Contact" id="{872b8f81-1f0b-eb11-a813-000d3a13a9b7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_advisorid" displayName="Advisor" parentSchemaName="contact" parentDisplayName="Contact" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="test form" parentDisplayName="Contact" id="{b788f3b2-270b-eb11-a813-000d3a13a9b7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_contacttype" displayName="Contact Type" parentSchemaName="contact" parentDisplayName="Contact" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="All Faculty Portal" displayName="All Faculty Portal" parentSchemaName="contact" parentDisplayName="Contact" id="{0958c4c9-f31d-eb11-a813-000d3a378c4b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_contacttype" displayName="Contact Type" parentSchemaName="contact" parentDisplayName="Contact" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="All Lecturers Portal" displayName="All Lecturers Portal" parentSchemaName="contact" parentDisplayName="Contact" id="{a1edab83-4c15-ea11-a811-000d3a4da9ed}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_contacttype" displayName="Contact Type" parentSchemaName="contact" parentDisplayName="Contact" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Higher Education Faculty Form Portal" parentDisplayName="Contact" id="{f1db2471-06e9-e911-a982-000d3a34a1bd}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_countryofbirth" displayName="Country of Birth" parentSchemaName="contact" parentDisplayName="Contact" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Higher Education Faculty Form Portal" parentDisplayName="Contact" id="{f1db2471-06e9-e911-a982-000d3a34a1bd}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_currentprogramcompletionpercentage" displayName="Current Program Completion Percentage" parentSchemaName="contact" parentDisplayName="Contact" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Student Success Path Portal" parentDisplayName="Contact" id="{872b8f81-1f0b-eb11-a813-000d3a13a9b7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_currentprogramid" displayName="Current Program" parentSchemaName="contact" parentDisplayName="Contact" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName=" quick view form" parentDisplayName="Contact" id="{2ca9f014-790a-eb11-a813-000d3a1bb495}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_currentprogramid" displayName="Current Program" parentSchemaName="contact" parentDisplayName="Contact" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Student Success Path Portal" parentDisplayName="Contact" id="{872b8f81-1f0b-eb11-a813-000d3a13a9b7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_currentprogramid" displayName="Current Program" parentSchemaName="contact" parentDisplayName="Contact" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="test form" parentDisplayName="Contact" id="{b788f3b2-270b-eb11-a813-000d3a13a9b7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_currentprogramlevelid" displayName="Current Program Level" parentSchemaName="contact" parentDisplayName="Contact" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName=" quick view form" parentDisplayName="Contact" id="{2ca9f014-790a-eb11-a813-000d3a1bb495}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_currentprogramlevelid" displayName="Current Program Level" parentSchemaName="contact" parentDisplayName="Contact" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Student Success Path Portal" parentDisplayName="Contact" id="{872b8f81-1f0b-eb11-a813-000d3a13a9b7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_ethnicgroup" displayName="Ethnic Group" parentSchemaName="contact" parentDisplayName="Contact" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Higher Education Faculty Form Portal" parentDisplayName="Contact" id="{f1db2471-06e9-e911-a982-000d3a34a1bd}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_graduationyear" displayName="Graduation Year" parentSchemaName="contact" parentDisplayName="Contact" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Student Success Path Portal" parentDisplayName="Contact" id="{872b8f81-1f0b-eb11-a813-000d3a13a9b7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_lastpermanentresidencecountry" displayName="Last Permanent Residence Country" parentSchemaName="contact" parentDisplayName="Contact" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Higher Education Faculty Form Portal" parentDisplayName="Contact" id="{f1db2471-06e9-e911-a982-000d3a34a1bd}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_maidenname" displayName="Maiden Name" parentSchemaName="contact" parentDisplayName="Contact" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Higher Education Faculty Form Portal" parentDisplayName="Contact" id="{f1db2471-06e9-e911-a982-000d3a34a1bd}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_nationalidentifier" displayName="National Identifier" parentSchemaName="contact" parentDisplayName="Contact" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Higher Education Faculty Form Portal" parentDisplayName="Contact" id="{f1db2471-06e9-e911-a982-000d3a34a1bd}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_nationality" displayName="Nationality" parentSchemaName="contact" parentDisplayName="Contact" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Higher Education Faculty Form Portal" parentDisplayName="Contact" id="{f1db2471-06e9-e911-a982-000d3a34a1bd}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_race" displayName="Race" parentSchemaName="contact" parentDisplayName="Contact" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Higher Education Faculty Form Portal" parentDisplayName="Contact" id="{f1db2471-06e9-e911-a982-000d3a34a1bd}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_academicperiodid" displayName="Academic Period" parentSchemaName="mshied_academicperiod" parentDisplayName="Academic Period" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="Current Program Courses Portal" displayName="Current Program Courses Portal" parentSchemaName="mshied_coursehistory" parentDisplayName="Course History" id="{f1578435-d20c-eb11-a813-000d3a13a9b7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_enddate" displayName="End Date" parentSchemaName="mshied_academicperiod" parentDisplayName="Academic Period" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="Current Program Courses Portal" displayName="Current Program Courses Portal" parentSchemaName="mshied_coursehistory" parentDisplayName="Course History" id="{f1578435-d20c-eb11-a813-000d3a13a9b7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_startdate" displayName="Start Date" parentSchemaName="mshied_academicperiod" parentDisplayName="Academic Period" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="Current Program Courses Portal" displayName="Current Program Courses Portal" parentSchemaName="mshied_coursehistory" parentDisplayName="Course History" id="{f1578435-d20c-eb11-a813-000d3a13a9b7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_academiclevel" displayName="Academic Level" parentSchemaName="mshied_course" parentDisplayName="Course" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="Current Courses Portal" displayName="Current Courses Portal" parentSchemaName="mshied_course" parentDisplayName="Course" id="{69d8a5f8-6515-eb11-a813-000d3a378f47}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_academiclevel" displayName="Academic Level" parentSchemaName="mshied_course" parentDisplayName="Course" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Higher Education Course Form Portal" parentDisplayName="Course" id="{a057d395-05e9-e911-a984-000d3a34a14b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_courseid" displayName="Course" parentSchemaName="mshied_course" parentDisplayName="Course" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="Current Courses Portal" displayName="Current Courses Portal" parentSchemaName="mshied_course" parentDisplayName="Course" id="{69d8a5f8-6515-eb11-a813-000d3a378f47}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_courseid" displayName="Course" parentSchemaName="mshied_course" parentDisplayName="Course" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="Course History Portal" displayName="Course History Portal" parentSchemaName="mshied_coursehistory" parentDisplayName="Course History" id="{8f2aa8ba-140f-eb11-a813-000d3a1bb495}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_courseid" displayName="Course" parentSchemaName="mshied_course" parentDisplayName="Course" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="Current Courses History Portal" displayName="Current Courses History Portal" parentSchemaName="mshied_coursehistory" parentDisplayName="Course History" id="{b643f287-6b15-eb11-a813-000d3a378c4b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_courseid" displayName="Course" parentSchemaName="mshied_course" parentDisplayName="Course" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="All Courses Portal" displayName="All Courses Portal" parentSchemaName="mshied_course" parentDisplayName="Course" id="{f01bf3db-ef1d-eb11-a813-000d3a378c4b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_coursenumber" displayName="Course Number" parentSchemaName="mshied_course" parentDisplayName="Course" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="Current Courses Portal" displayName="Current Courses Portal" parentSchemaName="mshied_course" parentDisplayName="Course" id="{69d8a5f8-6515-eb11-a813-000d3a378f47}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_coursenumber" displayName="Course Number" parentSchemaName="mshied_course" parentDisplayName="Course" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="All Courses Portal" displayName="All Courses Portal" parentSchemaName="mshied_course" parentDisplayName="Course" id="{f01bf3db-ef1d-eb11-a813-000d3a378c4b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_coursenumber" displayName="Course Number" parentSchemaName="mshied_course" parentDisplayName="Course" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Higher Education Course Form Portal" parentDisplayName="Course" id="{a057d395-05e9-e911-a984-000d3a34a14b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_credits" displayName="Number of Credits" parentSchemaName="mshied_course" parentDisplayName="Course" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="Current Courses Portal" displayName="Current Courses Portal" parentSchemaName="mshied_course" parentDisplayName="Course" id="{69d8a5f8-6515-eb11-a813-000d3a378f47}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_credits" displayName="Number of Credits" parentSchemaName="mshied_course" parentDisplayName="Course" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="Course History Portal" displayName="Course History Portal" parentSchemaName="mshied_coursehistory" parentDisplayName="Course History" id="{8f2aa8ba-140f-eb11-a813-000d3a1bb495}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_credits" displayName="Number of Credits" parentSchemaName="mshied_course" parentDisplayName="Course" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="Current Courses History Portal" displayName="Current Courses History Portal" parentSchemaName="mshied_coursehistory" parentDisplayName="Course History" id="{b643f287-6b15-eb11-a813-000d3a378c4b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_enddate" displayName="End Date" parentSchemaName="mshied_course" parentDisplayName="Course" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Higher Education Course Form Portal" parentDisplayName="Course" id="{a057d395-05e9-e911-a984-000d3a34a14b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_name" displayName="Course Name" parentSchemaName="mshied_course" parentDisplayName="Course" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="Current Courses Portal" displayName="Current Courses Portal" parentSchemaName="mshied_course" parentDisplayName="Course" id="{69d8a5f8-6515-eb11-a813-000d3a378f47}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_name" displayName="Course Name" parentSchemaName="mshied_course" parentDisplayName="Course" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="All Courses Portal" displayName="All Courses Portal" parentSchemaName="mshied_course" parentDisplayName="Course" id="{f01bf3db-ef1d-eb11-a813-000d3a378c4b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_name" displayName="Course Name" parentSchemaName="mshied_course" parentDisplayName="Course" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Higher Education Course Form Portal" parentDisplayName="Course" id="{a057d395-05e9-e911-a984-000d3a34a14b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_prerequisites" displayName="Prerequisites" parentSchemaName="mshied_course" parentDisplayName="Course" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Higher Education Course Form Portal" parentDisplayName="Course" id="{a057d395-05e9-e911-a984-000d3a34a14b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_section" displayName="Section" parentSchemaName="mshied_course" parentDisplayName="Course" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="All Courses Portal" displayName="All Courses Portal" parentSchemaName="mshied_course" parentDisplayName="Course" id="{f01bf3db-ef1d-eb11-a813-000d3a378c4b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_section" displayName="Section" parentSchemaName="mshied_course" parentDisplayName="Course" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Higher Education Course Form Portal" parentDisplayName="Course" id="{a057d395-05e9-e911-a984-000d3a34a14b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_startdate" displayName="Start Date" parentSchemaName="mshied_course" parentDisplayName="Course" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="All Courses Portal" displayName="All Courses Portal" parentSchemaName="mshied_course" parentDisplayName="Course" id="{f01bf3db-ef1d-eb11-a813-000d3a378c4b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_startdate" displayName="Start Date" parentSchemaName="mshied_course" parentDisplayName="Course" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Higher Education Course Form Portal" parentDisplayName="Course" id="{a057d395-05e9-e911-a984-000d3a34a14b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_subject" displayName="Subject" parentSchemaName="mshied_course" parentDisplayName="Course" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Higher Education Course Form Portal" parentDisplayName="Course" id="{a057d395-05e9-e911-a984-000d3a34a14b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="mshied_course" parentDisplayName="Course" solution="Active" />
+        <Dependent type="60" displayName="Higher Education Course Form Portal" parentDisplayName="Course" id="{a057d395-05e9-e911-a984-000d3a34a14b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_academicperiodid" displayName="Academic Period" parentSchemaName="mshied_coursehistory" parentDisplayName="Course History" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="Course History Portal" displayName="Course History Portal" parentSchemaName="mshied_coursehistory" parentDisplayName="Course History" id="{8f2aa8ba-140f-eb11-a813-000d3a1bb495}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_academicperiodid" displayName="Academic Period" parentSchemaName="mshied_coursehistory" parentDisplayName="Course History" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="Current Program Courses Portal" displayName="Current Program Courses Portal" parentSchemaName="mshied_coursehistory" parentDisplayName="Course History" id="{f1578435-d20c-eb11-a813-000d3a13a9b7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_coursehistoryid" displayName="Course History" parentSchemaName="mshied_coursehistory" parentDisplayName="Course History" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="Courses Completed Portal" displayName="Courses Completed Portal" parentSchemaName="mshied_coursehistory" parentDisplayName="Course History" id="{084c46ed-140f-eb11-a813-000d3a1bb495}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_coursehistoryid" displayName="Course History" parentSchemaName="mshied_coursehistory" parentDisplayName="Course History" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="Required Courses Portal" displayName="Required Courses Portal" parentSchemaName="mshied_coursehistory" parentDisplayName="Course History" id="{2c24bd2b-150f-eb11-a813-000d3a1bb495}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_coursehistoryid" displayName="Course History" parentSchemaName="mshied_coursehistory" parentDisplayName="Course History" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="Optional Courses Portal" displayName="Optional Courses Portal" parentSchemaName="mshied_coursehistory" parentDisplayName="Course History" id="{83175a62-150f-eb11-a813-000d3a1bb495}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_coursehistoryid" displayName="Course History" parentSchemaName="mshied_coursehistory" parentDisplayName="Course History" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="Course History Portal" displayName="Course History Portal" parentSchemaName="mshied_coursehistory" parentDisplayName="Course History" id="{8f2aa8ba-140f-eb11-a813-000d3a1bb495}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_coursehistoryid" displayName="Course History" parentSchemaName="mshied_coursehistory" parentDisplayName="Course History" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="Current Courses History Portal" displayName="Current Courses History Portal" parentSchemaName="mshied_coursehistory" parentDisplayName="Course History" id="{b643f287-6b15-eb11-a813-000d3a378c4b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_coursehistoryid" displayName="Course History" parentSchemaName="mshied_coursehistory" parentDisplayName="Course History" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="Current Program Courses Portal" displayName="Current Program Courses Portal" parentSchemaName="mshied_coursehistory" parentDisplayName="Course History" id="{f1578435-d20c-eb11-a813-000d3a13a9b7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_courseid" displayName="Course" parentSchemaName="mshied_coursehistory" parentDisplayName="Course History" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="Courses Completed Portal" displayName="Courses Completed Portal" parentSchemaName="mshied_coursehistory" parentDisplayName="Course History" id="{084c46ed-140f-eb11-a813-000d3a1bb495}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_courseid" displayName="Course" parentSchemaName="mshied_coursehistory" parentDisplayName="Course History" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="Required Courses Portal" displayName="Required Courses Portal" parentSchemaName="mshied_coursehistory" parentDisplayName="Course History" id="{2c24bd2b-150f-eb11-a813-000d3a1bb495}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_courseid" displayName="Course" parentSchemaName="mshied_coursehistory" parentDisplayName="Course History" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="Current Courses Portal" displayName="Current Courses Portal" parentSchemaName="mshied_course" parentDisplayName="Course" id="{69d8a5f8-6515-eb11-a813-000d3a378f47}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_courseid" displayName="Course" parentSchemaName="mshied_coursehistory" parentDisplayName="Course History" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="Optional Courses Portal" displayName="Optional Courses Portal" parentSchemaName="mshied_coursehistory" parentDisplayName="Course History" id="{83175a62-150f-eb11-a813-000d3a1bb495}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_courseid" displayName="Course" parentSchemaName="mshied_coursehistory" parentDisplayName="Course History" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="Course History Portal" displayName="Course History Portal" parentSchemaName="mshied_coursehistory" parentDisplayName="Course History" id="{8f2aa8ba-140f-eb11-a813-000d3a1bb495}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_courseid" displayName="Course" parentSchemaName="mshied_coursehistory" parentDisplayName="Course History" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="Current Courses History Portal" displayName="Current Courses History Portal" parentSchemaName="mshied_coursehistory" parentDisplayName="Course History" id="{b643f287-6b15-eb11-a813-000d3a378c4b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_courseid" displayName="Course" parentSchemaName="mshied_coursehistory" parentDisplayName="Course History" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="Current Program Courses Portal" displayName="Current Program Courses Portal" parentSchemaName="mshied_coursehistory" parentDisplayName="Course History" id="{f1578435-d20c-eb11-a813-000d3a13a9b7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_iscompleted" displayName="Is Course Completed" parentSchemaName="mshied_coursehistory" parentDisplayName="Course History" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="Courses Completed Portal" displayName="Courses Completed Portal" parentSchemaName="mshied_coursehistory" parentDisplayName="Course History" id="{084c46ed-140f-eb11-a813-000d3a1bb495}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_iscompleted" displayName="Is Course Completed" parentSchemaName="mshied_coursehistory" parentDisplayName="Course History" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="Required Courses Portal" displayName="Required Courses Portal" parentSchemaName="mshied_coursehistory" parentDisplayName="Course History" id="{2c24bd2b-150f-eb11-a813-000d3a1bb495}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_iscompleted" displayName="Is Course Completed" parentSchemaName="mshied_coursehistory" parentDisplayName="Course History" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="Optional Courses Portal" displayName="Optional Courses Portal" parentSchemaName="mshied_coursehistory" parentDisplayName="Course History" id="{83175a62-150f-eb11-a813-000d3a1bb495}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_iscompleted" displayName="Is Course Completed" parentSchemaName="mshied_coursehistory" parentDisplayName="Course History" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="Course History Portal" displayName="Course History Portal" parentSchemaName="mshied_coursehistory" parentDisplayName="Course History" id="{8f2aa8ba-140f-eb11-a813-000d3a1bb495}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_iscompleted" displayName="Is Course Completed" parentSchemaName="mshied_coursehistory" parentDisplayName="Course History" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="Current Courses History Portal" displayName="Current Courses History Portal" parentSchemaName="mshied_coursehistory" parentDisplayName="Course History" id="{b643f287-6b15-eb11-a813-000d3a378c4b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_iscompleted" displayName="Is Course Completed" parentSchemaName="mshied_coursehistory" parentDisplayName="Course History" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="Current Program Courses Portal" displayName="Current Program Courses Portal" parentSchemaName="mshied_coursehistory" parentDisplayName="Course History" id="{f1578435-d20c-eb11-a813-000d3a13a9b7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_isrequired" displayName="Is Required" parentSchemaName="mshied_coursehistory" parentDisplayName="Course History" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="Courses Completed Portal" displayName="Courses Completed Portal" parentSchemaName="mshied_coursehistory" parentDisplayName="Course History" id="{084c46ed-140f-eb11-a813-000d3a1bb495}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_isrequired" displayName="Is Required" parentSchemaName="mshied_coursehistory" parentDisplayName="Course History" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="Required Courses Portal" displayName="Required Courses Portal" parentSchemaName="mshied_coursehistory" parentDisplayName="Course History" id="{2c24bd2b-150f-eb11-a813-000d3a1bb495}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_isrequired" displayName="Is Required" parentSchemaName="mshied_coursehistory" parentDisplayName="Course History" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="Optional Courses Portal" displayName="Optional Courses Portal" parentSchemaName="mshied_coursehistory" parentDisplayName="Course History" id="{83175a62-150f-eb11-a813-000d3a1bb495}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_isrequired" displayName="Is Required" parentSchemaName="mshied_coursehistory" parentDisplayName="Course History" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="Course History Portal" displayName="Course History Portal" parentSchemaName="mshied_coursehistory" parentDisplayName="Course History" id="{8f2aa8ba-140f-eb11-a813-000d3a1bb495}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_isrequired" displayName="Is Required" parentSchemaName="mshied_coursehistory" parentDisplayName="Course History" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="Current Courses History Portal" displayName="Current Courses History Portal" parentSchemaName="mshied_coursehistory" parentDisplayName="Course History" id="{b643f287-6b15-eb11-a813-000d3a378c4b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_isrequired" displayName="Is Required" parentSchemaName="mshied_coursehistory" parentDisplayName="Course History" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="Current Program Courses Portal" displayName="Current Program Courses Portal" parentSchemaName="mshied_coursehistory" parentDisplayName="Course History" id="{f1578435-d20c-eb11-a813-000d3a13a9b7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_registrationstatusid" displayName="Registration Status" parentSchemaName="mshied_coursehistory" parentDisplayName="Course History" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="Courses Completed Portal" displayName="Courses Completed Portal" parentSchemaName="mshied_coursehistory" parentDisplayName="Course History" id="{084c46ed-140f-eb11-a813-000d3a1bb495}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_registrationstatusid" displayName="Registration Status" parentSchemaName="mshied_coursehistory" parentDisplayName="Course History" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="Required Courses Portal" displayName="Required Courses Portal" parentSchemaName="mshied_coursehistory" parentDisplayName="Course History" id="{2c24bd2b-150f-eb11-a813-000d3a1bb495}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_registrationstatusid" displayName="Registration Status" parentSchemaName="mshied_coursehistory" parentDisplayName="Course History" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="Optional Courses Portal" displayName="Optional Courses Portal" parentSchemaName="mshied_coursehistory" parentDisplayName="Course History" id="{83175a62-150f-eb11-a813-000d3a1bb495}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_registrationstatusid" displayName="Registration Status" parentSchemaName="mshied_coursehistory" parentDisplayName="Course History" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="Course History Portal" displayName="Course History Portal" parentSchemaName="mshied_coursehistory" parentDisplayName="Course History" id="{8f2aa8ba-140f-eb11-a813-000d3a1bb495}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_registrationstatusid" displayName="Registration Status" parentSchemaName="mshied_coursehistory" parentDisplayName="Course History" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="Current Courses History Portal" displayName="Current Courses History Portal" parentSchemaName="mshied_coursehistory" parentDisplayName="Course History" id="{b643f287-6b15-eb11-a813-000d3a378c4b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_registrationstatusid" displayName="Registration Status" parentSchemaName="mshied_coursehistory" parentDisplayName="Course History" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="Current Program Courses Portal" displayName="Current Program Courses Portal" parentSchemaName="mshied_coursehistory" parentDisplayName="Course History" id="{f1578435-d20c-eb11-a813-000d3a13a9b7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_studentid" displayName="Student" parentSchemaName="mshied_coursehistory" parentDisplayName="Course History" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="Current Courses Portal" displayName="Current Courses Portal" parentSchemaName="mshied_course" parentDisplayName="Course" id="{69d8a5f8-6515-eb11-a813-000d3a378f47}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_extracurricularactivitiesid" displayName="Extra Curricular Activity" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="Extra-Curricular Activities Portal" displayName="Extra-Curricular Activities Portal" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" id="{549c1005-d30c-eb11-a813-000d3a13a9b7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_name" displayName="Extra Curricular Activity Name" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="Extra-Curricular Activities Portal" displayName="Extra-Curricular Activities Portal" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" id="{549c1005-d30c-eb11-a813-000d3a13a9b7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_applicationdeadlinedate" displayName="Application Deadline Date" parentSchemaName="mshied_internship" parentDisplayName="Internship" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="Active Internships Portal" displayName="Active Internships Portal" parentSchemaName="mshied_internship" parentDisplayName="Internship" id="{647cc84e-c31e-eb11-a813-000d3a378c4b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_applicationdeadlinedate" displayName="Application Deadline Date" parentSchemaName="mshied_internship" parentDisplayName="Internship" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Information - Portal" parentDisplayName="Internship" id="{db543fa5-1bdd-44da-8c8b-b40739be6c7d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_businesspartner" displayName="Business Partner" parentSchemaName="mshied_internship" parentDisplayName="Internship" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Information - Portal" parentDisplayName="Internship" id="{db543fa5-1bdd-44da-8c8b-b40739be6c7d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_businesspartnercontact" displayName="Business Partner Contact" parentSchemaName="mshied_internship" parentDisplayName="Internship" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Information - Portal" parentDisplayName="Internship" id="{db543fa5-1bdd-44da-8c8b-b40739be6c7d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_description" displayName="Description" parentSchemaName="mshied_internship" parentDisplayName="Internship" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Information - Portal" parentDisplayName="Internship" id="{db543fa5-1bdd-44da-8c8b-b40739be6c7d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_internshipid" displayName="Internship" parentSchemaName="mshied_internship" parentDisplayName="Internship" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="Active Internships Portal" displayName="Active Internships Portal" parentSchemaName="mshied_internship" parentDisplayName="Internship" id="{647cc84e-c31e-eb11-a813-000d3a378c4b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_ispaid" displayName="IsPaid" parentSchemaName="mshied_internship" parentDisplayName="Internship" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="Active Internships Portal" displayName="Active Internships Portal" parentSchemaName="mshied_internship" parentDisplayName="Internship" id="{647cc84e-c31e-eb11-a813-000d3a378c4b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_ispaid" displayName="IsPaid" parentSchemaName="mshied_internship" parentDisplayName="Internship" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Information - Portal" parentDisplayName="Internship" id="{db543fa5-1bdd-44da-8c8b-b40739be6c7d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_locationdescription" displayName="Location Description" parentSchemaName="mshied_internship" parentDisplayName="Internship" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Information - Portal" parentDisplayName="Internship" id="{db543fa5-1bdd-44da-8c8b-b40739be6c7d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_posteddate" displayName="PostedDate" parentSchemaName="mshied_internship" parentDisplayName="Internship" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Information - Portal" parentDisplayName="Internship" id="{db543fa5-1bdd-44da-8c8b-b40739be6c7d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_qualifications" displayName="Qualifications" parentSchemaName="mshied_internship" parentDisplayName="Internship" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Information - Portal" parentDisplayName="Internship" id="{db543fa5-1bdd-44da-8c8b-b40739be6c7d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_title" displayName="Title" parentSchemaName="mshied_internship" parentDisplayName="Internship" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="Active Internships Portal" displayName="Active Internships Portal" parentSchemaName="mshied_internship" parentDisplayName="Internship" id="{647cc84e-c31e-eb11-a813-000d3a378c4b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_title" displayName="Title" parentSchemaName="mshied_internship" parentDisplayName="Internship" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Information - Portal" parentDisplayName="Internship" id="{db543fa5-1bdd-44da-8c8b-b40739be6c7d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_validfrom" displayName="ValidFrom" parentSchemaName="mshied_internship" parentDisplayName="Internship" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Information - Portal" parentDisplayName="Internship" id="{db543fa5-1bdd-44da-8c8b-b40739be6c7d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_validto" displayName="ValidTo" parentSchemaName="mshied_internship" parentDisplayName="Internship" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="Active Internships Portal" displayName="Active Internships Portal" parentSchemaName="mshied_internship" parentDisplayName="Internship" id="{647cc84e-c31e-eb11-a813-000d3a378c4b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_validto" displayName="ValidTo" parentSchemaName="mshied_internship" parentDisplayName="Internship" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Information - Portal" parentDisplayName="Internship" id="{db543fa5-1bdd-44da-8c8b-b40739be6c7d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_websiteurl" displayName="Website URL" parentSchemaName="mshied_internship" parentDisplayName="Internship" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Information - Portal" parentDisplayName="Internship" id="{db543fa5-1bdd-44da-8c8b-b40739be6c7d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="mshied_internship" parentDisplayName="Internship" solution="Active" />
+        <Dependent type="60" displayName="Information - Portal" parentDisplayName="Internship" id="{db543fa5-1bdd-44da-8c8b-b40739be6c7d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="mshied_internship" parentDisplayName="Internship" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="Active Internships Portal" displayName="Active Internships Portal" parentSchemaName="mshied_internship" parentDisplayName="Internship" id="{647cc84e-c31e-eb11-a813-000d3a378c4b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_internship" displayName="Internship" parentSchemaName="mshied_internshipapplicant" parentDisplayName="Internship Applicant" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="Current Internship Applications Portal" displayName="Current Internship Applications Portal" parentSchemaName="mshied_internshipapplicant" parentDisplayName="Internship Applicant" id="{8d2f7004-ec1d-eb11-a813-000d3a378c4b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_internshipapplicantid" displayName="Internship Applicant" parentSchemaName="mshied_internshipapplicant" parentDisplayName="Internship Applicant" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="Current Internship Applications Portal" displayName="Current Internship Applications Portal" parentSchemaName="mshied_internshipapplicant" parentDisplayName="Internship Applicant" id="{8d2f7004-ec1d-eb11-a813-000d3a378c4b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_name" displayName="Name" parentSchemaName="mshied_internshipapplicant" parentDisplayName="Internship Applicant" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="Current Internship Applications Portal" displayName="Current Internship Applications Portal" parentSchemaName="mshied_internshipapplicant" parentDisplayName="Internship Applicant" id="{8d2f7004-ec1d-eb11-a813-000d3a378c4b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_name" displayName="Name" parentSchemaName="mshied_internshipapplicant" parentDisplayName="Internship Applicant" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="New Internship Application Form" parentDisplayName="Internship Applicant" id="{1ecb245a-080c-41b1-ad31-9eccb26789d8}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_qualificationdescription" displayName="Qualification Description" parentSchemaName="mshied_internshipapplicant" parentDisplayName="Internship Applicant" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="New Internship Application Form" parentDisplayName="Internship Applicant" id="{1ecb245a-080c-41b1-ad31-9eccb26789d8}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_submissiondate" displayName="Submission Date" parentSchemaName="mshied_internshipapplicant" parentDisplayName="Internship Applicant" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="Current Internship Applications Portal" displayName="Current Internship Applications Portal" parentSchemaName="mshied_internshipapplicant" parentDisplayName="Internship Applicant" id="{8d2f7004-ec1d-eb11-a813-000d3a378c4b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="mshied_internshipapplicant" parentDisplayName="Internship Applicant" solution="Active" />
+        <Dependent type="60" displayName="New Internship Application Form" parentDisplayName="Internship Applicant" id="{1ecb245a-080c-41b1-ad31-9eccb26789d8}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_resourceid" displayName="Resource" parentSchemaName="mshied_recommendedstudentresource" parentDisplayName="Recommended Student Resource" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="Student Resource Portal" displayName="Student Resource Portal" parentSchemaName="mshied_studentresource" parentDisplayName="Student Resource" id="{5e8307af-5620-eb11-a813-000d3a378f47}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_studentid" displayName="Student" parentSchemaName="mshied_recommendedstudentresource" parentDisplayName="Recommended Student Resource" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="Student Resource Portal" displayName="Student Resource Portal" parentSchemaName="mshied_studentresource" parentDisplayName="Student Resource" id="{5e8307af-5620-eb11-a813-000d3a378f47}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_academicperiod" displayName="Academic Period" parentSchemaName="mshied_scholarship" parentDisplayName="Scholarship" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="All Scholarships Portal" displayName="All Scholarships Portal" parentSchemaName="mshied_scholarship" parentDisplayName="Scholarship" id="{8e51b4a5-ec1d-eb11-a813-000d3a378f47}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_academicperiod" displayName="Academic Period" parentSchemaName="mshied_scholarship" parentDisplayName="Scholarship" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Information - Portal" parentDisplayName="Scholarship" id="{d70da3e4-ae62-42a0-be9a-d609aabb7eea}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_amount" displayName="Amount" parentSchemaName="mshied_scholarship" parentDisplayName="Scholarship" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="All Scholarships Portal" displayName="All Scholarships Portal" parentSchemaName="mshied_scholarship" parentDisplayName="Scholarship" id="{8e51b4a5-ec1d-eb11-a813-000d3a378f47}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_amount" displayName="Amount" parentSchemaName="mshied_scholarship" parentDisplayName="Scholarship" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Information - Portal" parentDisplayName="Scholarship" id="{d70da3e4-ae62-42a0-be9a-d609aabb7eea}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_applicationdeadlinedate" displayName="Application Deadline Date" parentSchemaName="mshied_scholarship" parentDisplayName="Scholarship" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Information - Portal" parentDisplayName="Scholarship" id="{d70da3e4-ae62-42a0-be9a-d609aabb7eea}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_businesspartner" displayName="Business Partner" parentSchemaName="mshied_scholarship" parentDisplayName="Scholarship" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Information - Portal" parentDisplayName="Scholarship" id="{d70da3e4-ae62-42a0-be9a-d609aabb7eea}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_businesspartnercontact" displayName="Business Partner Contact" parentSchemaName="mshied_scholarship" parentDisplayName="Scholarship" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Information - Portal" parentDisplayName="Scholarship" id="{d70da3e4-ae62-42a0-be9a-d609aabb7eea}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_description" displayName="Description" parentSchemaName="mshied_scholarship" parentDisplayName="Scholarship" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Information - Portal" parentDisplayName="Scholarship" id="{d70da3e4-ae62-42a0-be9a-d609aabb7eea}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_name" displayName="Name" parentSchemaName="mshied_scholarship" parentDisplayName="Scholarship" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="All Scholarships Portal" displayName="All Scholarships Portal" parentSchemaName="mshied_scholarship" parentDisplayName="Scholarship" id="{8e51b4a5-ec1d-eb11-a813-000d3a378f47}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_name" displayName="Name" parentSchemaName="mshied_scholarship" parentDisplayName="Scholarship" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Information - Portal" parentDisplayName="Scholarship" id="{d70da3e4-ae62-42a0-be9a-d609aabb7eea}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_posteddate" displayName="Posted Date" parentSchemaName="mshied_scholarship" parentDisplayName="Scholarship" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Information - Portal" parentDisplayName="Scholarship" id="{d70da3e4-ae62-42a0-be9a-d609aabb7eea}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_qualifications" displayName="Qualifications" parentSchemaName="mshied_scholarship" parentDisplayName="Scholarship" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Information - Portal" parentDisplayName="Scholarship" id="{d70da3e4-ae62-42a0-be9a-d609aabb7eea}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_scholarshipid" displayName="Scholarship" parentSchemaName="mshied_scholarship" parentDisplayName="Scholarship" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="All Scholarships Portal" displayName="All Scholarships Portal" parentSchemaName="mshied_scholarship" parentDisplayName="Scholarship" id="{8e51b4a5-ec1d-eb11-a813-000d3a378f47}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_type" displayName="Type" parentSchemaName="mshied_scholarship" parentDisplayName="Scholarship" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Information - Portal" parentDisplayName="Scholarship" id="{d70da3e4-ae62-42a0-be9a-d609aabb7eea}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_websiteurl" displayName="Website URL" parentSchemaName="mshied_scholarship" parentDisplayName="Scholarship" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Information - Portal" parentDisplayName="Scholarship" id="{d70da3e4-ae62-42a0-be9a-d609aabb7eea}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="mshied_scholarship" parentDisplayName="Scholarship" solution="Active" />
+        <Dependent type="60" displayName="Information - Portal" parentDisplayName="Scholarship" id="{d70da3e4-ae62-42a0-be9a-d609aabb7eea}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_name" displayName="Name" parentSchemaName="mshied_scholarshipapplicant" parentDisplayName="Scholarship Applicant" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="Current Scholarship Applications Portal" displayName="Current Scholarship Applications Portal" parentSchemaName="mshied_scholarshipapplicant" parentDisplayName="Scholarship Applicant" id="{63fa2116-ed1d-eb11-a813-000d3a378c4b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_name" displayName="Name" parentSchemaName="mshied_scholarshipapplicant" parentDisplayName="Scholarship Applicant" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="New Scholarship Application Form" parentDisplayName="Scholarship Applicant" id="{6870df28-9763-4401-9c11-9d51a2a227fc}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_offeraccepteddate" displayName="Offer Accepted Date" parentSchemaName="mshied_scholarshipapplicant" parentDisplayName="Scholarship Applicant" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="Current Scholarship Applications Portal" displayName="Current Scholarship Applications Portal" parentSchemaName="mshied_scholarshipapplicant" parentDisplayName="Scholarship Applicant" id="{63fa2116-ed1d-eb11-a813-000d3a378c4b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_qualificationdescription" displayName="Qualification Description" parentSchemaName="mshied_scholarshipapplicant" parentDisplayName="Scholarship Applicant" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="New Scholarship Application Form" parentDisplayName="Scholarship Applicant" id="{6870df28-9763-4401-9c11-9d51a2a227fc}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_scholarship" displayName="Scholarship" parentSchemaName="mshied_scholarshipapplicant" parentDisplayName="Scholarship Applicant" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="Current Scholarship Applications Portal" displayName="Current Scholarship Applications Portal" parentSchemaName="mshied_scholarshipapplicant" parentDisplayName="Scholarship Applicant" id="{63fa2116-ed1d-eb11-a813-000d3a378c4b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_scholarshipapplicantid" displayName="Scholarship Applicant" parentSchemaName="mshied_scholarshipapplicant" parentDisplayName="Scholarship Applicant" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="Current Scholarship Applications Portal" displayName="Current Scholarship Applications Portal" parentSchemaName="mshied_scholarshipapplicant" parentDisplayName="Scholarship Applicant" id="{63fa2116-ed1d-eb11-a813-000d3a378c4b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_submissiondate" displayName="Submission Date" parentSchemaName="mshied_scholarshipapplicant" parentDisplayName="Scholarship Applicant" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="Current Scholarship Applications Portal" displayName="Current Scholarship Applications Portal" parentSchemaName="mshied_scholarshipapplicant" parentDisplayName="Scholarship Applicant" id="{63fa2116-ed1d-eb11-a813-000d3a378c4b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="mshied_scholarshipapplicant" parentDisplayName="Scholarship Applicant" solution="Active" />
+        <Dependent type="60" displayName="New Scholarship Application Form" parentDisplayName="Scholarship Applicant" id="{6870df28-9763-4401-9c11-9d51a2a227fc}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_name" displayName="Name" parentSchemaName="mshied_studentresource" parentDisplayName="Student Resource" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="Student Resource Portal" displayName="Student Resource Portal" parentSchemaName="mshied_studentresource" parentDisplayName="Student Resource" id="{5e8307af-5620-eb11-a813-000d3a378f47}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_name" displayName="Name" parentSchemaName="mshied_studentresource" parentDisplayName="Student Resource" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Student Resource Portal" parentDisplayName="Student Resource" id="{60085773-4920-eb11-a813-000d3a378c4b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_resourcetype" displayName="Resource Type" parentSchemaName="mshied_studentresource" parentDisplayName="Student Resource" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Student Resource Portal" parentDisplayName="Student Resource" id="{60085773-4920-eb11-a813-000d3a378c4b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_studentresourceid" displayName="Student Resource" parentSchemaName="mshied_studentresource" parentDisplayName="Student Resource" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="Student Resource Portal" displayName="Student Resource Portal" parentSchemaName="mshied_studentresource" parentDisplayName="Student Resource" id="{5e8307af-5620-eb11-a813-000d3a378f47}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mshied_extensionstatus" displayName="Extension Status" parentSchemaName="task" parentDisplayName="Task" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="26" schemaName="My Assignments Portal" displayName="My Assignments Portal" parentSchemaName="task" parentDisplayName="Task" id="{4390e4fc-7b05-ea11-a811-000d3a3bef84}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Profile Web Form" parentDisplayName="Contact" solution="MicrosoftPortalBase (9.2.2103.1)" id="{0bd832d5-9d6a-456d-bdc1-21129e82cc0f}" />
+        <Dependent type="60" displayName="Profile Web Form" parentDisplayName="Contact" id="{0bd832d5-9d6a-456d-bdc1-21129e82cc0f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Appointment" parentDisplayName="Appointment" solution="msdynce_Activities (9.0.1.2033)" id="{549a8aa3-c349-4ab9-8bac-4873fa9a7a5c}" />
+        <Dependent type="60" displayName="Appointment" parentDisplayName="Appointment" id="{549a8aa3-c349-4ab9-8bac-4873fa9a7a5c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="AppCommon/Contact/Contact_main_system_library.js" displayName="AppCommon/Contact/Contact_main_system_library.js" solution="msdynce_AppCommon (9.0.4.0066)" />
+        <Dependent type="60" displayName="Student Success Path Portal" parentDisplayName="Contact" id="{872b8f81-1f0b-eb11-a813-000d3a13a9b7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="AppCommon/Contact/Contact_main_system_library.js" displayName="AppCommon/Contact/Contact_main_system_library.js" solution="msdynce_AppCommon (9.0.4.0066)" />
+        <Dependent type="60" displayName="Higher Education Faculty Form Portal" parentDisplayName="Contact" id="{f1db2471-06e9-e911-a982-000d3a34a1bd}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.Calendar.CalendarControl" displayName="MscrmControls.Calendar.CalendarControl" solution="CustomControlsCore (9.2.21063.00132)" />
+        <Dependent type="60" displayName="Student Success Path Portal" parentDisplayName="Contact" id="{872b8f81-1f0b-eb11-a813-000d3a13a9b7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.CardFeedContainer.CardFeedContainer" displayName="MscrmControls.CardFeedContainer.CardFeedContainer" solution="BaseCustomControlsCore (9.0.2106.3007)" />
+        <Dependent type="60" displayName="Student Success Path Portal" parentDisplayName="Contact" id="{872b8f81-1f0b-eb11-a813-000d3a13a9b7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.CardFeedContainer.CardFeedContainer" displayName="MscrmControls.CardFeedContainer.CardFeedContainer" solution="BaseCustomControlsCore (9.0.2106.3007)" />
+        <Dependent type="60" displayName="test form" parentDisplayName="Contact" id="{b788f3b2-270b-eb11-a813-000d3a13a9b7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="connectionreference" displayName="mshied_sharedcommondataserviceforapps_124f1" solution="EducationAcceleratorCommon (3.2.1.3)" id.connectionreferencelogicalname="mshied_sharedcommondataserviceforapps_124f1" />
+        <Dependent type="29" displayName="Notes Portal - Prefix WEB for notes on Student Resource" id="{9aed6cca-5920-eb11-a813-000d3a378c4b}" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>
