@@ -5,7 +5,7 @@
     <IntroducedVersion>1.0.0.0</IntroducedVersion>
     <FormPresentation>1</FormPresentation>
     <FormActivationState>1</FormActivationState>
-    <form shownavigationbar="true" showImage="false" maxWidth="1920">
+    <form shownavigationbar="true" showImage="false" maxWidth="1920" headerdensity="HighWithControls">
       <tabs>
         <tab verticallayout="true" id="{ce9580be-e2d2-4e87-a417-faeea40ffc1b}" IsUserDefined="1" labelid="{b19af5be-eb1f-43ef-bd44-d6d2ec4176c9}">
           <labels>
@@ -126,32 +126,70 @@
             </column>
           </columns>
         </tab>
-        <tab name="ExternalInformation" id="{e2231466-bb22-a923-71cd-9127180bb6d7}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false" labelid="{40a0d48c-f10f-423a-9b82-21368f1f46cc}">
+        <tab name="tab_7_Connections" id="59abaf5c-ee22-4638-ac5e-048ee4dfb717" IsUserDefined="0" locklevel="0" showlabel="true">
           <labels>
-            <label description="External Information" languagecode="1033" />
+            <label description="Connections" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
-                <section name="tab_2_section_1" showlabel="false" showbar="false" locklevel="0" id="{7245845c-d23b-8694-ca99-59d45021a1bd}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" labelid="{5d2173c2-9d36-4cc0-a57d-7d437c19d6d9}">
+                <section name="tab_7_section_1_Connections" id="41de24bf-6939-4b0c-99b9-7501e684c685" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
                   <labels>
-                    <label description="Section" languagecode="1033" />
+                    <label description="Connections" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{84cc3c45-34b7-eb3c-a0a1-b9d46b7a67e4}" showlabel="true" locklevel="0" labelid="{f422e6b2-91ab-4eb3-bf1a-1bef8f8a475b}">
+                      <cell locklevel="0" id="{60253e85-27cc-485a-a75e-1f4e09b4e8d1}" rowspan="1" colspan="1" showlabel="false" auto="true">
                         <labels>
-                          <label description="External Identifier" languagecode="1033" />
+                          <label description="Connections" languagecode="1033" />
                         </labels>
-                        <control id="mshied_externalidentifier" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="mshied_externalidentifier" disabled="false" />
+                        <control id="Subgrid_1_Connections" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <TargetEntityType>connection</TargetEntityType>
+                            <ViewId>{54F223BC-34B8-EB11-8236-000D3A5A5E23}</ViewId>
+                            <ViewIds>{7C0E0725-CCD9-4525-9313-665FD075652F},{54F223BC-34B8-EB11-8236-000D3A5A5E23}</ViewIds>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <RelationshipName>mshied_course_connections1</RelationshipName>
+                            <AutoExpand>Auto</AutoExpand>
+                            <RecordsPerPage>10</RecordsPerPage>
+                          </parameters>
+                        </control>
                       </cell>
                     </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_9_GradeLevel" id="bca09d1d-ff68-4942-a89f-199747693ea8" IsUserDefined="0" locklevel="0" showlabel="true">
+          <labels>
+            <label description="Grade Level" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_9_section_1_GradeLevel" id="25e344b6-fac7-43e6-bd25-1c478b8d8cc6" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Grade Level" languagecode="1033" />
+                  </labels>
+                  <rows>
                     <row>
-                      <cell id="{486dd553-c24a-6bcd-3c36-be49da8867da}" showlabel="true" locklevel="0" labelid="{4ce8db79-a9c2-4b28-a147-16f48f278f7d}">
+                      <cell locklevel="0" id="{97fbed3d-7fb4-4905-8f48-5a85f5b4730f}" rowspan="1" colspan="1" showlabel="false" auto="true">
                         <labels>
-                          <label description="External Source System" languagecode="1033" />
+                          <label description="Grade Level" languagecode="1033" />
                         </labels>
-                        <control id="mshied_externalsourcesystem" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="mshied_externalsourcesystem" disabled="false" />
+                        <control id="Subgrid_1_GradeLevel" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <TargetEntityType>mshied_programlevel</TargetEntityType>
+                            <ViewId>{3E15766C-95D6-4526-ABC8-DBBD8F8C6669}</ViewId>
+                            <ViewIds>{3E15766C-95D6-4526-ABC8-DBBD8F8C6669}</ViewIds>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <RelationshipName>mshied_course_mshied_programlevel_mshied_</RelationshipName>
+                            <RecordsPerPage>10</RecordsPerPage>
+                            <AutoExpand>Auto</AutoExpand>
+                          </parameters>
+                        </control>
                       </cell>
                     </row>
                   </rows>
@@ -308,6 +346,108 @@
             </column>
           </columns>
         </tab>
+        <tab name="tab_8_Admin" id="fa7d4336-b084-41dc-95e6-27f7f2142b86" IsUserDefined="0" locklevel="0" showlabel="true">
+          <labels>
+            <label description="Admin" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="50%">
+              <sections>
+                <section name="tab_8_section_1_AdminInformation" id="f9fc0e3f-5bf5-4733-a6f6-d5261fb58bf5" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Admin Information" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{16c50c66-26bb-4733-9160-04b5c2d143fc}" locklevel="0">
+                        <labels>
+                          <label description="Created By" languagecode="1033" />
+                        </labels>
+                        <control id="createdby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="createdby" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4c7d2194-c733-4434-a343-b6714ebaba9b}" locklevel="0">
+                        <labels>
+                          <label description="Created On" languagecode="1033" />
+                        </labels>
+                        <control id="createdon" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="createdon" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{72443c09-344d-47c7-af37-c8c84d93b2fa}" locklevel="0">
+                        <labels>
+                          <label description="Modified By" languagecode="1033" />
+                        </labels>
+                        <control id="modifiedby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="modifiedby" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{68be2849-dc00-4775-a3a8-1a074b7bc1fd}" locklevel="0">
+                        <labels>
+                          <label description="Modified On" languagecode="1033" />
+                        </labels>
+                        <control id="modifiedon" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="modifiedon" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="50%">
+              <sections>
+                <section name="tab_8_section_2_ExternalInformation" id="f766c37e-b9f2-40ff-8e4c-5f60793a708d" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="External Information" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{7d9ed6d6-bd26-45d6-965f-cb8bf439c5b4}" locklevel="0">
+                        <labels>
+                          <label description="External Identifier" languagecode="1033" />
+                        </labels>
+                        <control id="mshied_externalidentifier" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="mshied_externalidentifier" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9ba4a605-6ac1-407f-b0a7-67267dbade3a}" locklevel="0">
+                        <labels>
+                          <label description="External System" languagecode="1033" />
+                        </labels>
+                        <control id="mshied_externalsystem" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="mshied_externalsystem" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="tab_8_Admin_section_4_RelatedExternalIdentifiers" id="97418740-d2c6-42e4-bd77-c424c6c8c553" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Related External Identifiers" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell locklevel="0" id="{92a47926-5773-49b9-b719-edbd0e445538}" rowspan="1" colspan="1" showlabel="false" auto="true">
+                        <labels>
+                          <label description="Related External Identifiers" languagecode="1033" />
+                        </labels>
+                        <control id="Subgrid_1_RelatedExternalIdentifiers" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <TargetEntityType>mshied_externalsystemidentifier</TargetEntityType>
+                            <ViewId>{09B08E26-EFC1-EB11-BACC-000D3A31D455}</ViewId>
+                            <ViewIds>{AE62AF90-E893-4EC4-AD6E-2EA57050EE89},{09B08E26-EFC1-EB11-BACC-000D3A31D455}</ViewIds>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <RelationshipName>mshied_ExternalSystemIdentifier_Course_ms</RelationshipName>
+                            <RecordsPerPage>10</RecordsPerPage>
+                            <AutoExpand>Auto</AutoExpand>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
       </tabs>
       <header id="{06993666-0ece-453e-ba2c-7d6c9efc1ec0}" columns="111">
         <rows>
@@ -332,7 +472,7 @@
         </rows>
       </header>
       <Navigation>
-        <NavBar></NavBar>
+        <NavBar />
         <NavBarAreas>
           <NavBarArea Id="Info">
             <Titles>
@@ -366,6 +506,27 @@
         <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
         <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
       </DisplayConditions>
+      <footer id="{9a6df2bb-627c-4898-9a49-da92261f6cb8}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{6c1ed7c6-6547-422b-b820-8884a05a44a9}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{c91a70de-9899-4924-9489-4be68dea3686}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{772a8b68-e226-47d6-8bd7-eccb72dc25f7}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
     </form>
     <IsCustomizable>1</IsCustomizable>
     <CanBeDeleted>1</CanBeDeleted>

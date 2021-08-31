@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{0e082f70-a328-4afa-8841-69f153307042}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form shownavigationbar="true" showImage="false" maxWidth="1920" headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{f5575e0c-ed44-4878-97a6-584b81478ff8}" IsUserDefined="1" labelid="{c75185db-a525-4395-9f06-804dcba85bb8}">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{ca22cfcd-b36e-4e65-bc8d-6e5655eb372e}" labelid="{f7e8f30e-b811-4be2-9c6c-67313dff6e78}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{16f5e843-6323-4494-a0c5-e859fa81f76c}" labelid="{10e77576-7613-45b3-ba89-42d7886a320c}">
+                        <labels>
+                          <label description="Extra Curricular Activity Name" languagecode="1033" />
+                        </labels>
+                        <control id="mshied_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="mshied_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e7cce7c8-8c73-4f4a-b02a-9952e1aea8ed}" labelid="{89b0d18b-1bbe-4ebc-ae25-b7b697ebae07}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0d975ab3-32c9-c446-c06c-a850eb99161c}" showlabel="true" locklevel="0" labelid="{81ddf10e-3b3f-4f35-9dc5-3b465f4dfb49}">
+                        <labels>
+                          <label description="Primary Contact" languagecode="1033" />
+                        </labels>
+                        <control id="mshied_primarycontactid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="mshied_primarycontactid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{bdcd4869-cb6c-0052-b298-99e167e581d2}" showlabel="true" locklevel="0" labelid="{5d1a4d1a-7863-46d2-ab24-4d8c34ab6a6d}">
+                        <labels>
+                          <label description="General Email" languagecode="1033" />
+                        </labels>
+                        <control id="mshied_generalemail" classid="{71716B6C-711E-476c-8AB8-5D11542BFB47}" datafieldname="mshied_generalemail" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d4e7c3f7-ea47-42b8-af02-b776715eb559}" locklevel="0">
+                        <labels>
+                          <label description="Activity Date" languagecode="1033" />
+                        </labels>
+                        <control id="mshied_activitydate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="mshied_activitydate" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <Navigation>
+        <NavBar />
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+      <DisplayConditions Order="1">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+      <header id="{f08da785-92e9-4539-9cee-07bf8c7c6036}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{5d778e75-2ecd-4ffe-8c24-4b055711eaf6}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{3dc52fe9-877e-4b4f-9bbd-3287748a569f}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{15ac1d42-a55e-4f6f-bb6e-ebe6669d0077}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{d51aa26e-657b-4218-b420-883a66ed938e}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{7c4cd354-5a55-46f5-80d4-b9a304808d53}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{e301291f-3eff-4981-bf1d-a8d3f56c936d}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{62b8651d-9e21-4555-b47f-643ff1645358}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="K12 Portal Extra Curricular Activity Form" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

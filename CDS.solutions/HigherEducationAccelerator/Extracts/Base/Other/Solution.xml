@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ImportExportXml version="9.1.0.26146" SolutionPackageVersion="9.1" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ImportExportXml version="9.2.21063.132" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SolutionManifest>
     <UniqueName>Dynamics365HigherEducationAccelerator</UniqueName>
     <LocalizedNames>
@@ -8,7 +8,7 @@
     <Descriptions>
       <Description description="Accelerator for Higher Education customers." languagecode="1033" />
     </Descriptions>
-    <Version>3.1.3.0</Version>
+    <Version>3.2.3.10</Version>
     <Managed>2</Managed>
     <Publisher>
       <UniqueName>educationacceleratorcommon</UniqueName>
@@ -133,396 +133,396 @@
     </RootComponents>
     <MissingDependencies>
       <MissingDependency>
-        <Required key="0" type="1" schemaName="mshied_recommendedstudentresource" displayName="Recommended Student Resource" solution="EducationAcceleratorCommon (3.1.1.1)" />
-        <Dependent key="0" type="1" schemaName="mshied_recommendedstudentresource" displayName="Recommended Student Resource" />
+        <Required type="1" schemaName="mshied_academicperioddetails" displayName="Academic Period Detail" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Advisor Dashboard" id="{738cf670-1ffc-ea11-a815-0022480822ca}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="1" type="61" schemaName="mshied_RecommendedStudentResource.svg" displayName="mshied_RecommendedStudentResource.svg" solution="EducationAcceleratorCommon (3.1.1.1)" />
-        <Dependent key="0" type="1" schemaName="mshied_recommendedstudentresource" displayName="Recommended Student Resource" />
+        <Required type="1" schemaName="mshied_areaofinterest" displayName="Area of Interest" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="62" schemaName="mshied_HigherEd" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="2" type="61" schemaName="mshied_RecommendedStudentResource16.png" displayName="mshied_RecommendedStudentResource16.png" solution="EducationAcceleratorCommon (3.1.1.1)" />
-        <Dependent key="0" type="1" schemaName="mshied_recommendedstudentresource" displayName="Recommended Student Resource" />
+        <Required type="1" schemaName="mshied_areaofstudy" displayName="Area of Study" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="10" schemaName="mshied_Grant_AreaofStudy_mshied_areaofstudy" displayName="mshied_Grant_AreaofStudy_mshied_areaofstudy" parentSchemaName="mshied_areaofstudy" parentDisplayName="Area of Study" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="3" type="61" schemaName="mshied_RecommendedStudentResource32.png" displayName="mshied_RecommendedStudentResource32.png" solution="EducationAcceleratorCommon (3.1.1.1)" />
-        <Dependent key="0" type="1" schemaName="mshied_recommendedstudentresource" displayName="Recommended Student Resource" />
+        <Required type="1" schemaName="mshied_areaofstudy" displayName="Area of Study" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="62" schemaName="mshied_HigherEd" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="4" type="1" schemaName="mshied_internship" displayName="Internship" solution="EducationAcceleratorCommon (3.1.1.1)" />
-        <Dependent key="5" type="60" displayName="Business Partner Dashboard" id="{ed828b48-04df-e911-a968-000d3a3b9825}" />
+        <Required type="1" schemaName="mshied_course" displayName="Course" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="62" schemaName="mshied_HigherEd" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="6" type="1" schemaName="mshied_scholarshipapplicant" displayName="Scholarship Applicant" solution="EducationAcceleratorCommon (3.1.1.1)" />
-        <Dependent key="5" type="60" displayName="Business Partner Dashboard" id="{ed828b48-04df-e911-a968-000d3a3b9825}" />
+        <Required type="1" schemaName="mshied_coursehistory" displayName="Course History" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Student Success Path" parentDisplayName="Contact" id="{be82e057-55b7-4789-886a-5a9dda7e349c}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="7" type="1" schemaName="mshied_scholarship" displayName="Scholarship" solution="EducationAcceleratorCommon (3.1.1.1)" />
-        <Dependent key="5" type="60" displayName="Business Partner Dashboard" id="{ed828b48-04df-e911-a968-000d3a3b9825}" />
+        <Required type="1" schemaName="mshied_extracurricularactivities" displayName="Extra Curricular Activity" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Student Success Path" parentDisplayName="Contact" id="{be82e057-55b7-4789-886a-5a9dda7e349c}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="8" type="26" schemaName="Active Scholarship Applicants" displayName="Active Scholarship Applicants" parentSchemaName="mshied_scholarshipapplicant" parentDisplayName="Scholarship Applicant" solution="EducationAcceleratorCommon (3.1.1.1)" id="{16be99a2-2c40-4322-9d0d-8f0f86bf91c1}" />
-        <Dependent key="5" type="60" displayName="Business Partner Dashboard" id="{ed828b48-04df-e911-a968-000d3a3b9825}" />
+        <Required type="1" schemaName="mshied_extracurricularactivities" displayName="Extra Curricular Activity" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="62" schemaName="mshied_HigherEd" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="9" type="26" schemaName="Active Internships" displayName="Active Internships" parentSchemaName="mshied_internship" parentDisplayName="Internship" solution="EducationAcceleratorCommon (3.1.1.1)" id="{61e0af33-abb7-4a26-90f3-71935ab802f7}" />
-        <Dependent key="5" type="60" displayName="Business Partner Dashboard" id="{ed828b48-04df-e911-a968-000d3a3b9825}" />
+        <Required type="1" schemaName="mshied_internship" displayName="Internship" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Internship" id="{2c22644e-569e-45ea-87eb-865a48d00273}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="10" type="26" schemaName="Active Scholarships" displayName="Active Scholarships" parentSchemaName="mshied_scholarship" parentDisplayName="Scholarship" solution="EducationAcceleratorCommon (3.1.1.1)" id="{ea45a19d-1bdf-4782-98d2-975c5d97817d}" />
-        <Dependent key="5" type="60" displayName="Business Partner Dashboard" id="{ed828b48-04df-e911-a968-000d3a3b9825}" />
+        <Required type="1" schemaName="mshied_internship" displayName="Internship" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Business Partner Dashboard" id="{ed828b48-04df-e911-a968-000d3a3b9825}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="11" type="59" schemaName="Scholarship Application by State Code" displayName="Scholarship Application by State Code" parentSchemaName="mshied_scholarshipapplicant" parentDisplayName="Scholarship Applicant" solution="EducationAcceleratorCommon (3.1.1.1)" id="{a6157748-65e0-e911-a964-000d3a3b9cd8}" />
-        <Dependent key="5" type="60" displayName="Business Partner Dashboard" id="{ed828b48-04df-e911-a968-000d3a3b9825}" />
+        <Required type="1" schemaName="mshied_internship" displayName="Internship" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="62" schemaName="mshied_HigherEd" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="12" type="59" schemaName="Number of Interships by Business Partner" displayName="Number of Interships by Business Partner" parentSchemaName="mshied_internship" parentDisplayName="Internship" solution="EducationAcceleratorCommon (3.1.1.1)" id="{d5497b5e-b6df-e911-a963-000d3a3b9316}" />
-        <Dependent key="5" type="60" displayName="Business Partner Dashboard" id="{ed828b48-04df-e911-a968-000d3a3b9825}" />
+        <Required type="1" schemaName="mshied_internshipapplicant" displayName="Internship Applicant" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Internship" id="{2c22644e-569e-45ea-87eb-865a48d00273}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="13" type="59" schemaName="Number of Scholarships by Business Partner" displayName="Number of Scholarships by Business Partner" parentSchemaName="mshied_scholarship" parentDisplayName="Scholarship" solution="EducationAcceleratorCommon (3.1.1.1)" id="{c4a8f928-65e0-e911-a964-000d3a3b9cd8}" />
-        <Dependent key="5" type="60" displayName="Business Partner Dashboard" id="{ed828b48-04df-e911-a968-000d3a3b9825}" />
+        <Required type="1" schemaName="mshied_program" displayName="Program" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="62" schemaName="mshied_HigherEd" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="14" type="1" schemaName="mshied_extracurricularactivities" displayName="Extra Curricular Activity" solution="EducationAcceleratorCommon (3.1.1.1)" />
-        <Dependent key="15" type="60" displayName="Student Success Path" parentDisplayName="Contact" id="{be82e057-55b7-4789-886a-5a9dda7e349c}" />
+        <Required type="1" schemaName="mshied_programrequirement" displayName="Program Requirement" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="62" schemaName="mshied_HigherEd" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="16" type="1" schemaName="mshied_coursehistory" displayName="Course History" solution="EducationAcceleratorCommon (3.1.1.1)" />
-        <Dependent key="15" type="60" displayName="Student Success Path" parentDisplayName="Contact" id="{be82e057-55b7-4789-886a-5a9dda7e349c}" />
+        <Required type="1" schemaName="mshied_recommendedstudentresource" displayName="Recommended Student Resource" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="1" schemaName="mshied_recommendedstudentresource" displayName="Recommended Student Resource" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="17" type="2" schemaName="mshied_contacttype" displayName="Contact Type" parentSchemaName="contact" parentDisplayName="Contact" solution="EducationAcceleratorCommon (3.1.1.1)" />
-        <Dependent key="15" type="60" displayName="Student Success Path" parentDisplayName="Contact" id="{be82e057-55b7-4789-886a-5a9dda7e349c}" />
+        <Required type="1" schemaName="mshied_scholarship" displayName="Scholarship" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Scholarship" id="{65e1d59f-14de-4706-8fd3-4e231912849d}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="18" type="2" schemaName="mshied_advisorid" displayName="Advisor" parentSchemaName="contact" parentDisplayName="Contact" solution="EducationAcceleratorCommon (3.1.1.1)" />
-        <Dependent key="15" type="60" displayName="Student Success Path" parentDisplayName="Contact" id="{be82e057-55b7-4789-886a-5a9dda7e349c}" />
+        <Required type="1" schemaName="mshied_scholarship" displayName="Scholarship" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Business Partner Dashboard" id="{ed828b48-04df-e911-a968-000d3a3b9825}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="19" type="2" schemaName="mshied_currentprogramid" displayName="Current Program" parentSchemaName="contact" parentDisplayName="Contact" solution="EducationAcceleratorCommon (3.1.1.1)" />
-        <Dependent key="15" type="60" displayName="Student Success Path" parentDisplayName="Contact" id="{be82e057-55b7-4789-886a-5a9dda7e349c}" />
+        <Required type="1" schemaName="mshied_scholarship" displayName="Scholarship" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="62" schemaName="mshied_HigherEd" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="20" type="2" schemaName="mshied_graduationyear" displayName="Graduation Year" parentSchemaName="contact" parentDisplayName="Contact" solution="EducationAcceleratorCommon (3.1.1.1)" />
-        <Dependent key="15" type="60" displayName="Student Success Path" parentDisplayName="Contact" id="{be82e057-55b7-4789-886a-5a9dda7e349c}" />
+        <Required type="1" schemaName="mshied_scholarshipapplicant" displayName="Scholarship Applicant" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Scholarship" id="{65e1d59f-14de-4706-8fd3-4e231912849d}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="21" type="2" schemaName="mshied_currentprogramlevelid" displayName="Current Program Level" parentSchemaName="contact" parentDisplayName="Contact" solution="EducationAcceleratorCommon (3.1.1.1)" />
-        <Dependent key="15" type="60" displayName="Student Success Path" parentDisplayName="Contact" id="{be82e057-55b7-4789-886a-5a9dda7e349c}" />
+        <Required type="1" schemaName="mshied_scholarshipapplicant" displayName="Scholarship Applicant" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Business Partner Dashboard" id="{ed828b48-04df-e911-a968-000d3a3b9825}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="22" type="2" schemaName="mshied_currentprogramcompletionpercentage" displayName="Current Program Completion Percentage" parentSchemaName="contact" parentDisplayName="Contact" solution="EducationAcceleratorCommon (3.1.1.1)" />
-        <Dependent key="15" type="60" displayName="Student Success Path" parentDisplayName="Contact" id="{be82e057-55b7-4789-886a-5a9dda7e349c}" />
+        <Required type="1" schemaName="mshied_studentresource" displayName="Student Resource" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="62" schemaName="mshied_HigherEd" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="23" type="2" schemaName="mshied_appointmentstatus" displayName="Appointment Status" parentSchemaName="appointment" parentDisplayName="Appointment" solution="EducationAcceleratorCommon (3.1.1.1)" />
-        <Dependent key="15" type="60" displayName="Student Success Path" parentDisplayName="Contact" id="{be82e057-55b7-4789-886a-5a9dda7e349c}" />
+        <Required type="10" schemaName="mshied_Contact_Advisorid_Contact" displayName="mshied_Contact_Advisorid_Contact" parentSchemaName="contact" parentDisplayName="Contact" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Student Success Path" parentDisplayName="Contact" id="{be82e057-55b7-4789-886a-5a9dda7e349c}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="24" type="2" schemaName="mshied_currentprogramversion" displayName="Current Program Version" parentSchemaName="contact" parentDisplayName="Contact" solution="EducationAcceleratorCommon (3.1.1.1)" />
-        <Dependent key="15" type="60" displayName="Student Success Path" parentDisplayName="Contact" id="{be82e057-55b7-4789-886a-5a9dda7e349c}" />
+        <Required type="10" schemaName="mshied_Contact_CurrentProgramVersion_mshied_prog" displayName="mshied_Contact_CurrentProgramVersion_mshied_prog" parentSchemaName="contact" parentDisplayName="Contact" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Student Success Path" parentDisplayName="Contact" id="{be82e057-55b7-4789-886a-5a9dda7e349c}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="25" type="10" schemaName="mshied_programlevel_contact_CurrentProgramLevelId" displayName="mshied_programlevel_contact_CurrentProgramLevelId" parentSchemaName="contact" parentDisplayName="Contact" solution="EducationAcceleratorCommon (3.1.1.1)" />
-        <Dependent key="15" type="60" displayName="Student Success Path" parentDisplayName="Contact" id="{be82e057-55b7-4789-886a-5a9dda7e349c}" />
+        <Required type="10" schemaName="mshied_program_contact_CurrentProgramId" displayName="mshied_program_contact_CurrentProgramId" parentSchemaName="contact" parentDisplayName="Contact" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Student Success Path" parentDisplayName="Contact" id="{be82e057-55b7-4789-886a-5a9dda7e349c}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="26" type="10" schemaName="mshied_program_contact_CurrentProgramId" displayName="mshied_program_contact_CurrentProgramId" parentSchemaName="contact" parentDisplayName="Contact" solution="EducationAcceleratorCommon (3.1.1.1)" />
-        <Dependent key="15" type="60" displayName="Student Success Path" parentDisplayName="Contact" id="{be82e057-55b7-4789-886a-5a9dda7e349c}" />
+        <Required type="10" schemaName="mshied_programlevel_contact_CurrentProgramLevelId" displayName="mshied_programlevel_contact_CurrentProgramLevelId" parentSchemaName="contact" parentDisplayName="Contact" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Student Success Path" parentDisplayName="Contact" id="{be82e057-55b7-4789-886a-5a9dda7e349c}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="27" type="10" schemaName="mshied_contact_extracurricularactivities_PrimaryContactId" displayName="mshied_contact_extracurricularactivities_PrimaryContactId" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" solution="EducationAcceleratorCommon (3.1.1.1)" />
-        <Dependent key="15" type="60" displayName="Student Success Path" parentDisplayName="Contact" id="{be82e057-55b7-4789-886a-5a9dda7e349c}" />
+        <Required type="10" schemaName="mshied_contact_coursehistory_StudentId" displayName="mshied_contact_coursehistory_StudentId" parentSchemaName="mshied_coursehistory" parentDisplayName="Course History" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Student Success Path" parentDisplayName="Contact" id="{be82e057-55b7-4789-886a-5a9dda7e349c}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="28" type="10" schemaName="mshied_RecommendedStudentResource_Student" displayName="mshied_RecommendedStudentResource_Student" parentSchemaName="mshied_recommendedstudentresource" parentDisplayName="Recommended Student Resource" solution="EducationAcceleratorCommon (3.1.1.1)" />
-        <Dependent key="15" type="60" displayName="Student Success Path" parentDisplayName="Contact" id="{be82e057-55b7-4789-886a-5a9dda7e349c}" />
+        <Required type="10" schemaName="mshied_contact_extracurricularactivities_PrimaryContactId" displayName="mshied_contact_extracurricularactivities_PrimaryContactId" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Student Success Path" parentDisplayName="Contact" id="{be82e057-55b7-4789-886a-5a9dda7e349c}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="29" type="10" schemaName="mshied_Contact_CurrentProgramVersion_mshied_prog" displayName="mshied_Contact_CurrentProgramVersion_mshied_prog" parentSchemaName="contact" parentDisplayName="Contact" solution="EducationAcceleratorCommon (3.1.1.1)" />
-        <Dependent key="15" type="60" displayName="Student Success Path" parentDisplayName="Contact" id="{be82e057-55b7-4789-886a-5a9dda7e349c}" />
+        <Required type="10" schemaName="mshied_Internship_BusinessPartner_Account" displayName="mshied_Internship_BusinessPartner_Account" parentSchemaName="mshied_internship" parentDisplayName="Internship" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Internship" id="{2c22644e-569e-45ea-87eb-865a48d00273}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="30" type="10" schemaName="mshied_contact_coursehistory_StudentId" displayName="mshied_contact_coursehistory_StudentId" parentSchemaName="mshied_coursehistory" parentDisplayName="Course History" solution="EducationAcceleratorCommon (3.1.1.1)" />
-        <Dependent key="15" type="60" displayName="Student Success Path" parentDisplayName="Contact" id="{be82e057-55b7-4789-886a-5a9dda7e349c}" />
+        <Required type="10" schemaName="mshied_Internship_BusinessPartnerContact_Contact" displayName="mshied_Internship_BusinessPartnerContact_Contact" parentSchemaName="mshied_internship" parentDisplayName="Internship" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Internship" id="{2c22644e-569e-45ea-87eb-865a48d00273}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="31" type="10" schemaName="mshied_Contact_Advisorid_Contact" displayName="mshied_Contact_Advisorid_Contact" parentSchemaName="contact" parentDisplayName="Contact" solution="EducationAcceleratorCommon (3.1.1.1)" />
-        <Dependent key="15" type="60" displayName="Student Success Path" parentDisplayName="Contact" id="{be82e057-55b7-4789-886a-5a9dda7e349c}" />
+        <Required type="10" schemaName="mshied_InternshipApplicant_Internship_mshied_Int" displayName="mshied_InternshipApplicant_Internship_mshied_Int" parentSchemaName="mshied_internshipapplicant" parentDisplayName="Internship Applicant" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Internship" id="{2c22644e-569e-45ea-87eb-865a48d00273}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="32" type="26" schemaName="Active Course Histories" displayName="Active Course Histories" parentSchemaName="mshied_coursehistory" parentDisplayName="Course History" solution="EducationAcceleratorCommon (3.1.1.1)" id="{f68457bf-b78c-4d5b-83a4-f4045fb380a2}" />
-        <Dependent key="15" type="60" displayName="Student Success Path" parentDisplayName="Contact" id="{be82e057-55b7-4789-886a-5a9dda7e349c}" />
+        <Required type="10" schemaName="mshied_RecommendedStudentResource_Student" displayName="mshied_RecommendedStudentResource_Student" parentSchemaName="mshied_recommendedstudentresource" parentDisplayName="Recommended Student Resource" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Student Success Path" parentDisplayName="Contact" id="{be82e057-55b7-4789-886a-5a9dda7e349c}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="33" type="26" schemaName="Advisor " displayName="Advisor " parentSchemaName="contact" parentDisplayName="Contact" solution="EducationAcceleratorCommon (3.1.1.1)" id="{adebfdb5-f1f8-ea11-a815-000d3a33f11e}" />
-        <Dependent key="15" type="60" displayName="Student Success Path" parentDisplayName="Contact" id="{be82e057-55b7-4789-886a-5a9dda7e349c}" />
+        <Required type="10" schemaName="mshied_Scholarship_AcademicPeriod_mshied_Academi" displayName="mshied_Scholarship_AcademicPeriod_mshied_Academi" parentSchemaName="mshied_scholarship" parentDisplayName="Scholarship" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Scholarship" id="{65e1d59f-14de-4706-8fd3-4e231912849d}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="34" type="26" schemaName="Active Recommended Student Resources" displayName="Active Recommended Student Resources" parentSchemaName="mshied_recommendedstudentresource" parentDisplayName="Recommended Student Resource" solution="EducationAcceleratorCommon (3.1.1.1)" id="{28b3d351-9b39-436c-8562-0426e5709848}" />
-        <Dependent key="15" type="60" displayName="Student Success Path" parentDisplayName="Contact" id="{be82e057-55b7-4789-886a-5a9dda7e349c}" />
+        <Required type="10" schemaName="mshied_Scholarship_BusinessPartner_Account" displayName="mshied_Scholarship_BusinessPartner_Account" parentSchemaName="mshied_scholarship" parentDisplayName="Scholarship" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Scholarship" id="{65e1d59f-14de-4706-8fd3-4e231912849d}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="35" type="26" schemaName="Active Extra Curricular Activities" displayName="Active Extra Curricular Activities" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" solution="EducationAcceleratorCommon (3.1.1.1)" id="{d4501044-f941-4ce0-b9e8-b5cefc74d031}" />
-        <Dependent key="15" type="60" displayName="Student Success Path" parentDisplayName="Contact" id="{be82e057-55b7-4789-886a-5a9dda7e349c}" />
+        <Required type="10" schemaName="mshied_Scholarship_BusinessPartnerContact_Contac" displayName="mshied_Scholarship_BusinessPartnerContact_Contac" parentSchemaName="mshied_scholarship" parentDisplayName="Scholarship" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Scholarship" id="{65e1d59f-14de-4706-8fd3-4e231912849d}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="36" type="26" schemaName="Recommended Student Resource   " displayName="Recommended Student Resource   " parentSchemaName="mshied_recommendedstudentresource" parentDisplayName="Recommended Student Resource" solution="EducationAcceleratorCommon (3.1.1.1)" id="{f4e522a5-4afc-ea11-a815-000d3a33f11e}" />
-        <Dependent key="15" type="60" displayName="Student Success Path" parentDisplayName="Contact" id="{be82e057-55b7-4789-886a-5a9dda7e349c}" />
+        <Required type="10" schemaName="mshied_ScholarshipApplicant_Scholarship" displayName="mshied_ScholarshipApplicant_Scholarship" parentSchemaName="mshied_scholarshipapplicant" parentDisplayName="Scholarship Applicant" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Scholarship" id="{65e1d59f-14de-4706-8fd3-4e231912849d}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="37" type="59" schemaName="Registration Status" displayName="Registration Status" parentSchemaName="mshied_coursehistory" parentDisplayName="Course History" solution="EducationAcceleratorCommon (3.1.1.1)" id="{f9109a3a-27ce-e811-a967-000d3a1c53e4}" />
-        <Dependent key="15" type="60" displayName="Student Success Path" parentDisplayName="Contact" id="{be82e057-55b7-4789-886a-5a9dda7e349c}" />
+        <Required type="2" schemaName="mshied_appointmentstatus" displayName="Appointment Status" parentSchemaName="appointment" parentDisplayName="Appointment" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Student Success Path" parentDisplayName="Contact" id="{be82e057-55b7-4789-886a-5a9dda7e349c}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="38" type="66" schemaName="MscrmControls.ActivityCalendarControl.ActivityCalendarControl" displayName="MscrmControls.ActivityCalendarControl.ActivityCalendarControl" solution="msdyn_UCICalendar (1.0.0.603)" />
-        <Dependent key="15" type="60" displayName="Student Success Path" parentDisplayName="Contact" id="{be82e057-55b7-4789-886a-5a9dda7e349c}" />
+        <Required type="2" schemaName="mshied_advisorid" displayName="Advisor" parentSchemaName="contact" parentDisplayName="Contact" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Student Success Path" parentDisplayName="Contact" id="{be82e057-55b7-4789-886a-5a9dda7e349c}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="39" type="66" schemaName="MscrmControls.Calendar.CalendarControl" displayName="MscrmControls.Calendar.CalendarControl" solution="CustomControlsCore (9.1.0000.26146)" />
-        <Dependent key="15" type="60" displayName="Student Success Path" parentDisplayName="Contact" id="{be82e057-55b7-4789-886a-5a9dda7e349c}" />
+        <Required type="2" schemaName="mshied_contacttype" displayName="Contact Type" parentSchemaName="contact" parentDisplayName="Contact" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Student Success Path" parentDisplayName="Contact" id="{be82e057-55b7-4789-886a-5a9dda7e349c}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="40" type="66" schemaName="MscrmControls.CardFeedContainer.CardFeedContainer" displayName="MscrmControls.CardFeedContainer.CardFeedContainer" solution="BaseCustomControlsCore (9.0.2011.5001)" />
-        <Dependent key="15" type="60" displayName="Student Success Path" parentDisplayName="Contact" id="{be82e057-55b7-4789-886a-5a9dda7e349c}" />
+        <Required type="2" schemaName="mshied_currentprogramcompletionpercentage" displayName="Current Program Completion Percentage" parentSchemaName="contact" parentDisplayName="Contact" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Student Success Path" parentDisplayName="Contact" id="{be82e057-55b7-4789-886a-5a9dda7e349c}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="41" type="1" schemaName="mshied_internshipapplicant" displayName="Internship Applicant" solution="EducationAcceleratorCommon (3.1.1.1)" />
-        <Dependent key="42" type="60" displayName="Information" parentDisplayName="Internship" id="{2c22644e-569e-45ea-87eb-865a48d00273}" />
+        <Required type="2" schemaName="mshied_currentprogramid" displayName="Current Program" parentSchemaName="contact" parentDisplayName="Contact" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Student Success Path" parentDisplayName="Contact" id="{be82e057-55b7-4789-886a-5a9dda7e349c}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="4" type="1" schemaName="mshied_internship" displayName="Internship" solution="EducationAcceleratorCommon (3.1.1.1)" />
-        <Dependent key="42" type="60" displayName="Information" parentDisplayName="Internship" id="{2c22644e-569e-45ea-87eb-865a48d00273}" />
+        <Required type="2" schemaName="mshied_currentprogramlevelid" displayName="Current Program Level" parentSchemaName="contact" parentDisplayName="Contact" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Student Success Path" parentDisplayName="Contact" id="{be82e057-55b7-4789-886a-5a9dda7e349c}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="43" type="2" schemaName="mshied_title" displayName="Title" parentSchemaName="mshied_internship" parentDisplayName="Internship" solution="EducationAcceleratorCommon (3.1.1.1)" />
-        <Dependent key="42" type="60" displayName="Information" parentDisplayName="Internship" id="{2c22644e-569e-45ea-87eb-865a48d00273}" />
+        <Required type="2" schemaName="mshied_currentprogramversion" displayName="Current Program Version" parentSchemaName="contact" parentDisplayName="Contact" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Student Success Path" parentDisplayName="Contact" id="{be82e057-55b7-4789-886a-5a9dda7e349c}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="44" type="2" schemaName="mshied_ispaid" displayName="IsPaid" parentSchemaName="mshied_internship" parentDisplayName="Internship" solution="EducationAcceleratorCommon (3.1.1.1)" />
-        <Dependent key="42" type="60" displayName="Information" parentDisplayName="Internship" id="{2c22644e-569e-45ea-87eb-865a48d00273}" />
+        <Required type="2" schemaName="mshied_graduationyear" displayName="Graduation Year" parentSchemaName="contact" parentDisplayName="Contact" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Student Success Path" parentDisplayName="Contact" id="{be82e057-55b7-4789-886a-5a9dda7e349c}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="45" type="2" schemaName="mshied_validto" displayName="ValidTo" parentSchemaName="mshied_internship" parentDisplayName="Internship" solution="EducationAcceleratorCommon (3.1.1.1)" />
-        <Dependent key="42" type="60" displayName="Information" parentDisplayName="Internship" id="{2c22644e-569e-45ea-87eb-865a48d00273}" />
+        <Required type="2" schemaName="mshied_areaofstudyid" displayName="Area of Study" parentSchemaName="mshied_areaofstudy" parentDisplayName="Area of Study" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="10" schemaName="mshied_Grant_AreaofStudy_mshied_areaofstudy" displayName="mshied_Grant_AreaofStudy_mshied_areaofstudy" parentSchemaName="mshied_areaofstudy" parentDisplayName="Area of Study" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="46" type="2" schemaName="mshied_applicationdeadlinedate" displayName="Application Deadline Date" parentSchemaName="mshied_internship" parentDisplayName="Internship" solution="EducationAcceleratorCommon (3.1.1.1)" />
-        <Dependent key="42" type="60" displayName="Information" parentDisplayName="Internship" id="{2c22644e-569e-45ea-87eb-865a48d00273}" />
+        <Required type="2" schemaName="mshied_name" displayName="Area of Study Name" parentSchemaName="mshied_areaofstudy" parentDisplayName="Area of Study" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="10" schemaName="mshied_Grant_AreaofStudy_mshied_areaofstudy" displayName="mshied_Grant_AreaofStudy_mshied_areaofstudy" parentSchemaName="mshied_areaofstudy" parentDisplayName="Area of Study" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="47" type="2" schemaName="mshied_businesspartnercontact" displayName="Business Partner Contact" parentSchemaName="mshied_internship" parentDisplayName="Internship" solution="EducationAcceleratorCommon (3.1.1.1)" />
-        <Dependent key="42" type="60" displayName="Information" parentDisplayName="Internship" id="{2c22644e-569e-45ea-87eb-865a48d00273}" />
+        <Required type="2" schemaName="mshied_applicationdeadlinedate" displayName="Application Deadline Date" parentSchemaName="mshied_internship" parentDisplayName="Internship" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Internship" id="{2c22644e-569e-45ea-87eb-865a48d00273}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="48" type="2" schemaName="mshied_validfrom" displayName="ValidFrom" parentSchemaName="mshied_internship" parentDisplayName="Internship" solution="EducationAcceleratorCommon (3.1.1.1)" />
-        <Dependent key="42" type="60" displayName="Information" parentDisplayName="Internship" id="{2c22644e-569e-45ea-87eb-865a48d00273}" />
+        <Required type="2" schemaName="mshied_businesspartner" displayName="Business Partner" parentSchemaName="mshied_internship" parentDisplayName="Internship" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Internship" id="{2c22644e-569e-45ea-87eb-865a48d00273}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="49" type="2" schemaName="mshied_websiteurl" displayName="Website URL" parentSchemaName="mshied_internship" parentDisplayName="Internship" solution="EducationAcceleratorCommon (3.1.1.1)" />
-        <Dependent key="42" type="60" displayName="Information" parentDisplayName="Internship" id="{2c22644e-569e-45ea-87eb-865a48d00273}" />
+        <Required type="2" schemaName="mshied_businesspartnercontact" displayName="Business Partner Contact" parentSchemaName="mshied_internship" parentDisplayName="Internship" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Internship" id="{2c22644e-569e-45ea-87eb-865a48d00273}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="50" type="2" schemaName="mshied_businesspartner" displayName="Business Partner" parentSchemaName="mshied_internship" parentDisplayName="Internship" solution="EducationAcceleratorCommon (3.1.1.1)" />
-        <Dependent key="42" type="60" displayName="Information" parentDisplayName="Internship" id="{2c22644e-569e-45ea-87eb-865a48d00273}" />
+        <Required type="2" schemaName="mshied_description" displayName="Description" parentSchemaName="mshied_internship" parentDisplayName="Internship" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Internship" id="{2c22644e-569e-45ea-87eb-865a48d00273}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="51" type="2" schemaName="mshied_posteddate" displayName="PostedDate" parentSchemaName="mshied_internship" parentDisplayName="Internship" solution="EducationAcceleratorCommon (3.1.1.1)" />
-        <Dependent key="42" type="60" displayName="Information" parentDisplayName="Internship" id="{2c22644e-569e-45ea-87eb-865a48d00273}" />
+        <Required type="2" schemaName="mshied_ispaid" displayName="IsPaid" parentSchemaName="mshied_internship" parentDisplayName="Internship" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Internship" id="{2c22644e-569e-45ea-87eb-865a48d00273}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="52" type="2" schemaName="mshied_description" displayName="Description" parentSchemaName="mshied_internship" parentDisplayName="Internship" solution="EducationAcceleratorCommon (3.1.1.1)" />
-        <Dependent key="42" type="60" displayName="Information" parentDisplayName="Internship" id="{2c22644e-569e-45ea-87eb-865a48d00273}" />
+        <Required type="2" schemaName="mshied_locationdescription" displayName="Location Description" parentSchemaName="mshied_internship" parentDisplayName="Internship" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Internship" id="{2c22644e-569e-45ea-87eb-865a48d00273}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="53" type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="mshied_internship" parentDisplayName="Internship" solution="Active" />
-        <Dependent key="42" type="60" displayName="Information" parentDisplayName="Internship" id="{2c22644e-569e-45ea-87eb-865a48d00273}" />
+        <Required type="2" schemaName="mshied_posteddate" displayName="PostedDate" parentSchemaName="mshied_internship" parentDisplayName="Internship" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Internship" id="{2c22644e-569e-45ea-87eb-865a48d00273}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="54" type="2" schemaName="mshied_qualifications" displayName="Qualifications" parentSchemaName="mshied_internship" parentDisplayName="Internship" solution="EducationAcceleratorCommon (3.1.1.1)" />
-        <Dependent key="42" type="60" displayName="Information" parentDisplayName="Internship" id="{2c22644e-569e-45ea-87eb-865a48d00273}" />
+        <Required type="2" schemaName="mshied_qualifications" displayName="Qualifications" parentSchemaName="mshied_internship" parentDisplayName="Internship" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Internship" id="{2c22644e-569e-45ea-87eb-865a48d00273}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="55" type="2" schemaName="mshied_locationdescription" displayName="Location Description" parentSchemaName="mshied_internship" parentDisplayName="Internship" solution="EducationAcceleratorCommon (3.1.1.1)" />
-        <Dependent key="42" type="60" displayName="Information" parentDisplayName="Internship" id="{2c22644e-569e-45ea-87eb-865a48d00273}" />
+        <Required type="2" schemaName="mshied_title" displayName="Title" parentSchemaName="mshied_internship" parentDisplayName="Internship" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Internship" id="{2c22644e-569e-45ea-87eb-865a48d00273}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="56" type="10" schemaName="mshied_Internship_BusinessPartner_Account" displayName="mshied_Internship_BusinessPartner_Account" parentSchemaName="mshied_internship" parentDisplayName="Internship" solution="EducationAcceleratorCommon (3.1.1.1)" />
-        <Dependent key="42" type="60" displayName="Information" parentDisplayName="Internship" id="{2c22644e-569e-45ea-87eb-865a48d00273}" />
+        <Required type="2" schemaName="mshied_validfrom" displayName="ValidFrom" parentSchemaName="mshied_internship" parentDisplayName="Internship" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Internship" id="{2c22644e-569e-45ea-87eb-865a48d00273}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="57" type="10" schemaName="mshied_Internship_BusinessPartnerContact_Contact" displayName="mshied_Internship_BusinessPartnerContact_Contact" parentSchemaName="mshied_internship" parentDisplayName="Internship" solution="EducationAcceleratorCommon (3.1.1.1)" />
-        <Dependent key="42" type="60" displayName="Information" parentDisplayName="Internship" id="{2c22644e-569e-45ea-87eb-865a48d00273}" />
+        <Required type="2" schemaName="mshied_validto" displayName="ValidTo" parentSchemaName="mshied_internship" parentDisplayName="Internship" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Internship" id="{2c22644e-569e-45ea-87eb-865a48d00273}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="58" type="10" schemaName="mshied_InternshipApplicant_Internship_mshied_Int" displayName="mshied_InternshipApplicant_Internship_mshied_Int" parentSchemaName="mshied_internshipapplicant" parentDisplayName="Internship Applicant" solution="EducationAcceleratorCommon (3.1.1.1)" />
-        <Dependent key="42" type="60" displayName="Information" parentDisplayName="Internship" id="{2c22644e-569e-45ea-87eb-865a48d00273}" />
+        <Required type="2" schemaName="mshied_websiteurl" displayName="Website URL" parentSchemaName="mshied_internship" parentDisplayName="Internship" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Internship" id="{2c22644e-569e-45ea-87eb-865a48d00273}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="59" type="26" schemaName="Active Internship Applicants" displayName="Active Internship Applicants" parentSchemaName="mshied_internshipapplicant" parentDisplayName="Internship Applicant" solution="EducationAcceleratorCommon (3.1.1.1)" id="{cb6a805a-5421-495e-af88-9d79a47f03bf}" />
-        <Dependent key="42" type="60" displayName="Information" parentDisplayName="Internship" id="{2c22644e-569e-45ea-87eb-865a48d00273}" />
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="mshied_internship" parentDisplayName="Internship" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Internship" id="{2c22644e-569e-45ea-87eb-865a48d00273}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="6" type="1" schemaName="mshied_scholarshipapplicant" displayName="Scholarship Applicant" solution="EducationAcceleratorCommon (3.1.1.1)" />
-        <Dependent key="60" type="60" displayName="Information" parentDisplayName="Scholarship" id="{65e1d59f-14de-4706-8fd3-4e231912849d}" />
+        <Required type="2" schemaName="mshied_academicperiod" displayName="Academic Period" parentSchemaName="mshied_scholarship" parentDisplayName="Scholarship" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Scholarship" id="{65e1d59f-14de-4706-8fd3-4e231912849d}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="7" type="1" schemaName="mshied_scholarship" displayName="Scholarship" solution="EducationAcceleratorCommon (3.1.1.1)" />
-        <Dependent key="60" type="60" displayName="Information" parentDisplayName="Scholarship" id="{65e1d59f-14de-4706-8fd3-4e231912849d}" />
+        <Required type="2" schemaName="mshied_amount" displayName="Amount" parentSchemaName="mshied_scholarship" parentDisplayName="Scholarship" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Scholarship" id="{65e1d59f-14de-4706-8fd3-4e231912849d}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="61" type="2" schemaName="mshied_websiteurl" displayName="Website URL" parentSchemaName="mshied_scholarship" parentDisplayName="Scholarship" solution="EducationAcceleratorCommon (3.1.1.1)" />
-        <Dependent key="60" type="60" displayName="Information" parentDisplayName="Scholarship" id="{65e1d59f-14de-4706-8fd3-4e231912849d}" />
+        <Required type="2" schemaName="mshied_applicationdeadlinedate" displayName="Application Deadline Date" parentSchemaName="mshied_scholarship" parentDisplayName="Scholarship" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Scholarship" id="{65e1d59f-14de-4706-8fd3-4e231912849d}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="62" type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="mshied_scholarship" parentDisplayName="Scholarship" solution="Active" />
-        <Dependent key="60" type="60" displayName="Information" parentDisplayName="Scholarship" id="{65e1d59f-14de-4706-8fd3-4e231912849d}" />
+        <Required type="2" schemaName="mshied_businesspartner" displayName="Business Partner" parentSchemaName="mshied_scholarship" parentDisplayName="Scholarship" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Scholarship" id="{65e1d59f-14de-4706-8fd3-4e231912849d}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="63" type="2" schemaName="mshied_qualifications" displayName="Qualifications" parentSchemaName="mshied_scholarship" parentDisplayName="Scholarship" solution="EducationAcceleratorCommon (3.1.1.1)" />
-        <Dependent key="60" type="60" displayName="Information" parentDisplayName="Scholarship" id="{65e1d59f-14de-4706-8fd3-4e231912849d}" />
+        <Required type="2" schemaName="mshied_businesspartnercontact" displayName="Business Partner Contact" parentSchemaName="mshied_scholarship" parentDisplayName="Scholarship" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Scholarship" id="{65e1d59f-14de-4706-8fd3-4e231912849d}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="64" type="2" schemaName="mshied_name" displayName="Name" parentSchemaName="mshied_scholarship" parentDisplayName="Scholarship" solution="EducationAcceleratorCommon (3.1.1.1)" />
-        <Dependent key="60" type="60" displayName="Information" parentDisplayName="Scholarship" id="{65e1d59f-14de-4706-8fd3-4e231912849d}" />
+        <Required type="2" schemaName="mshied_description" displayName="Description" parentSchemaName="mshied_scholarship" parentDisplayName="Scholarship" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Scholarship" id="{65e1d59f-14de-4706-8fd3-4e231912849d}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="65" type="2" schemaName="mshied_description" displayName="Description" parentSchemaName="mshied_scholarship" parentDisplayName="Scholarship" solution="EducationAcceleratorCommon (3.1.1.1)" />
-        <Dependent key="60" type="60" displayName="Information" parentDisplayName="Scholarship" id="{65e1d59f-14de-4706-8fd3-4e231912849d}" />
+        <Required type="2" schemaName="mshied_name" displayName="Name" parentSchemaName="mshied_scholarship" parentDisplayName="Scholarship" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Scholarship" id="{65e1d59f-14de-4706-8fd3-4e231912849d}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="66" type="2" schemaName="mshied_applicationdeadlinedate" displayName="Application Deadline Date" parentSchemaName="mshied_scholarship" parentDisplayName="Scholarship" solution="EducationAcceleratorCommon (3.1.1.1)" />
-        <Dependent key="60" type="60" displayName="Information" parentDisplayName="Scholarship" id="{65e1d59f-14de-4706-8fd3-4e231912849d}" />
+        <Required type="2" schemaName="mshied_posteddate" displayName="Posted Date" parentSchemaName="mshied_scholarship" parentDisplayName="Scholarship" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Scholarship" id="{65e1d59f-14de-4706-8fd3-4e231912849d}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="67" type="2" schemaName="mshied_businesspartner" displayName="Business Partner" parentSchemaName="mshied_scholarship" parentDisplayName="Scholarship" solution="EducationAcceleratorCommon (3.1.1.1)" />
-        <Dependent key="60" type="60" displayName="Information" parentDisplayName="Scholarship" id="{65e1d59f-14de-4706-8fd3-4e231912849d}" />
+        <Required type="2" schemaName="mshied_qualifications" displayName="Qualifications" parentSchemaName="mshied_scholarship" parentDisplayName="Scholarship" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Scholarship" id="{65e1d59f-14de-4706-8fd3-4e231912849d}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="68" type="2" schemaName="mshied_posteddate" displayName="Posted Date" parentSchemaName="mshied_scholarship" parentDisplayName="Scholarship" solution="EducationAcceleratorCommon (3.1.1.1)" />
-        <Dependent key="60" type="60" displayName="Information" parentDisplayName="Scholarship" id="{65e1d59f-14de-4706-8fd3-4e231912849d}" />
+        <Required type="2" schemaName="mshied_type" displayName="Type" parentSchemaName="mshied_scholarship" parentDisplayName="Scholarship" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Scholarship" id="{65e1d59f-14de-4706-8fd3-4e231912849d}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="69" type="2" schemaName="mshied_academicperiod" displayName="Academic Period" parentSchemaName="mshied_scholarship" parentDisplayName="Scholarship" solution="EducationAcceleratorCommon (3.1.1.1)" />
-        <Dependent key="60" type="60" displayName="Information" parentDisplayName="Scholarship" id="{65e1d59f-14de-4706-8fd3-4e231912849d}" />
+        <Required type="2" schemaName="mshied_websiteurl" displayName="Website URL" parentSchemaName="mshied_scholarship" parentDisplayName="Scholarship" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Scholarship" id="{65e1d59f-14de-4706-8fd3-4e231912849d}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="70" type="2" schemaName="mshied_amount" displayName="Amount" parentSchemaName="mshied_scholarship" parentDisplayName="Scholarship" solution="EducationAcceleratorCommon (3.1.1.1)" />
-        <Dependent key="60" type="60" displayName="Information" parentDisplayName="Scholarship" id="{65e1d59f-14de-4706-8fd3-4e231912849d}" />
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="mshied_scholarship" parentDisplayName="Scholarship" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Scholarship" id="{65e1d59f-14de-4706-8fd3-4e231912849d}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="71" type="2" schemaName="mshied_type" displayName="Type" parentSchemaName="mshied_scholarship" parentDisplayName="Scholarship" solution="EducationAcceleratorCommon (3.1.1.1)" />
-        <Dependent key="60" type="60" displayName="Information" parentDisplayName="Scholarship" id="{65e1d59f-14de-4706-8fd3-4e231912849d}" />
+        <Required type="26" schemaName="Active Scholarship Applicants" displayName="Active Scholarship Applicants" parentSchemaName="mshied_scholarshipapplicant" parentDisplayName="Scholarship Applicant" solution="EducationAcceleratorCommon (3.2.1.3)" id="{16be99a2-2c40-4322-9d0d-8f0f86bf91c1}" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Scholarship" id="{65e1d59f-14de-4706-8fd3-4e231912849d}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="72" type="2" schemaName="mshied_businesspartnercontact" displayName="Business Partner Contact" parentSchemaName="mshied_scholarship" parentDisplayName="Scholarship" solution="EducationAcceleratorCommon (3.1.1.1)" />
-        <Dependent key="60" type="60" displayName="Information" parentDisplayName="Scholarship" id="{65e1d59f-14de-4706-8fd3-4e231912849d}" />
+        <Required type="26" schemaName="Active Scholarship Applicants" displayName="Active Scholarship Applicants" parentSchemaName="mshied_scholarshipapplicant" parentDisplayName="Scholarship Applicant" solution="EducationAcceleratorCommon (3.2.1.3)" id="{16be99a2-2c40-4322-9d0d-8f0f86bf91c1}" />
+        <Dependent type="60" displayName="Business Partner Dashboard" id="{ed828b48-04df-e911-a968-000d3a3b9825}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="73" type="10" schemaName="mshied_Scholarship_AcademicPeriod_mshied_Academi" displayName="mshied_Scholarship_AcademicPeriod_mshied_Academi" parentSchemaName="mshied_scholarship" parentDisplayName="Scholarship" solution="EducationAcceleratorCommon (3.1.1.1)" />
-        <Dependent key="60" type="60" displayName="Information" parentDisplayName="Scholarship" id="{65e1d59f-14de-4706-8fd3-4e231912849d}" />
+        <Required type="26" schemaName="Active Recommended Student Resources" displayName="Active Recommended Student Resources" parentSchemaName="mshied_recommendedstudentresource" parentDisplayName="Recommended Student Resource" solution="EducationAcceleratorCommon (3.2.1.3)" id="{28b3d351-9b39-436c-8562-0426e5709848}" />
+        <Dependent type="60" displayName="Student Success Path" parentDisplayName="Contact" id="{be82e057-55b7-4789-886a-5a9dda7e349c}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="74" type="10" schemaName="mshied_Scholarship_BusinessPartner_Account" displayName="mshied_Scholarship_BusinessPartner_Account" parentSchemaName="mshied_scholarship" parentDisplayName="Scholarship" solution="EducationAcceleratorCommon (3.1.1.1)" />
-        <Dependent key="60" type="60" displayName="Information" parentDisplayName="Scholarship" id="{65e1d59f-14de-4706-8fd3-4e231912849d}" />
+        <Required type="26" schemaName="Active Internships" displayName="Active Internships" parentSchemaName="mshied_internship" parentDisplayName="Internship" solution="EducationAcceleratorCommon (3.2.1.3)" id="{61e0af33-abb7-4a26-90f3-71935ab802f7}" />
+        <Dependent type="60" displayName="Business Partner Dashboard" id="{ed828b48-04df-e911-a968-000d3a3b9825}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="75" type="10" schemaName="mshied_ScholarshipApplicant_Scholarship" displayName="mshied_ScholarshipApplicant_Scholarship" parentSchemaName="mshied_scholarshipapplicant" parentDisplayName="Scholarship Applicant" solution="EducationAcceleratorCommon (3.1.1.1)" />
-        <Dependent key="60" type="60" displayName="Information" parentDisplayName="Scholarship" id="{65e1d59f-14de-4706-8fd3-4e231912849d}" />
+        <Required type="26" schemaName="Active Academic Period Details" displayName="Active Academic Period Details" parentSchemaName="mshied_academicperioddetails" parentDisplayName="Academic Period Detail" solution="EducationAcceleratorCommon (3.2.1.3)" id="{92108403-8040-4be3-af5e-f051886f46a2}" />
+        <Dependent type="60" displayName="Advisor Dashboard" id="{738cf670-1ffc-ea11-a815-0022480822ca}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="76" type="10" schemaName="mshied_Scholarship_BusinessPartnerContact_Contac" displayName="mshied_Scholarship_BusinessPartnerContact_Contac" parentSchemaName="mshied_scholarship" parentDisplayName="Scholarship" solution="EducationAcceleratorCommon (3.1.1.1)" />
-        <Dependent key="60" type="60" displayName="Information" parentDisplayName="Scholarship" id="{65e1d59f-14de-4706-8fd3-4e231912849d}" />
+        <Required type="26" schemaName="Advisor " displayName="Advisor " parentSchemaName="contact" parentDisplayName="Contact" solution="EducationAcceleratorCommon (3.2.1.3)" id="{adebfdb5-f1f8-ea11-a815-000d3a33f11e}" />
+        <Dependent type="60" displayName="Student Success Path" parentDisplayName="Contact" id="{be82e057-55b7-4789-886a-5a9dda7e349c}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="8" type="26" schemaName="Active Scholarship Applicants" displayName="Active Scholarship Applicants" parentSchemaName="mshied_scholarshipapplicant" parentDisplayName="Scholarship Applicant" solution="EducationAcceleratorCommon (3.1.1.1)" id="{16be99a2-2c40-4322-9d0d-8f0f86bf91c1}" />
-        <Dependent key="60" type="60" displayName="Information" parentDisplayName="Scholarship" id="{65e1d59f-14de-4706-8fd3-4e231912849d}" />
+        <Required type="26" schemaName="Active Students" displayName="Active Students" parentSchemaName="contact" parentDisplayName="Contact" solution="EducationAcceleratorCommon (3.2.1.3)" id="{ae88af10-95cc-e811-a96b-000d3a1c5716}" />
+        <Dependent type="60" displayName="Advisor Dashboard" id="{738cf670-1ffc-ea11-a815-0022480822ca}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="77" type="1" schemaName="mshied_academicperioddetails" displayName="Academic Period Detail" solution="EducationAcceleratorCommon (3.1.1.1)" />
-        <Dependent key="78" type="60" displayName="Advisor Dashboard" id="{738cf670-1ffc-ea11-a815-0022480822ca}" />
+        <Required type="26" schemaName="Active Internship Applicants" displayName="Active Internship Applicants" parentSchemaName="mshied_internshipapplicant" parentDisplayName="Internship Applicant" solution="EducationAcceleratorCommon (3.2.1.3)" id="{cb6a805a-5421-495e-af88-9d79a47f03bf}" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Internship" id="{2c22644e-569e-45ea-87eb-865a48d00273}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="79" type="26" schemaName="Active Students" displayName="Active Students" parentSchemaName="contact" parentDisplayName="Contact" solution="EducationAcceleratorCommon (3.1.1.1)" id="{ae88af10-95cc-e811-a96b-000d3a1c5716}" />
-        <Dependent key="78" type="60" displayName="Advisor Dashboard" id="{738cf670-1ffc-ea11-a815-0022480822ca}" />
+        <Required type="26" schemaName="Active Extra Curricular Activities" displayName="Active Extra Curricular Activities" parentSchemaName="mshied_extracurricularactivities" parentDisplayName="Extra Curricular Activity" solution="EducationAcceleratorCommon (3.2.1.3)" id="{d4501044-f941-4ce0-b9e8-b5cefc74d031}" />
+        <Dependent type="60" displayName="Student Success Path" parentDisplayName="Contact" id="{be82e057-55b7-4789-886a-5a9dda7e349c}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="80" type="26" schemaName="Active Academic Period Details" displayName="Active Academic Period Details" parentSchemaName="mshied_academicperioddetails" parentDisplayName="Academic Period Detail" solution="EducationAcceleratorCommon (3.1.1.1)" id="{92108403-8040-4be3-af5e-f051886f46a2}" />
-        <Dependent key="78" type="60" displayName="Advisor Dashboard" id="{738cf670-1ffc-ea11-a815-0022480822ca}" />
+        <Required type="26" schemaName="Active Scholarships" displayName="Active Scholarships" parentSchemaName="mshied_scholarship" parentDisplayName="Scholarship" solution="EducationAcceleratorCommon (3.2.1.3)" id="{ea45a19d-1bdf-4782-98d2-975c5d97817d}" />
+        <Dependent type="60" displayName="Business Partner Dashboard" id="{ed828b48-04df-e911-a968-000d3a3b9825}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="81" type="59" schemaName="Bottom Performing Students" displayName="Bottom Performing Students" parentSchemaName="mshied_academicperioddetails" parentDisplayName="Academic Period Detail" solution="EducationAcceleratorCommon (3.1.1.1)" id="{62ef54be-20fc-ea11-a815-0022480822ca}" />
-        <Dependent key="78" type="60" displayName="Advisor Dashboard" id="{738cf670-1ffc-ea11-a815-0022480822ca}" />
+        <Required type="26" schemaName="Recommended Student Resource   " displayName="Recommended Student Resource   " parentSchemaName="mshied_recommendedstudentresource" parentDisplayName="Recommended Student Resource" solution="EducationAcceleratorCommon (3.2.1.3)" id="{f4e522a5-4afc-ea11-a815-000d3a33f11e}" />
+        <Dependent type="60" displayName="Student Success Path" parentDisplayName="Contact" id="{be82e057-55b7-4789-886a-5a9dda7e349c}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="82" type="59" schemaName="Top Students" displayName="Top Students" parentSchemaName="mshied_academicperioddetails" parentDisplayName="Academic Period Detail" solution="EducationAcceleratorCommon (3.1.1.1)" id="{2f1cf093-20fc-ea11-a815-0022480822ca}" />
-        <Dependent key="78" type="60" displayName="Advisor Dashboard" id="{738cf670-1ffc-ea11-a815-0022480822ca}" />
+        <Required type="26" schemaName="Active Course Histories" displayName="Active Course Histories" parentSchemaName="mshied_coursehistory" parentDisplayName="Course History" solution="EducationAcceleratorCommon (3.2.1.3)" id="{f68457bf-b78c-4d5b-83a4-f4045fb380a2}" />
+        <Dependent type="60" displayName="Student Success Path" parentDisplayName="Contact" id="{be82e057-55b7-4789-886a-5a9dda7e349c}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="83" type="1" schemaName="mshied_program" displayName="Program" solution="EducationAcceleratorCommon (3.1.1.1)" />
-        <Dependent key="84" type="62" schemaName="mshied_HigherEd" />
+        <Required type="59" schemaName="Top Students" displayName="Top Students" parentSchemaName="mshied_academicperioddetails" parentDisplayName="Academic Period Detail" solution="EducationAcceleratorCommon (3.2.1.3)" id="{2f1cf093-20fc-ea11-a815-0022480822ca}" />
+        <Dependent type="60" displayName="Advisor Dashboard" id="{738cf670-1ffc-ea11-a815-0022480822ca}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="7" type="1" schemaName="mshied_scholarship" displayName="Scholarship" solution="EducationAcceleratorCommon (3.1.1.1)" />
-        <Dependent key="84" type="62" schemaName="mshied_HigherEd" />
+        <Required type="59" schemaName="Bottom Performing Students" displayName="Bottom Performing Students" parentSchemaName="mshied_academicperioddetails" parentDisplayName="Academic Period Detail" solution="EducationAcceleratorCommon (3.2.1.3)" id="{62ef54be-20fc-ea11-a815-0022480822ca}" />
+        <Dependent type="60" displayName="Advisor Dashboard" id="{738cf670-1ffc-ea11-a815-0022480822ca}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="85" type="1" schemaName="mshied_course" displayName="Course" solution="EducationAcceleratorCommon (3.1.1.1)" />
-        <Dependent key="84" type="62" schemaName="mshied_HigherEd" />
+        <Required type="59" schemaName="Scholarship Application by State Code" displayName="Scholarship Application by State Code" parentSchemaName="mshied_scholarshipapplicant" parentDisplayName="Scholarship Applicant" solution="EducationAcceleratorCommon (3.2.1.3)" id="{a6157748-65e0-e911-a964-000d3a3b9cd8}" />
+        <Dependent type="60" displayName="Business Partner Dashboard" id="{ed828b48-04df-e911-a968-000d3a3b9825}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="86" type="1" schemaName="mshied_areaofinterest" displayName="Area of Interest" solution="EducationAcceleratorCommon (3.1.1.1)" />
-        <Dependent key="84" type="62" schemaName="mshied_HigherEd" />
+        <Required type="59" schemaName="Number of Scholarships by Business Partner" displayName="Number of Scholarships by Business Partner" parentSchemaName="mshied_scholarship" parentDisplayName="Scholarship" solution="EducationAcceleratorCommon (3.2.1.3)" id="{c4a8f928-65e0-e911-a964-000d3a3b9cd8}" />
+        <Dependent type="60" displayName="Business Partner Dashboard" id="{ed828b48-04df-e911-a968-000d3a3b9825}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="4" type="1" schemaName="mshied_internship" displayName="Internship" solution="EducationAcceleratorCommon (3.1.1.1)" />
-        <Dependent key="84" type="62" schemaName="mshied_HigherEd" />
+        <Required type="59" schemaName="Number of Interships by Business Partner" displayName="Number of Interships by Business Partner" parentSchemaName="mshied_internship" parentDisplayName="Internship" solution="EducationAcceleratorCommon (3.2.1.3)" id="{d5497b5e-b6df-e911-a963-000d3a3b9316}" />
+        <Dependent type="60" displayName="Business Partner Dashboard" id="{ed828b48-04df-e911-a968-000d3a3b9825}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="87" type="1" schemaName="mshied_areaofstudy" displayName="Area of Study" solution="EducationAcceleratorCommon (3.1.1.1)" />
-        <Dependent key="84" type="62" schemaName="mshied_HigherEd" />
+        <Required type="59" schemaName="Registration Status" displayName="Registration Status" parentSchemaName="mshied_coursehistory" parentDisplayName="Course History" solution="EducationAcceleratorCommon (3.2.1.3)" id="{f9109a3a-27ce-e811-a967-000d3a1c53e4}" />
+        <Dependent type="60" displayName="Student Success Path" parentDisplayName="Contact" id="{be82e057-55b7-4789-886a-5a9dda7e349c}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="88" type="1" schemaName="mshied_programrequirement" displayName="Program Requirement" solution="EducationAcceleratorCommon (3.1.1.1)" />
-        <Dependent key="84" type="62" schemaName="mshied_HigherEd" />
+        <Required type="61" schemaName="msdyn_/Images/Area_Default_Icon.png" displayName="msdyn_/Images/Area_Default_Icon.png" solution="AppModuleWebResources (2.5)" />
+        <Dependent type="62" schemaName="mshied_HigherEd" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="89" type="1" schemaName="mshied_studentresource" displayName="Student Resource" solution="EducationAcceleratorCommon (3.1.1.1)" />
-        <Dependent key="84" type="62" schemaName="mshied_HigherEd" />
+        <Required type="61" schemaName="mshied_HigherEdIconforUI2" displayName="mshied_HigherEdIconforUI2" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="62" schemaName="mshied_HigherEd" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="14" type="1" schemaName="mshied_extracurricularactivities" displayName="Extra Curricular Activity" solution="EducationAcceleratorCommon (3.1.1.1)" />
-        <Dependent key="84" type="62" schemaName="mshied_HigherEd" />
+        <Required type="61" schemaName="mshied_RecommendedStudentResource.svg" displayName="mshied_RecommendedStudentResource.svg" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="1" schemaName="mshied_recommendedstudentresource" displayName="Recommended Student Resource" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="84" type="62" schemaName="mshied_HigherEd" solution="EducationAcceleratorCommon (3.1.1.1)" />
-        <Dependent key="84" type="62" schemaName="mshied_HigherEd" />
+        <Required type="61" schemaName="mshied_RecommendedStudentResource16.png" displayName="mshied_RecommendedStudentResource16.png" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="1" schemaName="mshied_recommendedstudentresource" displayName="Recommended Student Resource" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="90" type="61" schemaName="msdyn_/Images/Area_Default_Icon.png" displayName="msdyn_/Images/Area_Default_Icon.png" solution="AppModuleWebResources (2.5)" />
-        <Dependent key="84" type="62" schemaName="mshied_HigherEd" />
+        <Required type="61" schemaName="mshied_RecommendedStudentResource32.png" displayName="mshied_RecommendedStudentResource32.png" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="1" schemaName="mshied_recommendedstudentresource" displayName="Recommended Student Resource" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="91" type="61" schemaName="mshied_HigherEdIconforUI2" displayName="mshied_HigherEdIconforUI2" solution="EducationAcceleratorCommon (3.1.1.1)" />
-        <Dependent key="84" type="62" schemaName="mshied_HigherEd" />
+        <Required type="62" schemaName="mshied_HigherEd" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="62" schemaName="mshied_HigherEd" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="87" type="1" schemaName="mshied_areaofstudy" displayName="Area of Study" solution="EducationAcceleratorCommon (3.1.1.1)" />
-        <Dependent key="92" type="10" schemaName="mshied_Grant_AreaofStudy_mshied_areaofstudy" displayName="mshied_Grant_AreaofStudy_mshied_areaofstudy" parentSchemaName="mshied_areaofstudy" parentDisplayName="Area of Study" />
+        <Required type="66" schemaName="MscrmControls.ActivityCalendarControl.ActivityCalendarControl" displayName="MscrmControls.ActivityCalendarControl.ActivityCalendarControl" solution="msdyn_UCICalendar (1.0.0.1270)" />
+        <Dependent type="60" displayName="Student Success Path" parentDisplayName="Contact" id="{be82e057-55b7-4789-886a-5a9dda7e349c}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="93" type="2" schemaName="mshied_name" displayName="Area of Study Name" parentSchemaName="mshied_areaofstudy" parentDisplayName="Area of Study" solution="EducationAcceleratorCommon (3.1.1.1)" />
-        <Dependent key="92" type="10" schemaName="mshied_Grant_AreaofStudy_mshied_areaofstudy" displayName="mshied_Grant_AreaofStudy_mshied_areaofstudy" parentSchemaName="mshied_areaofstudy" parentDisplayName="Area of Study" />
+        <Required type="66" schemaName="MscrmControls.Calendar.CalendarControl" displayName="MscrmControls.Calendar.CalendarControl" solution="CustomControlsCore (9.2.21063.00132)" />
+        <Dependent type="60" displayName="Student Success Path" parentDisplayName="Contact" id="{be82e057-55b7-4789-886a-5a9dda7e349c}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="94" type="2" schemaName="mshied_areaofstudyid" displayName="Area of Study" parentSchemaName="mshied_areaofstudy" parentDisplayName="Area of Study" solution="EducationAcceleratorCommon (3.1.1.1)" />
-        <Dependent key="92" type="10" schemaName="mshied_Grant_AreaofStudy_mshied_areaofstudy" displayName="mshied_Grant_AreaofStudy_mshied_areaofstudy" parentSchemaName="mshied_areaofstudy" parentDisplayName="Area of Study" />
+        <Required type="66" schemaName="MscrmControls.CardFeedContainer.CardFeedContainer" displayName="MscrmControls.CardFeedContainer.CardFeedContainer" solution="BaseCustomControlsCore (9.0.2106.3007)" />
+        <Dependent type="60" displayName="Student Success Path" parentDisplayName="Contact" id="{be82e057-55b7-4789-886a-5a9dda7e349c}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="95" type="9" schemaName="mshied_applicationstatecode" displayName="Application State Code" solution="EducationAcceleratorCommon (3.1.1.1)" />
-        <Dependent key="96" type="2" schemaName="mshied_applicationstatecode" displayName="Application State Code" parentSchemaName="mshied_grantapplicant" parentDisplayName="Grant Applicant" />
+        <Required type="9" schemaName="mshied_applicationstatecode" displayName="Application State Code" solution="EducationAcceleratorCommon (3.2.1.3)" />
+        <Dependent type="2" schemaName="mshied_applicationstatecode" displayName="Application State Code" parentSchemaName="mshied_grantapplicant" parentDisplayName="Grant Applicant" />
       </MissingDependency>
     </MissingDependencies>
   </SolutionManifest>

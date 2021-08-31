@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{6aecfeb7-43b7-eb11-8236-000d3a5a5e23}</formid>
+    <IntroducedVersion>3.1.3.1</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form shownavigationbar="false" headerdensity="HighWithControls" showImage="false" maxWidth="1920">
+      <tabs>
+        <tab name="info" verticallayout="true" id="{6f9d9695-de6a-4999-a308-7be62fcbad9e}" IsUserDefined="0" labelid="{51602e14-f81d-40b9-b759-79a2f13dbb7f}" expanded="true" locklevel="0" showlabel="true">
+          <labels>
+            <label description="Information" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="50%">
+              <sections>
+                <section name="info_s" showlabel="true" showbar="false" id="{d48011eb-e73b-4503-a05f-ac93a317cb47}" IsUserDefined="0" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" labelid="{e671ba80-17b4-42c9-8476-d72f100d2a3f}" locklevel="0">
+                  <labels>
+                    <label description="Connect To" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{c1b0f1c1-59b7-49b1-9791-d55f58dc57d6}" colspan="1" labelid="{5de0d538-28c4-4ec1-aae8-91bd007217a7}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Connected To" languagecode="1033" />
+                        </labels>
+                        <control id="record2id" classid="{3246F906-1F71-45F7-B11F-D7BE0F9D04C9}" datafieldname="record2id" uniqueid="{82036a3b-4002-b774-2c70-324969271068}" disabled="false">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d3af1eb8-04f9-4f21-8ef3-9a25c3040dea}" labelid="{5c11abd1-0096-4c34-a5e5-b396cbe828ab}">
+                        <labels>
+                          <label description="As this role" languagecode="1033" />
+                        </labels>
+                        <control id="record2roleid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="record2roleid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="50%">
+              <sections>
+                <section name="connect_from" showlabel="true" showbar="false" id="{8b6dee92-267b-30de-6778-e52d60341009}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" labelid="{4372c1a5-49c6-4a65-a02e-ab85cc782107}" locklevel="0">
+                  <labels>
+                    <label description="Connected From" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{4d2107d8-5ec9-42e5-8e43-be8001bde895}" colspan="1" showlabel="true" locklevel="1" labelid="{49001008-5d79-487e-9131-e319a6311918}">
+                        <labels>
+                          <label description="Connected From" languagecode="1033" />
+                        </labels>
+                        <control id="record1id" classid="{3246F906-1F71-45F7-B11F-D7BE0F9D04C9}" datafieldname="record1id">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{49893952-2dbe-4df6-904e-ec5028657386}" colspan="1" labelid="{7b0c67a8-ea9d-4856-8609-59b119eda677}">
+                        <labels>
+                          <label description="As this role" languagecode="1033" />
+                        </labels>
+                        <control id="record1roleid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="record1roleid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="details" verticallayout="true" id="{4f1a8ad2-97e8-475f-adef-8460a1f967a6}" IsUserDefined="0" showlabel="true" expanded="true" labelid="{93319dd0-29f5-4d88-b6d0-825058012b55}" locklevel="0">
+          <labels>
+            <label description="Details" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="50%">
+              <sections>
+                <section name="details" showlabel="false" showbar="true" id="{1517d952-33c0-4115-8255-514cb2973ab1}" IsUserDefined="0" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" labelid="{3c9b3527-bdf9-4cd5-8eb9-6dff475f62ab}" locklevel="0">
+                  <labels>
+                    <label description="Details" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{b537444f-e96d-47bd-b5ec-ba3ce830bac9}" showlabel="true" colspan="1" labelid="{a3702ab2-d44d-4daa-ad21-a2441c6d517c}">
+                        <labels>
+                          <label description="Start Date" languagecode="1033" />
+                        </labels>
+                        <control id="effectivestart" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="effectivestart" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{921bc687-16ff-4f1e-926b-791af4901c5c}" showlabel="true" colspan="1" labelid="{25cab5db-88c7-4387-b6ca-f4578b64c8ef}">
+                        <labels>
+                          <label description="End Date" languagecode="1033" />
+                        </labels>
+                        <control id="effectiveend" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="effectiveend" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f5a83ed7-8311-42a6-8E1a-45C568a271cb}" showlabel="true" colspan="1" labelid="{3ddf5349-e1d7-45ee-92bb-cef406c8d6dd}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="50%">
+              <sections>
+                <section name="description" showlabel="false" showbar="false" id="{bc3b8e23-8b8a-89dd-63a8-510a2b9a2e7b}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" labelid="{2d5a1115-1445-4b45-90cf-a65501c25e9e}">
+                  <labels>
+                    <label description="Description" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{06e1e691-d198-4832-b330-f7df04553b78}" rowspan="2" auto="false" colspan="2" showlabel="true" labelid="{78d01631-871f-412f-afef-d1a27f2f9818}">
+                        <labels>
+                          <label description="Description" languagecode="1033" />
+                        </labels>
+                        <control id="description" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="description" />
+                      </cell>
+                    </row>
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{8e79872a-cf90-45f8-98dc-38763d268266}" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+        <rows>
+          <row>
+            <cell id="{7686d269-c2ba-ae9d-e98b-bc349dcce7ed}" showlabel="false" colspan="1" labelid="{ed51e7d5-3be5-4f10-9492-3a9d95bff73a}">
+              <labels>
+                <label description="Connected From" languagecode="1033" />
+              </labels>
+              <control id="header_record1id" classid="{3246F906-1F71-45F7-B11F-D7BE0F9D04C9}" datafieldname="record1id" disabled="true">
+                <parameters>
+                  <AutoResolve>true</AutoResolve>
+                  <DisableMru>false</DisableMru>
+                </parameters>
+              </control>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{47B3ACC4-ADC5-45d1-BA21-C2E78B746AD6}">
+        <rows>
+          <row>
+            <cell id="{93AFD0B8-40AE-4aeb-8511-C7356FF24A27}" labelid="{0693f932-cb18-411b-95c4-040cb56c068b}">
+              <labels>
+                <label description="Status" languagecode="1033" />
+              </labels>
+              <control id="footer_statecode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="statecode" />
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <events>
+        <event name="onchange" application="true" active="true" attribute="record1roleid">
+          <InternalHandlers>
+            <Handler functionName="Mscrm.record1roleid_onchange" libraryName="Connection_main_system_library.js" handlerUniqueId="88e2fd45-17c0-405e-8166-c9f6a2e9e4f1" enabled="true" passExecutionContext="true">
+              <dependencies>
+                <dependency id="record2roleid" />
+              </dependencies>
+            </Handler>
+          </InternalHandlers>
+        </event>
+        <event name="onchange" application="true" active="true" attribute="record2roleid">
+          <InternalHandlers>
+            <Handler functionName="Mscrm.record2roleid_onchange" libraryName="Connection_main_system_library.js" handlerUniqueId="6fa70061-3e5f-4e9f-b8bb-7c30e7b98659" enabled="true" passExecutionContext="true">
+              <dependencies>
+                <dependency id="record1roleid" />
+              </dependencies>
+            </Handler>
+          </InternalHandlers>
+        </event>
+        <event name="onload" application="true" active="true">
+          <InternalHandlers>
+            <Handler functionName="Mscrm.connectionForm_onload" libraryName="Connection_main_system_library.js" handlerUniqueId="F82E9803-9523-434A-800F-9FA3C4BF486C" enabled="true" passExecutionContext="false" />
+          </InternalHandlers>
+        </event>
+      </events>
+      <clientresources>
+        <internalresources>
+          <clientincludes>
+            <internaljscriptfile src="$webresource:Connection_main_system_library.js" />
+          </clientincludes>
+        </internalresources>
+      </clientresources>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+      <DisplayConditions Order="1" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Edu Connections" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity to manage edu connecions" languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

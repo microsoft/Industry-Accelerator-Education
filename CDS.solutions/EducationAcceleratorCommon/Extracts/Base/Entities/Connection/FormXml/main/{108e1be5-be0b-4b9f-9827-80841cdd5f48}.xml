@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{108e1be5-be0b-4b9f-9827-80841cdd5f48}</formid>
+    <IntroducedVersion>5.0.0.0</IntroducedVersion>
+    <FormPresentation>0</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form shownavigationbar="false">
+      <tabs>
+        <tab name="info" verticallayout="true" id="{6f9d9695-de6a-4999-a308-7be62fcbad9e}" IsUserDefined="0" ordinalvalue="0">
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section name="description" showlabel="false" showbar="false" id="{bc3b8e23-8b8a-89dd-63a8-510a2b9a2e7b}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" ordinalvalue="1">
+                  <rows>
+                    <row>
+                      <cell id="{06e1e691-d198-4832-b330-f7df04553b78}" rowspan="2" auto="false" colspan="2" showlabel="true" ordinalvalue="10000">
+                        <labels>
+                          <label description="Description" languagecode="1033" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="details" verticallayout="true" id="{4f1a8ad2-97e8-475f-adef-8460a1f967a6}" IsUserDefined="0" showlabel="true" expanded="false" ordinalvalue="1">
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section name="connect_from" showlabel="false" showbar="false" id="{8b6dee92-267b-30de-6778-e52d60341009}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{4d2107d8-5ec9-42e5-8e43-be8001bde895}" colspan="1" showlabel="true" locklevel="1" ordinalvalue="10000">
+                        <labels>
+                          <label description="Connected From" languagecode="1033" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="details" showlabel="false" showbar="true" id="{1517d952-33c0-4115-8255-514cb2973ab1}" IsUserDefined="0" columns="11" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" ordinalvalue="1">
+                  <rows>
+                    <row>
+                      <cell id="{f5a83ed7-8311-42a6-8E1a-45C568a271cb}" showlabel="true" colspan="1" ordinalvalue="10004">
+                        <labels>
+                          <label description="Owner" languagecode="1033" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{8e79872a-cf90-45f8-98dc-38763d268266}" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+        <rows>
+          <row>
+            <cell id="{7686d269-c2ba-ae9d-e98b-bc349dcce7ed}" showlabel="false" colspan="1" ordinalvalue="10000">
+              <labels>
+                <label description="Connected From" languagecode="1033" solutionaction="Added" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{47B3ACC4-ADC5-45d1-BA21-C2E78B746AD6}">
+        <rows>
+          <row>
+            <cell id="{93AFD0B8-40AE-4aeb-8511-C7356FF24A27}" ordinalvalue="10000">
+              <labels>
+                <label description="Status" languagecode="1033" solutionaction="Added" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions FallbackForm="true" Order="2" solutionaction="Added">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

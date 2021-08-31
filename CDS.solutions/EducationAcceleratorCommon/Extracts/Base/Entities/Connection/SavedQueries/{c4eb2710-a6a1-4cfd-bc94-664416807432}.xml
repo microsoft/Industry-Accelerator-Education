@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery unmodified="1">
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{c4eb2710-a6a1-4cfd-bc94-664416807432}</savedqueryid>
+    <queryapi></queryapi>
+    <layoutxml>
+      <grid name="connections" jump="record2id" select="1" icon="0" preview="1">
+        <row name="connection" id="connectionid">
+          <cell name="record2id" width="150" />
+          <cell name="record2roleid" width="150" />
+          <cell name="description" width="300" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>2</querytype>
+    <fetchxml>
+      <fetch distinct="false" mapping="logical">
+        <entity name="connection">
+          <attribute name="record2id" />
+          <attribute name="record2roleid" />
+          <attribute name="connectionid" />
+          <attribute name="description" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <order attribute="record2id" descending="false" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>5.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Connection Associated View" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Display all active connections of the object." languagecode="1033" />
+    </Descriptions>
+  </savedquery>
+</savedqueries>

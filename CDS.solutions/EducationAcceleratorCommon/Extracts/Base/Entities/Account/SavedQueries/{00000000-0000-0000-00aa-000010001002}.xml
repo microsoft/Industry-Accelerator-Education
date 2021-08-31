@@ -40,7 +40,7 @@
     </fetchxml>
     <IntroducedVersion>5.0.0.0</IntroducedVersion>
     <LocalizedNames>
-      <LocalizedName description="Active Institutions" languagecode="1033" />
+      <LocalizedName description="Active Account" languagecode="1033" />
     </LocalizedNames>
   </savedquery>
 </savedqueries>

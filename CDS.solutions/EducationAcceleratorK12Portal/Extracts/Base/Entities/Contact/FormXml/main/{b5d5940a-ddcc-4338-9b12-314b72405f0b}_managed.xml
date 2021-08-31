@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{b5d5940a-ddcc-4338-9b12-314b72405f0b}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form showImage="true" shownavigationbar="true" maxWidth="1920" headerdensity="HighWithControls">
+      <tabs>
+        <tab name="tab_2_Connections" id="957da5bf-3e3e-4653-8652-cf4f86d0f322" IsUserDefined="0" locklevel="0" showlabel="true" ordinalvalue="1">
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section name="tab_2_section_1_Connections" id="52f86046-34ce-4fb0-9079-bb2951bb2c69" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" ordinalvalue="0">
+                  <rows />
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_3_Admin" id="3416ba7a-3dee-49bd-9376-0540d4fb6ba9" IsUserDefined="0" locklevel="0" showlabel="true" ordinalvalue="2">
+          <columns>
+            <column width="50%" id="1">
+              <sections>
+                <section name="tab_3_Section_RelatedExternalIdentifiers" id="b713afe2-5333-425c-8ace-3b70ed021dc7" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" ordinalvalue="1">
+                  <rows />
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <footer id="{22f641fa-618f-4b6c-805e-eaa79dc91e48}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{d1a481b4-c660-4172-8072-048ff04c060c}" showlabel="false" ordinalvalue="10000" solutionaction="Removed" />
+            <cell id="{9350ca1e-4b06-4488-ae1a-889073fe9ba8}" showlabel="false" ordinalvalue="20001" solutionaction="Removed" />
+            <cell id="{3c8c4a2c-c769-475a-b339-37117b9c5bd3}" showlabel="false" ordinalvalue="30002" solutionaction="Removed" />
+          </row>
+        </rows>
+      </footer>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="K12 Portal Faculty Form" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

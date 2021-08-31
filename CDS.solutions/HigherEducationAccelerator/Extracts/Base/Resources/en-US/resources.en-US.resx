@@ -1,0 +1,1870 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="Source LCID" xml:space="preserve">
+    <value>1033</value>
+  </metadata>
+  <metadata name="Source file" xml:space="preserve">
+    <value>Dynamics365HigherEducationAccelerator_managed.zip</value>
+  </metadata>
+  <metadata name="Source package type" xml:space="preserve">
+    <value>Both</value>
+  </metadata>
+  <metadata name="SolutionPackager Version" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uVmVyc2lvbgQAAAAGX01ham9yBl9NaW5vcgZfQnVpbGQJX1JldmlzaW9uAAAAAAgICAgJAAAAAAAAAAAAAAAAAAAACw==</value>
+  </metadata>
+  <metadata name="SolutionPackager Version String" xml:space="preserve">
+    <value>9.0.0.0</value>
+  </metadata>
+  <data name="10:Description,bpf_mshied_grantapplicant_mshied_grantapplicationbusinessprocessflow" xml:space="preserve">
+    <value />
+    <comment>mshied_grantapplicationbusinessprocessflow Description for EntityRelationship 'bpf_mshied_grantapplicant_mshied_grantapplicationbusinessprocessflow'</comment>
+  </data>
+  <data name="10:Description,business_unit_mshied_grant" xml:space="preserve">
+    <value>Unique identifier for the business unit that owns the record</value>
+    <comment>mshied_Grant Description for EntityRelationship 'business_unit_mshied_grant'</comment>
+  </data>
+  <data name="10:Description,business_unit_mshied_grantapplicant" xml:space="preserve">
+    <value>Unique identifier for the business unit that owns the record</value>
+    <comment>mshied_GrantApplicant Description for EntityRelationship 'business_unit_mshied_grantapplicant'</comment>
+  </data>
+  <data name="10:Description,lk_mshied_grantapplicant_createdby" xml:space="preserve">
+    <value>Unique identifier of the user who created the record.</value>
+    <comment>mshied_GrantApplicant Description for EntityRelationship 'lk_mshied_grantapplicant_createdby'</comment>
+  </data>
+  <data name="10:Description,lk_mshied_grantapplicant_modifiedby" xml:space="preserve">
+    <value>Unique identifier of the user who modified the record.</value>
+    <comment>mshied_GrantApplicant Description for EntityRelationship 'lk_mshied_grantapplicant_modifiedby'</comment>
+  </data>
+  <data name="10:Description,lk_mshied_grantapplicationbusinessprocessflow_activestageid" xml:space="preserve">
+    <value>Unique identifier of the active stage for the Business Process Flow instance.</value>
+    <comment>mshied_grantapplicationbusinessprocessflow Description for EntityRelationship 'lk_mshied_grantapplicationbusinessprocessflow_activestageid'</comment>
+  </data>
+  <data name="10:Description,lk_mshied_grantapplicationbusinessprocessflow_createdby" xml:space="preserve">
+    <value>Unique identifier of the user who created the record.</value>
+    <comment>mshied_grantapplicationbusinessprocessflow Description for EntityRelationship 'lk_mshied_grantapplicationbusinessprocessflow_createdby'</comment>
+  </data>
+  <data name="10:Description,lk_mshied_grantapplicationbusinessprocessflow_modifiedby" xml:space="preserve">
+    <value>Unique identifier of the user who modified the record.</value>
+    <comment>mshied_grantapplicationbusinessprocessflow Description for EntityRelationship 'lk_mshied_grantapplicationbusinessprocessflow_modifiedby'</comment>
+  </data>
+  <data name="10:Description,lk_mshied_grantapplicationbusinessprocessflow_processid" xml:space="preserve">
+    <value>Unique identifier of the workflow associated to the Business Process Flow instance.</value>
+    <comment>mshied_grantapplicationbusinessprocessflow Description for EntityRelationship 'lk_mshied_grantapplicationbusinessprocessflow_processid'</comment>
+  </data>
+  <data name="10:Description,lk_mshied_grant_createdby" xml:space="preserve">
+    <value>Unique identifier of the user who created the record.</value>
+    <comment>mshied_Grant Description for EntityRelationship 'lk_mshied_grant_createdby'</comment>
+  </data>
+  <data name="10:Description,lk_mshied_grant_modifiedby" xml:space="preserve">
+    <value>Unique identifier of the user who modified the record.</value>
+    <comment>mshied_Grant Description for EntityRelationship 'lk_mshied_grant_modifiedby'</comment>
+  </data>
+  <data name="10:Description,mshied_GrantApplicant_Applicant_Contact" xml:space="preserve">
+    <value>Grant applicant id</value>
+    <comment>mshied_GrantApplicant Description for EntityRelationship 'mshied_GrantApplicant_Applicant_Contact'</comment>
+  </data>
+  <data name="10:Description,mshied_GrantApplicant_BusinessPartner_Account" xml:space="preserve">
+    <value>Partner offering grant</value>
+    <comment>mshied_GrantApplicant Description for EntityRelationship 'mshied_GrantApplicant_BusinessPartner_Account'</comment>
+  </data>
+  <data name="10:Description,mshied_GrantApplicant_Grant_mshied_Grant" xml:space="preserve">
+    <value>Grant being applied for</value>
+    <comment>mshied_GrantApplicant Description for EntityRelationship 'mshied_GrantApplicant_Grant_mshied_Grant'</comment>
+  </data>
+  <data name="10:Description,mshied_Grant_AreaofStudy_mshied_areaofstudy" xml:space="preserve">
+    <value>Field in which grant of offered</value>
+    <comment>mshied_Grant Description for EntityRelationship 'mshied_Grant_AreaofStudy_mshied_areaofstudy'</comment>
+  </data>
+  <data name="10:Description,mshied_Grant_BusinessPartnerContact_Contact" xml:space="preserve">
+    <value>Grant point of contact</value>
+    <comment>mshied_Grant Description for EntityRelationship 'mshied_Grant_BusinessPartnerContact_Contact'</comment>
+  </data>
+  <data name="10:Description,mshied_Grant_BusinessPartner_Account" xml:space="preserve">
+    <value>Business Partner unique identification number</value>
+    <comment>mshied_Grant Description for EntityRelationship 'mshied_Grant_BusinessPartner_Account'</comment>
+  </data>
+  <data name="10:Description,mshied_Grant_ResponsibleFacultyContact_Contact" xml:space="preserve">
+    <value>Name of the professor guiding research</value>
+    <comment>mshied_Grant Description for EntityRelationship 'mshied_Grant_ResponsibleFacultyContact_Contact'</comment>
+  </data>
+  <data name="10:Description,organization_mshied_grantapplicationbusinessprocessflow" xml:space="preserve">
+    <value>Unique identifier for the organization</value>
+    <comment>mshied_grantapplicationbusinessprocessflow Description for EntityRelationship 'organization_mshied_grantapplicationbusinessprocessflow'</comment>
+  </data>
+  <data name="10:Description,owner_mshied_grant" xml:space="preserve">
+    <value>Owner Id</value>
+    <comment>mshied_Grant Description for EntityRelationship 'owner_mshied_grant'</comment>
+  </data>
+  <data name="10:Description,owner_mshied_grantapplicant" xml:space="preserve">
+    <value>Owner Id</value>
+    <comment>mshied_GrantApplicant Description for EntityRelationship 'owner_mshied_grantapplicant'</comment>
+  </data>
+  <data name="10:Description,team_mshied_grant" xml:space="preserve">
+    <value>Unique identifier for the team that owns the record.</value>
+    <comment>mshied_Grant Description for EntityRelationship 'team_mshied_grant'</comment>
+  </data>
+  <data name="10:Description,team_mshied_grantapplicant" xml:space="preserve">
+    <value>Unique identifier for the team that owns the record.</value>
+    <comment>mshied_GrantApplicant Description for EntityRelationship 'team_mshied_grantapplicant'</comment>
+  </data>
+  <data name="10:Description,TransactionCurrency_mshied_Grant" xml:space="preserve">
+    <value>Unique identifier of the currency associated with the entity.</value>
+    <comment>mshied_Grant Description for EntityRelationship 'TransactionCurrency_mshied_Grant'</comment>
+  </data>
+  <data name="10:Description,user_mshied_grant" xml:space="preserve">
+    <value>Unique identifier for the user that owns the record.</value>
+    <comment>mshied_Grant Description for EntityRelationship 'user_mshied_grant'</comment>
+  </data>
+  <data name="10:Description,user_mshied_grantapplicant" xml:space="preserve">
+    <value>Unique identifier for the user that owns the record.</value>
+    <comment>mshied_GrantApplicant Description for EntityRelationship 'user_mshied_grantapplicant'</comment>
+  </data>
+  <data name="15062:Description,Dynamics365HigherEducationAccelerator" xml:space="preserve">
+    <value>Accelerator for Higher Education customers.</value>
+    <comment> 'Dynamics365HigherEducationAccelerator' : Description for Solution</comment>
+  </data>
+  <data name="15062:Description,educationacceleratorcommonmshied49428" xml:space="preserve">
+    <value>Education Accelerator Common</value>
+    <comment> 'educationacceleratorcommon' : Description for Solution Publisher</comment>
+  </data>
+  <data name="15062:LocalizedName,Dynamics365HigherEducationAccelerator" xml:space="preserve">
+    <value>Dynamics 365 Higher Education Accelerator</value>
+    <comment> 'Dynamics365HigherEducationAccelerator' : LocalizedName for Solution</comment>
+  </data>
+  <data name="15062:LocalizedName,educationacceleratorcommonmshied49428" xml:space="preserve">
+    <value>Dynamics 365 Education</value>
+    <comment> 'educationacceleratorcommon' : LocalizedName for Solution Publisher</comment>
+  </data>
+  <data name="1:Description,Grant Applicant{5082c641-c34e-4037-84fa-b88c0797af80}" xml:space="preserve">
+    <value>A card form for this entity.</value>
+    <comment>'Grant Applicant' : Description for systemform in Entity FormXml ID: '{5082c641-c34e-4037-84fa-b88c0797af80}'</comment>
+  </data>
+  <data name="1:Description,Grant Applicant{befb0ac7-1eb9-44c9-bdfc-de9718e66b71}" xml:space="preserve">
+    <value>A form for this entity.</value>
+    <comment>'Grant Applicant' : Description for systemform in Entity FormXml ID: '{befb0ac7-1eb9-44c9-bdfc-de9718e66b71}'</comment>
+  </data>
+  <data name="1:Description,Grant Applicant{f11b5cb2-1fdb-e911-a964-000d3a3b9a2b}" xml:space="preserve">
+    <value>Active Grant Applicants owned by me</value>
+    <comment>'Grant Applicant' : Description for SavedQuery on Entity QueryId: '{f11b5cb2-1fdb-e911-a964-000d3a3b9a2b}'</comment>
+  </data>
+  <data name="1:Description,Grant Application Business Process Flow{1cce26ea-5602-4b56-a29d-8856812e3caa}" xml:space="preserve">
+    <value>A form for this entity.</value>
+    <comment>'Grant Application Business Process Flow' : Description for systemform in Entity FormXml ID: '{1cce26ea-5602-4b56-a29d-8856812e3caa}'</comment>
+  </data>
+  <data name="1:Description,Grant Application Business Process Flow{b523a6bb-9de0-e911-a968-000d3a3b9825}" xml:space="preserve">
+    <value>All active Grant Application Business Process Flow</value>
+    <comment>'Grant Application Business Process Flow' : Description for SavedQuery on Entity QueryId: '{b523a6bb-9de0-e911-a968-000d3a3b9825}'</comment>
+  </data>
+  <data name="1:Description,Grant{26993d2d-236e-404c-803b-c1c548603678}" xml:space="preserve">
+    <value>A form for this entity.</value>
+    <comment>'Grant' : Description for systemform in Entity FormXml ID: '{26993d2d-236e-404c-803b-c1c548603678}'</comment>
+  </data>
+  <data name="1:Description,Grant{9e2cab71-1edb-e911-a964-000d3a3b9a2b}" xml:space="preserve">
+    <value>Active Grants owned by me</value>
+    <comment>'Grant' : Description for SavedQuery on Entity QueryId: '{9e2cab71-1edb-e911-a964-000d3a3b9a2b}'</comment>
+  </data>
+  <data name="1:Description,Grant{eaad3f42-8163-42be-b743-889f561e7a4a}" xml:space="preserve">
+    <value>A card form for this entity.</value>
+    <comment>'Grant' : Description for systemform in Entity FormXml ID: '{eaad3f42-8163-42be-b743-889f561e7a4a}'</comment>
+  </data>
+  <data name="1:Description,mshied_GrantApplicantCreatedBy" xml:space="preserve">
+    <value>Unique identifier of the user who created the record.</value>
+    <comment>'mshied_GrantApplicant' : Description for Attribute 'CreatedBy' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_GrantApplicantCreatedOn" xml:space="preserve">
+    <value>Date and time when the record was created.</value>
+    <comment>'mshied_GrantApplicant' : Description for Attribute 'CreatedOn' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_GrantApplicantCreatedOnBehalfBy" xml:space="preserve">
+    <value>Unique identifier of the delegate user who created the record.</value>
+    <comment>'mshied_GrantApplicant' : Description for Attribute 'CreatedOnBehalfBy' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_GrantApplicantentitymshied_GrantApplicant" xml:space="preserve">
+    <value>This entity is used as an internship application form and to store the list of students who have applied to a particular internship.</value>
+    <comment> 'mshied_GrantApplicant' : Description for Entity</comment>
+  </data>
+  <data name="1:Description,mshied_GrantApplicantImportSequenceNumber" xml:space="preserve">
+    <value>Sequence number of the import that created this record.</value>
+    <comment>'mshied_GrantApplicant' : Description for Attribute 'ImportSequenceNumber' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_GrantApplicantModifiedBy" xml:space="preserve">
+    <value>Unique identifier of the user who modified the record.</value>
+    <comment>'mshied_GrantApplicant' : Description for Attribute 'ModifiedBy' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_GrantApplicantModifiedOn" xml:space="preserve">
+    <value>Date and time when the record was modified.</value>
+    <comment>'mshied_GrantApplicant' : Description for Attribute 'ModifiedOn' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_GrantApplicantModifiedOnBehalfBy" xml:space="preserve">
+    <value>Unique identifier of the delegate user who modified the record.</value>
+    <comment>'mshied_GrantApplicant' : Description for Attribute 'ModifiedOnBehalfBy' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_GrantApplicantmshied_Applicant" xml:space="preserve">
+    <value>Grant applicant id</value>
+    <comment>'mshied_GrantApplicant' : Description for Attribute 'mshied_Applicant' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_GrantApplicantmshied_ApplicationStateCode" xml:space="preserve">
+    <value>Status of application</value>
+    <comment>'mshied_GrantApplicant' : Description for Attribute 'mshied_ApplicationStateCode' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_GrantApplicantmshied_BusinessPartner" xml:space="preserve">
+    <value>Partner offering grant</value>
+    <comment>'mshied_GrantApplicant' : Description for Attribute 'mshied_BusinessPartner' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_GrantApplicantmshied_Grant" xml:space="preserve">
+    <value>Grant being applied for</value>
+    <comment>'mshied_GrantApplicant' : Description for Attribute 'mshied_Grant' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_GrantApplicantmshied_GrantApplicantId" xml:space="preserve">
+    <value>Unique identifier for entity instances</value>
+    <comment>'mshied_GrantApplicant' : Description for Attribute 'mshied_GrantApplicantId' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_GrantApplicantmshied_grantapplicant_statecode" xml:space="preserve">
+    <value>Status of the Grant Applicant</value>
+    <comment>'mshied_GrantApplicant' : Description for OptionSet 'mshied_grantapplicant_statecode' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_GrantApplicantmshied_grantapplicant_statuscode" xml:space="preserve">
+    <value>Reason for the status of the Grant Applicant</value>
+    <comment>'mshied_GrantApplicant' : Description for OptionSet 'mshied_grantapplicant_statuscode' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_GrantApplicantmshied_Name" xml:space="preserve">
+    <value>Required name field</value>
+    <comment>'mshied_GrantApplicant' : Description for Attribute 'mshied_Name' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_GrantApplicantmshied_OfferAcceptedDate" xml:space="preserve">
+    <value>Date the offer was accepted</value>
+    <comment>'mshied_GrantApplicant' : Description for Attribute 'mshied_OfferAcceptedDate' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_GrantApplicantmshied_OfferDeadlineDate" xml:space="preserve">
+    <value>Deadline to accept the offer</value>
+    <comment>'mshied_GrantApplicant' : Description for Attribute 'mshied_OfferDeadlineDate' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_GrantApplicantmshied_OfferMadeDate" xml:space="preserve">
+    <value>Date the offer was made</value>
+    <comment>'mshied_GrantApplicant' : Description for Attribute 'mshied_OfferMadeDate' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_GrantApplicantmshied_QualificationDescription" xml:space="preserve">
+    <value>Description about why an applicant should be selected for the grant</value>
+    <comment>'mshied_GrantApplicant' : Description for Attribute 'mshied_QualificationDescription' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_GrantApplicantmshied_SubmissionDate" xml:space="preserve">
+    <value>Date submitted</value>
+    <comment>'mshied_GrantApplicant' : Description for Attribute 'mshied_SubmissionDate' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_GrantApplicantOverriddenCreatedOn" xml:space="preserve">
+    <value>Date and time that the record was migrated.</value>
+    <comment>'mshied_GrantApplicant' : Description for Attribute 'OverriddenCreatedOn' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_GrantApplicantOwnerId" xml:space="preserve">
+    <value>Owner Id</value>
+    <comment>'mshied_GrantApplicant' : Description for Attribute 'OwnerId' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_GrantApplicantOwningBusinessUnit" xml:space="preserve">
+    <value>Unique identifier for the business unit that owns the record</value>
+    <comment>'mshied_GrantApplicant' : Description for Attribute 'OwningBusinessUnit' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_GrantApplicantOwningTeam" xml:space="preserve">
+    <value>Unique identifier for the team that owns the record.</value>
+    <comment>'mshied_GrantApplicant' : Description for Attribute 'OwningTeam' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_GrantApplicantOwningUser" xml:space="preserve">
+    <value>Unique identifier for the user that owns the record.</value>
+    <comment>'mshied_GrantApplicant' : Description for Attribute 'OwningUser' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_GrantApplicantprocessid" xml:space="preserve">
+    <value>Contains the id of the process associated with the entity.</value>
+    <comment>'mshied_GrantApplicant' : Description for Attribute 'processid' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_GrantApplicantstageid" xml:space="preserve">
+    <value>Contains the id of the stage where the entity is located.</value>
+    <comment>'mshied_GrantApplicant' : Description for Attribute 'stageid' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_GrantApplicantstatecode" xml:space="preserve">
+    <value>Status of the Grant Applicant</value>
+    <comment>'mshied_GrantApplicant' : Description for Attribute 'statecode' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_GrantApplicantstatuscode" xml:space="preserve">
+    <value>Reason for the status of the Grant Applicant</value>
+    <comment>'mshied_GrantApplicant' : Description for Attribute 'statuscode' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_GrantApplicantTimeZoneRuleVersionNumber" xml:space="preserve">
+    <value>For internal use only.</value>
+    <comment>'mshied_GrantApplicant' : Description for Attribute 'TimeZoneRuleVersionNumber' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_GrantApplicanttraversedpath" xml:space="preserve">
+    <value>A comma separated list of string values representing the unique identifiers of stages in a Business Process Flow Instance in the order that they occur.</value>
+    <comment>'mshied_GrantApplicant' : Description for Attribute 'traversedpath' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_GrantApplicantUTCConversionTimeZoneCode" xml:space="preserve">
+    <value>Time zone code that was in use when the record was created.</value>
+    <comment>'mshied_GrantApplicant' : Description for Attribute 'UTCConversionTimeZoneCode' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_grantapplicationbusinessprocessflowActiveStageId" xml:space="preserve">
+    <value>Unique identifier of the active stage for the Business Process Flow instance.</value>
+    <comment>'mshied_grantapplicationbusinessprocessflow' : Description for Attribute 'ActiveStageId' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_grantapplicationbusinessprocessflowActiveStageStartedOn" xml:space="preserve">
+    <value>Date and time when current active stage is started</value>
+    <comment>'mshied_grantapplicationbusinessprocessflow' : Description for Attribute 'ActiveStageStartedOn' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_grantapplicationbusinessprocessflowbpf_Duration" xml:space="preserve">
+    <value>Duration of Business Process Flow</value>
+    <comment>'mshied_grantapplicationbusinessprocessflow' : Description for Attribute 'bpf_Duration' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_grantapplicationbusinessprocessflowbpf_mshied_grantapplicantid" xml:space="preserve">
+    <value />
+    <comment>'mshied_grantapplicationbusinessprocessflow' : Description for Attribute 'bpf_mshied_grantapplicantid' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_grantapplicationbusinessprocessflowbpf_name" xml:space="preserve">
+    <value>Description</value>
+    <comment>'mshied_grantapplicationbusinessprocessflow' : Description for Attribute 'bpf_name' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_grantapplicationbusinessprocessflowBusinessProcessFlowInstanceId" xml:space="preserve">
+    <value>Unique identifier for entity instances</value>
+    <comment>'mshied_grantapplicationbusinessprocessflow' : Description for Attribute 'BusinessProcessFlowInstanceId' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_grantapplicationbusinessprocessflowCompletedOn" xml:space="preserve">
+    <value>Date and time when Business Process Flow instance is completed.</value>
+    <comment>'mshied_grantapplicationbusinessprocessflow' : Description for Attribute 'CompletedOn' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_grantapplicationbusinessprocessflowCreatedBy" xml:space="preserve">
+    <value>Unique identifier of the user who created the record.</value>
+    <comment>'mshied_grantapplicationbusinessprocessflow' : Description for Attribute 'CreatedBy' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_grantapplicationbusinessprocessflowCreatedOn" xml:space="preserve">
+    <value>Date and time when the record was created.</value>
+    <comment>'mshied_grantapplicationbusinessprocessflow' : Description for Attribute 'CreatedOn' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_grantapplicationbusinessprocessflowCreatedOnBehalfBy" xml:space="preserve">
+    <value>Unique identifier of the delegate user who created the record.</value>
+    <comment>'mshied_grantapplicationbusinessprocessflow' : Description for Attribute 'CreatedOnBehalfBy' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_grantapplicationbusinessprocessflowentitymshied_grantapplicationbusinessprocessflow" xml:space="preserve">
+    <value>Base entity for process Grant Application Business Process Flow</value>
+    <comment> 'mshied_grantapplicationbusinessprocessflow' : Description for Entity</comment>
+  </data>
+  <data name="1:Description,mshied_grantapplicationbusinessprocessflowImportSequenceNumber" xml:space="preserve">
+    <value>Sequence number of the import that created this record.</value>
+    <comment>'mshied_grantapplicationbusinessprocessflow' : Description for Attribute 'ImportSequenceNumber' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_grantapplicationbusinessprocessflowModifiedBy" xml:space="preserve">
+    <value>Unique identifier of the user who modified the record.</value>
+    <comment>'mshied_grantapplicationbusinessprocessflow' : Description for Attribute 'ModifiedBy' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_grantapplicationbusinessprocessflowModifiedOn" xml:space="preserve">
+    <value>Date and time when the record was modified.</value>
+    <comment>'mshied_grantapplicationbusinessprocessflow' : Description for Attribute 'ModifiedOn' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_grantapplicationbusinessprocessflowModifiedOnBehalfBy" xml:space="preserve">
+    <value>Unique identifier of the delegate user who modified the record.</value>
+    <comment>'mshied_grantapplicationbusinessprocessflow' : Description for Attribute 'ModifiedOnBehalfBy' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_grantapplicationbusinessprocessflowmshied_grantapplicationbusinessprocessflow_statecode" xml:space="preserve">
+    <value>Status of the Grant Application Business Process Flow</value>
+    <comment>'mshied_grantapplicationbusinessprocessflow' : Description for OptionSet 'mshied_grantapplicationbusinessprocessflow_statecode' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_grantapplicationbusinessprocessflowmshied_grantapplicationbusinessprocessflow_statuscode" xml:space="preserve">
+    <value>Reason for the status of the Grant Application Business Process Flow</value>
+    <comment>'mshied_grantapplicationbusinessprocessflow' : Description for OptionSet 'mshied_grantapplicationbusinessprocessflow_statuscode' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_grantapplicationbusinessprocessflowOrganizationId" xml:space="preserve">
+    <value>Unique identifier for the organization</value>
+    <comment>'mshied_grantapplicationbusinessprocessflow' : Description for Attribute 'OrganizationId' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_grantapplicationbusinessprocessflowOverriddenCreatedOn" xml:space="preserve">
+    <value>Date and time that the record was migrated.</value>
+    <comment>'mshied_grantapplicationbusinessprocessflow' : Description for Attribute 'OverriddenCreatedOn' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_grantapplicationbusinessprocessflowProcessId" xml:space="preserve">
+    <value>Unique identifier of the workflow associated to the Business Process Flow instance.</value>
+    <comment>'mshied_grantapplicationbusinessprocessflow' : Description for Attribute 'ProcessId' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_grantapplicationbusinessprocessflowstatecode" xml:space="preserve">
+    <value>Status of the Grant Application Business Process Flow</value>
+    <comment>'mshied_grantapplicationbusinessprocessflow' : Description for Attribute 'statecode' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_grantapplicationbusinessprocessflowstatuscode" xml:space="preserve">
+    <value>Reason for the status of the Grant Application Business Process Flow</value>
+    <comment>'mshied_grantapplicationbusinessprocessflow' : Description for Attribute 'statuscode' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_grantapplicationbusinessprocessflowTimeZoneRuleVersionNumber" xml:space="preserve">
+    <value>For internal use only.</value>
+    <comment>'mshied_grantapplicationbusinessprocessflow' : Description for Attribute 'TimeZoneRuleVersionNumber' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_grantapplicationbusinessprocessflowTraversedPath" xml:space="preserve">
+    <value>Comma delimited string of process stage ids that represent visited stages of the Business Process Flow instance.</value>
+    <comment>'mshied_grantapplicationbusinessprocessflow' : Description for Attribute 'TraversedPath' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_grantapplicationbusinessprocessflowUTCConversionTimeZoneCode" xml:space="preserve">
+    <value>Time zone code that was in use when the record was created.</value>
+    <comment>'mshied_grantapplicationbusinessprocessflow' : Description for Attribute 'UTCConversionTimeZoneCode' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_GrantCreatedBy" xml:space="preserve">
+    <value>Unique identifier of the user who created the record.</value>
+    <comment>'mshied_Grant' : Description for Attribute 'CreatedBy' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_GrantCreatedOn" xml:space="preserve">
+    <value>Date and time when the record was created.</value>
+    <comment>'mshied_Grant' : Description for Attribute 'CreatedOn' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_GrantCreatedOnBehalfBy" xml:space="preserve">
+    <value>Unique identifier of the delegate user who created the record.</value>
+    <comment>'mshied_Grant' : Description for Attribute 'CreatedOnBehalfBy' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_Grantentitymshied_Grant" xml:space="preserve">
+    <value>This entity stores the list of grants offered to a school by all business partners</value>
+    <comment> 'mshied_Grant' : Description for Entity</comment>
+  </data>
+  <data name="1:Description,mshied_GrantExchangeRate" xml:space="preserve">
+    <value>Exchange rate for the currency associated with the entity with respect to the base currency.</value>
+    <comment>'mshied_Grant' : Description for Attribute 'ExchangeRate' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_GrantImportSequenceNumber" xml:space="preserve">
+    <value>Sequence number of the import that created this record.</value>
+    <comment>'mshied_Grant' : Description for Attribute 'ImportSequenceNumber' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_GrantModifiedBy" xml:space="preserve">
+    <value>Unique identifier of the user who modified the record.</value>
+    <comment>'mshied_Grant' : Description for Attribute 'ModifiedBy' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_GrantModifiedOn" xml:space="preserve">
+    <value>Date and time when the record was modified.</value>
+    <comment>'mshied_Grant' : Description for Attribute 'ModifiedOn' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_GrantModifiedOnBehalfBy" xml:space="preserve">
+    <value>Unique identifier of the delegate user who modified the record.</value>
+    <comment>'mshied_Grant' : Description for Attribute 'ModifiedOnBehalfBy' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_Grantmshied_Amount" xml:space="preserve">
+    <value>Amount offered to perform required research
+</value>
+    <comment>'mshied_Grant' : Description for Attribute 'mshied_Amount' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_Grantmshied_amount_Base" xml:space="preserve">
+    <value>Value of the Amount in base currency.</value>
+    <comment>'mshied_Grant' : Description for Attribute 'mshied_amount_Base' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_Grantmshied_ApplicationDeadlineDate" xml:space="preserve">
+    <value>Last date to apply</value>
+    <comment>'mshied_Grant' : Description for Attribute 'mshied_ApplicationDeadlineDate' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_Grantmshied_AreaofStudy" xml:space="preserve">
+    <value>Field in which grant of offered</value>
+    <comment>'mshied_Grant' : Description for Attribute 'mshied_AreaofStudy' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_Grantmshied_BusinessPartner" xml:space="preserve">
+    <value>Business Partner unique identification number</value>
+    <comment>'mshied_Grant' : Description for Attribute 'mshied_BusinessPartner' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_Grantmshied_BusinessPartnerContact" xml:space="preserve">
+    <value>Grant point of contact</value>
+    <comment>'mshied_Grant' : Description for Attribute 'mshied_BusinessPartnerContact' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_Grantmshied_Description" xml:space="preserve">
+    <value>Description about the Grant</value>
+    <comment>'mshied_Grant' : Description for Attribute 'mshied_Description' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_Grantmshied_GrantId" xml:space="preserve">
+    <value>Unique identifier for entity instances</value>
+    <comment>'mshied_Grant' : Description for Attribute 'mshied_GrantId' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_Grantmshied_grant_statecode" xml:space="preserve">
+    <value>Status of the Grant</value>
+    <comment>'mshied_Grant' : Description for OptionSet 'mshied_grant_statecode' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_Grantmshied_grant_statuscode" xml:space="preserve">
+    <value>Reason for the status of the Grant</value>
+    <comment>'mshied_Grant' : Description for OptionSet 'mshied_grant_statuscode' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_Grantmshied_Name" xml:space="preserve">
+    <value>Required name field</value>
+    <comment>'mshied_Grant' : Description for Attribute 'mshied_Name' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_Grantmshied_Qualifications" xml:space="preserve">
+    <value>Qualifications required to be eligible for Grant</value>
+    <comment>'mshied_Grant' : Description for Attribute 'mshied_Qualifications' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_Grantmshied_ResponsibleFacultyContact" xml:space="preserve">
+    <value>Name of the professor guiding research</value>
+    <comment>'mshied_Grant' : Description for Attribute 'mshied_ResponsibleFacultyContact' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_Grantmshied_ValidFrom" xml:space="preserve">
+    <value>Start Date of Grant</value>
+    <comment>'mshied_Grant' : Description for Attribute 'mshied_ValidFrom' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_Grantmshied_ValidTo" xml:space="preserve">
+    <value>End Date of Grant
+</value>
+    <comment>'mshied_Grant' : Description for Attribute 'mshied_ValidTo' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_Grantmshied_WebsiteURL" xml:space="preserve">
+    <value>Grant URL</value>
+    <comment>'mshied_Grant' : Description for Attribute 'mshied_WebsiteURL' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_Grantmshied_WorkDescription" xml:space="preserve">
+    <value>Description of work to be performed</value>
+    <comment>'mshied_Grant' : Description for Attribute 'mshied_WorkDescription' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_GrantOverriddenCreatedOn" xml:space="preserve">
+    <value>Date and time that the record was migrated.</value>
+    <comment>'mshied_Grant' : Description for Attribute 'OverriddenCreatedOn' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_GrantOwnerId" xml:space="preserve">
+    <value>Owner Id</value>
+    <comment>'mshied_Grant' : Description for Attribute 'OwnerId' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_GrantOwningBusinessUnit" xml:space="preserve">
+    <value>Unique identifier for the business unit that owns the record</value>
+    <comment>'mshied_Grant' : Description for Attribute 'OwningBusinessUnit' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_GrantOwningTeam" xml:space="preserve">
+    <value>Unique identifier for the team that owns the record.</value>
+    <comment>'mshied_Grant' : Description for Attribute 'OwningTeam' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_GrantOwningUser" xml:space="preserve">
+    <value>Unique identifier for the user that owns the record.</value>
+    <comment>'mshied_Grant' : Description for Attribute 'OwningUser' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_Grantstatecode" xml:space="preserve">
+    <value>Status of the Grant</value>
+    <comment>'mshied_Grant' : Description for Attribute 'statecode' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_Grantstatuscode" xml:space="preserve">
+    <value>Reason for the status of the Grant</value>
+    <comment>'mshied_Grant' : Description for Attribute 'statuscode' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_GrantTimeZoneRuleVersionNumber" xml:space="preserve">
+    <value>For internal use only.</value>
+    <comment>'mshied_Grant' : Description for Attribute 'TimeZoneRuleVersionNumber' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_GrantTransactionCurrencyId" xml:space="preserve">
+    <value>Unique identifier of the currency associated with the entity.</value>
+    <comment>'mshied_Grant' : Description for Attribute 'TransactionCurrencyId' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_GrantUTCConversionTimeZoneCode" xml:space="preserve">
+    <value>Time zone code that was in use when the record was created.</value>
+    <comment>'mshied_Grant' : Description for Attribute 'UTCConversionTimeZoneCode' on Entity</comment>
+  </data>
+  <data name="1:Description,mshied_RecommendedStudentResourceentitymshied_RecommendedStudentResource" xml:space="preserve">
+    <value>This entity tracks what resources are recommended for a student.</value>
+    <comment> 'mshied_RecommendedStudentResource' : Description for Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_GrantApplicantCreatedBy" xml:space="preserve">
+    <value>Created By</value>
+    <comment>'mshied_GrantApplicant' : displayname for Attribute 'CreatedBy' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_GrantApplicantCreatedOn" xml:space="preserve">
+    <value>Created On</value>
+    <comment>'mshied_GrantApplicant' : displayname for Attribute 'CreatedOn' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_GrantApplicantCreatedOnBehalfBy" xml:space="preserve">
+    <value>Created By (Delegate)</value>
+    <comment>'mshied_GrantApplicant' : displayname for Attribute 'CreatedOnBehalfBy' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_GrantApplicantImportSequenceNumber" xml:space="preserve">
+    <value>Import Sequence Number</value>
+    <comment>'mshied_GrantApplicant' : displayname for Attribute 'ImportSequenceNumber' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_GrantApplicantModifiedBy" xml:space="preserve">
+    <value>Modified By</value>
+    <comment>'mshied_GrantApplicant' : displayname for Attribute 'ModifiedBy' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_GrantApplicantModifiedOn" xml:space="preserve">
+    <value>Modified On</value>
+    <comment>'mshied_GrantApplicant' : displayname for Attribute 'ModifiedOn' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_GrantApplicantModifiedOnBehalfBy" xml:space="preserve">
+    <value>Modified By (Delegate)</value>
+    <comment>'mshied_GrantApplicant' : displayname for Attribute 'ModifiedOnBehalfBy' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_GrantApplicantmshied_Applicant" xml:space="preserve">
+    <value>Applicant</value>
+    <comment>'mshied_GrantApplicant' : displayname for Attribute 'mshied_Applicant' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_GrantApplicantmshied_ApplicationStateCode" xml:space="preserve">
+    <value>Application State Code</value>
+    <comment>'mshied_GrantApplicant' : displayname for Attribute 'mshied_ApplicationStateCode' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_GrantApplicantmshied_BusinessPartner" xml:space="preserve">
+    <value>Business Partner</value>
+    <comment>'mshied_GrantApplicant' : displayname for Attribute 'mshied_BusinessPartner' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_GrantApplicantmshied_Grant" xml:space="preserve">
+    <value>Grant</value>
+    <comment>'mshied_GrantApplicant' : displayname for Attribute 'mshied_Grant' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_GrantApplicantmshied_GrantApplicantId" xml:space="preserve">
+    <value>Grant Applicant</value>
+    <comment>'mshied_GrantApplicant' : displayname for Attribute 'mshied_GrantApplicantId' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_GrantApplicantmshied_grantapplicant_statecode" xml:space="preserve">
+    <value>Status</value>
+    <comment>'mshied_GrantApplicant' : displayname for OptionSet 'mshied_grantapplicant_statecode' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_GrantApplicantmshied_grantapplicant_statuscode" xml:space="preserve">
+    <value>Status Reason</value>
+    <comment>'mshied_GrantApplicant' : displayname for OptionSet 'mshied_grantapplicant_statuscode' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_GrantApplicantmshied_Name" xml:space="preserve">
+    <value>Name</value>
+    <comment>'mshied_GrantApplicant' : displayname for Attribute 'mshied_Name' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_GrantApplicantmshied_OfferAcceptedDate" xml:space="preserve">
+    <value>Offer Accepted Date</value>
+    <comment>'mshied_GrantApplicant' : displayname for Attribute 'mshied_OfferAcceptedDate' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_GrantApplicantmshied_OfferDeadlineDate" xml:space="preserve">
+    <value>Offer Deadline Date</value>
+    <comment>'mshied_GrantApplicant' : displayname for Attribute 'mshied_OfferDeadlineDate' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_GrantApplicantmshied_OfferMadeDate" xml:space="preserve">
+    <value>Offer Made Date</value>
+    <comment>'mshied_GrantApplicant' : displayname for Attribute 'mshied_OfferMadeDate' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_GrantApplicantmshied_QualificationDescription" xml:space="preserve">
+    <value>Qualification Description</value>
+    <comment>'mshied_GrantApplicant' : displayname for Attribute 'mshied_QualificationDescription' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_GrantApplicantmshied_SubmissionDate" xml:space="preserve">
+    <value>Submission Date</value>
+    <comment>'mshied_GrantApplicant' : displayname for Attribute 'mshied_SubmissionDate' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_GrantApplicantOverriddenCreatedOn" xml:space="preserve">
+    <value>Record Created On</value>
+    <comment>'mshied_GrantApplicant' : displayname for Attribute 'OverriddenCreatedOn' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_GrantApplicantOwnerId" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'mshied_GrantApplicant' : displayname for Attribute 'OwnerId' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_GrantApplicantOwningBusinessUnit" xml:space="preserve">
+    <value>Owning Business Unit</value>
+    <comment>'mshied_GrantApplicant' : displayname for Attribute 'OwningBusinessUnit' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_GrantApplicantOwningTeam" xml:space="preserve">
+    <value>Owning Team</value>
+    <comment>'mshied_GrantApplicant' : displayname for Attribute 'OwningTeam' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_GrantApplicantOwningUser" xml:space="preserve">
+    <value>Owning User</value>
+    <comment>'mshied_GrantApplicant' : displayname for Attribute 'OwningUser' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_GrantApplicantprocessid" xml:space="preserve">
+    <value>Process Id</value>
+    <comment>'mshied_GrantApplicant' : displayname for Attribute 'processid' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_GrantApplicantstageid" xml:space="preserve">
+    <value>(Deprecated) Stage Id</value>
+    <comment>'mshied_GrantApplicant' : displayname for Attribute 'stageid' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_GrantApplicantstatecode" xml:space="preserve">
+    <value>Status</value>
+    <comment>'mshied_GrantApplicant' : displayname for Attribute 'statecode' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_GrantApplicantstatuscode" xml:space="preserve">
+    <value>Status Reason</value>
+    <comment>'mshied_GrantApplicant' : displayname for Attribute 'statuscode' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_GrantApplicantTimeZoneRuleVersionNumber" xml:space="preserve">
+    <value>Time Zone Rule Version Number</value>
+    <comment>'mshied_GrantApplicant' : displayname for Attribute 'TimeZoneRuleVersionNumber' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_GrantApplicanttraversedpath" xml:space="preserve">
+    <value>(Deprecated) Traversed Path</value>
+    <comment>'mshied_GrantApplicant' : displayname for Attribute 'traversedpath' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_GrantApplicantUTCConversionTimeZoneCode" xml:space="preserve">
+    <value>UTC Conversion Time Zone Code</value>
+    <comment>'mshied_GrantApplicant' : displayname for Attribute 'UTCConversionTimeZoneCode' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_grantapplicationbusinessprocessflowActiveStageId" xml:space="preserve">
+    <value>Active Stage</value>
+    <comment>'mshied_grantapplicationbusinessprocessflow' : displayname for Attribute 'ActiveStageId' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_grantapplicationbusinessprocessflowActiveStageStartedOn" xml:space="preserve">
+    <value>Active Stage Started On</value>
+    <comment>'mshied_grantapplicationbusinessprocessflow' : displayname for Attribute 'ActiveStageStartedOn' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_grantapplicationbusinessprocessflowbpf_Duration" xml:space="preserve">
+    <value>Duration</value>
+    <comment>'mshied_grantapplicationbusinessprocessflow' : displayname for Attribute 'bpf_Duration' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_grantapplicationbusinessprocessflowbpf_mshied_grantapplicantid" xml:space="preserve">
+    <value>Mshied_Grantapplicant</value>
+    <comment>'mshied_grantapplicationbusinessprocessflow' : displayname for Attribute 'bpf_mshied_grantapplicantid' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_grantapplicationbusinessprocessflowbpf_name" xml:space="preserve">
+    <value>Name</value>
+    <comment>'mshied_grantapplicationbusinessprocessflow' : displayname for Attribute 'bpf_name' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_grantapplicationbusinessprocessflowBusinessProcessFlowInstanceId" xml:space="preserve">
+    <value>Grant Application Business Process Flow</value>
+    <comment>'mshied_grantapplicationbusinessprocessflow' : displayname for Attribute 'BusinessProcessFlowInstanceId' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_grantapplicationbusinessprocessflowCompletedOn" xml:space="preserve">
+    <value>Completed On</value>
+    <comment>'mshied_grantapplicationbusinessprocessflow' : displayname for Attribute 'CompletedOn' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_grantapplicationbusinessprocessflowCreatedBy" xml:space="preserve">
+    <value>Created By</value>
+    <comment>'mshied_grantapplicationbusinessprocessflow' : displayname for Attribute 'CreatedBy' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_grantapplicationbusinessprocessflowCreatedOn" xml:space="preserve">
+    <value>Created On</value>
+    <comment>'mshied_grantapplicationbusinessprocessflow' : displayname for Attribute 'CreatedOn' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_grantapplicationbusinessprocessflowCreatedOnBehalfBy" xml:space="preserve">
+    <value>Created By (Delegate)</value>
+    <comment>'mshied_grantapplicationbusinessprocessflow' : displayname for Attribute 'CreatedOnBehalfBy' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_grantapplicationbusinessprocessflowImportSequenceNumber" xml:space="preserve">
+    <value>Import Sequence Number</value>
+    <comment>'mshied_grantapplicationbusinessprocessflow' : displayname for Attribute 'ImportSequenceNumber' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_grantapplicationbusinessprocessflowModifiedBy" xml:space="preserve">
+    <value>Modified By</value>
+    <comment>'mshied_grantapplicationbusinessprocessflow' : displayname for Attribute 'ModifiedBy' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_grantapplicationbusinessprocessflowModifiedOn" xml:space="preserve">
+    <value>Modified On</value>
+    <comment>'mshied_grantapplicationbusinessprocessflow' : displayname for Attribute 'ModifiedOn' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_grantapplicationbusinessprocessflowModifiedOnBehalfBy" xml:space="preserve">
+    <value>Modified By (Delegate)</value>
+    <comment>'mshied_grantapplicationbusinessprocessflow' : displayname for Attribute 'ModifiedOnBehalfBy' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_grantapplicationbusinessprocessflowmshied_grantapplicationbusinessprocessflow_statecode" xml:space="preserve">
+    <value>Status</value>
+    <comment>'mshied_grantapplicationbusinessprocessflow' : displayname for OptionSet 'mshied_grantapplicationbusinessprocessflow_statecode' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_grantapplicationbusinessprocessflowmshied_grantapplicationbusinessprocessflow_statuscode" xml:space="preserve">
+    <value>Status Reason</value>
+    <comment>'mshied_grantapplicationbusinessprocessflow' : displayname for OptionSet 'mshied_grantapplicationbusinessprocessflow_statuscode' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_grantapplicationbusinessprocessflowOrganizationId" xml:space="preserve">
+    <value>Organization Id</value>
+    <comment>'mshied_grantapplicationbusinessprocessflow' : displayname for Attribute 'OrganizationId' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_grantapplicationbusinessprocessflowOverriddenCreatedOn" xml:space="preserve">
+    <value>Record Created On</value>
+    <comment>'mshied_grantapplicationbusinessprocessflow' : displayname for Attribute 'OverriddenCreatedOn' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_grantapplicationbusinessprocessflowProcessId" xml:space="preserve">
+    <value>Process</value>
+    <comment>'mshied_grantapplicationbusinessprocessflow' : displayname for Attribute 'ProcessId' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_grantapplicationbusinessprocessflowstatecode" xml:space="preserve">
+    <value>Status</value>
+    <comment>'mshied_grantapplicationbusinessprocessflow' : displayname for Attribute 'statecode' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_grantapplicationbusinessprocessflowstatuscode" xml:space="preserve">
+    <value>Status Reason</value>
+    <comment>'mshied_grantapplicationbusinessprocessflow' : displayname for Attribute 'statuscode' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_grantapplicationbusinessprocessflowTimeZoneRuleVersionNumber" xml:space="preserve">
+    <value>Time Zone Rule Version Number</value>
+    <comment>'mshied_grantapplicationbusinessprocessflow' : displayname for Attribute 'TimeZoneRuleVersionNumber' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_grantapplicationbusinessprocessflowTraversedPath" xml:space="preserve">
+    <value>Traversed Path</value>
+    <comment>'mshied_grantapplicationbusinessprocessflow' : displayname for Attribute 'TraversedPath' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_grantapplicationbusinessprocessflowUTCConversionTimeZoneCode" xml:space="preserve">
+    <value>UTC Conversion Time Zone Code</value>
+    <comment>'mshied_grantapplicationbusinessprocessflow' : displayname for Attribute 'UTCConversionTimeZoneCode' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_GrantCreatedBy" xml:space="preserve">
+    <value>Created By</value>
+    <comment>'mshied_Grant' : displayname for Attribute 'CreatedBy' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_GrantCreatedOn" xml:space="preserve">
+    <value>Created On</value>
+    <comment>'mshied_Grant' : displayname for Attribute 'CreatedOn' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_GrantCreatedOnBehalfBy" xml:space="preserve">
+    <value>Created By (Delegate)</value>
+    <comment>'mshied_Grant' : displayname for Attribute 'CreatedOnBehalfBy' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_GrantExchangeRate" xml:space="preserve">
+    <value>Exchange Rate</value>
+    <comment>'mshied_Grant' : displayname for Attribute 'ExchangeRate' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_GrantImportSequenceNumber" xml:space="preserve">
+    <value>Import Sequence Number</value>
+    <comment>'mshied_Grant' : displayname for Attribute 'ImportSequenceNumber' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_GrantModifiedBy" xml:space="preserve">
+    <value>Modified By</value>
+    <comment>'mshied_Grant' : displayname for Attribute 'ModifiedBy' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_GrantModifiedOn" xml:space="preserve">
+    <value>Modified On</value>
+    <comment>'mshied_Grant' : displayname for Attribute 'ModifiedOn' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_GrantModifiedOnBehalfBy" xml:space="preserve">
+    <value>Modified By (Delegate)</value>
+    <comment>'mshied_Grant' : displayname for Attribute 'ModifiedOnBehalfBy' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_Grantmshied_Amount" xml:space="preserve">
+    <value>Amount</value>
+    <comment>'mshied_Grant' : displayname for Attribute 'mshied_Amount' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_Grantmshied_amount_Base" xml:space="preserve">
+    <value>Amount (Base)</value>
+    <comment>'mshied_Grant' : displayname for Attribute 'mshied_amount_Base' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_Grantmshied_ApplicationDeadlineDate" xml:space="preserve">
+    <value>Application Deadline Date</value>
+    <comment>'mshied_Grant' : displayname for Attribute 'mshied_ApplicationDeadlineDate' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_Grantmshied_AreaofStudy" xml:space="preserve">
+    <value>Area of Study</value>
+    <comment>'mshied_Grant' : displayname for Attribute 'mshied_AreaofStudy' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_Grantmshied_BusinessPartner" xml:space="preserve">
+    <value>Business Partner</value>
+    <comment>'mshied_Grant' : displayname for Attribute 'mshied_BusinessPartner' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_Grantmshied_BusinessPartnerContact" xml:space="preserve">
+    <value>Business Partner Contact</value>
+    <comment>'mshied_Grant' : displayname for Attribute 'mshied_BusinessPartnerContact' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_Grantmshied_Description" xml:space="preserve">
+    <value>Description</value>
+    <comment>'mshied_Grant' : displayname for Attribute 'mshied_Description' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_Grantmshied_GrantId" xml:space="preserve">
+    <value>Grant</value>
+    <comment>'mshied_Grant' : displayname for Attribute 'mshied_GrantId' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_Grantmshied_grant_statecode" xml:space="preserve">
+    <value>Status</value>
+    <comment>'mshied_Grant' : displayname for OptionSet 'mshied_grant_statecode' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_Grantmshied_grant_statuscode" xml:space="preserve">
+    <value>Status Reason</value>
+    <comment>'mshied_Grant' : displayname for OptionSet 'mshied_grant_statuscode' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_Grantmshied_Name" xml:space="preserve">
+    <value>Name</value>
+    <comment>'mshied_Grant' : displayname for Attribute 'mshied_Name' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_Grantmshied_Qualifications" xml:space="preserve">
+    <value>Qualifications</value>
+    <comment>'mshied_Grant' : displayname for Attribute 'mshied_Qualifications' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_Grantmshied_ResponsibleFacultyContact" xml:space="preserve">
+    <value>Responsible Faculty Contact</value>
+    <comment>'mshied_Grant' : displayname for Attribute 'mshied_ResponsibleFacultyContact' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_Grantmshied_ValidFrom" xml:space="preserve">
+    <value>Valid From</value>
+    <comment>'mshied_Grant' : displayname for Attribute 'mshied_ValidFrom' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_Grantmshied_ValidTo" xml:space="preserve">
+    <value>Valid To</value>
+    <comment>'mshied_Grant' : displayname for Attribute 'mshied_ValidTo' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_Grantmshied_WebsiteURL" xml:space="preserve">
+    <value>Website URL</value>
+    <comment>'mshied_Grant' : displayname for Attribute 'mshied_WebsiteURL' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_Grantmshied_WorkDescription" xml:space="preserve">
+    <value>Work Description</value>
+    <comment>'mshied_Grant' : displayname for Attribute 'mshied_WorkDescription' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_GrantOverriddenCreatedOn" xml:space="preserve">
+    <value>Record Created On</value>
+    <comment>'mshied_Grant' : displayname for Attribute 'OverriddenCreatedOn' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_GrantOwnerId" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'mshied_Grant' : displayname for Attribute 'OwnerId' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_GrantOwningBusinessUnit" xml:space="preserve">
+    <value>Owning Business Unit</value>
+    <comment>'mshied_Grant' : displayname for Attribute 'OwningBusinessUnit' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_GrantOwningTeam" xml:space="preserve">
+    <value>Owning Team</value>
+    <comment>'mshied_Grant' : displayname for Attribute 'OwningTeam' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_GrantOwningUser" xml:space="preserve">
+    <value>Owning User</value>
+    <comment>'mshied_Grant' : displayname for Attribute 'OwningUser' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_Grantstatecode" xml:space="preserve">
+    <value>Status</value>
+    <comment>'mshied_Grant' : displayname for Attribute 'statecode' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_Grantstatuscode" xml:space="preserve">
+    <value>Status Reason</value>
+    <comment>'mshied_Grant' : displayname for Attribute 'statuscode' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_GrantTimeZoneRuleVersionNumber" xml:space="preserve">
+    <value>Time Zone Rule Version Number</value>
+    <comment>'mshied_Grant' : displayname for Attribute 'TimeZoneRuleVersionNumber' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_GrantTransactionCurrencyId" xml:space="preserve">
+    <value>Currency</value>
+    <comment>'mshied_Grant' : displayname for Attribute 'TransactionCurrencyId' on Entity</comment>
+  </data>
+  <data name="1:displayname,mshied_GrantUTCConversionTimeZoneCode" xml:space="preserve">
+    <value>UTC Conversion Time Zone Code</value>
+    <comment>'mshied_Grant' : displayname for Attribute 'UTCConversionTimeZoneCode' on Entity</comment>
+  </data>
+  <data name="1:label,Contact2ad55717-fff9-4dbc-9209-aa0e9e6b03e6" xml:space="preserve">
+    <value>Appointments</value>
+    <comment>'Contact' : label for section in Entity FormXml ID: '2ad55717-fff9-4dbc-9209-aa0e9e6b03e6'</comment>
+  </data>
+  <data name="1:label,Contactc2e6e858-8db1-46f2-b487-820d0ebf776d" xml:space="preserve">
+    <value>Appointments</value>
+    <comment>'Contact' : label for tab in Entity FormXml ID: 'c2e6e858-8db1-46f2-b487-820d0ebf776d'</comment>
+  </data>
+  <data name="1:label,Contact{0d0c12d1-7c9d-e5c1-a4d2-c863d9ed5632}" xml:space="preserve">
+    <value>Current Program Level</value>
+    <comment>'Contact' : label for cell in Entity FormXml ID: '{0d0c12d1-7c9d-e5c1-a4d2-c863d9ed5632}'</comment>
+  </data>
+  <data name="1:label,Contact{15859196-4109-59c2-62d2-c2c1635d6790}" xml:space="preserve">
+    <value>Section</value>
+    <comment>'Contact' : label for section in Entity FormXml ID: '{15859196-4109-59c2-62d2-c2c1635d6790}'</comment>
+  </data>
+  <data name="1:label,Contact{1991ee13-4e03-98b5-24dc-29b734babd52}" xml:space="preserve">
+    <value>All Extra-Curricular Activities</value>
+    <comment>'Contact' : label for cell in Entity FormXml ID: '{1991ee13-4e03-98b5-24dc-29b734babd52}'</comment>
+  </data>
+  <data name="1:label,Contact{1a106e65-4e2b-c1e9-ea69-356ebc19e25d}" xml:space="preserve">
+    <value>Section</value>
+    <comment>'Contact' : label for section in Entity FormXml ID: '{1a106e65-4e2b-c1e9-ea69-356ebc19e25d}'</comment>
+  </data>
+  <data name="1:label,Contact{24be01cc-16a6-8eea-8916-42d20a1097ae}" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'Contact' : label for cell in Entity FormXml ID: '{24be01cc-16a6-8eea-8916-42d20a1097ae}'</comment>
+  </data>
+  <data name="1:label,Contact{290b48ba-c0cc-7746-6dda-93e240e4cc78}" xml:space="preserve">
+    <value>Mobile Phone</value>
+    <comment>'Contact' : label for cell in Entity FormXml ID: '{290b48ba-c0cc-7746-6dda-93e240e4cc78}'</comment>
+  </data>
+  <data name="1:label,Contact{2b4f5c77-c3a7-4d8a-be4b-cd64a238e78d}" xml:space="preserve">
+    <value>Address 1: State/Province</value>
+    <comment>'Contact' : label for cell in Entity FormXml ID: '{2b4f5c77-c3a7-4d8a-be4b-cd64a238e78d}'</comment>
+  </data>
+  <data name="1:label,Contact{2d122371-d024-4b2e-b9b8-4422634c9c52}" xml:space="preserve">
+    <value>Middle Name</value>
+    <comment>'Contact' : label for cell in Entity FormXml ID: '{2d122371-d024-4b2e-b9b8-4422634c9c52}'</comment>
+  </data>
+  <data name="1:label,Contact{2d81277d-ec6b-4b3b-806d-960ec3b75d25}" xml:space="preserve">
+    <value />
+    <comment>'Contact' : label for cell in Entity FormXml ID: '{2d81277d-ec6b-4b3b-806d-960ec3b75d25}'</comment>
+  </data>
+  <data name="1:label,Contact{374080ce-9122-4089-a947-43771ff933d8}" xml:space="preserve">
+    <value />
+    <comment>'Contact' : label for cell in Entity FormXml ID: '{374080ce-9122-4089-a947-43771ff933d8}'</comment>
+  </data>
+  <data name="1:label,Contact{3e787035-312c-ce90-6235-eb7d7d4e357e}" xml:space="preserve">
+    <value>Current Program Courses</value>
+    <comment>'Contact' : label for cell in Entity FormXml ID: '{3e787035-312c-ce90-6235-eb7d7d4e357e}'</comment>
+  </data>
+  <data name="1:label,Contact{43939e4d-a101-47aa-8620-b4e21077b702}" xml:space="preserve">
+    <value>Contact Type</value>
+    <comment>'Contact' : label for cell in Entity FormXml ID: '{43939e4d-a101-47aa-8620-b4e21077b702}'</comment>
+  </data>
+  <data name="1:label,Contact{462ed2c9-abd2-da6d-02eb-2ce475803156}" xml:space="preserve">
+    <value>Appointments</value>
+    <comment>'Contact' : label for cell in Entity FormXml ID: '{462ed2c9-abd2-da6d-02eb-2ce475803156}'</comment>
+  </data>
+  <data name="1:label,Contact{51dfca74-cca3-46e8-b9b7-bd593fc92b12}" xml:space="preserve">
+    <value>First Name</value>
+    <comment>'Contact' : label for cell in Entity FormXml ID: '{51dfca74-cca3-46e8-b9b7-bd593fc92b12}'</comment>
+  </data>
+  <data name="1:label,Contact{555b92cb-e034-3d2d-7c3d-cea12580d442}" xml:space="preserve">
+    <value>Current Program</value>
+    <comment>'Contact' : label for cell in Entity FormXml ID: '{555b92cb-e034-3d2d-7c3d-cea12580d442}'</comment>
+  </data>
+  <data name="1:label,Contact{580017c0-a877-ae39-c6c3-461b540e4668}" xml:space="preserve">
+    <value>Current Program Completion Percentage</value>
+    <comment>'Contact' : label for cell in Entity FormXml ID: '{580017c0-a877-ae39-c6c3-461b540e4668}'</comment>
+  </data>
+  <data name="1:label,Contact{620d95fb-905c-413c-a356-dbda35801ae8}" xml:space="preserve">
+    <value>Recommended Student Resources</value>
+    <comment>'Contact' : label for cell in Entity FormXml ID: '{620d95fb-905c-413c-a356-dbda35801ae8}'</comment>
+  </data>
+  <data name="1:label,Contact{71bd6611-c5b4-4a22-8ee6-91a2d6aee5de}" xml:space="preserve">
+    <value>Address 1: City</value>
+    <comment>'Contact' : label for cell in Entity FormXml ID: '{71bd6611-c5b4-4a22-8ee6-91a2d6aee5de}'</comment>
+  </data>
+  <data name="1:label,Contact{7a8a7bd3-4cc5-5a09-b513-8120253560d2}" xml:space="preserve">
+    <value>Section</value>
+    <comment>'Contact' : label for section in Entity FormXml ID: '{7a8a7bd3-4cc5-5a09-b513-8120253560d2}'</comment>
+  </data>
+  <data name="1:label,Contact{7d538a97-98eb-b438-72de-57a808b9a308}" xml:space="preserve">
+    <value>Email</value>
+    <comment>'Contact' : label for cell in Entity FormXml ID: '{7d538a97-98eb-b438-72de-57a808b9a308}'</comment>
+  </data>
+  <data name="1:label,Contact{80440976-06ae-2170-cca5-0b96d519786b}" xml:space="preserve">
+    <value>Section</value>
+    <comment>'Contact' : label for section in Entity FormXml ID: '{80440976-06ae-2170-cca5-0b96d519786b}'</comment>
+  </data>
+  <data name="1:label,Contact{8d9583eb-faed-4b78-b009-272416fd8f18}" xml:space="preserve">
+    <value>Current Program Version</value>
+    <comment>'Contact' : label for cell in Entity FormXml ID: '{8d9583eb-faed-4b78-b009-272416fd8f18}'</comment>
+  </data>
+  <data name="1:label,Contact{8e087954-8615-4bfb-bb07-f4503e202993}" xml:space="preserve">
+    <value>Advisor</value>
+    <comment>'Contact' : label for cell in Entity FormXml ID: '{8e087954-8615-4bfb-bb07-f4503e202993}'</comment>
+  </data>
+  <data name="1:label,Contact{9c38dc44-1b61-ede8-762b-6393d126d691}" xml:space="preserve">
+    <value>Graduation Year</value>
+    <comment>'Contact' : label for cell in Entity FormXml ID: '{9c38dc44-1b61-ede8-762b-6393d126d691}'</comment>
+  </data>
+  <data name="1:label,Contact{c261c943-2cbc-0231-0a51-6597b7ab68ce}" xml:space="preserve">
+    <value>General</value>
+    <comment>'Contact' : label for tab in Entity FormXml ID: '{c261c943-2cbc-0231-0a51-6597b7ab68ce}'</comment>
+  </data>
+  <data name="1:label,Contact{c99a9372-d668-4cb6-8269-fa3f3f0d9b95}" xml:space="preserve">
+    <value>Address 1: Street 1</value>
+    <comment>'Contact' : label for cell in Entity FormXml ID: '{c99a9372-d668-4cb6-8269-fa3f3f0d9b95}'</comment>
+  </data>
+  <data name="1:label,Contact{d5586b79-4c5f-4f2e-a966-7279395a6961}" xml:space="preserve">
+    <value>Address 1: Street 2</value>
+    <comment>'Contact' : label for cell in Entity FormXml ID: '{d5586b79-4c5f-4f2e-a966-7279395a6961}'</comment>
+  </data>
+  <data name="1:label,Contact{ddeeaced-00c1-d95a-a795-837c75d00e62}" xml:space="preserve">
+    <value>Additional Information</value>
+    <comment>'Contact' : label for tab in Entity FormXml ID: '{ddeeaced-00c1-d95a-a795-837c75d00e62}'</comment>
+  </data>
+  <data name="1:label,Contact{ed847739-69ad-422f-b978-5405352e6a64}" xml:space="preserve">
+    <value />
+    <comment>'Contact' : label for cell in Entity FormXml ID: '{ed847739-69ad-422f-b978-5405352e6a64}'</comment>
+  </data>
+  <data name="1:label,Contact{f29d20d5-281d-45a0-88d3-12691518a151}" xml:space="preserve">
+    <value>Last Name</value>
+    <comment>'Contact' : label for cell in Entity FormXml ID: '{f29d20d5-281d-45a0-88d3-12691518a151}'</comment>
+  </data>
+  <data name="1:label,Contact{f4d2e62e-b7ff-403e-bb50-eb06027dd155}" xml:space="preserve">
+    <value>Address 1: Country/Region</value>
+    <comment>'Contact' : label for cell in Entity FormXml ID: '{f4d2e62e-b7ff-403e-bb50-eb06027dd155}'</comment>
+  </data>
+  <data name="1:label,Contact{f9373d40-fe34-4310-9a5d-10509e4a3ffb}" xml:space="preserve">
+    <value>Address 1: ZIP/Postal Code</value>
+    <comment>'Contact' : label for cell in Entity FormXml ID: '{f9373d40-fe34-4310-9a5d-10509e4a3ffb}'</comment>
+  </data>
+  <data name="1:label,Grant Applicant{067ca407-cc73-4334-8d46-cb1a13fb37eb}" xml:space="preserve">
+    <value />
+    <comment>'Grant Applicant' : label for cell in Entity FormXml ID: '{067ca407-cc73-4334-8d46-cb1a13fb37eb}'</comment>
+  </data>
+  <data name="1:label,Grant Applicant{13180df7-b9ff-4d7d-a1c8-af7525c79a48}" xml:space="preserve">
+    <value />
+    <comment>'Grant Applicant' : label for cell in Entity FormXml ID: '{13180df7-b9ff-4d7d-a1c8-af7525c79a48}'</comment>
+  </data>
+  <data name="1:label,Grant Applicant{1381fc2d-e18e-465f-81c5-314deac6233c}" xml:space="preserve">
+    <value>Status Reason</value>
+    <comment>'Grant Applicant' : label for cell in Entity FormXml ID: '{1381fc2d-e18e-465f-81c5-314deac6233c}'</comment>
+  </data>
+  <data name="1:label,Grant Applicant{196976f3-75a7-4f42-a3bf-8e14099cac20}" xml:space="preserve">
+    <value>Details</value>
+    <comment>'Grant Applicant' : label for section in Entity FormXml ID: '{196976f3-75a7-4f42-a3bf-8e14099cac20}'</comment>
+  </data>
+  <data name="1:label,Grant Applicant{1ccb18c9-8db7-965a-136d-b403d51e9672}" xml:space="preserve">
+    <value>Section</value>
+    <comment>'Grant Applicant' : label for section in Entity FormXml ID: '{1ccb18c9-8db7-965a-136d-b403d51e9672}'</comment>
+  </data>
+  <data name="1:label,Grant Applicant{1e05d62e-5b18-e1b0-dd6a-95c0aa2b0469}" xml:space="preserve">
+    <value>Grant</value>
+    <comment>'Grant Applicant' : label for cell in Entity FormXml ID: '{1e05d62e-5b18-e1b0-dd6a-95c0aa2b0469}'</comment>
+  </data>
+  <data name="1:label,Grant Applicant{296db535-5d0e-46c7-a9ca-68cb70601f9c}" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'Grant Applicant' : label for cell in Entity FormXml ID: '{296db535-5d0e-46c7-a9ca-68cb70601f9c}'</comment>
+  </data>
+  <data name="1:label,Grant Applicant{2d5e8cac-e194-0527-e681-6e5b9994393e}" xml:space="preserve">
+    <value>Area of Study</value>
+    <comment>'Grant Applicant' : label for cell in Entity FormXml ID: '{2d5e8cac-e194-0527-e681-6e5b9994393e}'</comment>
+  </data>
+  <data name="1:label,Grant Applicant{427e8011-a409-2519-b2c4-23ae758a8842}" xml:space="preserve">
+    <value>Section</value>
+    <comment>'Grant Applicant' : label for section in Entity FormXml ID: '{427e8011-a409-2519-b2c4-23ae758a8842}'</comment>
+  </data>
+  <data name="1:label,Grant Applicant{43cc09fd-c39c-448a-93c5-6facab036cd4}" xml:space="preserve">
+    <value>Name</value>
+    <comment>'Grant Applicant' : label for cell in Entity FormXml ID: '{43cc09fd-c39c-448a-93c5-6facab036cd4}'</comment>
+  </data>
+  <data name="1:label,Grant Applicant{44113e26-ba86-a19b-6e84-590b8c05976c}" xml:space="preserve">
+    <value>Offer Made Date</value>
+    <comment>'Grant Applicant' : label for cell in Entity FormXml ID: '{44113e26-ba86-a19b-6e84-590b8c05976c}'</comment>
+  </data>
+  <data name="1:label,Grant Applicant{47e0e870-c559-ea08-ed15-6c520839cbce}" xml:space="preserve">
+    <value>Qualification Description</value>
+    <comment>'Grant Applicant' : label for cell in Entity FormXml ID: '{47e0e870-c559-ea08-ed15-6c520839cbce}'</comment>
+  </data>
+  <data name="1:label,Grant Applicant{4c322390-3055-c0d2-0257-92a62e016b93}" xml:space="preserve">
+    <value>Business Partner</value>
+    <comment>'Grant Applicant' : label for cell in Entity FormXml ID: '{4c322390-3055-c0d2-0257-92a62e016b93}'</comment>
+  </data>
+  <data name="1:label,Grant Applicant{52b334a3-5a97-4bf3-9c6b-84467d5afa1a}" xml:space="preserve">
+    <value>ColorStrip</value>
+    <comment>'Grant Applicant' : label for section in Entity FormXml ID: '{52b334a3-5a97-4bf3-9c6b-84467d5afa1a}'</comment>
+  </data>
+  <data name="1:label,Grant Applicant{58e0912f-e3ce-4449-ad9e-4831f9d04203}" xml:space="preserve">
+    <value>Created On</value>
+    <comment>'Grant Applicant' : label for cell in Entity FormXml ID: '{58e0912f-e3ce-4449-ad9e-4831f9d04203}'</comment>
+  </data>
+  <data name="1:label,Grant Applicant{694e2af0-93e4-4ae5-8519-de063602bfa0}" xml:space="preserve">
+    <value>Name</value>
+    <comment>'Grant Applicant' : label for cell in Entity FormXml ID: '{694e2af0-93e4-4ae5-8519-de063602bfa0}'</comment>
+  </data>
+  <data name="1:label,Grant Applicant{6d876ead-998c-49fb-b27f-f55bf9d521d4}" xml:space="preserve">
+    <value />
+    <comment>'Grant Applicant' : label for cell in Entity FormXml ID: '{6d876ead-998c-49fb-b27f-f55bf9d521d4}'</comment>
+  </data>
+  <data name="1:label,Grant Applicant{7f472f27-9162-413a-a567-9e65a77ae63e}" xml:space="preserve">
+    <value>Name</value>
+    <comment>'Grant Applicant' : label for cell in Entity FormXml ID: '{7f472f27-9162-413a-a567-9e65a77ae63e}'</comment>
+  </data>
+  <data name="1:label,Grant Applicant{873c44d3-68e3-7c52-95d3-73a9ce7dd980}" xml:space="preserve">
+    <value>Application State Code</value>
+    <comment>'Grant Applicant' : label for cell in Entity FormXml ID: '{873c44d3-68e3-7c52-95d3-73a9ce7dd980}'</comment>
+  </data>
+  <data name="1:label,Grant Applicant{8d28f084-7deb-46d8-bbfd-af65f8ade834}" xml:space="preserve">
+    <value>GENERAL</value>
+    <comment>'Grant Applicant' : label for section in Entity FormXml ID: '{8d28f084-7deb-46d8-bbfd-af65f8ade834}'</comment>
+  </data>
+  <data name="1:label,Grant Applicant{8edb134c-21a9-42a4-8b1e-29869cf60a5d}" xml:space="preserve">
+    <value />
+    <comment>'Grant Applicant' : label for cell in Entity FormXml ID: '{8edb134c-21a9-42a4-8b1e-29869cf60a5d}'</comment>
+  </data>
+  <data name="1:label,Grant Applicant{9647f77b-a594-4f82-95cc-c6edd73a7843}" xml:space="preserve">
+    <value />
+    <comment>'Grant Applicant' : label for cell in Entity FormXml ID: '{9647f77b-a594-4f82-95cc-c6edd73a7843}'</comment>
+  </data>
+  <data name="1:label,Grant Applicant{983a3c22-a634-90bd-4848-448c9ded143c}" xml:space="preserve">
+    <value>Applicant</value>
+    <comment>'Grant Applicant' : label for cell in Entity FormXml ID: '{983a3c22-a634-90bd-4848-448c9ded143c}'</comment>
+  </data>
+  <data name="1:label,Grant Applicant{98910670-66bc-aabd-340d-b80177e0c468}" xml:space="preserve">
+    <value>General</value>
+    <comment>'Grant Applicant' : label for tab in Entity FormXml ID: '{98910670-66bc-aabd-340d-b80177e0c468}'</comment>
+  </data>
+  <data name="1:label,Grant Applicant{b601a919-4534-3023-63b6-80bb7a3cd550}" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'Grant Applicant' : label for cell in Entity FormXml ID: '{b601a919-4534-3023-63b6-80bb7a3cd550}'</comment>
+  </data>
+  <data name="1:label,Grant Applicant{b74cbce2-9828-415b-a527-2cf64ed3fe17}" xml:space="preserve">
+    <value />
+    <comment>'Grant Applicant' : label for cell in Entity FormXml ID: '{b74cbce2-9828-415b-a527-2cf64ed3fe17}'</comment>
+  </data>
+  <data name="1:label,Grant Applicant{c85b89ec-f82a-454f-a278-a30637ce9e0d}" xml:space="preserve">
+    <value>Footer</value>
+    <comment>'Grant Applicant' : label for section in Entity FormXml ID: '{c85b89ec-f82a-454f-a278-a30637ce9e0d}'</comment>
+  </data>
+  <data name="1:label,Grant Applicant{c89d9871-426c-4766-91eb-4488513157f2}" xml:space="preserve">
+    <value />
+    <comment>'Grant Applicant' : label for tab in Entity FormXml ID: '{c89d9871-426c-4766-91eb-4488513157f2}'</comment>
+  </data>
+  <data name="1:label,Grant Applicant{d8c46209-36be-6433-3931-a59e9ac9a440}" xml:space="preserve">
+    <value>Submission Date</value>
+    <comment>'Grant Applicant' : label for cell in Entity FormXml ID: '{d8c46209-36be-6433-3931-a59e9ac9a440}'</comment>
+  </data>
+  <data name="1:label,Grant Applicant{f0aec693-5953-4f96-b5f6-3a023cf9feeb}" xml:space="preserve">
+    <value>Header</value>
+    <comment>'Grant Applicant' : label for section in Entity FormXml ID: '{f0aec693-5953-4f96-b5f6-3a023cf9feeb}'</comment>
+  </data>
+  <data name="1:label,Grant Applicant{f0c97524-0bfe-4b3f-8af8-7a03dc885601}" xml:space="preserve">
+    <value />
+    <comment>'Grant Applicant' : label for tab in Entity FormXml ID: '{f0c97524-0bfe-4b3f-8af8-7a03dc885601}'</comment>
+  </data>
+  <data name="1:label,Grant Applicant{f2a142f6-8d2e-434a-8532-0ae596dab842}" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'Grant Applicant' : label for cell in Entity FormXml ID: '{f2a142f6-8d2e-434a-8532-0ae596dab842}'</comment>
+  </data>
+  <data name="1:label,Grant Application Business Process Flow{00a243b3-9490-4a34-8610-1ad5bdb68bde}" xml:space="preserve">
+    <value />
+    <comment>'Grant Application Business Process Flow' : label for cell in Entity FormXml ID: '{00a243b3-9490-4a34-8610-1ad5bdb68bde}'</comment>
+  </data>
+  <data name="1:label,Grant Application Business Process Flow{1d4f74b3-6584-48d3-91f7-57310255e234}" xml:space="preserve">
+    <value />
+    <comment>'Grant Application Business Process Flow' : label for section in Entity FormXml ID: '{1d4f74b3-6584-48d3-91f7-57310255e234}'</comment>
+  </data>
+  <data name="1:label,Grant Application Business Process Flow{20cd5464-9ab3-4e81-bc0f-a795aaa66ef6}" xml:space="preserve">
+    <value />
+    <comment>'Grant Application Business Process Flow' : label for tab in Entity FormXml ID: '{20cd5464-9ab3-4e81-bc0f-a795aaa66ef6}'</comment>
+  </data>
+  <data name="1:label,Grant Application Business Process Flow{230ec24f-2df9-4322-ad25-ecd45956fedd}" xml:space="preserve">
+    <value />
+    <comment>'Grant Application Business Process Flow' : label for tab in Entity FormXml ID: '{230ec24f-2df9-4322-ad25-ecd45956fedd}'</comment>
+  </data>
+  <data name="1:label,Grant Application Business Process Flow{4dc49865-6f6c-484f-80cd-c04ff8d65933}" xml:space="preserve">
+    <value />
+    <comment>'Grant Application Business Process Flow' : label for section in Entity FormXml ID: '{4dc49865-6f6c-484f-80cd-c04ff8d65933}'</comment>
+  </data>
+  <data name="1:label,Grant Application Business Process Flow{58c84641-4759-4f5e-8a49-09366b88dc3a}" xml:space="preserve">
+    <value />
+    <comment>'Grant Application Business Process Flow' : label for cell in Entity FormXml ID: '{58c84641-4759-4f5e-8a49-09366b88dc3a}'</comment>
+  </data>
+  <data name="1:label,Grant Application Business Process Flow{5c126c6d-b07c-4fcc-8991-b8624c14e78d}" xml:space="preserve">
+    <value />
+    <comment>'Grant Application Business Process Flow' : label for cell in Entity FormXml ID: '{5c126c6d-b07c-4fcc-8991-b8624c14e78d}'</comment>
+  </data>
+  <data name="1:label,Grant Application Business Process Flow{69ffe2f6-34ee-4b35-9391-04fcec11078d}" xml:space="preserve">
+    <value />
+    <comment>'Grant Application Business Process Flow' : label for cell in Entity FormXml ID: '{69ffe2f6-34ee-4b35-9391-04fcec11078d}'</comment>
+  </data>
+  <data name="1:label,Grant Application Business Process Flow{815531aa-27ef-4eba-994e-c3a882d619e3}" xml:space="preserve">
+    <value />
+    <comment>'Grant Application Business Process Flow' : label for tab in Entity FormXml ID: '{815531aa-27ef-4eba-994e-c3a882d619e3}'</comment>
+  </data>
+  <data name="1:label,Grant Application Business Process Flow{8387479d-91d8-4028-849b-4ee0a25af798}" xml:space="preserve">
+    <value />
+    <comment>'Grant Application Business Process Flow' : label for section in Entity FormXml ID: '{8387479d-91d8-4028-849b-4ee0a25af798}'</comment>
+  </data>
+  <data name="1:label,Grant Application Business Process Flow{85d1b749-89d8-4c38-8cd2-7855619a9c88}" xml:space="preserve">
+    <value />
+    <comment>'Grant Application Business Process Flow' : label for tab in Entity FormXml ID: '{85d1b749-89d8-4c38-8cd2-7855619a9c88}'</comment>
+  </data>
+  <data name="1:label,Grant Application Business Process Flow{bc0e591a-3c58-48c9-9e71-73e8a2f2fa16}" xml:space="preserve">
+    <value />
+    <comment>'Grant Application Business Process Flow' : label for section in Entity FormXml ID: '{bc0e591a-3c58-48c9-9e71-73e8a2f2fa16}'</comment>
+  </data>
+  <data name="1:label,GrantACBA75B7-97B6-4116-AA55-51312992B721" xml:space="preserve">
+    <value>Tab</value>
+    <comment>'Grant' : label for tab in Entity FormXml ID: 'ACBA75B7-97B6-4116-AA55-51312992B721'</comment>
+  </data>
+  <data name="1:label,GrantAD49B5BF-256F-46A8-9C75-947146172EB9" xml:space="preserve">
+    <value>Section</value>
+    <comment>'Grant' : label for section in Entity FormXml ID: 'AD49B5BF-256F-46A8-9C75-947146172EB9'</comment>
+  </data>
+  <data name="1:label,Grant{048a142b-bd09-40ef-9dfe-39ae3693e5af}" xml:space="preserve">
+    <value />
+    <comment>'Grant' : label for tab in Entity FormXml ID: '{048a142b-bd09-40ef-9dfe-39ae3693e5af}'</comment>
+  </data>
+  <data name="1:label,Grant{0e6b74ba-c663-4356-9af2-6a39c35a79ae}" xml:space="preserve">
+    <value>Created On</value>
+    <comment>'Grant' : label for cell in Entity FormXml ID: '{0e6b74ba-c663-4356-9af2-6a39c35a79ae}'</comment>
+  </data>
+  <data name="1:label,Grant{113527ac-ef35-422d-ae6d-41cadbd0f18f}" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'Grant' : label for cell in Entity FormXml ID: '{113527ac-ef35-422d-ae6d-41cadbd0f18f}'</comment>
+  </data>
+  <data name="1:label,Grant{1ad1c3b3-4e6c-a071-4dbe-936c23a905bd}" xml:space="preserve">
+    <value>Business Partner</value>
+    <comment>'Grant' : label for cell in Entity FormXml ID: '{1ad1c3b3-4e6c-a071-4dbe-936c23a905bd}'</comment>
+  </data>
+  <data name="1:label,Grant{1e570c00-c2bf-4599-a419-015db79274d9}" xml:space="preserve">
+    <value>Header</value>
+    <comment>'Grant' : label for section in Entity FormXml ID: '{1e570c00-c2bf-4599-a419-015db79274d9}'</comment>
+  </data>
+  <data name="1:label,Grant{217ce79a-1834-3eb2-aae4-25e516818b44}" xml:space="preserve">
+    <value>Grant Details</value>
+    <comment>'Grant' : label for section in Entity FormXml ID: '{217ce79a-1834-3eb2-aae4-25e516818b44}'</comment>
+  </data>
+  <data name="1:label,Grant{2575daa2-ceba-4eb1-b0e4-ab6157228ad4}" xml:space="preserve">
+    <value />
+    <comment>'Grant' : label for cell in Entity FormXml ID: '{2575daa2-ceba-4eb1-b0e4-ab6157228ad4}'</comment>
+  </data>
+  <data name="1:label,Grant{29e5b308-29c3-432b-a31f-a0b093824868}" xml:space="preserve">
+    <value>ColorStrip</value>
+    <comment>'Grant' : label for section in Entity FormXml ID: '{29e5b308-29c3-432b-a31f-a0b093824868}'</comment>
+  </data>
+  <data name="1:label,Grant{2b08655e-0cf6-42a0-b0b4-d384effb0be3}" xml:space="preserve">
+    <value>Footer</value>
+    <comment>'Grant' : label for section in Entity FormXml ID: '{2b08655e-0cf6-42a0-b0b4-d384effb0be3}'</comment>
+  </data>
+  <data name="1:label,Grant{2d6d05dd-d835-44d5-be64-1adca2b12501}" xml:space="preserve">
+    <value>GENERAL</value>
+    <comment>'Grant' : label for section in Entity FormXml ID: '{2d6d05dd-d835-44d5-be64-1adca2b12501}'</comment>
+  </data>
+  <data name="1:label,Grant{2f5b762e-8203-4cde-8b5d-d7b6a6385e46}" xml:space="preserve">
+    <value />
+    <comment>'Grant' : label for cell in Entity FormXml ID: '{2f5b762e-8203-4cde-8b5d-d7b6a6385e46}'</comment>
+  </data>
+  <data name="1:label,Grant{368d5450-abd2-42f5-8d99-059d5af64786}" xml:space="preserve">
+    <value>General</value>
+    <comment>'Grant' : label for tab in Entity FormXml ID: '{368d5450-abd2-42f5-8d99-059d5af64786}'</comment>
+  </data>
+  <data name="1:label,Grant{3ea10ef9-e101-4a89-9666-3b9292b53c99}" xml:space="preserve">
+    <value>Status Reason</value>
+    <comment>'Grant' : label for cell in Entity FormXml ID: '{3ea10ef9-e101-4a89-9666-3b9292b53c99}'</comment>
+  </data>
+  <data name="1:label,Grant{4d844271-a226-4d94-bccb-e7096ebf5deb}" xml:space="preserve">
+    <value>Name</value>
+    <comment>'Grant' : label for cell in Entity FormXml ID: '{4d844271-a226-4d94-bccb-e7096ebf5deb}'</comment>
+  </data>
+  <data name="1:label,Grant{678ec7b2-925e-5de5-561c-a2e74bc00c78}" xml:space="preserve">
+    <value>Area of Study</value>
+    <comment>'Grant' : label for cell in Entity FormXml ID: '{678ec7b2-925e-5de5-561c-a2e74bc00c78}'</comment>
+  </data>
+  <data name="1:label,Grant{8b7eba5e-22d2-4f17-ba67-1d0739866163}" xml:space="preserve">
+    <value />
+    <comment>'Grant' : label for cell in Entity FormXml ID: '{8b7eba5e-22d2-4f17-ba67-1d0739866163}'</comment>
+  </data>
+  <data name="1:label,Grant{8e0201cc-b5e8-4959-a65c-7e9c1fc0f848}" xml:space="preserve">
+    <value>Name</value>
+    <comment>'Grant' : label for cell in Entity FormXml ID: '{8e0201cc-b5e8-4959-a65c-7e9c1fc0f848}'</comment>
+  </data>
+  <data name="1:label,Grant{8ed11d13-582f-45d3-ac06-b0e5c0d41dd0}" xml:space="preserve">
+    <value>Area of Study</value>
+    <comment>'Grant' : label for cell in Entity FormXml ID: '{8ed11d13-582f-45d3-ac06-b0e5c0d41dd0}'</comment>
+  </data>
+  <data name="1:label,Grant{9178c765-0230-cde0-80d1-c5b3699436c0}" xml:space="preserve">
+    <value>Amount</value>
+    <comment>'Grant' : label for cell in Entity FormXml ID: '{9178c765-0230-cde0-80d1-c5b3699436c0}'</comment>
+  </data>
+  <data name="1:label,Grant{96178d30-a532-4a1a-9864-4d11c7fba073}" xml:space="preserve">
+    <value />
+    <comment>'Grant' : label for cell in Entity FormXml ID: '{96178d30-a532-4a1a-9864-4d11c7fba073}'</comment>
+  </data>
+  <data name="1:label,Grant{963d4009-c60c-c833-42ca-e9c73704e005}" xml:space="preserve">
+    <value>Valid From</value>
+    <comment>'Grant' : label for cell in Entity FormXml ID: '{963d4009-c60c-c833-42ca-e9c73704e005}'</comment>
+  </data>
+  <data name="1:label,Grant{9cd63ca3-8360-02b8-0da1-7ba2c008e038}" xml:space="preserve">
+    <value>Applicants</value>
+    <comment>'Grant' : label for section in Entity FormXml ID: '{9cd63ca3-8360-02b8-0da1-7ba2c008e038}'</comment>
+  </data>
+  <data name="1:label,Grant{9d7d410c-8376-9390-acce-544be7a8ae40}" xml:space="preserve">
+    <value>Grant Applicants (Grant)</value>
+    <comment>'Grant' : label for cell in Entity FormXml ID: '{9d7d410c-8376-9390-acce-544be7a8ae40}'</comment>
+  </data>
+  <data name="1:label,Grant{a58c342c-45c1-4abd-b612-b301843ebb61}" xml:space="preserve">
+    <value>Details</value>
+    <comment>'Grant' : label for section in Entity FormXml ID: '{a58c342c-45c1-4abd-b612-b301843ebb61}'</comment>
+  </data>
+  <data name="1:label,Grant{a6679844-28ea-6da3-2042-edd2d2d961ad}" xml:space="preserve">
+    <value>Application Deadline Date</value>
+    <comment>'Grant' : label for cell in Entity FormXml ID: '{a6679844-28ea-6da3-2042-edd2d2d961ad}'</comment>
+  </data>
+  <data name="1:label,Grant{ae1a8aac-496c-1842-6533-64463cc10d60}" xml:space="preserve">
+    <value>Applicants</value>
+    <comment>'Grant' : label for tab in Entity FormXml ID: '{ae1a8aac-496c-1842-6533-64463cc10d60}'</comment>
+  </data>
+  <data name="1:label,Grant{b0539fc4-8b56-407c-8df2-cd4357b601dd}" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'Grant' : label for cell in Entity FormXml ID: '{b0539fc4-8b56-407c-8df2-cd4357b601dd}'</comment>
+  </data>
+  <data name="1:label,Grant{b182a702-ce6c-0848-ab29-2cdea5b7159a}" xml:space="preserve">
+    <value>Valid To</value>
+    <comment>'Grant' : label for cell in Entity FormXml ID: '{b182a702-ce6c-0848-ab29-2cdea5b7159a}'</comment>
+  </data>
+  <data name="1:label,Grant{b538808d-5578-177a-6b61-1aa8998d6131}" xml:space="preserve">
+    <value>Business Partner Contact</value>
+    <comment>'Grant' : label for cell in Entity FormXml ID: '{b538808d-5578-177a-6b61-1aa8998d6131}'</comment>
+  </data>
+  <data name="1:label,Grant{b58b1b58-0090-0eb0-c194-e99993e0307a}" xml:space="preserve">
+    <value>Work Description</value>
+    <comment>'Grant' : label for cell in Entity FormXml ID: '{b58b1b58-0090-0eb0-c194-e99993e0307a}'</comment>
+  </data>
+  <data name="1:label,Grant{b71b1fb5-d8c9-4e9d-8cfa-0d0ba42c0f8d}" xml:space="preserve">
+    <value />
+    <comment>'Grant' : label for tab in Entity FormXml ID: '{b71b1fb5-d8c9-4e9d-8cfa-0d0ba42c0f8d}'</comment>
+  </data>
+  <data name="1:label,Grant{b7d2b34a-de23-8470-e513-642c1d84cae0}" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'Grant' : label for cell in Entity FormXml ID: '{b7d2b34a-de23-8470-e513-642c1d84cae0}'</comment>
+  </data>
+  <data name="1:label,Grant{ba519e15-e843-5b75-b031-c672818480c1}" xml:space="preserve">
+    <value>Grant Information</value>
+    <comment>'Grant' : label for section in Entity FormXml ID: '{ba519e15-e843-5b75-b031-c672818480c1}'</comment>
+  </data>
+  <data name="1:label,Grant{c198b0d1-5759-45a9-b8c1-a347cadfc786}" xml:space="preserve">
+    <value>Name</value>
+    <comment>'Grant' : label for cell in Entity FormXml ID: '{c198b0d1-5759-45a9-b8c1-a347cadfc786}'</comment>
+  </data>
+  <data name="1:label,Grant{c24d7602-b8a8-ddb8-6676-4453c8247c27}" xml:space="preserve">
+    <value>Description</value>
+    <comment>'Grant' : label for cell in Entity FormXml ID: '{c24d7602-b8a8-ddb8-6676-4453c8247c27}'</comment>
+  </data>
+  <data name="1:label,Grant{d6db9484-d0fa-4d72-ae88-4f126ede57f3}" xml:space="preserve">
+    <value />
+    <comment>'Grant' : label for cell in Entity FormXml ID: '{d6db9484-d0fa-4d72-ae88-4f126ede57f3}'</comment>
+  </data>
+  <data name="1:label,Grant{e16d9854-8e90-4277-242e-ee0b9bbc6707}" xml:space="preserve">
+    <value>Responsible Faculty Contact</value>
+    <comment>'Grant' : label for cell in Entity FormXml ID: '{e16d9854-8e90-4277-242e-ee0b9bbc6707}'</comment>
+  </data>
+  <data name="1:label,Grant{e1e9a0c2-650b-aa12-4874-8b10a4b1742b}" xml:space="preserve">
+    <value>Website URL</value>
+    <comment>'Grant' : label for cell in Entity FormXml ID: '{e1e9a0c2-650b-aa12-4874-8b10a4b1742b}'</comment>
+  </data>
+  <data name="1:label,Grant{e9327939-c15e-aa12-6637-ebad02c315a5}" xml:space="preserve">
+    <value>Qualifications</value>
+    <comment>'Grant' : label for cell in Entity FormXml ID: '{e9327939-c15e-aa12-6637-ebad02c315a5}'</comment>
+  </data>
+  <data name="1:label,Grant{f843e93f-3928-4c39-a590-41346f26ad17}" xml:space="preserve">
+    <value />
+    <comment>'Grant' : label for cell in Entity FormXml ID: '{f843e93f-3928-4c39-a590-41346f26ad17}'</comment>
+  </data>
+  <data name="1:label,mshied_GrantApplicantmshied_grantapplicant_statecode0" xml:space="preserve">
+    <value>Active</value>
+    <comment>'mshied_GrantApplicant' : label for state '0' on Entity</comment>
+  </data>
+  <data name="1:label,mshied_GrantApplicantmshied_grantapplicant_statecode1" xml:space="preserve">
+    <value>Inactive</value>
+    <comment>'mshied_GrantApplicant' : label for state '1' on Entity</comment>
+  </data>
+  <data name="1:label,mshied_GrantApplicantmshied_grantapplicant_statuscode1" xml:space="preserve">
+    <value>Active</value>
+    <comment>'mshied_GrantApplicant' : label for status '1' on Entity</comment>
+  </data>
+  <data name="1:label,mshied_GrantApplicantmshied_grantapplicant_statuscode2" xml:space="preserve">
+    <value>Inactive</value>
+    <comment>'mshied_GrantApplicant' : label for status '2' on Entity</comment>
+  </data>
+  <data name="1:label,mshied_grantapplicationbusinessprocessflowmshied_grantapplicationbusinessprocessflow_statecode0" xml:space="preserve">
+    <value>Active</value>
+    <comment>'mshied_grantapplicationbusinessprocessflow' : label for state '0' on Entity</comment>
+  </data>
+  <data name="1:label,mshied_grantapplicationbusinessprocessflowmshied_grantapplicationbusinessprocessflow_statecode1" xml:space="preserve">
+    <value>Inactive</value>
+    <comment>'mshied_grantapplicationbusinessprocessflow' : label for state '1' on Entity</comment>
+  </data>
+  <data name="1:label,mshied_grantapplicationbusinessprocessflowmshied_grantapplicationbusinessprocessflow_statuscode1" xml:space="preserve">
+    <value>Active</value>
+    <comment>'mshied_grantapplicationbusinessprocessflow' : label for status '1' on Entity</comment>
+  </data>
+  <data name="1:label,mshied_grantapplicationbusinessprocessflowmshied_grantapplicationbusinessprocessflow_statuscode2" xml:space="preserve">
+    <value>Finished</value>
+    <comment>'mshied_grantapplicationbusinessprocessflow' : label for status '2' on Entity</comment>
+  </data>
+  <data name="1:label,mshied_grantapplicationbusinessprocessflowmshied_grantapplicationbusinessprocessflow_statuscode3" xml:space="preserve">
+    <value>Aborted</value>
+    <comment>'mshied_grantapplicationbusinessprocessflow' : label for status '3' on Entity</comment>
+  </data>
+  <data name="1:label,mshied_Grantmshied_grant_statecode0" xml:space="preserve">
+    <value>Active</value>
+    <comment>'mshied_Grant' : label for state '0' on Entity</comment>
+  </data>
+  <data name="1:label,mshied_Grantmshied_grant_statecode1" xml:space="preserve">
+    <value>Inactive</value>
+    <comment>'mshied_Grant' : label for state '1' on Entity</comment>
+  </data>
+  <data name="1:label,mshied_Grantmshied_grant_statuscode1" xml:space="preserve">
+    <value>Active</value>
+    <comment>'mshied_Grant' : label for status '1' on Entity</comment>
+  </data>
+  <data name="1:label,mshied_Grantmshied_grant_statuscode2" xml:space="preserve">
+    <value>Inactive</value>
+    <comment>'mshied_Grant' : label for status '2' on Entity</comment>
+  </data>
+  <data name="1:LocalizedCollectionName,mshied_GrantApplicantentitymshied_GrantApplicant" xml:space="preserve">
+    <value>Grant Applicants</value>
+    <comment> 'mshied_GrantApplicant' : LocalizedCollectionName for Entity</comment>
+  </data>
+  <data name="1:LocalizedCollectionName,mshied_grantapplicationbusinessprocessflowentitymshied_grantapplicationbusinessprocessflow" xml:space="preserve">
+    <value>Grant Application Business Process Flow</value>
+    <comment> 'mshied_grantapplicationbusinessprocessflow' : LocalizedCollectionName for Entity</comment>
+  </data>
+  <data name="1:LocalizedCollectionName,mshied_Grantentitymshied_Grant" xml:space="preserve">
+    <value>Grants</value>
+    <comment> 'mshied_Grant' : LocalizedCollectionName for Entity</comment>
+  </data>
+  <data name="1:LocalizedCollectionName,mshied_RecommendedStudentResourceentitymshied_RecommendedStudentResource" xml:space="preserve">
+    <value>Recommended Student Resources</value>
+    <comment> 'mshied_RecommendedStudentResource' : LocalizedCollectionName for Entity</comment>
+  </data>
+  <data name="1:LocalizedName,Contact{be82e057-55b7-4789-886a-5a9dda7e349c}" xml:space="preserve">
+    <value>Student Success Path</value>
+    <comment>'Contact' : LocalizedName for systemform in Entity FormXml ID: '{be82e057-55b7-4789-886a-5a9dda7e349c}'</comment>
+  </data>
+  <data name="1:LocalizedName,Grant Applicant{5082c641-c34e-4037-84fa-b88c0797af80}" xml:space="preserve">
+    <value>Information</value>
+    <comment>'Grant Applicant' : LocalizedName for systemform in Entity FormXml ID: '{5082c641-c34e-4037-84fa-b88c0797af80}'</comment>
+  </data>
+  <data name="1:LocalizedName,Grant Applicant{6b72db1c-be93-4e3b-8275-531a32e914f8}" xml:space="preserve">
+    <value>Active Grant Applicants</value>
+    <comment>'Grant Applicant' : LocalizedName for SavedQuery on Entity QueryId: '{6b72db1c-be93-4e3b-8275-531a32e914f8}'</comment>
+  </data>
+  <data name="1:LocalizedName,Grant Applicant{7322B767-05DF-E911-A968-000D3A3B9825}" xml:space="preserve">
+    <value>Number of Students by Status</value>
+    <comment>'Grant Applicant' : LocalizedName for Visualization '{7322B767-05DF-E911-A968-000D3A3B9825}' on  Entity</comment>
+  </data>
+  <data name="1:LocalizedName,Grant Applicant{8d305777-77ef-43c3-8f32-15df967c4a26}" xml:space="preserve">
+    <value>Inactive Grant Applicants</value>
+    <comment>'Grant Applicant' : LocalizedName for SavedQuery on Entity QueryId: '{8d305777-77ef-43c3-8f32-15df967c4a26}'</comment>
+  </data>
+  <data name="1:LocalizedName,Grant Applicant{926db1b0-7ea4-49c0-b690-335c512569ce}" xml:space="preserve">
+    <value>Grant Applicant Advanced Find View</value>
+    <comment>'Grant Applicant' : LocalizedName for SavedQuery on Entity QueryId: '{926db1b0-7ea4-49c0-b690-335c512569ce}'</comment>
+  </data>
+  <data name="1:LocalizedName,Grant Applicant{9beaa7eb-9028-4467-b2ca-de16bb485cb7}" xml:space="preserve">
+    <value>Information</value>
+    <comment>'Grant Applicant' : LocalizedName for systemform in Entity FormXml ID: '{9beaa7eb-9028-4467-b2ca-de16bb485cb7}'</comment>
+  </data>
+  <data name="1:LocalizedName,Grant Applicant{b585802e-da67-48a3-9fc9-56ecdbb3ebce}" xml:space="preserve">
+    <value>Quick Find Active Grant Applicants</value>
+    <comment>'Grant Applicant' : LocalizedName for SavedQuery on Entity QueryId: '{b585802e-da67-48a3-9fc9-56ecdbb3ebce}'</comment>
+  </data>
+  <data name="1:LocalizedName,Grant Applicant{befb0ac7-1eb9-44c9-bdfc-de9718e66b71}" xml:space="preserve">
+    <value>Information</value>
+    <comment>'Grant Applicant' : LocalizedName for systemform in Entity FormXml ID: '{befb0ac7-1eb9-44c9-bdfc-de9718e66b71}'</comment>
+  </data>
+  <data name="1:LocalizedName,Grant Applicant{c3a92e6a-8231-40f6-8833-e13e21e0413e}" xml:space="preserve">
+    <value>Grant Applicant Lookup View</value>
+    <comment>'Grant Applicant' : LocalizedName for SavedQuery on Entity QueryId: '{c3a92e6a-8231-40f6-8833-e13e21e0413e}'</comment>
+  </data>
+  <data name="1:LocalizedName,Grant Applicant{f11b5cb2-1fdb-e911-a964-000d3a3b9a2b}" xml:space="preserve">
+    <value>My Grant Applicants</value>
+    <comment>'Grant Applicant' : LocalizedName for SavedQuery on Entity QueryId: '{f11b5cb2-1fdb-e911-a964-000d3a3b9a2b}'</comment>
+  </data>
+  <data name="1:LocalizedName,Grant Applicant{f8597555-ddc2-4b87-b493-4b955b8591de}" xml:space="preserve">
+    <value>Grant Applicant Associated View</value>
+    <comment>'Grant Applicant' : LocalizedName for SavedQuery on Entity QueryId: '{f8597555-ddc2-4b87-b493-4b955b8591de}'</comment>
+  </data>
+  <data name="1:LocalizedName,Grant Application Business Process Flow{1cce26ea-5602-4b56-a29d-8856812e3caa}" xml:space="preserve">
+    <value>Information</value>
+    <comment>'Grant Application Business Process Flow' : LocalizedName for systemform in Entity FormXml ID: '{1cce26ea-5602-4b56-a29d-8856812e3caa}'</comment>
+  </data>
+  <data name="1:LocalizedName,Grant Application Business Process Flow{2f046b00-9ecf-4426-a0e4-65554076f7a5}" xml:space="preserve">
+    <value>Grant Application Business Process Flow Advanced Find View</value>
+    <comment>'Grant Application Business Process Flow' : LocalizedName for SavedQuery on Entity QueryId: '{2f046b00-9ecf-4426-a0e4-65554076f7a5}'</comment>
+  </data>
+  <data name="1:LocalizedName,Grant Application Business Process Flow{399074e3-b575-40b6-9181-d70269420f86}" xml:space="preserve">
+    <value>Inactive Grant Application Business Process Flow</value>
+    <comment>'Grant Application Business Process Flow' : LocalizedName for SavedQuery on Entity QueryId: '{399074e3-b575-40b6-9181-d70269420f86}'</comment>
+  </data>
+  <data name="1:LocalizedName,Grant Application Business Process Flow{3fa3382c-26cd-40ef-9298-8696f37c5e0f}" xml:space="preserve">
+    <value>All Grant Application Business Process Flow</value>
+    <comment>'Grant Application Business Process Flow' : LocalizedName for SavedQuery on Entity QueryId: '{3fa3382c-26cd-40ef-9298-8696f37c5e0f}'</comment>
+  </data>
+  <data name="1:LocalizedName,Grant Application Business Process Flow{4469d9cd-4429-4d5e-b6be-50f03c85085b}" xml:space="preserve">
+    <value>Grant Application Business Process Flow Lookup View</value>
+    <comment>'Grant Application Business Process Flow' : LocalizedName for SavedQuery on Entity QueryId: '{4469d9cd-4429-4d5e-b6be-50f03c85085b}'</comment>
+  </data>
+  <data name="1:LocalizedName,Grant Application Business Process Flow{5e57f3a0-3c15-417e-848f-47df07e1b224}" xml:space="preserve">
+    <value>Active Grant Application Business Process Flow</value>
+    <comment>'Grant Application Business Process Flow' : LocalizedName for SavedQuery on Entity QueryId: '{5e57f3a0-3c15-417e-848f-47df07e1b224}'</comment>
+  </data>
+  <data name="1:LocalizedName,Grant Application Business Process Flow{6079df10-a7d2-4a9f-9da0-f5874ce94609}" xml:space="preserve">
+    <value>Quick Find Active Grant Application Business Process Flow</value>
+    <comment>'Grant Application Business Process Flow' : LocalizedName for SavedQuery on Entity QueryId: '{6079df10-a7d2-4a9f-9da0-f5874ce94609}'</comment>
+  </data>
+  <data name="1:LocalizedName,Grant Application Business Process Flow{b523a6bb-9de0-e911-a968-000d3a3b9825}" xml:space="preserve">
+    <value>Grant Application Business Process Flow</value>
+    <comment>'Grant Application Business Process Flow' : LocalizedName for SavedQuery on Entity QueryId: '{b523a6bb-9de0-e911-a968-000d3a3b9825}'</comment>
+  </data>
+  <data name="1:LocalizedName,Grant Application Business Process Flow{ce362640-bd99-41e0-8db1-8cf4a4370f3c}" xml:space="preserve">
+    <value>Inactive Grant Application Business Process Flow on my Grant Applicants</value>
+    <comment>'Grant Application Business Process Flow' : LocalizedName for SavedQuery on Entity QueryId: '{ce362640-bd99-41e0-8db1-8cf4a4370f3c}'</comment>
+  </data>
+  <data name="1:LocalizedName,Grant Application Business Process Flow{d8bc6d4c-440d-4a95-bdab-0e4db2d958a1}" xml:space="preserve">
+    <value>Active Grant Application Business Process Flow on my Grant Applicants</value>
+    <comment>'Grant Application Business Process Flow' : LocalizedName for SavedQuery on Entity QueryId: '{d8bc6d4c-440d-4a95-bdab-0e4db2d958a1}'</comment>
+  </data>
+  <data name="1:LocalizedName,Grant Application Business Process Flow{fadc029b-481c-4f62-bc8b-0d9980317c9e}" xml:space="preserve">
+    <value>Grant Application Business Process Flow Associated View</value>
+    <comment>'Grant Application Business Process Flow' : LocalizedName for SavedQuery on Entity QueryId: '{fadc029b-481c-4f62-bc8b-0d9980317c9e}'</comment>
+  </data>
+  <data name="1:LocalizedName,Grant{26993d2d-236e-404c-803b-c1c548603678}" xml:space="preserve">
+    <value>Information</value>
+    <comment>'Grant' : LocalizedName for systemform in Entity FormXml ID: '{26993d2d-236e-404c-803b-c1c548603678}'</comment>
+  </data>
+  <data name="1:LocalizedName,Grant{42e8ae77-2cc2-4fa7-a718-2332f5d791bb}" xml:space="preserve">
+    <value>Inactive Grants</value>
+    <comment>'Grant' : LocalizedName for SavedQuery on Entity QueryId: '{42e8ae77-2cc2-4fa7-a718-2332f5d791bb}'</comment>
+  </data>
+  <data name="1:LocalizedName,Grant{678c47e0-4734-4196-937a-5e063a0161f7}" xml:space="preserve">
+    <value>Quick Find Active Grants</value>
+    <comment>'Grant' : LocalizedName for SavedQuery on Entity QueryId: '{678c47e0-4734-4196-937a-5e063a0161f7}'</comment>
+  </data>
+  <data name="1:LocalizedName,Grant{71F0829E-04DF-E911-A968-000D3A3B9825}" xml:space="preserve">
+    <value>Grants By Type</value>
+    <comment>'Grant' : LocalizedName for Visualization '{71F0829E-04DF-E911-A968-000D3A3B9825}' on  Entity</comment>
+  </data>
+  <data name="1:LocalizedName,Grant{9e2cab71-1edb-e911-a964-000d3a3b9a2b}" xml:space="preserve">
+    <value>My Grants</value>
+    <comment>'Grant' : LocalizedName for SavedQuery on Entity QueryId: '{9e2cab71-1edb-e911-a964-000d3a3b9a2b}'</comment>
+  </data>
+  <data name="1:LocalizedName,Grant{9f36cff3-9505-4562-ab83-b63bb381a783}" xml:space="preserve">
+    <value>Information</value>
+    <comment>'Grant' : LocalizedName for systemform in Entity FormXml ID: '{9f36cff3-9505-4562-ab83-b63bb381a783}'</comment>
+  </data>
+  <data name="1:LocalizedName,Grant{a4b460b8-d317-4e6a-a93f-6075c6117c64}" xml:space="preserve">
+    <value>Grant Advanced Find View</value>
+    <comment>'Grant' : LocalizedName for SavedQuery on Entity QueryId: '{a4b460b8-d317-4e6a-a93f-6075c6117c64}'</comment>
+  </data>
+  <data name="1:LocalizedName,Grant{ca114503-3777-4332-a552-d880dd700082}" xml:space="preserve">
+    <value>Grant Associated View</value>
+    <comment>'Grant' : LocalizedName for SavedQuery on Entity QueryId: '{ca114503-3777-4332-a552-d880dd700082}'</comment>
+  </data>
+  <data name="1:LocalizedName,Grant{cfa000c5-c6ea-e911-a968-000d3a3b9825}" xml:space="preserve">
+    <value>Grant quick view form</value>
+    <comment>'Grant' : LocalizedName for systemform in Entity FormXml ID: '{cfa000c5-c6ea-e911-a968-000d3a3b9825}'</comment>
+  </data>
+  <data name="1:LocalizedName,Grant{db9edd21-28f5-4a71-b983-1b7a28811ad7}" xml:space="preserve">
+    <value>Grant Lookup View</value>
+    <comment>'Grant' : LocalizedName for SavedQuery on Entity QueryId: '{db9edd21-28f5-4a71-b983-1b7a28811ad7}'</comment>
+  </data>
+  <data name="1:LocalizedName,Grant{eaad3f42-8163-42be-b743-889f561e7a4a}" xml:space="preserve">
+    <value>Information</value>
+    <comment>'Grant' : LocalizedName for systemform in Entity FormXml ID: '{eaad3f42-8163-42be-b743-889f561e7a4a}'</comment>
+  </data>
+  <data name="1:LocalizedName,Grant{eb3a745d-dbc2-4311-b396-99ecd661e461}" xml:space="preserve">
+    <value>Active Grants</value>
+    <comment>'Grant' : LocalizedName for SavedQuery on Entity QueryId: '{eb3a745d-dbc2-4311-b396-99ecd661e461}'</comment>
+  </data>
+  <data name="1:LocalizedName,mshied_GrantApplicantentitymshied_GrantApplicant" xml:space="preserve">
+    <value>Grant Applicant</value>
+    <comment> 'mshied_GrantApplicant' : LocalizedName for Entity</comment>
+  </data>
+  <data name="1:LocalizedName,mshied_grantapplicationbusinessprocessflowentitymshied_grantapplicationbusinessprocessflow" xml:space="preserve">
+    <value>Grant Application Business Process Flow</value>
+    <comment> 'mshied_grantapplicationbusinessprocessflow' : LocalizedName for Entity</comment>
+  </data>
+  <data name="1:LocalizedName,mshied_Grantentitymshied_Grant" xml:space="preserve">
+    <value>Grant</value>
+    <comment> 'mshied_Grant' : LocalizedName for Entity</comment>
+  </data>
+  <data name="1:LocalizedName,mshied_RecommendedStudentResourceentitymshied_RecommendedStudentResource" xml:space="preserve">
+    <value>Recommended Student Resource</value>
+    <comment> 'mshied_RecommendedStudentResource' : LocalizedName for Entity</comment>
+  </data>
+  <data name="1:Title,ContactInfo{be82e057-55b7-4789-886a-5a9dda7e349c}" xml:space="preserve">
+    <value>Common</value>
+    <comment>'Contact' : Title for NavBarArea in Entity FormXml ID: 'Info'</comment>
+  </data>
+  <data name="1:Title,ContactMarketing{be82e057-55b7-4789-886a-5a9dda7e349c}" xml:space="preserve">
+    <value>Marketing</value>
+    <comment>'Contact' : Title for NavBarArea in Entity FormXml ID: 'Marketing'</comment>
+  </data>
+  <data name="1:Title,ContactnavAddresses{be82e057-55b7-4789-886a-5a9dda7e349c}" xml:space="preserve">
+    <value>Addresses</value>
+    <comment>'Contact' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'navAddresses'</comment>
+  </data>
+  <data name="1:Title,ContactnavAsyncOperations{be82e057-55b7-4789-886a-5a9dda7e349c}" xml:space="preserve">
+    <value>Workflows</value>
+    <comment>'Contact' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'navAsyncOperations'</comment>
+  </data>
+  <data name="1:Title,ContactnavInvoices{be82e057-55b7-4789-886a-5a9dda7e349c}" xml:space="preserve">
+    <value>Invoice</value>
+    <comment>'Contact' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'navInvoices'</comment>
+  </data>
+  <data name="1:Title,ContactnavOrders{be82e057-55b7-4789-886a-5a9dda7e349c}" xml:space="preserve">
+    <value>SalesOrder</value>
+    <comment>'Contact' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'navOrders'</comment>
+  </data>
+  <data name="1:Title,ContactnavProcessSessions{be82e057-55b7-4789-886a-5a9dda7e349c}" xml:space="preserve">
+    <value>Dialog Sessions</value>
+    <comment>'Contact' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'navProcessSessions'</comment>
+  </data>
+  <data name="1:Title,ContactnavQuotes{be82e057-55b7-4789-886a-5a9dda7e349c}" xml:space="preserve">
+    <value>Quote</value>
+    <comment>'Contact' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'navQuotes'</comment>
+  </data>
+  <data name="1:Title,ContactnavRelationships{be82e057-55b7-4789-886a-5a9dda7e349c}" xml:space="preserve">
+    <value>CustomerRelationship</value>
+    <comment>'Contact' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'navRelationships'</comment>
+  </data>
+  <data name="1:Title,ContactnavSubConts{be82e057-55b7-4789-886a-5a9dda7e349c}" xml:space="preserve">
+    <value>Contacts</value>
+    <comment>'Contact' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'navSubConts'</comment>
+  </data>
+  <data name="1:Title,ContactProcessCenter{be82e057-55b7-4789-886a-5a9dda7e349c}" xml:space="preserve">
+    <value>Process Sessions</value>
+    <comment>'Contact' : Title for NavBarArea in Entity FormXml ID: 'ProcessCenter'</comment>
+  </data>
+  <data name="1:Title,ContactSales{be82e057-55b7-4789-886a-5a9dda7e349c}" xml:space="preserve">
+    <value>Sales</value>
+    <comment>'Contact' : Title for NavBarArea in Entity FormXml ID: 'Sales'</comment>
+  </data>
+  <data name="1:Title,ContactService{be82e057-55b7-4789-886a-5a9dda7e349c}" xml:space="preserve">
+    <value>Service</value>
+    <comment>'Contact' : Title for NavBarArea in Entity FormXml ID: 'Service'</comment>
+  </data>
+  <data name="1:Title,Grant ApplicantInfo{befb0ac7-1eb9-44c9-bdfc-de9718e66b71}" xml:space="preserve">
+    <value>Common</value>
+    <comment>'Grant Applicant' : Title for NavBarArea in Entity FormXml ID: 'Info'</comment>
+  </data>
+  <data name="1:Title,Grant ApplicantMarketing{befb0ac7-1eb9-44c9-bdfc-de9718e66b71}" xml:space="preserve">
+    <value>Marketing</value>
+    <comment>'Grant Applicant' : Title for NavBarArea in Entity FormXml ID: 'Marketing'</comment>
+  </data>
+  <data name="1:Title,Grant ApplicantProcessCenter{befb0ac7-1eb9-44c9-bdfc-de9718e66b71}" xml:space="preserve">
+    <value>Process Sessions</value>
+    <comment>'Grant Applicant' : Title for NavBarArea in Entity FormXml ID: 'ProcessCenter'</comment>
+  </data>
+  <data name="1:Title,Grant ApplicantSales{befb0ac7-1eb9-44c9-bdfc-de9718e66b71}" xml:space="preserve">
+    <value>Sales</value>
+    <comment>'Grant Applicant' : Title for NavBarArea in Entity FormXml ID: 'Sales'</comment>
+  </data>
+  <data name="1:Title,Grant ApplicantService{befb0ac7-1eb9-44c9-bdfc-de9718e66b71}" xml:space="preserve">
+    <value>Service</value>
+    <comment>'Grant Applicant' : Title for NavBarArea in Entity FormXml ID: 'Service'</comment>
+  </data>
+  <data name="1:Title,GrantInfo{26993d2d-236e-404c-803b-c1c548603678}" xml:space="preserve">
+    <value>Common</value>
+    <comment>'Grant' : Title for NavBarArea in Entity FormXml ID: 'Info'</comment>
+  </data>
+  <data name="1:Title,GrantMarketing{26993d2d-236e-404c-803b-c1c548603678}" xml:space="preserve">
+    <value>Marketing</value>
+    <comment>'Grant' : Title for NavBarArea in Entity FormXml ID: 'Marketing'</comment>
+  </data>
+  <data name="1:Title,GrantProcessCenter{26993d2d-236e-404c-803b-c1c548603678}" xml:space="preserve">
+    <value>Process Sessions</value>
+    <comment>'Grant' : Title for NavBarArea in Entity FormXml ID: 'ProcessCenter'</comment>
+  </data>
+  <data name="1:Title,GrantSales{26993d2d-236e-404c-803b-c1c548603678}" xml:space="preserve">
+    <value>Sales</value>
+    <comment>'Grant' : Title for NavBarArea in Entity FormXml ID: 'Sales'</comment>
+  </data>
+  <data name="1:Title,GrantService{26993d2d-236e-404c-803b-c1c548603678}" xml:space="preserve">
+    <value>Service</value>
+    <comment>'Grant' : Title for NavBarArea in Entity FormXml ID: 'Service'</comment>
+  </data>
+  <data name="222:LocalizedName,{738cf670-1ffc-ea11-a815-0022480822ca}" xml:space="preserve">
+    <value>Advisor Dashboard</value>
+    <comment>'DashBoard'</comment>
+  </data>
+  <data name="222:LocalizedName,{ed828b48-04df-e911-a968-000d3a3b9825}" xml:space="preserve">
+    <value>Business Partner Dashboard</value>
+    <comment>'DashBoard'</comment>
+  </data>
+  <data name="29:label,{00a243b3-9490-4a34-8610-1ad5bdb68bde}" xml:space="preserve">
+    <value>Application State Code</value>
+    <comment>'Grant Application Business Process Flow:{00a243b3-9490-4a34-8610-1ad5bdb68bde}' : label for Workflow Label</comment>
+  </data>
+  <data name="29:label,{20cd5464-9ab3-4e81-bc0f-a795aaa66ef6}" xml:space="preserve">
+    <value>Final Decision</value>
+    <comment>'Grant Application Business Process Flow:{20cd5464-9ab3-4e81-bc0f-a795aaa66ef6}' : label for Workflow Label</comment>
+  </data>
+  <data name="29:label,{230ec24f-2df9-4322-ad25-ecd45956fedd}" xml:space="preserve">
+    <value>Under Review</value>
+    <comment>'Grant Application Business Process Flow:{230ec24f-2df9-4322-ad25-ecd45956fedd}' : label for Workflow Label</comment>
+  </data>
+  <data name="29:label,{58c84641-4759-4f5e-8a49-09366b88dc3a}" xml:space="preserve">
+    <value>Application State Code</value>
+    <comment>'Grant Application Business Process Flow:{58c84641-4759-4f5e-8a49-09366b88dc3a}' : label for Workflow Label</comment>
+  </data>
+  <data name="29:label,{5c126c6d-b07c-4fcc-8991-b8624c14e78d}" xml:space="preserve">
+    <value>Application State Code</value>
+    <comment>'Grant Application Business Process Flow:{5c126c6d-b07c-4fcc-8991-b8624c14e78d}' : label for Workflow Label</comment>
+  </data>
+  <data name="29:label,{69ffe2f6-34ee-4b35-9391-04fcec11078d}" xml:space="preserve">
+    <value>Application State Code</value>
+    <comment>'Grant Application Business Process Flow:{69ffe2f6-34ee-4b35-9391-04fcec11078d}' : label for Workflow Label</comment>
+  </data>
+  <data name="29:label,{815531aa-27ef-4eba-994e-c3a882d619e3}" xml:space="preserve">
+    <value>Submitted</value>
+    <comment>'Grant Application Business Process Flow:{815531aa-27ef-4eba-994e-c3a882d619e3}' : label for Workflow Label</comment>
+  </data>
+  <data name="29:label,{85d1b749-89d8-4c38-8cd2-7855619a9c88}" xml:space="preserve">
+    <value>Offer Pending</value>
+    <comment>'Grant Application Business Process Flow:{85d1b749-89d8-4c38-8cd2-7855619a9c88}' : label for Workflow Label</comment>
+  </data>
+  <data name="29:LocalizedName,{15fe3c6a-9671-4578-80da-139a7e7c08ca}" xml:space="preserve">
+    <value>Grant Applicant Update to Offer Pending</value>
+    <comment>'Grant Applicant Update to Offer Pending' : LocalizedName for Workflow</comment>
+  </data>
+  <data name="29:LocalizedName,{5c2d1d22-ef1e-4e02-8785-c96f8843401d}" xml:space="preserve">
+    <value>Grant Application Business Process Flow</value>
+    <comment>'Grant Application Business Process Flow' : LocalizedName for Workflow</comment>
+  </data>
+  <data name="29:LocalizedName,{bae8d9ed-f292-4575-b0e2-0e27d9dd3d22}" xml:space="preserve">
+    <value>Grant Applicant - Populate Business Partner Field</value>
+    <comment>'Grant Applicant - Populate Business Partner Field' : LocalizedName for Workflow</comment>
+  </data>
+  <data name="29:LocalizedName,{be5e22d7-eb4c-4c5e-8933-f475b6b2602a}" xml:space="preserve">
+    <value>Grant Applicant Update to Under Review</value>
+    <comment>'Grant Applicant Update to Under Review' : LocalizedName for Workflow</comment>
+  </data>
+  <data name="81:LocalizedName,mshied_HigherEd" xml:space="preserve">
+    <value>Higher Ed</value>
+    <comment>'mshied_HigherEd' : LocalizedName for AppModuleSiteMap</comment>
+  </data>
+  <data name="81:Title,NewArea_aa439169NewArea_aa439169" xml:space="preserve">
+    <value>Higher Education</value>
+    <comment>Title for Area 'NewArea_aa439169' Area 'NewArea_aa439169'</comment>
+  </data>
+  <data name="81:Title,NewArea_aa439169NewGroup_8518009f" xml:space="preserve">
+    <value>Additional Information</value>
+    <comment>Title for Area 'NewArea_aa439169' Group 'NewGroup_8518009f'</comment>
+  </data>
+  <data name="81:Title,NewArea_aa439169NewGroup_972e538b" xml:space="preserve">
+    <value>Details</value>
+    <comment>Title for Area 'NewArea_aa439169' Group 'NewGroup_972e538b'</comment>
+  </data>
+  <data name="81:Title,NewArea_aa439169NewGroup_bef7354c" xml:space="preserve">
+    <value>General</value>
+    <comment>Title for Area 'NewArea_aa439169' Group 'NewGroup_bef7354c'</comment>
+  </data>
+  <data name="81:Title,NewArea_aa439169NewSubArea_2968e126" xml:space="preserve">
+    <value>Contact</value>
+    <comment>Title for Area 'NewArea_aa439169' SubArea 'NewSubArea_2968e126'</comment>
+  </data>
+  <data name="81:Title,NewArea_aa439169NewSubArea_49c16ffe" xml:space="preserve">
+    <value>Grants</value>
+    <comment>Title for Area 'NewArea_aa439169' SubArea 'NewSubArea_49c16ffe'</comment>
+  </data>
+  <data name="81:Title,NewArea_aa439169NewSubArea_90145fd1" xml:space="preserve">
+    <value>Internships</value>
+    <comment>Title for Area 'NewArea_aa439169' SubArea 'NewSubArea_90145fd1'</comment>
+  </data>
+  <data name="81:Title,NewArea_aa439169NewSubArea_9742aee3" xml:space="preserve">
+    <value>Scholarships</value>
+    <comment>Title for Area 'NewArea_aa439169' SubArea 'NewSubArea_9742aee3'</comment>
+  </data>
+  <data name="81:Title,NewArea_aa439169NewSubArea_a5012c05" xml:space="preserve">
+    <value>Dashboard</value>
+    <comment>Title for Area 'NewArea_aa439169' SubArea 'NewSubArea_a5012c05'</comment>
+  </data>
+  <data name="81:Title,NewArea_aa439169NewSubArea_f987912b" xml:space="preserve">
+    <value>Account</value>
+    <comment>Title for Area 'NewArea_aa439169' SubArea 'NewSubArea_f987912b'</comment>
+  </data>
+</root>

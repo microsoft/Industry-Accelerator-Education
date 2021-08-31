@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{c16a4124-68d2-40c6-a46b-70f79a745b56}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{5581c6a3-8aed-4bdd-af6c-1fc7b8c6e916}" IsUserDefined="1" labelid="{e3250f80-ace3-4e0d-8539-685a52d64849}" name="{5581c6a3-8aed-4bdd-af6c-1fc7b8c6e916}" locklevel="0" expanded="true" showlabel="true">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="50%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{1b2d6558-98fa-4139-a128-28a816601fc8}" labelid="{3f446e27-4ec8-4286-8d90-1c972d4943d1}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{f0d8cf03-69ba-4ebc-8788-b113a902218d}" labelid="{f1db5685-9fc3-483c-abe6-b235bec06fb4}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="mshied_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="mshied_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7c1e5e4d-b663-a823-3834-59c4024bd249}" showlabel="true" locklevel="0" labelid="{870f57d5-44bc-48e2-be8b-b58b4e6cb427}">
+                        <labels>
+                          <label description="Student" languagecode="1033" />
+                        </labels>
+                        <control id="mshied_student" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="mshied_student" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9463c79c-b4ca-0cec-2eb2-dc20b8738b2a}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Assessment Score" languagecode="1033" />
+                        </labels>
+                        <control id="mshied_assessmentscore" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="mshied_assessmentscore" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="50%">
+              <sections>
+                <section name="{5581c6a3-8aed-4bdd-af6c-1fc7b8c6e916}_section_2" showlabel="false" showbar="false" locklevel="0" id="{991b42ab-6e85-4749-dbac-3cd9be64e28a}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" labelid="{38894018-8911-4111-bcb6-ec80d0d9ece0}">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{2764cb7e-3969-dadd-d29b-4c903a8d6ea1}" showlabel="true" locklevel="0" labelid="{c8e85f9a-f2d2-4b28-b6f4-c6432be00de6}">
+                        <labels>
+                          <label description="Assessment Date" languagecode="1033" />
+                        </labels>
+                        <control id="mshied_assessmentdate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="mshied_assessmentdate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6ee5dc28-1a14-3d70-ec5c-868656c4b278}" showlabel="true" locklevel="0" labelid="{5f783b76-d254-46f1-a5c2-f8dbaa1a05a6}">
+                        <labels>
+                          <label description="Assessment Delivery" languagecode="1033" />
+                        </labels>
+                        <control id="mshied_assessmentdelivery" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="mshied_assessmentdelivery" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{92505e15-62ce-6390-97d6-c0807c7329cc}" showlabel="true" locklevel="0" labelid="{aa40eed7-fe18-4abd-b5df-fd52f49010f0}">
+                        <labels>
+                          <label description="Assessment Type" languagecode="1033" />
+                        </labels>
+                        <control id="mshied_assessmenttype" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="mshied_assessmenttype" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{fada4615-355a-4e3a-b7bd-41025a7ed64f}" columns="111">
+        <rows>
+          <row>
+            <cell id="{882f8a42-c4fa-4d77-813c-990c6925936d}" showlabel="false" labelid="{891942cb-e7be-4652-8e89-8e9d3f2687ff}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{521eb309-ee47-4440-ab3b-a3bac9e44234}" showlabel="false" labelid="{a1eac510-84eb-49bf-9391-fe65f8277265}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{1006653b-cd32-96d9-cc3c-4b150995d6b4}" showlabel="true" locklevel="0" labelid="{71f9379e-dda1-4b92-b5ef-12bd090128c7}">
+              <labels>
+                <label description="Owner" languagecode="1033" />
+              </labels>
+              <control id="header_ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <DisplayConditions Order="2">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="K12 Portal Assessment Score" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

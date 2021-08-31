@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery unmodified="1">
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{11ea1773-11b5-472c-9688-e6e246e9399c}</savedqueryid>
+    <queryapi></queryapi>
+    <layoutxml>
+      <grid name="connections" jump="record2id" select="1" icon="1" preview="0">
+        <row name="connection" id="connectionid">
+          <cell name="record2id" width="150" />
+          <cell name="record2roleid" width="150" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>64</querytype>
+    <fetchxml>
+      <fetch distinct="false" mapping="logical">
+        <entity name="connection">
+          <attribute name="record2id" />
+          <attribute name="record2roleid" />
+          <attribute name="connectionid" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <order attribute="record2id" descending="false" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>5.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Connections Lookup View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

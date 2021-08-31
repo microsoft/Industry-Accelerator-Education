@@ -616,7 +616,7 @@
           <MaxValue>1000</MaxValue>
           <Accuracy>2</Accuracy>
           <displaynames>
-            <displayname description="Credits Earrned" languagecode="1033" />
+            <displayname description="Credits Earned" languagecode="1033" />
           </displaynames>
           <Descriptions>
             <Description description="The credits earned received." languagecode="1033" />

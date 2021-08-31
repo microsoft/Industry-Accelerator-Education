@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{f1578435-d20c-eb11-a813-000d3a13a9b7}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="mshied_name" select="1" icon="1" preview="1">
+        <row name="result" id="mshied_coursehistoryid">
+          <cell name="mshied_courseid" width="250" />
+          <cell name="mshied_registrationstatusid" width="250" />
+          <cell name="mshied_isrequired" width="250" />
+          <cell name="mshied_iscompleted" width="250" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="mshied_coursehistory">
+          <attribute name="mshied_coursehistoryid" />
+          <attribute name="mshied_registrationstatusid" />
+          <attribute name="mshied_isrequired" />
+          <attribute name="mshied_courseid" />
+          <attribute name="mshied_iscompleted" />
+          <link-entity name="mshied_academicperiod" alias="aa" link-type="inner" from="mshied_academicperiodid" to="mshied_academicperiodid">
+            <filter type="and">
+              <condition attribute="mshied_startdate" operator="on-or-before" value="2020-10-15" />
+              <condition attribute="mshied_enddate" operator="on-or-after" value="2020-10-15" />
+            </filter>
+          </link-entity>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.2</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Current Program Courses Portal" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>
